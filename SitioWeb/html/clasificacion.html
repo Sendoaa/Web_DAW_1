@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<!-- Comienzo del head -->
+
+<head>
+    <meta charset="UTF-8" /> <!-- Configura la codificación de caracteres como UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Configura la vista para dispositivos móviles -->
+    <link rel="stylesheet" href="../css/formulario.css"> <!-- Vincula la hoja de estilo para el formulario -->
+    <link rel="stylesheet" href="../css/piedepagina.css"> <!-- Vincula la hoja de estilo para el pie de página -->
+    <link rel="stylesheet" href="../css/navbar.css"> <!-- Vincula la hoja de estilo para la barra de navegación -->
+    <link rel="stylesheet" href="../css/estilo.css"><!-- Vincula una hoja de estilo genérica -->
+    <link rel="stylesheet" href="../css/tabla.css"> <!-- Vincula la hoja de estilo para tablas -->
+    <link rel="shortcut icon" type="image/x-icon" href="../imagenes/BOFlogo.png" /><!--Logo de la web -->
+    <link rel="stylesheet" type="text/xsl" href="../xml/temporada1/clasificacion.xsl" />
+    <title>Clasificacion</title> <!-- Establece el título de la página -->
+    <!--SCRIPTS-->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="../js/enlaceinterno.js"></script>
+    <script src="../js/funcion.js"></script>
+    <script src="../js/CargarTempClas.js"></script>
+    <script src="../js/CargarxmlClasificacion.js"></script>
+</head>
+
+<body>
+    <!-- **********NAVBAR*************+ -->
+    <header>
+        <div id="navbarContainer"></div>
+        <a href="#" id="MostrarOcutarTemp">
+            <nav class="TemporadasNav"><img src="../imagenes/abajo.png" alt="flecha-abajo"></nav>
+        </a>
+        <nav class="TemporadasNav" id="TempOculta">
+            <ul class="temp-posicion">
+                <a href="#" id="izquierda">
+                    <li>
+                        <img src="../imagenes/izquierda.png" alt="izquierda" class="TemporadasNav">
+                    </li>
+                </a>
+                <li id="Temp">
+                    Temporada 1
+                </li>
+                <a href="#" id="derecha">
+                    <li>
+                        <img src="../imagenes/derecha.png" alt="derecha" class="TemporadasNav">
+                    </li>
+                </a>
+            </ul>
+        </nav>
+        <script src="../js/MostrarTemporadas.js"></script>
+    </header>
+    <!-- **********CONTENIDO*************+ -->
+    <section>
+        <div id="formContainer"></div>
+        <div id="espacioclas"></div>
+
+        <article>
+            <div id="tablaContainer"></div>
+        </article>
+    </section>
+    <div id="footerContainer"></div>
+
+    <button id="botonFijo" class="botonFijo" onclick="irAlInicio()"><img width="15px" src="../imagenes/arriba.png"
+            alt="flecharriba"></button>
+    <button id="descargarBtn" class="descargar"><img src="../imagenes/descargar.png" alt="" /></button>
+
+</body>
+
+</html>

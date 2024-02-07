@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="es">
+<!-- Comienzo del head -->
+<head>
+    <meta charset="UTF-8" /><!-- Configura la codificación de caracteres como UTF-8 --> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><!-- Configura la vista para dispositivos móviles -->
+    <link rel="stylesheet" href="../../css/piedepagina.css"><!-- Vincula la hoja de estilo para el pie de página -->
+    <link rel="stylesheet" href="../../css/navbar.css"><!-- Vincula la hoja de estilo para la barra de navegación -->
+    <link rel="stylesheet" href="../../css/estilo.css"><!-- Vincula una hoja de estilo genérica -->
+    <link rel="stylesheet" href="../../css/noticia.css"><!-- Vincula la hoja de estilo para noticias/clubes -->
+    <link rel="stylesheet" href="../../css/tabla.css"><!-- Vincula la hoja de estilo para tablas -->
+    <link rel="stylesheet" type="text/css" href="../../css/formulario.css"> <!-- Vincula una hoja de estilo genérica -->
+    <link rel="shortcut icon" type="image/x-icon" href="../../imagenes/BOFlogo.png" /><!--Logo de la web -->
+    <title>FTaxiBC - Sitio Oficial</title><!-- Establece el título de la página -->
+     <!--SCRIPTS-->
+     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+     <script src="../../js/enlaceinterno.js"></script>
+     <script>
+        $(document).ready(function () {
+            // Carga el contenido del navbar.html en el elemento con id "navbarContainer"
+            $("#navbarContainer").load("../../html/PagSecundaria/navbar2.html");
+            $("#footerContainer").load("../../html/PagSecundaria/footer2.html");
+            $("#formContainer").load("../../html/PagSecundaria/formulario2.html");
+        });
+    </script>
+</head>
+<!-- Comienzo del body -->
+<body>
+    <!-- **********NAVBAR*************+ -->
+    <header>
+        <div id="navbarContainer"></div>
+    </header>
+    <!-- **********CONTENIDO*************+ -->
+    <div id="formContainer"></div>
+    <div>
+        <div id="espacio"></div>
+        <section>
+            <div class="noticiacontent">
+                <img src="../../imagenes/Ftaxiheader.png" alt="actualidad" class="actualidad"><!--Banner del club -->
+                <div class="clubes-p">
+                    <h1>Bienvenidos a FakeTaxiBC: Más que un Club, una Pasión</h1><!-- Titulo de la seccion -->
+                    <img src="../../imagenes/escudos/FTaxiBC.png" alt="webilbao" width="250px" height="250px"><!--Escudo del club -->
+                    <!-- Introduccion -->
+                    <p class="textonoticia">¡Bienvenidos a la página oficial de FakeTaxiBC, el club de baloncesto que
+                        trasciende
+                        lo convencional! En FakeTaxiBC, no solo jugamos al baloncesto; vivimos y respiramos este hermoso
+                        juego.
+                        Nuestra historia es única, y nuestra pasión es inquebrantable.</p>
+                    <h2 class="textonoticia">Nuestra Historia</h2><!-- Historia del club -->
+                    <p class="textonoticia">Fundado en 1969 FakeTaxiBC se ha convertido en una institución en el mundo
+                        del
+                        baloncesto. Aunque nuestro nombre puede hacer sonreír a algunos, no subestimes nuestra dedicación y
+                        amor
+                        por el deporte. Hemos luchado y crecido desde lo más bajo, demostrando que el espíritu y el
+                        esfuerzo
+                        superan cualquier estigma</p>
+                    <h2 class="textonoticia">Valores y Filosofía</h2><!-- Valores del club -->
+                    <p class="textonoticia">En FakeTaxiBC, creemos en valores como el trabajo en equipo, la dedicación y
+                        la
+                        superación personal. Nuestra filosofía es simple: dar lo mejor de nosotros en el campo y siempre
+                        hacerlo con un toque de diversión. Celebramos la diversidad y damos la bienvenida a jugadores de
+                        todas las edades y habilidades. Creemos que el baloncesto es para todos.</p>
+                    <h2 class="textonoticia">Nuestro Campo</h2><!--Estadio del club -->
+                    <p class="textonoticia">Nuestra casa es el Estadio FakeTaxi, un lugar que vibra con la emoción de
+                        nuestros apasionados seguidores. Ven a un partido y experimenta la energía contagiosa que llena
+                        las
+                        gradas. Aquí, todos son bienvenidos para apoyar a nuestro equipo.</p>
+                    <hr class="noticia">
+                    <img src="../../imagenes/estadio.png" alt="imagenpagina" class="notimag" width="800px" height="400px">
+                    <hr class="noticia">
+                    <h2 class="textonoticia">Nuestro Equipo</h2><!--Equipo del club -->
+                    <p class="textonoticia">Nuestra plantilla está formada por atletas comprometidos y apasionados que
+                        dejan
+                        todo en el campo. Con un equipo técnico experimentado y motivado, FakeTaxiBC trabaja
+                        incansablemente
+                        para alcanzar nuevas alturas en cada temporada.</p>
+
+                    <table border="1" class="tabla-pagclub"><!--Tabla de clubes -->
+                        <tbody>
+                            <tr>
+                                <th class="color" colspan="4">JUGADORES</th>
+                            </tr>
+                            <tr>
+                                <th>Nombre</th>
+                                <th>Localidad</th>
+                                <th>Edad</th>
+                            </tr>
+                            <tr>
+                                <td>Luis Martínez</td>
+                                <td>Valencia</td>
+                                <td>28</td>
+                            </tr>
+                            <tr>
+                                <td colspan="4">
+                                    <hr>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Martin López</td>
+                                <td>Sevilla</td>
+                                <td>24</td>
+                            </tr>
+                            <tr>
+                                <td colspan="4">
+                                    <hr>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Carlos Rodríguez</td>
+                                <td>Madrid</td>
+                                <td>30</td>
+                            </tr>
+                            <tr>
+                                <td colspan="4">
+                                    <hr>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Anton Sánchez</td>
+                                <td>Barcelona</td>
+                                <td>22</td>
+                            </tr>
+                            <tr>
+                                <td colspan="4">
+                                    <hr>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Pablo García</td>
+                                <td>Zaragoza</td>
+                                <td>29</td>
+                            </tr>
+                            <tr>
+                                <td colspan="4">
+                                    <hr>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Lauro Fernández</td>
+                                <td>Bilbao</td>
+                                <td>26</td>
+                            </tr>
+                            <tr>
+                                <td colspan="4">
+                                    <hr>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Javier Martínez</td>
+                                <td>Málaga</td>
+                                <td>23</td>
+                            </tr>
+                            <tr>
+                                <td colspan="4">
+                                    <hr>
+                                </td>
+                            </tr>
+                            <tr class="lineabaja">
+                                <td>Andrés Pérez</td>
+                                <td>Granada</td>
+                                <td>31</td>
+                            </tr>
+                            <td colspan="4">
+                                <hr>
+                            </td>
+                            <tr>
+                                <td>Luis Castro</td>
+                                <td>Tenerife</td>
+                                <td>27</td>
+                            </tr>
+                            <tr></tr>
+                            <tr></tr>
+                            <tr></tr>
+                            <tr></tr>
+                            <tr></tr>
+                        </tbody>
+                    </table>
+                    <h2 class="textonoticia">Comunidad y Responsabilidad Social</h2><!--Compromiso del club -->
+                    <p class="textonoticia">En FakeTaxiBC, no solo jugamos para ganar; también jugamos para dar. Estamos
+                        comprometidos con nuestra comunidad y participamos en diversas iniciativas de responsabilidad
+                        social, fomentando un impacto positivo dentro y fuera del campo.</p>
+                    <h2 class="textonoticia">Únete a la Familia de FakeTaxiBC</h2> <!-- Unirse al club -->
+                    <p class="textonoticia">¿Quieres formar parte de nuestra emocionante historia? Ya sea como jugador,
+                        entrenador, seguidor o patrocinador, ¡hay un lugar para ti en la familia de FakeTaxiBC!
+                        Contáctanos
+                        para obtener más información sobre cómo puedes unirte a nuestra pasión por el baloncesto.</p>
+                    <div class="margen-noticia"></div>
+                </div>
+        </section>
+    </div>
+<!-- **********FOOTER************* -->
+        <div id="footerContainer"></div>
+</body>
+
+</html>

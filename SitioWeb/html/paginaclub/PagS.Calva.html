@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es">
+<!-- Comienzo del head -->
+<head>
+    <meta charset="UTF-8" /><!-- Configura la codificación de caracteres como UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><!-- Configura la vista para dispositivos móviles -->
+    <link rel="stylesheet" href="../../css/piedepagina.css"><!-- Vincula la hoja de estilo para el pie de página -->
+    <link rel="stylesheet" href="../../css/navbar.css"><!-- Vincula la hoja de estilo para la barra de navegación -->
+    <link rel="stylesheet" href="../../css/estilo.css"><!-- Vincula una hoja de estilo genérica -->
+    <link rel="stylesheet" href="../../css/noticia.css"><!-- Vincula la hoja de estilo para noticias/clubes -->
+    <link rel="stylesheet" href="../../css/tabla.css"><!-- Vincula la hoja de estilo para tablas -->
+    <link rel="stylesheet" type="text/css" href="../../css/formulario.css"> <!-- Vincula una hoja de estilo genérica -->
+    <link rel="shortcut icon" type="image/x-icon" href="../../imagenes/BOFlogo.png" /><!--Logo de la web -->
+    <title>SociedadCalva - Sitio Oficial</title>
+     <!--SCRIPTS-->
+     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+     <script src="../../js/enlaceinterno.js"></script>
+     <script>
+        $(document).ready(function () {
+            // Carga el contenido del navbar.html en el elemento con id "navbarContainer"
+            $("#navbarContainer").load("../../html/PagSecundaria/navbar2.html");
+            $("#footerContainer").load("../../html/PagSecundaria/footer2.html");
+            $("#formContainer").load("../../html/PagSecundaria/formulario2.html");
+        });
+    </script>
+</head>
+<!-- Establece el título de la página -->
+<body>
+    <!-- **********NAVBAR*************+ -->
+    <header>
+        <div id="navbarContainer"></div>
+    </header>
+    <!-- **********CONTENIDO*************-->
+    <div id="formContainer"></div>
+    <div>
+        <div id="espacio"></div>
+        <section>
+            <div class="noticiacontent">
+                <img src="../../imagenes/CalvaHeader.png" alt="actualidad" class="actualidad"><!--Banner del club -->
+                <div class="clubes-p">
+                    <h1>Bienvenidos a la Página Web de SociedadCalva</h1><!-- Titulo de la seccion -->
+                    <img src="../../imagenes/escudos/S.Calva.png" alt="webilbao" width="250px" height="250px"><!--Escudo del club -->
+                    <!-- Introduccion -->
+                    <p class="textonoticia">¡Saludos a todos los apasionados seguidores del baloncesto! Estamos encantados
+                        de
+                        darles la bienvenida a la página oficial de SociedadCalva, el club de baloncesto más emocionante y
+                        vibrante de la región. Aquí encontrarás todo lo que necesitas saber sobre nuestro club, desde su
+                        historia rica hasta las últimas noticias y eventos emocionantes que rodean a nuestro equipo.</p>
+                    <p class="textonoticia">SociedadCalva es mucho más que un simple equipo de baloncesto. Somos una
+                        familia,
+                        una comunidad de aficionados que comparte una pasión profunda por el juego hermoso. Fundado en
+                        1942, nuestro club ha estado en constante crecimiento y evolución desde entonces.
+                        Nuestro
+                        objetivo es promover el baloncesto de calidad, la competencia justa y el espíritu deportivo en cada
+                        partido que jugamos.</p>
+                    <h2 class="textonoticia">Nuestra Historia</h2><!-- Historia del club -->
+                    <p class="textonoticia">Desde nuestros humildes comienzos en las divisiones inferiores,
+                        SociedadCalva ha
+                        escalado constantemente hacia niveles más altos del baloncesto local. Hemos experimentado momentos
+                        de
+                        gloria, enfrentado desafíos y celebrado victorias inolvidables. A lo largo de nuestra historia,
+                        hemos forjado rivalidades emocionantes y amistades duraderas con otros clubes de la región.</p>
+                    <h2 class="textonoticia">Nuestro Equipo</h2><!-- Equipo del club -->
+                    <p class="textonoticia">SociedadCalva no sería lo que es sin nuestros jugadores. Nuestro equipo está
+                        formado por atletas talentosos, dedicados y apasionados que se esfuerzan por llevar el espíritu
+                        del
+                        club al campo en cada partido. Con una mezcla de veteranos experimentados y jóvenes promesas,
+                        nuestro equipo siempre está listo para enfrentar cualquier desafío.</p>
+
+                    <table border="1" class="tabla-pagclub"> <!--Tabla de clubes -->
+                        <tbody>
+                            <tr>
+                                <th class="color" colspan="4">JUGADORES</th>
+                            </tr>
+                            <tr>
+                                <th>Nombre</th>
+                                <th>Localidad</th>
+                                <th>Edad</th>
+                            </tr>
+                            <tr>
+                                <td>Pedro González</td>
+                                <td>Madrid</td>
+                                <td>30</td>
+                            </tr>
+                            <tr>
+                                <td colspan="4">
+                                    <hr>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Luis Martínez</td>
+                                <td>Barcelona</td>
+                                <td>27</td>
+                            </tr>
+                            <tr>
+                                <td colspan="4">
+                                    <hr>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>José García</td>
+                                <td>Sevilla</td>
+                                <td>28</td>
+                            </tr>
+                            <tr>
+                                <td colspan="4">
+                                    <hr>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Antonio Pérez</td>
+                                <td>Valencia</td>
+                                <td>29</td>
+                            </tr>
+                            <tr>
+                                <td colspan="4">
+                                    <hr>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Miguel López</td>
+                                <td>Bilbao</td>
+                                <td>26</td>
+                            </tr>
+                            <tr>
+                                <td colspan="4">
+                                    <hr>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Juan Sánchez</td>
+                                <td>Zaragoza</td>
+                                <td>31</td>
+                            </tr>
+                            <tr>
+                                <td colspan="4">
+                                    <hr>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Carlos Martínez</td>
+                                <td>Málaga</td>
+                                <td>25</td>
+                            </tr>
+                            <tr>
+                                <td colspan="4">
+                                    <hr>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Fernando Rodríguez</td>
+                                <td>Granada</td>
+                                <td>23</td>
+                            </tr>
+                            <tr>
+                                <td colspan="4">
+                                    <hr>
+                                </td>
+                            </tr>
+                            <tr class="lineabaja">
+                                <td>Manuel Ramírez</td>
+                                <td>Alicante</td>
+                                <td>32</td>
+                            </tr>
+                            <tr></tr>
+                            <tr></tr>
+                            <tr></tr>
+                            <tr></tr>
+                            <tr></tr>
+                        </tbody>
+                    </table>
+                    <h2 class="textonoticia">Noticias y Eventos:</h2> <!-- Noticias del club -->
+                    <p class="textonoticia">Mantente al tanto de todas las últimas noticias, eventos y partidos
+                        programados
+                        de SociedadCalva. Te proporcionaremos actualizaciones en tiempo real sobre los resultados de los
+                        partidos, noticias de lesiones y movimientos en el equipo, para que nunca te pierdas un solo
+                        detalle.</p>
+                    <h2 class="textonoticia">Unete a la Comunidad:</h2>
+                    <p class="textonoticia">¡Te invitamos a unirte a nuestra comunidad de seguidores apasionados! Sigue
+                        a
+                        SociedadCalva en las redes sociales, participa en discusiones sobre estrategia y tácticas, y
+                        comparte tu amor por el club con otros fanáticos.</p>
+                        <!--Despedida -->
+                    <p class="textonoticia">¡Gracias por visitar la página web de SociedadCalva! Esperamos que disfrutes
+                        explorando nuestra historia, noticias y contenidos exclusivos sobre el club. ¡Vamos
+                        SociedadCalva,
+                        hacia la victoria!</p>
+                    <div class="margen-noticia"></div>
+                </div>
+        </section>
+    </div>
+    <!-- **********FOOTER************* -->
+        <div id="footerContainer"></div>
+</body>
+
+</html>
