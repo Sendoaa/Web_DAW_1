@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="cdcatalog.xsl"?>
+<tabla xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../xsd/clasificacion.xsd">
+  <tempActual>3</tempActual>
+  <club>
+    <equipo>
+      <nombre>ChimMadrid</nombre><enlace>../../html/paginaclub/PagChimMadrid.html</enlace><imagen>../../imagenes/escudos/ChimMadrid.png</imagen>
+    </equipo>
+    <puntuacion>
+      <G>0</G><E>0</E><P>0</P><J>0</J><PF>0</PF><PC>0</PC><PT>0</PT>
+    </puntuacion>
+  </club>
+  <club>
+    <equipo>
+      <nombre>Poucelona</nombre><enlace>../../html/paginaclub/PagPoucelona.html</enlace><imagen>../../imagenes/escudos/Poucelona.png</imagen>
+    </equipo>
+    <puntuacion>
+      <G>0</G><E>0</E><P>0</P><J>0</J><PF>0</PF><PC>0</PC><PT>0</PT>
+    </puntuacion>
+  </club>
+  <club>
+    <equipo>
+      <nombre>RealTetris</nombre><enlace>../../html/paginaclub/PagRealTetris.html</enlace><imagen>../../imagenes/escudos/RealTetris.png</imagen>
+    </equipo>
+    <puntuacion>
+      <G>0</G><E>0</E><P>0</P><J>0</J><PF>0</PF><PC>0</PC><PT>0</PT>
+    </puntuacion>
+  </club>
+  <club>
+    <equipo>
+      <nombre>PSOEBC</nombre><enlace>../../html/paginaclub/PagPSOEBC.html</enlace><imagen>../../imagenes/escudos/PSOEBC.png</imagen>
+    </equipo>
+    <puntuacion>
+      <G>0</G><E>0</E><P>0</P><J>0</J><PF>0</PF><PC>0</PC><PT>0</PT>
+    </puntuacion>
+  </club>
+  <club>
+    <equipo>
+      <nombre>KiwisBC</nombre><enlace>../../html/paginaclub/PagKiwisBC.html</enlace><imagen>../../imagenes/escudos/KiwisBC.png</imagen>
+    </equipo>
+    <puntuacion>
+      <G>0</G><E>0</E><P>0</P><J>0</J><PF>0</PF><PC>0</PC><PT>0</PT>
+    </puntuacion>
+  </club>
+  <club>
+    <equipo>
+      <nombre>Webilbao</nombre><enlace>../../html/paginaclub/PagWebilbao.html</enlace><imagen>../../imagenes/escudos/Webilbao.png</imagen>
+    </equipo>
+    <puntuacion>
+      <G>0</G><E>0</E><P>0</P><J>0</J><PF>0</PF><PC>0</PC><PT>0</PT>
+    </puntuacion>
+  </club>
+</tabla>
