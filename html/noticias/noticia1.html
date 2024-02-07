@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<!-- Comienzo del body -->
+
+<head>
+    <meta charset="UTF-8" /> <!-- Configura la codificación de caracteres como UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Configura la vista para dispositivos móviles -->
+    <link rel="shortcut icon" type="image/x-icon" href="../../imagenes/BOFlogo.png" /> <!--Logo de la web -->
+    <link rel="stylesheet" type="text/css" href="../../css/piedepagina.css">
+    <!-- Vincula la hoja de estilo para el pie de página -->
+    <link rel="stylesheet" type="text/css" href="../../css/navbar.css">
+    <link rel="stylesheet" type="text/css" href="../../css/formulario.css"> <!-- Vincula una hoja de estilo genérica -->
+    <!-- Vincula la hoja de estilo para la barra de navegación -->
+    <link rel="stylesheet" type="text/css" href="../../css/estilo.css"> <!-- Vincula una hoja de estilo genérica -->
+    <link rel="stylesheet" type="text/css" href="../../css/tabla.css"> <!-- Vincula la hoja de estilo para tablas -->
+    <link rel="stylesheet" type="text/css" href="../../css/noticia.css"> <!-- Vincula la hoja de estilo para tablas -->
+
+    <title>Webilbao FC se prepara para una temporada histórica: ¡Nuevas contrataciones y ambiciosos objetivos!</title> <!-- Establece el título de la página -->
+    <!--SCRIPTS-->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="../../js/enlaceinterno.js"></script>
+    <script>
+        $(document).ready(function () {
+            // Carga el contenido del navbar.html en el elemento con id "navbarContainer"
+            $("#navbarContainer").load("../../html/navbar2.html");
+            $("#footerContainer").load("../../html/footer2.html");
+            $("#formContainer").load("../../html/formulario.html");
+        });
+    </script>
+</head>
+<!-- Inicio del body -->
+
+<body>
+    <!-- **********NAVBAR*************+ -->
+    <header>
+        <div id="navbarContainer"></div>
+    </header>
+    <!-- **********CONTENIDO************* -->
+    <div id="formContainer"></div>
+    <div id="espacio"></div>
+    <div class="contenidos">
+        <!-- Tabla de partidos pendientes -->
+        <section class="iniciosec">
+            <article>
+                <img src="../../imagenes/actualidad2.jpg" alt="actualidad" class="actualidad"><!--Banner Actualidad -->
+                <h6 class="seccion"><a class="seccion" href="../../html/noticias.html">Actualidad</a><a class="amar"
+                        href="../../html/paginaclub/PagWebilbao.html">|Webilbao</a></h6>
+
+                <h1 class="titulonot">Webilbao FC se prepara para una temporada histórica: ¡Nuevas contrataciones y ambiciosos objetivos!
+                </h1> <!--Titulo de la noticia -->
+                <h3 class="titulonot"> El club de fútbol Webilbao busca conquistar los corazones de sus seguidores y ascender en la liga
+                    local.</h3><!--Subtitulo de la noticia -->
+                <img src="../../imagenes/sanmame.jpg" width="800" height="400" alt="imagen noticia" class="notimag">
+                <!--Portada de la noticia -->
+                <hr class="noticia"> <!--Linea decorativa -->
+                <p class="textonoticia">10 de octubre de 2023</p> <!--Fecha de la noticia -->
+                <!--Cuerpo de la noticia -->
+                <p class="textonoticia">Webilbao, el club de fútbol con sede en Bilbao, ha desatado la emoción entre sus
+                    seguidores y la comunidad futbolística en general con sus recientes movimientos en el mercado de
+                    fichajes y sus audaces planes para la temporada 2023-2024. Este modesto equipo, conocido por su
+                    pasión y
+                    espíritu de lucha, está listo para dejar huella en el mundo del fútbol.</p>
+                <p class="textonoticia">El director deportivo de Webilbao, Eneko Rodriguez, ha estado trabajando
+                    incansablemente para reforzar el equipo. Entre las adquisiciones más notables se encuentran el
+                    mediocampista creativo argentino, Diego Maratrona, quien llega procedente del fútbol europeo, y el
+                    delantero brasileño, Carlos Largos, conocido por su capacidad para marcar goles desde cualquier
+                    posición.</p>
+                <p class="textonoticia">En una conferencia de prensa emocionante, el presidente de Webilbao, Eneko
+                    Rodriguez, compartió la visión del club para la temporada. "Estamos decididos a dar lo mejor de
+                    nosotros
+                    en cada partido y ascender en la liga local. Nuestro objetivo final es llegar a la máxima categoría
+                    del
+                    fútbol español y competir a nivel nacional e internacional. Creemos en el talento de nuestros
+                    jugadores
+                    y en el apoyo inquebrantable de nuestros fieles seguidores".</p>
+                <hr class="noticia"><!--Linea decorativa -->
+                <img src="../../imagenes/webilbaoequip.jpg" width="800" height="400" alt="imagen noticia"
+                    class="notimag"><!--Imagen noticia -->
+                <hr class="noticia"> <!--Linea decorativa -->
+                <p class="textonoticia">Los aficionados de Webilbao han estado respondiendo con entusiasmo a la noticia
+                    de
+                    las nuevas contrataciones y los ambiciosos objetivos del club. Las redes sociales se han inundado de
+                    mensajes de apoyo, y la venta de abonos para la próxima temporada se ha disparado.</p>
+                <p class="textonoticia">Con una plantilla fortalecida y un espíritu indomable, Webilbao FC se está
+                    preparando para lo que promete ser una temporada emocionante. Los aficionados esperan con ansias ver
+                    a
+                    su equipo favorito darlo todo en el campo de juego y hacer historia en el mundo del fútbol.</p>
+                <hr class="noticia"><!--Linea decorativa -->
+                <p>
+                    <center>Escrito por Federico Garcia</center> <!--Autor de la noticia -->
+                </p>
+            </article>
+        </section>
+            <div id="footerContainer"></div>
+    </div>
+    <!-- **********FOOTER************* -->
+
+    <button id="botonFijo" onclick="irAlInicio()"><img width="15px" src="../../imagenes/arriba.png"
+            alt="flecharriba"></button>
+</body>
+
+</html>

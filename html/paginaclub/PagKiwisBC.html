@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="es">
+<!-- Comienzo del head -->
+<head>
+    <meta charset="UTF-8" /><!-- Configura la codificación de caracteres como UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><!-- Configura la vista para dispositivos móviles -->
+    <link rel="stylesheet" href="../../css/piedepagina.css"><!-- Vincula la hoja de estilo para el pie de página -->
+    <link rel="stylesheet" href="../../css/navbar.css"><!-- Vincula la hoja de estilo para la barra de navegación -->
+    <link rel="stylesheet" href="../../css/estilo.css"><!-- Vincula una hoja de estilo genérica -->
+    <link rel="stylesheet" href="../../css/noticia.css"><!-- Vincula la hoja de estilo para noticias/clubes -->
+    <link rel="stylesheet" href="../../css/tabla.css"><!-- Vincula la hoja de estilo para tablas -->
+    <link rel="shortcut icon" type="image/x-icon" href="../../imagenes/BOFlogo.png" /><!--Logo de la web -->
+    <link rel="stylesheet" type="text/css" href="../../css/formulario.css"> <!-- Vincula una hoja de estilo genérica -->
+    <title>KiwisBC - Sitio Oficial</title><!-- Establece el título de la página -->
+     <!--SCRIPTS-->
+     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+     <script src="../../js/enlaceinterno.js"></script>
+     <script>
+         $(document).ready(function () {
+             // Carga el contenido del navbar.html en el elemento con id "navbarContainer"
+             $("#navbarContainer").load("../../html/navbar2.html");
+             $("#footerContainer").load("../../html/footer2.html");
+             $("#formContainer").load("../../html/formulario.html");
+         });
+     </script>
+</head>
+<!-- Comienzo del body -->
+<body>
+    <!-- **********NAVBAR*************-->
+    <header>
+        <div id="navbarContainer"></div>
+    </header>
+    <!-- **********CONTENIDO*************+ -->
+    <div id="formContainer"></div>
+    <div>
+        <div id="espacio"></div>
+        <section>
+            <div class="noticiacontent">
+                <img src="../../imagenes/kiwisfcheader.png" alt="actualidad" class="actualidad"><!--Banner del club -->
+                <div class="clubes-p"></div>
+                <h1>Bienvenidos a KiwisFC</h1><!-- Titulo de la seccion -->
+                <img src="../../imagenes/escudos/KiwisBC.png" alt="webilbao" width="200px" height="200px"><!--Escudo del club -->
+                <!-- Introduccion -->
+                <p class="textonoticia">¡Bienvenidos a la página oficial de KiwisBC, el club de baloncesto que ama el juego
+                    y la pasión por el deporte! Estamos encantados de tenerte aquí y compartir nuestra historia, logros
+                    y pasión por el baloncesto.</p>
+                <h2 class="textonoticia">Nuestra Historia</h2><!-- Historia del club -->
+                <p class="textonoticia">KiwisBC es mucho más que un simple club de baloncesto; somos una familia unida por
+                    la pasión por el deporte. Fundado en 2020, hemos estado en la escena del basket
+                    local durante más de 3 años. Nuestro nombre, Kiwis, representa la fuerza y la
+                    determinación que nos caracteriza. A lo largo de los años, hemos construido una rica tradición de
+                    competencia, camaradería y respeto por el juego.</p>
+                <h2 class="textonoticia">Nuestro Compromiso</h2><!-- Compromiso del club -->
+                <p class="textonoticia">En KiwisBC, estamos comprometidos a promover los valores del deporte y fomentar
+                    el desarrollo de jóvenes talentos en nuestra comunidad. Creemos que el baloncesto es una poderosa
+                    herramienta para construir carácter, disciplina y habilidades que trascienden el campo de juego.
+                    Nuestra misión es desarrollar jugadores talentosos y ciudadanos ejemplares, fomentar un ambiente
+                    inclusivo y respetuoso para todos, competir en los niveles más altos y aspirar a la excelencia
+                    deportiva y contribuir al bienestar de nuestra comunidad a través del deporte.</p>
+                <h2 class="textonoticia">Nuestro Campo</h2><!-- Estadio del club -->
+                <p class="textonoticia">Nuestras instalaciones cuentan con campos de entrenamiento de última generación,
+                    vestuarios cómodos y un ambiente familiar. En KiwisBC, creemos que un entorno de entrenamiento de
+                    calidad es esencial para el desarrollo de nuestros jugadores y el disfrute de nuestros miembros.</p>
+                <hr class="noticia">
+                <img src="../../imagenes/estadio.jpg" alt="imagenpagina" class="notimag" width="800px" height="400px">
+                <hr class="noticia">
+                <h2 class="textonoticia">Nuestro Equipo</h2><!-- Equipo del club -->
+                <p class="textonoticia">En KiwisBC, albergamos equipos de todas las edades, desde los más jóvenes hasta
+                    los veteranos. Nuestra cantera es el corazón de nuestro club, donde los jóvenes talentos pueden
+                    crecer y desarrollarse como jugador y como individuos. Además, contamos con equipos competitivos
+                    en diferentes ligas y categorías, lo que nos permite competir a nivel local y regional.</p>
+
+                <table border="1" class="tabla-pagclub"><!--Tabla de equipos -->
+                    <tbody>
+                        <tr>
+                            <th class="color" colspan="4">JUGADORES</th>
+                        </tr>
+                        <tr>
+                            <th>Nombre</th>
+                            <th>Localidad</th>
+                            <th>Edad</th>
+                        </tr>
+                        <tr>
+                            <td>Juan Pérez</td>
+                            <td>Madrid</td>
+                            <td>25</td>
+                        </tr>
+                        <tr>
+                            <td colspan="4">
+                                <hr>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Pedro García</td>
+                            <td>Barcelona</td>
+                            <td>30</td>
+                        </tr>
+                        <tr>
+                            <td colspan="4">
+                                <hr>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Luis Rodríguez</td>
+                            <td>Sevilla</td>
+                            <td>22</td>
+                        </tr>
+                        <tr>
+                            <td colspan="4">
+                                <hr>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Unai Martínez</td>
+                            <td>Valencia</td>
+                            <td>28</td>
+                        </tr>
+                        <tr>
+                            <td colspan="4">
+                                <hr>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Carlos Sánchez</td>
+                            <td>Bilbao</td>
+                            <td>24</td>
+                        </tr>
+                        <tr>
+                            <td colspan="4">
+                                <hr>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Eneko Fernández</td>
+                            <td>Zaragoza</td>
+                            <td>27</td>
+                        </tr>
+                        <tr>
+                            <td colspan="4">
+                                <hr>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Neymar</td>
+                            <td>Rio de Janeiro</td>
+                            <td>29</td>
+                        </tr>
+                        <tr>
+                            <td colspan="4">
+                                <hr>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Lionel López</td>
+                            <td>Málaga</td>
+                            <td>26</td>
+                        </tr>
+                        <tr>
+                            <td colspan="4">
+                                <hr>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Javier Ruiz</td>
+                            <td>Alicante</td>
+                            <td>23</td>
+                        </tr>
+                        <tr>
+                            <td colspan="4">
+                                <hr>
+                            </td>
+                        </tr>
+                        <tr class="lineabaja">
+                            <td>Luisa Vargas</td>
+                            <td>Granada</td>
+                            <td>31</td>
+                        </tr>
+                        <td colspan="4">
+                            <hr>
+                        </td>
+                        <tr>
+                            <td>Arturo Castro</td>
+                            <td>Tenerife</td>
+                            <td>27</td>
+                        </tr>
+                        <tr></tr>
+                        <tr></tr>
+                        <tr></tr>
+                        <tr></tr>
+                        <tr></tr>
+                    </tbody>
+                </table>
+                <h2 class="textonoticia">Únete a Nuestra Comunidad</h2><!-- Unirse al club -->
+                <p class="textonoticia">Si compartes nuestra pasión por el baloncesto y nuestros valores, ¡te invitamos a
+                    unirte a KiwisBC! Tanto si eres un jugador en busca de un nuevo desafío como si eres un apasionado
+                    seguidor del baloncesto, siempre estamos buscando nuevos miembros para unirse a nuestra familia.</p>
+                <div class="margen-noticia"></div>
+            </div>
+        </section>
+    </div>
+    <!-- **********FOOTER************* -->
+        <div id="footerContainer"></div>
+</body>
+
+</html>

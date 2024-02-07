@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<!-- Comienzo del body -->
+
+<head>
+    <meta charset="UTF-8" /> <!-- Configura la codificación de caracteres como UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Configura la vista para dispositivos móviles -->
+    <link rel="shortcut icon" type="image/x-icon" href="../../imagenes/BOFlogo.png" /> <!--Logo de la web -->
+    <link rel="stylesheet" type="text/css" href="../../css/formulario.css"> <!-- Vincula una hoja de estilo genérica -->
+    <link rel="stylesheet" type="text/css" href="../../css/piedepagina.css">
+    <!-- Vincula la hoja de estilo para el pie de página -->
+    <link rel="stylesheet" type="text/css" href="../../css/navbar.css">
+    <!-- Vincula la hoja de estilo para la barra de navegación -->
+    <link rel="stylesheet" type="text/css" href="../../css/estilo.css"> <!-- Vincula una hoja de estilo genérica -->
+    <link rel="stylesheet" type="text/css" href="../../css/tabla.css"> <!-- Vincula la hoja de estilo para tablas -->
+    <link rel="stylesheet" type="text/css" href="../../css/noticia.css"> <!-- Vincula la hoja de estilo para tablas -->
+
+    <title>KiwisFC da un golpe sorpresa en el mercado de fichajes y anuncia la llegada de una
+        estrella mundial</title> <!-- Establece el título de la página -->
+    <!--SCRIPTS-->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="../../js/enlaceinterno.js"></script>
+    <script>
+        $(document).ready(function () {
+            // Carga el contenido del navbar.html en el elemento con id "navbarContainer"
+            $("#navbarContainer").load("../../html/navbar2.html");
+            $("#footerContainer").load("../../html/footer2.html");
+            $("#formContainer").load("../../html/formulario.html");
+        });
+    </script>
+</head>
+<!-- Inicio del body -->
+
+<body>
+    <!-- **********NAVBAR*************+ -->
+    <header>
+        <div id="navbarContainer"></div>
+    </header>
+    <!-- **********CONTENIDO************* -->
+    <div id="formContainer"></div>
+    <div id="espacio"></div>
+    <div class="contenidos">
+        <!-- Tabla de partidos pendientes -->
+        <section class="iniciosec">
+            <article>
+                <img src="../../imagenes/actualidad2.jpg" alt="actualidad" class="actualidad"> <!--Banner Actualidad -->
+                <h6 class="seccion"><a class="seccion" href="../../html/noticias.html">Actualidad</a><a class="amar"
+                        href="../../html/paginaclub/PagPsoeFC.html">|PsoeFC</a> </h6>
+                <h1 class="titulonot">El PSOEFC se prepara para una temporada llena de desafíos y ambiciones</h1>
+                <!--Titulo de la noticia -->
+                <h3 class="titulonot">El equipo de fútbol del PSOEFC está listo para darlo todo en la cancha esta temporada</h3>
+                <!--Subtitulo de la noticia -->
+                <img src="../../imagenes/perrosanchez.jpg" width="800" height="500" alt="imagen noticia"
+                    class="notimag"><!--Portada de la noticia -->
+                <hr class="noticia"><!--Linea decorativa -->
+                <p class="textonoticia">16 de octubre de 2023</p><!--Fecha de la noticia -->
+                <!--Cuerpo de la noticia -->
+                <p class="textonoticia">En una conferencia de prensa celebrada en el estadio local, el equipo de fútbol
+                    del
+                    PSOEFC reveló sus ambiciosos planes y expectativas para la próxima temporada. Con una plantilla
+                    renovada
+                    y una fuerte determinación, el PSOEFC está dispuesto a enfrentar nuevos desafíos en su búsqueda de
+                    la
+                    gloria en el mundo del fútbol.</p>
+                <p class="textonoticia">El presidente del club, Pedro Sánchez, expresó su entusiasmo por el futuro del
+                    PSOEFC, afirmando: "Estamos comprometidos en trabajar duro y en hacer todo lo necesario para lograr
+                    el
+                    éxito en esta temporada. Tenemos una plantilla talentosa y un equipo técnico dedicado que está
+                    dispuesto
+                    a llevar al PSOEFC a nuevas alturas".</p>
+                <p class="textonoticia">El entrenador del equipo, Luis Enrique, quien también es el seleccionador
+                    nacional
+                    de la Selección Española de Fútbol, destacó la importancia de la cohesión del equipo: "El trabajo en
+                    equipo es esencial en el fútbol. Estamos enfocados en fortalecer nuestros lazos y en construir una
+                    unidad sólida en el campo. Nuestro objetivo es jugar un fútbol atractivo y eficiente".</p>
+                <hr class="noticia"><!--Linea decorativa -->
+                <img src="../../imagenes/perrosanxe2.jpg" alt="perrosanxe2" width="800" height="450"
+                    class="notimag"><!--Imagen noticia -->
+                <hr class="noticia"><!--Linea decorativa -->
+                <p class="textonoticia">El PSOEFC ha realizado algunas contrataciones clave para reforzar su plantilla,
+                    incluyendo a jóvenes talentos y algunos jugadores con experiencia internacional. La afición del
+                    PSOEFC
+                    se encuentra emocionada ante la perspectiva de ver a estos nuevos fichajes en acción.</p>
+                <p class="textonoticia">Además, el club está planeando una serie de eventos y actividades para
+                    involucrar a
+                    la comunidad local y fortalecer su base de seguidores. Esto incluye programas de desarrollo juvenil
+                    y
+                    colaboraciones con organizaciones benéficas locales.</p>
+                <p class="textonoticia">Con una temporada emocionante por delante, el PSOEFC está listo para dar lo
+                    mejor de
+                    sí en el campo y competir a nivel nacional e internacional. Los seguidores del equipo esperan con
+                    entusiasmo lo que depara el futuro y están ansiosos por vivir una temporada llena de emociones y
+                    triunfos para su club favorito.</p>
+                <hr class="noticia"><!--Linea decorativa -->
+                <p>
+                    <center>Escrito por Igor Martinez </center> <!--Autor de la noticia -->
+                </p>
+            </article>
+        </section>
+            <div id="footerContainer"></div>
+    </div>
+    <!-- **********FOOTER************* -->
+
+    <button id="botonFijo" onclick="irAlInicio()"><img width="15px" src="../../imagenes/arriba.png"
+            alt="flecharriba"></button>
+</body>
+
+</html>
