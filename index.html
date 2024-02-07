@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+<!-- Comienzo del head -->
+
+<head>
+    <meta charset="UTF-8" /> <!-- Configura la codificación de caracteres como UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Configura la vista para dispositivos móviles -->
+    <link rel="shortcut icon" type="image/x-icon" href="../imagenes/BOFlogo.png" /> <!--Logo de la web -->
+    <link rel="stylesheet" type="text/css" href="../css/piedepagina.css">
+    <!-- Vincula la hoja de estilo para el pie de página -->
+    <link rel="stylesheet" type="text/css" href="../css/navbar.css">
+    <!-- Vincula la hoja de estilo para la barra de navegación -->
+    <link rel="stylesheet" href="../css/formulario.css"> <!-- Vincula la hoja de estilo para el formulario -->
+    <link rel="stylesheet" type="text/css" href="../css/estilo.css"> <!-- Vincula una hoja de estilo genérica -->
+    <link rel="stylesheet" type="text/css" href="../css/tabla.css"> <!-- Vincula la hoja de estilo para tablas -->
+    <link rel="stylesheet" type="text/css" href="../css/inicio.css"> <!-- Vincula la hoja de estilo para tablas -->
+    <link rel="stylesheet" type="text/css" href="../css/noticia.css"> <!-- Vincula la hoja de estilo para tablas -->
+    <title>Inicio</title> <!-- Establece el título de la página -->
+    <!--SCRIPTS-->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="../js/enlaceinterno.js"></script>
+    <script>
+        $(document).ready(function () {
+            // Carga el contenido del navbar.html en el elemento con id "navbarContainer"
+            $("#navbarContainer").load("../html/navbar.html");
+            $("#footerContainer").load("../html/footer.html");
+            $("#formContainer").load("../html/formulario.html");
+
+            // Llamada a la función para cargar y transformar el XML
+            cargarTabla();
+            cargarTabla2();
+
+            function cargarTabla() {
+                // Cargar archivo XML 
+                $.ajax({
+                    type: "GET",
+                    url: "../xml/XML_temporada1/calendario.xml",
+                    dataType: "xml",
+                    success: function (xml) {
+                        // Cargar la hoja de estilo XSLT
+                        $.ajax({
+                            type: "GET",
+                            url: "../xml/xsl/PartidosPendientes.xsl",
+                            dataType: "xml",
+                            success: function (xsl) {
+                                // Crear un objeto de transformación XSLT
+                                var xsltProcessor = new XSLTProcessor();
+                                xsltProcessor.importStylesheet(xsl);
+
+                                // Transformar el XML usando la hoja de estilo XSLT
+                                var resultDocument = xsltProcessor.transformToDocument(xml);
+
+                                // Obtener el contenido HTML resultante
+                                var resultHtml = new XMLSerializer().serializeToString(resultDocument);
+
+                                // Mostrar el resultado en el contenedor de la tabla
+                                $("#tablaContainer").html(resultHtml);
+                            }
+                        });
+                    }
+                });
+            }
+
+            function cargarTabla2() {
+                // Cargar archivo XML 
+                $.ajax({
+                    type: "GET",
+                    url: "../xml/XML_temporada1/clubes.xml",
+                    dataType: "xml",
+                    success: function (xml) {
+                        // Cargar la hoja de estilo XSLT
+                        $.ajax({
+                            type: "GET",
+                            url: "../xml/xsl/clubesinicio.xsl",
+                            dataType: "xml",
+                            success: function (xsl) {
+                                // Crear un objeto de transformación XSLT
+                                var xsltProcessor = new XSLTProcessor();
+                                xsltProcessor.importStylesheet(xsl);
+
+                                // Transformar el XML usando la hoja de estilo XSLT
+                                var resultDocument = xsltProcessor.transformToDocument(xml);
+
+                                // Obtener el contenido HTML resultante
+                                var resultHtml = new XMLSerializer().serializeToString(resultDocument);
+
+                                // Mostrar el resultado en el contenedor de la tabla
+                                $("#tablaContainer2").html(resultHtml);
+                            }
+                        });
+                    }
+                });
+            }
+        });
+
+        
+    </script>
+
+</head>
+<!-- Comienzo del body -->
+
+<body>
+    <!-- **********NAVBAR*************+ -->
+    <header>
+        <div id="navbarContainer"></div>
+    </header>
+    <!-- **********CONTENIDO************* -->
+    <div id="formContainer"></div><!--Contenedor para el formulario-->
+    <div id="espacio"></div>
+    <div class="contenidos">
+        <!-- Tabla de partidos pendientes -->
+        <section class="iniciosec">
+            <article class="inicioart3">
+                <article class="inicioart">
+                    <div id="tablaContainer"></div>
+                </article>
+                <article class="inicioart2">
+                    <!--Tabla de noticias -->
+                    <table class="notitabla" border="1">
+                        <tbody>
+                            <tr class="tittablanoticias">
+                                <th class="colornotic" colspan="2">
+                                    <div>
+                                        <div class="vertical-center">
+                                            Noticias <!-- Titulo de la tabla-->
+                                        </div>
+                                        <div class="vertical-center2">
+                                            <a href="noticias.html" class="linkanoticias">Ver todas las noticias</a>
+                                            <!-- Boton que redirige a la seccion noticias-->
+                                        </div>
+                                    </div>
+                                </th>
+                            </tr>
+                            <tr>
+                                <td class="calencol"><a href="noticias/noticia1.html"><img src="../imagenes/sanmame.jpg"
+                                            alt="not1" class="tablanotimg"></a></td>
+                                <!--Portada de la noticia 1 (Te redirige a la pagina de noticia 1) -->
+                                <td class="clubinici">
+                                    <a href="noticias/noticia1.html" class="notilink">
+                                        <h4>Webilbao FC se prepara para una temporada histórica: ¡Nuevas contrataciones
+                                            y
+                                            ambiciosos objetivos!</h4>
+                                        <!--Titulo de la noticia 1 (Te redirige a la pagina de noticia 1)  -->
+                                    </a>
+                                    <p class="tablp">El club de fútbol Webilbao busca conquistar los corazones de sus
+                                        seguidores
+                                        y ascender en
+                                        la liga local.</p> <!--Cuerpo de la noticia-->
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="calencol"><a href="noticias/noticia2.html"><img
+                                            src="../imagenes/fichaje2.jpg" alt="not2" class="tablanotimg"></a></td>
+                                <!--Portada de la noticia 2 (Te redirige a la pagina de noticia 2) -->
+                                <td>
+                                    <a href="noticias/noticia2.html" class="notilink">
+                                        <h4>KiwisFC da un golpe sorpresa en el mercado de fichajes y anuncia la llegada
+                                            de
+                                            una
+                                            estrella mundial</h4>
+                                        <!--Titulo de la noticia 2 (Te redirige a la pagina de noticia 2)  -->
+                                    </a>
+                                    <p class="tablp">El club de fútbol Webilbao busca conquistar los corazones de sus
+                                        seguidores
+                                        y ascender en
+                                        la liga local.</p> <!--Cuerpo de la noticia-->
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!--Tablaclubes-->
+                    <div id="tablaContainer2"></div>
+                </article>
+            </article>
+        </section>
+        <div id="footerContainer" class="footerContainer"></div>
+    </div>
+    <!-- **********FOOTER************* -->
+    <button id="botonFijo" onclick="irAlInicio()"><img width="15px" src="../imagenes/arriba.png"
+            alt="flecharriba"></button>
+</body>
+
+</html>
