@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl"?>
+<Paginaclubes>
+    <club>
+        <imagen>../xml/XML_temporada1/escudos/KiwisBC.png</imagen>
+        <nombre>KiwisBC</nombre>
+        <descripcion> SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS</descripcion>
+        <equipo>
+            <Jugadores>
+                <nombre>Paco</nombre>
+                <apellido>Paredes</apellido>
+                <nacionalidad>Frances</nacionalidad>
+                <posicion>Base</posicion>
+            </Jugadores>
+            <Jugadores>
+                <nombre>de</nombre>
+                <apellido>Paredes</apellido>
+                <nacionalidad>Frances</nacionalidad>
+                <posicion>Base</posicion>
+            </Jugadores>
+            <Jugadores>
+                <nombre>Paco</nombre>
+                <apellido>Paredes</apellido>
+                <nacionalidad>Frances</nacionalidad>
+                <posicion>Base</posicion>
+            </Jugadores>
+            <Jugadores>
+                <nombre>Paco</nombre>
+                <apellido>Paredes</apellido>
+                <nacionalidad>Frances</nacionalidad>
+                <posicion>Base</posicion>
+            </Jugadores>
+            <Jugadores>
+                <nombre>Paco</nombre>
+                <apellido>Paredes</apellido>
+                <nacionalidad>Frances</nacionalidad>
+                <posicion>Base</posicion>
+            </Jugadores>
+        </equipo>
+    </club>
+</Paginaclubes>
