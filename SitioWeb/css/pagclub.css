@@ -79,7 +79,7 @@ p {
 }
 
 @media only screen and (max-width: 850px) {
-    .contenidoform {
+    .contenidoclub {
         animation: zoomIn 0.5s ease-out;
         margin-top: -90%;
         margin-left: -88%;
@@ -89,7 +89,7 @@ p {
 }
 
 @media only screen and (max-width: 650px) {
-    .contenidoform {
+    .contenidoclub {
         animation: zoomIn 0.5s ease-out;
         margin-top: -95%;
         margin-left: -95%;
