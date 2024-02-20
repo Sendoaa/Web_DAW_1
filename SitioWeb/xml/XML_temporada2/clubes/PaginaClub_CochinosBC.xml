@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl"?>
+<Paginaclubes>
+	<club>
+		<imagen>../xml/XML_temporada2/escudos/CochinosBC.png</imagen>
+		<nombre>CochinosBC</nombre>
+		<descripcion>CochinosBC es un equipo que desafía las convenciones con su enfoque único y desinhibido hacia el deporte. Con un espíritu irreverente y un estilo de juego audaz, los CochinosBC se destacan en la cancha tanto por su habilidad estratégica como por su actitud sin tapujos. Este equipo rompe moldes y redefine el significado de la competencia, demostrando que el éxito no siempre sigue las reglas convencionales. Con una identidad distintiva, CochinosBC no solo busca la victoria, sino también celebrar la diversión intrínseca en el juego, creando un ambiente de camaradería que trasciende los límites del campo de juego.</descripcion>
+		<equipo>
+			<Jugadores>
+				<nombre>Martin</nombre>
+				<apellido>Scorsese</apellido>
+				<nacionalidad>España</nacionalidad>
+				<posicion>Base</posicion>
+			</Jugadores>
+			<Jugadores>
+				<nombre>Quentin</nombre>
+				<apellido>Tarantino</apellido>
+				<nacionalidad>España</nacionalidad>
+				<posicion>Escolta</posicion>
+			</Jugadores>
+			<Jugadores>
+				<nombre>Christopher</nombre>
+				<apellido>Nolan</apellido>
+				<nacionalidad>España</nacionalidad>
+				<posicion>Alero</posicion>
+			</Jugadores>
+			<Jugadores>
+				<nombre>Taika</nombre>
+				<apellido>Waititi</apellido>
+				<nacionalidad>España</nacionalidad>
+				<posicion>Ala-Pivot</posicion>
+			</Jugadores>
+			<Jugadores>
+				<nombre>Hayao</nombre>
+				<apellido>Miyazaki</apellido>
+				<nacionalidad>España</nacionalidad>
+				<posicion>Pivot</posicion>
+			</Jugadores>
+		</equipo>
+	</club>
+</Paginaclubes>

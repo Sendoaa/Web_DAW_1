@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl"?>
+<Paginaclubes>
+	<club>
+		<imagen>../xml/XML_temporada2/escudos/KiwisBC.png</imagen>
+		<nombre>KiwisBC</nombre>
+		<descripcion>Los KiwisBC son más que un simple equipo; son una comunidad vibrante y apasionada unida por la determinación y el espíritu competitivo. Inspirados por la tenacidad del kiwi, un ave única y distintiva de Nueva Zelanda, nuestro equipo abraza la diversidad y la singularidad de cada miembro.</descripcion>
+		<equipo>
+			<Jugadores>
+				<nombre>Juan</nombre>
+				<apellido>Lapras</apellido>
+				<nacionalidad>España</nacionalidad>
+				<posicion>Base</posicion>
+			</Jugadores>
+			<Jugadores>
+				<nombre>Jose</nombre>
+				<apellido>Mendoza</apellido>
+				<nacionalidad>España</nacionalidad>
+				<posicion>Escolta</posicion>
+			</Jugadores>
+			<Jugadores>
+				<nombre>Pedro</nombre>
+				<apellido>Miguel</apellido>
+				<nacionalidad>España</nacionalidad>
+				<posicion>Alero</posicion>
+			</Jugadores>
+			<Jugadores>
+				<nombre>Torbe</nombre>
+				<apellido>Alagua</apellido>
+				<nacionalidad>España</nacionalidad>
+				<posicion>Ala-Pivot</posicion>
+			</Jugadores>
+			<Jugadores>
+				<nombre>Mateos</nombre>
+				<apellido>Santos</apellido>
+				<nacionalidad>España</nacionalidad>
+				<posicion>Pivot</posicion>
+			</Jugadores>
+		</equipo>
+	</club>
+</Paginaclubes>
