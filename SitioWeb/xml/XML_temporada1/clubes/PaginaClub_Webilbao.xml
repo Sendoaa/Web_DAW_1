@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl"?>
+<Paginaclubes>
+	<club>
+		<imagen>../xml/XML_temporada1/escudos/Webilbao.png</imagen>
+		<nombre>Webilbao</nombre>
+		<descripcion>Webilbao es un equipo innovador que fusiona la esencia dinámica de la web con la pasión futbolística de Bilbao. Su compromiso con la excelencia en el campo se refleja en su enfoque progresivo tanto en el juego como en la interacción digital. Con jugadores ágiles y estrategias tácticas modernas, Webilbao no solo busca la victoria en cada partido, sino también redefine la experiencia del aficionado, creando una comunidad en línea vibrante y conectada. Este equipo no solo juega, sino que teje una red digital de entusiasmo y energía que une a los aficionados, creando una experiencia única en la intersección entre el fútbol y la era digital.</descripcion>
+		<equipo>
+			<Jugadores>
+				<nombre>Martin</nombre>
+				<apellido>Caradagian</apellido>
+				<nacionalidad>España</nacionalidad>
+				<posicion>Base</posicion>
+			</Jugadores>
+			<Jugadores>
+				<nombre>Roberto</nombre>
+				<apellido>Torres</apellido>
+				<nacionalidad>España</nacionalidad>
+				<posicion>Escolta</posicion>
+			</Jugadores>
+			<Jugadores>
+				<nombre>Mauro</nombre>
+				<apellido>Ignazio</apellido>
+				<nacionalidad>España</nacionalidad>
+				<posicion>Alero</posicion>
+			</Jugadores>
+			<Jugadores>
+				<nombre>Miguel</nombre>
+				<apellido>Cervantes</apellido>
+				<nacionalidad>España</nacionalidad>
+				<posicion>Ala-Pivot</posicion>
+			</Jugadores>
+			<Jugadores>
+				<nombre>Pablo</nombre>
+				<apellido>Goya</apellido>
+				<nacionalidad>España</nacionalidad>
+				<posicion>Pivot</posicion>
+			</Jugadores>
+		</equipo>
+	</club>
+</Paginaclubes>
