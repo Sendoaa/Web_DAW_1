@@ -1,0 +1,85 @@
+* {
+  font-family: 'Segoe UI';
+  /*Fuente principal de la pagina*/
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  /*Quitar el formato a los enlaces*/
+  color: black;
+}
+
+body {
+
+  /*Color de fondo del sitio*/
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  background-color: #EAEAEA;;
+
+
+}
+
+
+
+
+video {
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
+
+#botonFijo { /*EnlaceInterno*/
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 17.5px;
+  background-color: #4a7fd6;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: border-color 0.3s, background-color 0.3s;
+  z-index: 2;
+}
+
+
+#botonFijo:hover {
+  cursor: pointer;
+  border-color: #000000;
+  background-color: white ;
+}
+
+.descargar { /*Boton para descargarXml*/
+  background-color: #4a7fd6;
+  border-color: #4a7fd6;
+  border-radius: 5px;
+  bottom: 20px;
+  right: 100px;
+  padding: 15px;
+  position: fixed;
+  transition: border-color 0.3s, background-color 0.3s;
+  z-index: 2;
+}
+
+button.descargar:hover {
+  cursor: pointer;
+  border-color: #000000;
+  background-color: white ;
+}
+
+.descargar img {
+  width: 20px;
+}
+
+
+.audios{
+margin-left: 40%;
+margin-right: 40%;
+
+}
+
+/*----------------------------------------------Dispositivos moviles----------------------------------------------*/
+@media only screen and (max-width: 650px) {
+  .descargar {
+    bottom: 100px;
+    right: 20px;
+  }
+}

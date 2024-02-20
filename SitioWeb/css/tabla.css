@@ -1,0 +1,275 @@
+/* Estilo de las tablas */
+table {
+    /* Estilo predeterminado de las tablas */
+    text-align: center;
+    margin: 2%;
+    width: 10%;
+    border-radius: 0.5cm;
+    border-color: black;
+    border-style: none;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 2%;
+}
+
+/* Estilo del header de la tabla */
+th {
+    padding: 20px;
+    padding-inline: 95px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-style: none;
+}
+
+/* Estilo de las celdas de la tabla */
+td {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-style: none;
+}
+
+/* Estilo de los escudos en las tablas */
+.escu {
+    width: 40px;
+}
+
+/* Estilo del encabezado de la tabla */
+.color {
+    border-bottom: solid;
+    border-color: black;
+    border-width: 1px;
+    background-color: #4a7fd6;
+    border-top-right-radius: 0.5cm;
+    border-top-left-radius: 0.5cm;
+    font-size: 200%;
+    color: white;
+}
+
+/* Estilo de la tabla calendario */
+.calendario {
+    display:flex;
+
+}
+
+.calend {
+    width: 40%;
+}
+/* Estilo de la tabla clasificacion */
+.clasificacion {
+    padding-inline: 20px;
+}
+
+/* Ancho de la tabla calendario */
+
+
+.calencol {
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Líneas de las tablas */
+hr {
+    color: lightgrey;
+}
+
+/* Estilo del texto 'vs' en la tabla */
+.vs {
+    color: #da6905c2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* Estilo del texto en negrita */
+b {
+    color: gray;
+}
+
+/* Cambio de color al pasar el ratón por encima */
+.club:hover {
+    color: #4a7fd6;
+    font-weight: bold;
+}
+
+.club{
+    transition: font-weight 0.1s, color 0.1s;
+}
+
+.enlaces{
+    transition: font-weight 0.1s, color 0.1s;
+    color: black;
+}
+.enlaces:hover{
+    color: #4a7fd6;
+    font-weight: bold;
+}
+
+/* Estilo de la ubicación del club al inicio */
+.clubinicio {
+    width: 40%;
+    height: 50%;
+}
+
+/* Estilo de la tabla de noticias */
+.notitabla {
+    width: 40%;
+    height: 50%;
+    text-align: left;
+    margin-bottom: 5%;
+}
+
+.notitabla td {
+    padding-left: 5%;
+    padding-right: 1%;
+    padding-inline: 10px;
+}
+
+/* Estilo de las imágenes en la tabla de noticias */
+.tablanotimg {
+    border-radius: 10px;
+    height: 140px;
+    width: 200px;
+    display: table-column;
+    transition: box-shadow 0.3s;
+}
+
+/* Efecto de sombra al pasar el ratón sobre las imágenes de noticias */
+.tablanotimg:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.tablp {
+    margin-left: -1px;
+    margin-top: -20px;
+}
+
+
+/* Estilo de los enlaces a clubes */
+.linkaclubes {
+    margin-left: 400px;
+    bottom: -25px;
+    font-size: 10px;
+    background-color: transparent;
+    box-shadow: 0px 0px 0px 1px #A8A8A8 inset;
+    padding: 5px 5px 5px 5px;
+    color: #A8A8A8;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+
+.linkaclubes:hover {
+    background-color: #A8A8A8;
+    color: white;
+    border-radius: 15px;
+}
+
+/* Estilo del encabezado de las noticias */
+.colornotic {
+    border-bottom: solid;
+    border-color: black;
+    border-width: 1px;
+    background-color: #4a7fd6;
+    border-top-left-radius: 0.5cm;
+    border-top-right-radius: 0.5cm;
+    font-size: 200%;
+    color: white;
+    padding-left: 190px;
+}
+
+table.clubestabla {
+    width: 50%;
+}
+
+.table-container {
+    width: 100%;
+    overflow-x: auto;
+    /* Agrega una barra de desplazamiento horizontal si es necesario */
+
+}
+.clasificaciontabla{
+    border-collapse: collapse;
+    width: 60%;
+}
+
+
+
+
+
+/*----------------------------------------------TABLETS PEQUEÑAS---------------------------------------------- */
+
+@media only screen and (max-width: 850px) {
+
+    .calendario {
+        display:block;
+    }
+
+    header img {
+        width: 30px;
+        margin-left: 20px;
+    }
+
+
+    nav {
+        font-size: small;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    nav li a:not(:has(img))::after {
+        bottom: 0;
+
+    }
+
+    th {
+        padding: 20px;
+        padding-inline: 2%;
+    }
+
+   
+
+    table.clubestabla {
+        width: 70%;
+    }
+
+    .clasificaciontabla{
+        width: 30%;
+    }
+
+
+}
+
+/*----------------------------------------------Dispositivos moviles----------------------------------------------*/
+@media only screen and (max-width: 650px) {
+
+    .calendario {
+        display:block;
+        align-items: center;
+    }
+
+
+    table.calend th.color {
+        font-size: x-large;
+    }
+
+
+    table.calend td {
+        font-size: x-small;
+    }
+
+    
+
+    table.clubestabla {
+        width: 90%;
+        margin-top: 2%;
+    }
+    .clasificacion {
+        padding-inline: 3px;
+    }
+}

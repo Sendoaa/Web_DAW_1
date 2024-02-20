@@ -1,0 +1,98 @@
+/*Estilo del formulario*/
+#fondoclub {
+    display: none;
+}
+
+.EscudoclubInfo{
+    width: 70%;
+    margin-left: 15%;
+}
+
+.fondoclub {
+    background-color: #2c2c2c4d;
+    padding-block: 100%;
+    padding-inline: 100%;
+    margin-left: -2%;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: fixed;
+    z-index: 20;
+}
+
+@keyframes zoomIn {
+    from {
+        transform: scale(0);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
+
+.contenidoclub {
+    overflow-y: scroll; /* Agrega scroll vertical */
+    max-height: 90%; /* Altura máxima del contenido */
+}
+
+.contenidoclub {
+    justify-content: center;
+    background-color: white;
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    padding-inline: 90px;
+    border-bottom-left-radius: 3%;
+    border-top-left-radius: 3%;
+    animation: zoomIn 0.5s ease-out;
+    margin-top: -98%;
+    margin-left: -73%;
+    width: 50%;
+    position: fixed;
+}
+
+
+.Xx { /*Boton para salir del formulario*/
+    position: fixed;
+    right: 29%;
+    top: 5%;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.Xx:hover {
+    color: #f13939;
+    cursor: pointer;
+}
+
+p {
+    font-size: medium;
+}
+
+.tabla-pagclub{
+    width: 90%;
+    justify-content: center;
+}
+
+.tabla-pagclub th{
+    padding-inline: 0px;
+}
+
+@media only screen and (max-width: 850px) {
+    .contenidoform {
+        animation: zoomIn 0.5s ease-out;
+        margin-top: -90%;
+        margin-left: -88%;
+        width: 80%;
+    }
+
+}
+
+@media only screen and (max-width: 650px) {
+    .contenidoform {
+        animation: zoomIn 0.5s ease-out;
+        margin-top: -95%;
+        margin-left: -95%;
+        width: 90%;
+    }
+}
