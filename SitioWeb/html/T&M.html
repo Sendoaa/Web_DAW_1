@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<!-- Comienzo del head -->
+
+<head>
+    <meta charset="UTF-8" /><!-- Configura la codificación de caracteres como UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Configura la vista para dispositivos móviles -->
+    <link rel="stylesheet" href="../css/piedepagina.css"><!-- Vincula la hoja de estilo para el pie de página -->
+    <link rel="stylesheet" href="../css/navbar.css"><!-- Vincula la hoja de estilo para la barra de navegación -->
+    <link rel="stylesheet" href="../css/estilo.css"><!-- Vincula una hoja de estilo genérica -->
+    <link rel="stylesheet" href="../css/noticia.css"><!-- Vincula la hoja de estilo para noticias/clubes -->
+    <link rel="stylesheet" href="../css/tabla.css"><!-- Vincula la hoja de estilo para tablas -->
+    <link rel="shortcut icon" type="image/x-icon" href="../imagenes/BOFlogo.png" /><!--Logo de la web -->
+    <title>Terminos y condiciones</title><!-- Establece el título de la página -->
+    <!--SCRIPTS-->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="../js/enlaceinterno.js"></script>
+    <script>
+        $(document).ready(function () {
+            // Carga el contenido del navbar.html en el elemento con id "navbarContainer"
+            $("#navbarContainer").load("../html/navbar.html");
+            $("#footerContainer").load("../html/footer.html");
+        });
+    </script>
+</head>
+<!-- Comienzo del body -->
+
+<body>
+    <!-- **********NAVBAR************* -->
+    <header>
+        <div id="navbarContainer"></div>
+    </header>
+    <!-- **********CONTENIDO*************-->
+    <div>
+        <div id="espacio"></div>
+        <section>
+            <div class="noticiacontent">
+                <h1>TERMINOS Y CONDICIONES</h1>
+                <h3 class="textonoticia">1. Aceptación de Términos y Condiciones</h2>
+                <p class="textonoticia">Al suscribirte a nuestra newsletter, aceptas los siguientes términos y condiciones. Si no estás de
+                    acuerdo con alguna parte de estos términos, te solicitamos que no te suscribas ni utilices nuestros
+                    servicios.
+                </p>
+                <h3 class="textonoticia">2. Uso de la Información</h2>
+                <p class="textonoticia">La información proporcionada durante la suscripción, incluyendo nombre y dirección de correo
+                    electrónico, será utilizada exclusivamente para enviar la newsletter y para fines relacionados con
+                    la comunicación de la empresa. No compartiremos ni venderemos tu información a terceros sin tu
+                    consentimiento expreso.</p>
+                <h3 class="textonoticia">3. Cancelación de la Suscripción</h2>
+                <p class="textonoticia">Puedes cancelar tu suscripción en cualquier momento utilizando el enlace de cancelación proporcionado
+                    al final de cada correo electrónico. Tu solicitud será procesada de inmediato, y dejarás de recibir
+                    nuestras comunicaciones.</p>
+                <h3 class="textonoticia">4. Frecuencia y Contenido</h2>
+                <p class="textonoticia">Nos reservamos el derecho de modificar la frecuencia de envío y el contenido de la newsletter en
+                    cualquier momento sin previo aviso. Haremos nuestro mejor esfuerzo para proporcionar información
+                    relevante y de interés para nuestros suscriptores.</p>
+                <h3 class="textonoticia">5. Propiedad Intelectual</h2>
+                <p class="textonoticia">Todo el contenido de la newsletter, incluyendo textos, imágenes y otros materiales, está protegido
+                    por derechos de autor y otras leyes de propiedad intelectual. No puedes reproducir, distribuir ni
+                    utilizar el contenido de la newsletter con fines comerciales sin nuestra autorización previa por
+                    escrito.</p>
+                <h3 class="textonoticia">6. Cambios en los Términos y Condiciones</h2>
+                <p class="textonoticia">Nos reservamos el derecho de modificar estos términos y condiciones en cualquier momento. Las
+                    modificaciones entrarán en vigor inmediatamente después de su publicación en nuestro sitio web. Se
+                    te notificará sobre cambios significativos por correo electrónico.</p>
+                <h3 class="textonoticia">7. Ley Aplicable</h2>
+                <p class="textonoticia">Estos términos y condiciones están regidos por las leyes de Euskal Herria y cualquier disputa estará
+                    sujeta a la jurisdicción exclusiva de los tribunales de Bilbao.</p>
+                <div class="margen-noticia"></div>
+        </section>
+    </div>
+    <!-- **********FOOTER************* -->
+        <div id="footerContainer"></div>
+</body>
+
+</html>

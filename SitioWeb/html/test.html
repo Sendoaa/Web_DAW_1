@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+
+<head>
+    <meta charset="UTF-8" /><!-- Configura la codificación de caracteres como UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><!--
+            Configura la vista para dispositivos móviles -->
+    <link rel="stylesheet" href="../css/piedepagina.css" /><!-- Vincula la hoja de
+            estilo para el pie de página -->
+    <link rel="stylesheet" href="../css/navbar.css" /><!-- Vincula la hoja de estilo
+            para la barra de navegación -->
+    <link rel="stylesheet" href="../css/estilo.css" /><!-- Vincula una hoja de estilo
+            genérica -->
+    <link rel="stylesheet" href="../css/noticia.css" /><!-- Vincula la hoja de estilo
+            para noticias/clubes -->
+    <link rel="stylesheet" href="../css/tabla.css" /><!-- Vincula la hoja de estilo
+            para tablas -->
+    <link rel="stylesheet" type="text/css" href="../css/formulario.css" /> <!--
+            Vincula una hoja de estilo genérica -->
+    <link rel="shortcut icon" type="image/x-icon" href="../imagenes/BOFlogo.png" /><!--Logo
+            de la web -->
+    <title>Sitio Oficial</title><!-- Establece el título de la
+            página -->
+    <!--SCRIPTS-->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="../js/enlaceinterno.js"></script>
+    <script>
+        $(document).ready(function () {
+            // Carga el contenido del navbar.html en el elemento con id "navbarContainer"
+            $("#navbarContainer").load("../html/navbar.html");
+            $("#footerContainer").load("../html/footer.html");
+            $("#formContainer").load("../html/formulario.html");
+
+            // Llamada a la función para cargar y transformar el XML
+            cargarPaginaClub();
+
+            function cargarPaginaClub() {
+                // Cargar archivo XML 
+                $.ajax({
+                    type: "GET",
+                    url: "../xml/XML_temporada1/PaginaClub.xml",
+                    dataType: "xml",
+                    success: function (xml) {
+                        // Cargar la hoja de estilo XSLT
+                        $.ajax({
+                            type: "GET",
+                            url: "../xml/xsl/Paginaclub.xsl",
+                            dataType: "xml",
+                            success: function (xsl) {
+                                // Crear un objeto de transformación XSLT
+                                var xsltProcessor = new XSLTProcessor();
+                                xsltProcessor.importStylesheet(xsl);
+
+                                // Transformar el XML usando la hoja de estilo XSLT
+                                var resultDocument = xsltProcessor.transformToDocument(xml);
+
+                                // Obtener el contenido HTML resultante
+                                var resultHtml = new XMLSerializer().serializeToString(resultDocument);
+
+                                // Mostrar el resultado en el contenedor de la tabla
+                                $("#tablaContainer").html(resultHtml);
+                            }
+                        });
+                    }
+                });
+            }
+        });
+    </script>
+    <!-- Comienzo del body -->
+    <!-- **********NAVBAR************* -->
+    <header>
+        <div id="navbarContainer"></div>
+    </header>
+</head>
+
+<body>
+    <div id="tablaContainer"></div>
+</body>
+    <!-- **********FOOTER*************+ -->
+    <div id="footerContainer"></div>
+    <button id="botonFijo" class="botonarriba" onclick="irAlInicio()"><img width="15px" src="../imagenes/arriba.png" alt="flecharriba" />
+    </button>
+    <button id="descargarBtn" class="descargar"><img src="../imagenes/descargar.png" alt="" /></button>
+</html>
+
+
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+    <xsl:template match="/">
+        <h1>¡Bienvenidos a la página oficial de <xsl:value-of
+                select="Paginaclubes/club/nombre" />!</h1>
+                                <img src="{Paginaclubes/club/imagen}"
+            alt="escudoclub" width="200px"
+            height="200px" /><!--Escudo
+                                del club -->
+        <!-- Descripccion -->
+                                <h2>Info sobre nuestro club</h2>
+                                <p><xsl:value-of select="Paginaclubes/club/descripcion" /></p>
+                                <h2>Nuestrosjugadores</h2>
+                                <p class="textonoticia">En <xsl:value-of select="Paginaclubes/club/nombre" />,
+        albergamos equipos de todas las edades, desde los más jóvenes hasta los veteranos. Nuestra
+        cantera es el corazón de nuestro club, donde los jóvenes talentos pueden crecer y
+        desarrollarse como jugador y como individuos. Además, contamos con equipos competitivos en
+        diferentes ligas y categorías, lo que nos permite competir a nivel local y regional.</p>
+                             <xsl:apply-templates
+            select="equipo" />
+                             <table border="1" class="tabla-pagclub"><!--Tabla
+            de equipos -->
+            <tbody>
+                <tr>
+                    <th class="color" colspan="4">JUGADORES</th>
+                </tr>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Localidad</th>
+                    <th>Edad</th>
+                </tr>
+                <xsl:for-each select="Paginaclubes/club/equipo/Jugadores">
+                    <tr>
+                        <td>
+                            <xsl:value-of select="nombre" />
+                            <xsl:value-of select="Paginaclubes/club/equipo/jugadores/apellido" />
+                        </td>
+                        <td>
+                            <xsl:value-of select="nacionalidad" />
+                        </td>
+                        <td>
+                            <xsl:value-of select="posicion" />
+                        </td>
+                    </tr>
+                                        <tr>
+                        <td colspan="4">
+                            <hr />
+                        </td>
+                    </tr>
+                </xsl:for-each>
+            </tbody>
+        </table>
+
+    </xsl:template>
+
+</xsl:stylesheet>
