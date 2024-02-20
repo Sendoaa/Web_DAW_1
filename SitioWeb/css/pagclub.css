@@ -52,9 +52,9 @@
 
 
 .Xx { /*Boton para salir del formulario*/
-    position: fixed;
-    right: 29%;
-    top: 5%;
+    position: absolute;
+    right: 5%;
+    top: 7%;
     color: #000;
     font-size: 35px;
     font-weight: bold;
@@ -77,6 +77,15 @@ p {
 .tabla-pagclub th{
     padding-inline: 0px;
 }
+
+#botonpagclub { /*EnlaceInterno*/
+    position: absolute;
+    padding: 17.5px;
+    background-color: #4a7fd6;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: border-color 0.3s, background-color 0.3s;
+  }
 
 @media only screen and (max-width: 850px) {
     .contenidoclub {
