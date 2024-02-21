@@ -10,8 +10,7 @@ $(document).ready(function () {
 
     // Llamada a la función para cargar y transformar el XML con la temporada por defecto (temporada1)
     cargarTabla("temporada" + temporadaActual);
-    cargarPaginaClub("PaginaClub_KiwisBC"); // Cargar la página del club específica al inicio
-
+    cargarPaginaClub("PaginaClub_KiwisBC", temporadaActual);
 
     // Agrega un evento clic al botón de descarga
     $("#descargarBtn").on("click", function () {
@@ -50,9 +49,14 @@ $(document).ready(function () {
     // Agregar evento clic a los enlaces generados dinámicamente
     $("#tablaContainer").on("click", ".enlaces", function () {
         var idClub = $(this).attr("id");
-        cargarPaginaClub(idClub);
+        cargarPaginaClub(idClub, temporadaActual);
         $("#fondoclub").css("display", "block");
+        // Cuando se abre el div, hacer que el scroll vertical vuelva arriba
+        $("#fondoclub").scrollTop(0);
     });
+
+
+
 });
 
 function cargarTabla(temporada) {
@@ -92,17 +96,17 @@ function cargarTabla(temporada) {
     });
 }
 
-function cargarPaginaClub(idClub) {
+function cargarPaginaClub(idClub, temporadaActual) {
     // Cargar archivo XML 
     $.ajax({
         type: "GET",
-        url: `../xml/XML_temporada1/clubes/PaginaClub_${idClub}.xml`, // Utilizar el id del club
+        url: `../xml/XML_temporada${temporadaActual}/clubes/PaginaClub_${idClub}.xml`, // Utilizar el id del club y la temporada proporcionada
         dataType: "xml",
         success: function (xml) {
             // Cargar la hoja de estilo XSLT
             $.ajax({
                 type: "GET",
-                url: "../xml/xsl/Paginaclub.xsl",
+                url: `../xml/xsl/Paginaclub.xsl`,
                 dataType: "xml",
                 success: function (xsl) {
                     // Crear un objeto de transformación XSLT
