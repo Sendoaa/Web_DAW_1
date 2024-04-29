@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NSLA-Clasificacion</title>
+  <link rel="stylesheet" href="../estilos/styles.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto" />
+  <link rel="icon" type="image/x-icon" href="../imagenes/logos/nofondo.png" />
+</head>
+
+<body>
+  <header>
+    <div class="left-section">
+      <a href="../index.html"><img class="logo" src="../imagenes/logos/nofondo2.png" alt="" /></a>
+    </div>
+    <div class="togglearea">
+      <label for="toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+    </div>
+    <input type="checkbox" id="toggle" />
+    <div class="navbar">
+      <a href="../index.html">Inicio</a>
+      <a href="../xm_xs/2023.xml">Calendario</a>
+      <a id="active" href="clasi.html">Clasificación</a>
+      <a href="../xm_xs/datos.xml">Equipos</a>
+      <a href="../paginas/noticias.php">Noticias</a>
+      <a href="contacto.html">Contacto</a>
+    </div>
+  </header>
+  <div class="select">
+    <select id="seleccionarPagina">
+      <option value="">Selecciona una Temporada</option>
+    </select>
+  </div>
+
+  <section>
+    <h1 id="tituloTemporada" class="titulin"></h1>
+    <!-- Tabla de clasificación -->
+    <div class="divtabla">
+      <table id="tablaclasi" class="tablaclasi">
+        <thead>
+          <tr>
+            <th colspan="9" class="titulotabla">Tabla de Clasificación de la NSLA</th>
+          </tr>
+          <tr class="columnatabla">
+            <th title="Logo">Logo</th>
+            <th title="Nombre">Nombre</th>
+            <th title="Partidos Jugados">PJ</th>
+            <th title="Victorias">V</th>
+            <th title="Derrotas">D</th>
+            <th title="Empates">E</th>
+            <th title="Puntos Totales">PT</th>
+          </tr>
+        </thead>
+        <tbody id="tablaBody">
+          <!-- Aqui se carga lo de JS -->
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div>
+      <ul>
+        <li><img class="logopie" src="../imagenes/logos/nofondo.png" alt="" /></li>
+        <li>
+          <p>
+            © 2023 NSLA Enterprises LLC. NSLA and the NSLA shield design are registered trademarks of the National Football League. The team names, logos,
+            and uniform designs are registered trademarks of the teams indicated. All other NSLA-related trademarks are trademarks of the National Football League.
+            NSLA footage © NSLA Productions LLC.
+          </p>
+        </li>
+        <li class="terms">
+          <a href="../paginas/privacidad.html">Política de Privacidad</a>
+          <a href="../paginas/terminos.html">Términos de Servicio</a>
+          <a href="">Términos y Condiciones de Subscripción</a>
+          <a href="">Tus Ajustes de Privacidad</a>
+          <a href="">Ajustes de Cookies</a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+  <script src="../scripts/clasificacion.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+  <!DOCTYPE html>
+  <html lang="es">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>BOF</title>
+      <link rel="stylesheet" href="../estilos/styles.css">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+      <link rel="icon" type="image/x-icon" href="./imagenes/logos/nofondo.png">
+      <!-- <script src="../scripts/formulario.js" defer></script> -->
+  </head>
+  <body>
+<script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="fb2e60d4-77bc-40f3-abd5-a336f7e2f383" data-blockingmode="auto" type="text/javascript"></script>
+<body>
+    <!--Cabecera de la página Barra Navegación mas Logo-->
+    <header>
+        <!-- Logo de la página -->
+        <div class="left-section">
+          <a href="./index.html"><img src="../imagenes/logos/BOFlogo.png" alt=""></a>
+        </div>
+        <!-- Hamburguesa de menu para abrir menu navegación -->
+        <div class="togglearea">
+            <label for="toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+        </div>
+          <input type="checkbox" id="toggle"> 
+        <!-- Barra navegación -->
+        <div class="navbar">
+          <a id="active" href="/index.html">Inicio</a>
+          <a href="../xm_xs/2023.xml">Calendario</a>
+          <a href="../paginas/clasi.html">Clasificación</a>
+          <a href="../xm_xs/datos.xml">Equipos</a>
+          <a href="../paginas/noticias.php">Noticias</a>
+          <a href="../paginas/contacto.html">Contacto</a>
+          
+        </div>
+    </header>
+    <!-- Formulario de login -->
+    <article class="posicion-container-login">
+      <div class="container">
+          <div class="login-container">
+              <div class="login-img">
+                  <img src="../imagenes/logos/BOFlogoGrande.png" alt="" class="tamano-img">
+              </div>
+              <form action="../php/login.php" method="post">
+                  <div class="form-group">
+                      <input type="text" name="nombre" class="entradatext" required placeholder="Nombre de usuario">
+                  </div>
+                  <div class="form-group">
+                      <input type="password" name="contraseña" class="entradatext" required placeholder="Contraseña">
+                  </div>
+                  <div class="form-group">
+                      <button type="submit" class="btn">Iniciar Sesión</button>
+                      <a href="./crearcuenta.html"><button type="button" class="btn" id="create-account">Crear Cuenta</button></a>
+                  </div>
+              </form>
+          </div>
+      </div>
+  </article>
+    <!-- Pie de pagina -->
+    <footer class="footer">
+      <div>
+        <ul>
+          <li><img src="./imagenes/logos/nofondo.png" alt="" class="logopie"></li>
+          <li><p>© 2023 NSLA Enterprises LLC. NSLA and the NSLA shield design are registered trademarks of the National Football League.The team names, logos and uniform designs are registered trademarks of the teams indicated. All other NSLA-related trademarks are trademarks of the National Football League. NSLA footage © NSLA Productions LLC.</p></li>
+          <li class="terms">
+            <a href="./paginas/privacidad.html">Política de Privacidad</a>
+            <a href="./paginas/terminos.html">Terminos de Servicio</a>
+            <a href="">Términos y Condiciones de Subscripción</a>
+            <a href="">Tus Ajustes de Privacidad</a>
+            <a href="">Ajustes de Cookies</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
