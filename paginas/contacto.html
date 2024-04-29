@@ -15,7 +15,7 @@
   <!-- Barra de navegacion -->
     <header>
         <div class="left-section">
-          <a href="../index.html"><img " src="../imagenes/logos/nofondo2.png" alt=""></a>
+          <a href="../index.html"><img src="../imagenes/logos/nofondo2.png" alt=""></a>
         </div>
         <div class="togglearea">
             <label for="toggle">
@@ -30,7 +30,7 @@
             <a  href="../xm_xs/2023.xml">Calendario</a>
             <a href="clasi.html">Clasificación</a>
             <a href="../xm_xs/datos.xml">Equipos</a>
-            <a  href="noticias.html">Noticias</a>
+            <a  href="../paginas/noticias.php">Noticias</a>
             <a id="active" href="contacto.html">Contacto</a>
           </div>
     </header>
@@ -38,19 +38,31 @@
     <div class="formcontact">
       <section class="sectionpacontact">
           <!-- Tipos de Inputs (text,email) -->
-          <form>
-              <input type="text" name="nombre" class="entradatext" required placeholder="Nombre"/>
-              <input type="email" class="entradatext" required placeholder="Dirección de correo"/>
-              <input type="text" class="entradatext" required placeholder="Apellidos"/>
-              <input type="text" class="entradatext" required placeholder="Asunto"/>
-              <textarea class="entradatext" required placeholder="Mensaje"></textarea>
-              <input class="enviar" type="submit" value="Enviar"/>
-          </form>
+          <form method="post" action="../paginas/guardar.php">
+            <input type="text" name="nombre" class="entradatext" required placeholder="Nombre"/>
+            <input type="text" name="apellidos" class="entradatext" required placeholder="Apellidos"/>
+            <input type="email" name="correo" class="entradatext" required placeholder="Dirección de correo"/>
+            <textarea name="mensaje" class="entradatext" required placeholder="Mensaje"></textarea>
+            <input class="enviar" type="submit" name="submit" value="Enviar"/>
+        </form>
       </section>
     </div>
      <!-- Pie de pagina -->
     <footer class="footer" id="footer"></footer>
     <script src="../scripts/footer.js"></script>
-    <script src="../scripts/formulario.js"></script>
+    
+    <script>
+      // JavaScript para mostrar el mensaje de confirmación si el formulario se ha enviado correctamente
+      document.addEventListener('DOMContentLoaded', function() {
+          const urlParams = new URLSearchParams(window.location.search);
+          const enviado = urlParams.get('enviado');
+          
+          if (enviado === 'true') {
+              if (confirm('¡Mensaje enviado correctamente, contactaremos contigo lo antes posible!')) {
+                  window.location.href = 'contacto.html'; // Redirige a contacto.html cuando el usuario acepteS
+              }
+          }
+      });
+  </script>
   </body>
 </html>

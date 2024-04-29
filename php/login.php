@@ -17,7 +17,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         session_start();
         $_SESSION['nombre'] = $nombre;
         // Redireccionar a la página de inicio o cualquier otra página protegida
-        header("Location: ../index.html");
+        header("Location: ../paginas/noticias.php");
         exit;
     } else {
         // Mostrar un mensaje de error si el usuario o la contraseña son incorrectos
