@@ -1,4 +1,6 @@
 <?php
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
 session_start();
 
 // Definir $esAdmin y $esInvitado inicialmente como falsos
@@ -29,40 +31,48 @@ if (isset($_GET['logout'])) {
 }
 
 // Ruta al archivo XML
-$xmlFile = "../xm_xs/noticias.xml";
+$xmlFile = "../xm_xs/2023.xml";
 
 // Cargar el archivo XML
-$xml = simplexml_load_file($xmlFile);
+$xmlString = file_get_contents($xmlFile);
+$xml = simplexml_load_string($xmlString);
 
-// Variable para el mensaje de éxito
-$successMessage = '';
+if ($xml === false) {
+    echo "Failed loading XML: ";
+    foreach(libxml_get_errors() as $error) {
+        echo "<br>", $error->message;
+    }
+} else {
+    // Variable para el mensaje de éxito
+    $successMessage = '';
 
-// Verificar si el formulario ha sido enviado
-if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['titulo']) && isset($_POST['contenido']) && isset($_FILES['imagen'])) {
-    // Obtén los valores de los campos del formulario
-    $titulo = $_POST['titulo'];
-    $contenido = $_POST['contenido'];
-    $imagen = $_FILES['imagen']['name'];
+    // Verificar si el formulario ha sido enviado
+    if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['titulo']) && isset($_POST['contenido']) && isset($_FILES['imagen'])) {
+        // Obtén los valores de los campos del formulario
+        $titulo = $_POST['titulo'];
+        $contenido = $_POST['contenido'];
+        $imagen = $_FILES['imagen']['name'];
 
-    // Crea un nuevo elemento de noticia
-    $newNoticia = $xml->addChild('noticia');
-    $newNoticia->addChild('id', 'noticia_' . (count($xml->noticia) + 1));
-    $newNoticia->addChild('titulo', $titulo);
-    $newNoticia->addChild('contenido', $contenido);
-    $newNoticia->addChild('imagen')->addAttribute('src', '../imagenes/otras/noticias/' . $imagen);
+        // Crea un nuevo elemento de noticia dentro de la sección de noticias
+        $newNoticia = $xml->seccion->addChild('noticia');
+        $newNoticia->addChild('id', 'noticia_' . (count($xml->seccion->noticia) + 1));
+        $newNoticia->addChild('titulo', $titulo);
+        $newNoticia->addChild('contenido', $contenido);
+        $newNoticia->addChild('imagen')->addAttribute('src', '../imagenes/otras/noticias/' . $imagen);
 
-    // Guarda el documento XML
-    $xml->asXML($xmlFile);
+        // Guarda el documento XML
+        $xml->asXML($xmlFile);
 
-    // Mueve el archivo de imagen subido a la carpeta de imágenes
-    move_uploaded_file($_FILES['imagen']['tmp_name'], "../imagenes/otras/noticias/" . $imagen);
+        // Mueve el archivo de imagen subido a la carpeta de imágenes
+        move_uploaded_file($_FILES['imagen']['tmp_name'], "../imagenes/otras/noticias/" . $imagen);
 
-    // Mensaje de éxito
-    $successMessage = 'La noticia se ha añadido correctamente.';
-    
-    // Redireccionar para evitar reenvío del formulario al actualizar la página
-    header("Location: {$_SERVER['REQUEST_URI']}");
-    exit();
+        // Mensaje de éxito
+        // $successMessage = 'La noticia se ha añadido correctamente.';
+
+        // Redirigir al usuario después de procesar el formulario
+        header("Location: noticias.php");
+        exit;
+    }
 }
 ?>
 
@@ -172,19 +182,21 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['titulo']) && isset($_
         <?php 
         $contador = 0;
         echo '<div class="grid-fila">';
-        foreach ($xml->noticia as $noticia): 
-            if ($contador % 3 == 0 && $contador != 0):
-                echo '</div><div class="clearfix"></div><div class="grid-fila">';
-            endif; ?>
-            <a href="<?php echo isset($noticia->imagen['href']) ? $noticia->imagen['href'] : '#'; ?>">
-                <div class="grid-noticia">
-                    <img src="<?php echo $noticia->imagen['src']; ?>" alt="">
-                    <div class="pie"><?php echo htmlspecialchars($noticia->titulo); ?></div>
-                </div>
-            </a>
-            <?php 
-            $contador++;
-        endforeach; 
+        if ($xml->seccion->noticia) {
+            foreach ($xml->seccion->noticia as $noticia): 
+                if ($contador % 3 == 0 && $contador != 0):
+                    echo '</div><div class="clearfix"></div><div class="grid-fila">';
+                endif; ?>
+                <a href="<?php echo isset($noticia->imagen['href']) ? $noticia->imagen['href'] : '#'; ?>">
+                    <div class="grid-noticia">
+                        <img src="<?php echo $noticia->imagen['src']; ?>" alt="">
+                        <div class="pie"><?php echo htmlspecialchars($noticia->titulo); ?></div>
+                    </div>
+                </a>
+                <?php 
+                $contador++;
+            endforeach; 
+        }
         if ($contador % 3 != 0):
             echo '</div><div class="clearfix"></div>';
         endif; ?>
