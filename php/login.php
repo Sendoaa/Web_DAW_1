@@ -17,7 +17,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         session_start();
         $_SESSION['nombre'] = $nombre;
         // Redireccionar a la página de inicio o cualquier otra página protegida
-        header("Location: ../paginas/noticias.php");
+        header("Location: ../index.php");
         exit;
     } else {
         // Mostrar un mensaje de error si el usuario o la contraseña son incorrectos
@@ -32,4 +32,10 @@ if (!isset($_SESSION['nombre'])) {
 }
 
 }
+
+// Verificar si el usuario no es ni administrador ni invitado
+if (!$esAdmin && !$esInvitado) {
+    echo "<script>alert('Acceso no autorizado'); window.location.href = '../paginas/login.html';</script>";
+  }
+
 ?>
