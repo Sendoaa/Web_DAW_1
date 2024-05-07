@@ -142,10 +142,10 @@ if (!empty($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVER['HTTP_X_REQ
         <div class="navbar">
             <a href="../index.php">Inicio</a>
             <a id="active" href="../paginas/calendario.php">Calendario</a>
-            <a href="../paginas/clasi.html">Clasificación</a>
-            <a href="../xm_xs/datos.xml">Equipos</a>
+            <a href="../paginas/clasi.php">Clasificación</a>
+            <a href="../xm_xs/datos.php">Equipos</a>
             <a href="../paginas/noticias.php">Noticias</a>
-            <a href="../paginas/contacto.html">Contacto</a>
+            <a href="../paginas/contacto.php">Contacto</a>
             <?php if ($loggedIn) : ?>
                 <?php if ($esAdmin) : ?>
                     <img id="userImage" src="../imagenes/otras/usuario.png" alt="Usuario Administrador">
