@@ -1,6 +1,10 @@
 <?php
 session_start();
 
+// Definir $esAdmin y $esInvitado inicialmente como falsos
+$esAdmin = false;
+$esInvitado = false;
+
 // Verificar si el usuario ha iniciado sesión
 if (isset($_SESSION['nombre'])) {
     $loggedIn = true;
@@ -8,159 +12,191 @@ if (isset($_SESSION['nombre'])) {
     $esAdmin = ($_SESSION['nombre'] == 'admin');
     $esInvitado = ($_SESSION['nombre'] == 'invitado');
     if ($_SESSION['nombre'] == 'admin') {
-      $esAdmin = true;
-      $esInvitado = false;
+        $esAdmin = true;
+        $esInvitado = false;
     } else {
-      $esAdmin = false;
-      $esInvitado = true;
+        $esAdmin = false;
+        $esInvitado = true;
     }
-    
-
 } else {
     $loggedIn = false;
 }
 
 // Verificar si el usuario ha hecho clic en el enlace de cierre de sesión
 if (isset($_GET['logout'])) {
-  $loggedIn = false;
-  unset($_SESSION['nombre']);
+    $loggedIn = false;
+    unset($_SESSION['nombre']);
 }
 
+// Ruta al archivo XML
+$xmlFile = "../xm_xs/noticias.xml";
+
+// Cargar el archivo XML
+$xml = simplexml_load_file($xmlFile);
+
+// Variable para el mensaje de éxito
+$successMessage = '';
+
+// Verificar si el formulario ha sido enviado
+if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['titulo']) && isset($_POST['contenido']) && isset($_FILES['imagen'])) {
+    // Obtén los valores de los campos del formulario
+    $titulo = $_POST['titulo'];
+    $contenido = $_POST['contenido'];
+    $imagen = $_FILES['imagen']['name'];
+
+    // Crea un nuevo elemento de noticia
+    $newNoticia = $xml->addChild('noticia');
+    $newNoticia->addChild('id', 'noticia_' . (count($xml->noticia) + 1));
+    $newNoticia->addChild('titulo', $titulo);
+    $newNoticia->addChild('contenido', $contenido);
+    $newNoticia->addChild('imagen')->addAttribute('src', '../imagenes/otras/noticias/' . $imagen);
+
+    // Guarda el documento XML
+    $xml->asXML($xmlFile);
+
+    // Mueve el archivo de imagen subido a la carpeta de imágenes
+    move_uploaded_file($_FILES['imagen']['tmp_name'], "../imagenes/otras/noticias/" . $imagen);
+
+    // Mensaje de éxito
+    $successMessage = 'La noticia se ha añadido correctamente.';
+    
+    // Redireccionar para evitar reenvío del formulario al actualizar la página
+    header("Location: {$_SERVER['REQUEST_URI']}");
+    exit();
+}
 ?>
 
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>NSLA-Noticias</title>
-  <link rel="stylesheet" href="../estilos/styles.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
-  <link rel="icon" type="image/x-icon" href="../imagenes/logos/nofondo.png">
-  <script>src="../scripts/usuarios.js"</script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NSLA-Noticias</title>
+    <link rel="stylesheet" href="../estilos/styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="icon" type="image/x-icon" href="../imagenes/logos/BOFlogo.png">
 </head>
-<!-- Contenido de la pagina -->
 <body>
- <!--Cabecera de la página Barra Navegación mas Logo-->
- <header>
-        <!-- Logo de la página -->
-        <div class="left-section">
-          <a href="./index.html"><img src="../imagenes/logos/nofondo2.png" alt=""></a>
-        </div>
-        <!-- Hamburguesa de menu para abrir menu navegación -->
-        <div class="togglearea">
-            <label for="toggle">
-                <span></span>
-                <span></span>
-                <span></span>
-            </label>
-        </div>
-          <input type="checkbox" id="toggle"> 
-        <!-- Barra navegación -->
-        <div class="navbar">
-          <a href="../index.html">Inicio</a>
-          <a href="../xm_xs/2023.xml">Calendario</a>
-          <a href="../paginas/clasi.html">Clasificación</a>
-          <a href="../xm_xs/datos.xml">Equipos</a>
-          <a id="active" href="../paginas/noticias.php">Noticias</a>
-          <a href="../paginas/contacto.html">Contacto</a>
-          <?php if ($loggedIn): ?>
-    <?php if ($esAdmin): ?>
-        <img id="userImage" src="../imagenes/otras/usuario.png" alt="Usuario Administrador">
-        <div id="dropdownMenu" style="display: none;">
-        <h1>ADMIN</h1>
-        <a href="../paginas/admin.php">Mi cuenta</a>
-        <a id="logoutlink" href="noticias.php?logout=true">Cerrar sesión</a>
-        </div>
-    <?php elseif ($esInvitado): ?>
-        <img id="userImage" src="../imagenes/otras/usuario.png" alt="Usuario Invitado">
-        <div id="dropdownMenu" style="display: none;">
-        <h1>INVITADO</h1>
-        <a href="/mi-cuenta">Mi cuenta</a>
-        <a id="logoutlink" href="noticias.php?logout=true">Cerrar sesión</a>
-        </div>
-    <?php endif; ?>
-<?php else: ?>
-    <button class="button-login"><a href="./login.html" class="navbar-login">LOGIN</a></button>
-<?php endif; ?>
-</div>
-    </header>
-<!-- Seccion de todas las noticias -->
- <section class="noticias">
-    <h1>Últimas Noticias</h1>
-    <!-- Div de tres noticias -->
-    <div class="grid-noticias">
-      <a href="noticia1.html">
-        <!-- Primera noticia Imagen + Pie -->
-        <div class="grid-noticia">
-          <img src="../imagenes/otras/noticias/noticia1.jpg" alt="">
-          <div class="pie">Un desastre llamado Zach Wilson</div>
-        </div>
-      </a>
-       <!-- Segunda noticia Imagen + Pie -->
-      <div class="grid-noticia">
-        <img src="../imagenes/otras/noticias/noticia2.jpg" alt="">
-        <div class="pie">Los Jets cambian al WR Mecole Hardman a los Chiefs</div>
-      </div>
-       <!-- Tercera noticia Imagen + Pie -->
-      <div class="grid-noticia">
-        <img src="../imagenes/otras/noticias/noticia3.png" alt="">
-        <div class="pie">Informe de lesiones de la NSLA de la semana 7 para la temporada 2023</div>
-      </div>
+<header>
+    <div class="left-section">
+        <a href="./index.html"><img src="../imagenes/logos/BOFlogo.png" alt=""></a>
     </div>
-     <!-- Seccion Noticias Populares -->
-    <h1>Noticias Populares</h1>
-    <div class="grid-noticias">
-      <a href="noticia2.html">
-         <!-- Primera noticia Imagen + Pie -->
-        <div class="grid-noticia">
-          <img src="../imagenes/otras/noticias/noticia4.png" alt="">
-          <div class="pie">Nuevas reglas para los playoffs <p></p>
-          </div>
-        </div>
-      </a>
-       <!-- Segunda noticia Imagen + Pie -->
-      <div class="grid-noticia">
-        <img src="../imagenes/otras/noticias/noticia5.png" alt="">
-        <div class="pie">Anthony Richardson se someterá a una cirugía de hombro que pondrá fin a su temporada</div>
-      </div>
-       <!-- Tercera noticia Imagen + Pie -->
-      <div class="grid-noticia">
-        <img src="../imagenes/otras/noticias/noticia6.webp" alt="">
-        <div class="pie">El comisionado de la NSLA, Roger Goodell, acuerda una extensión de contrato hasta 2027</div>
-      </div>
+    <div class="togglearea">
+        <label for="toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
     </div>
-     <!-- Seccion Para ti -->
-    <h1>Para ti</h1>
-    <div class="grid-noticias">
-       <!-- Primera noticia Imagen + Pie -->
-      <div class="grid-noticia">
-        <img src="../imagenes/otras/noticias/noticia7.webp" alt="">
-        <div class="pie"><p></p>La NSLA busca eliminar el tackle con caída de cadera y discute el 'empuje de trasero'</div>
-      </div>
-       <!-- Segunda noticia Imagen + Pie -->
-      <div class="grid-noticia">
-        <img src="../imagenes/otras/noticias/noticia8.png" alt="">
-        <div class="pie"><p></p><p>Bears CB Jaylon Johnson 'no ciego' para negociar</p></div>
-      </div>
-       <!-- Tercera noticia Imagen + Pie -->
-      <div class="grid-noticia">
-        <img src="../imagenes/otras/radio2.jpg" alt="">
-        <div class="pie">
-          <!-- Audio en directo de una radio sobre la NFL -->
-          <audio controls>
-            <source src="https://playerservices.streamtheworld.com/api/livestream-redirect/KRLVAM.mp3"></source>
-          </audio>
-        </div>
-      </div>
+    <input type="checkbox" id="toggle">
+    <div class="navbar">
+        <a href="../index.php">Inicio</a>
+        <a href="../paginas/calendario.php">Calendario</a>
+        <a href="../paginas/clasi.php">Clasificación</a>
+        <a href="../paginas/datos.php">Equipos</a>
+        <a id="active" href="../paginas/noticias.php">Noticias</a>
+        <a href="../paginas/contacto.php">Contacto</a>
+        <?php if ($loggedIn): ?>
+            <?php if ($esAdmin): ?>
+                <img id="userImage" src="../imagenes/otras/usuario.png" alt="Usuario Administrador">
+                <div id="dropdownMenu" style="display: none;">
+                    <h1>ADMIN</h1>
+                    <a href="../paginas/admin.php">Mi cuenta</a>
+                    <a id="logoutlink" href="noticias.php?logout=true">Cerrar sesión</a>
+                </div>
+            <?php elseif ($esInvitado): ?>
+                <img id="userImage" src="../imagenes/otras/usuario.png" alt="Usuario Invitado">
+                <div id="dropdownMenu" style="display: none;">
+                    <h1>INVITADO</h1>
+                    <a href="/mi-cuenta">Mi cuenta</a>
+                    <a id="logoutlink" href="noticias.php?logout=true">Cerrar sesión</a>
+                </div>
+            <?php endif; ?>
+        <?php else: ?>
+            <button class="button-login"><a href="./login.html" class="navbar-login">LOGIN</a></button>
+        <?php endif; ?>
     </div>
-  </section>
+</header> 
 
-</body>
- <!-- Pie de pagina -->
+<?php if ($loggedIn && $esAdmin): ?>
+    <div class="button-add-news-centrar">
+        <!-- Botón para abrir el formulario modal -->
+        <button class="button-add-news" id="openModal">Añadir Noticia</button>
+    </div>
+
+    <!-- Modal y formulario -->
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <!-- Formulario para agregar una nueva noticia -->
+            <form action="" method="post" enctype="multipart/form-data">
+                <label for="titulo">Título Noticia:</label><br>
+                <input type="text" id="titulo" name="titulo" required><br>
+                <label for="contenido">Contenido Noticia:</label><br>
+                <textarea id="contenido" name="contenido" required></textarea><br>
+                <label for="imagen">Imagen:</label><br>
+                <input type="file" id="imagen" name="imagen" required><br>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+
+    <!-- Script para abrir y cerrar el modal -->
+    <script>
+        // Obtener referencias a los elementos del DOM
+        var modal = document.getElementById('myModal');
+        var btnOpenModal = document.getElementById('openModal');
+        var spanCloseModal = document.getElementsByClassName('close')[0];
+
+        // Función para abrir el modal
+        btnOpenModal.onclick = function() {
+            modal.style.display = 'block';
+        }
+
+        // Función para cerrar el modal
+        spanCloseModal.onclick = function() {
+            modal.style.display = 'none';
+        }
+
+        // Cerrar el modal si el usuario hace clic fuera de él
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.display = 'none';
+            }
+        }
+    </script>
+<?php endif; ?>
+<section class="noticias">
+    <div class="grid-noticias">
+        <?php 
+        $contador = 0;
+        echo '<div class="grid-fila">';
+        foreach ($xml->noticia as $noticia): 
+            if ($contador % 3 == 0 && $contador != 0):
+                echo '</div><div class="clearfix"></div><div class="grid-fila">';
+            endif; ?>
+            <a href="<?php echo isset($noticia->imagen['href']) ? $noticia->imagen['href'] : '#'; ?>">
+                <div class="grid-noticia">
+                    <img src="<?php echo $noticia->imagen['src']; ?>" alt="">
+                    <div class="pie"><?php echo htmlspecialchars($noticia->titulo); ?></div>
+                </div>
+            </a>
+            <?php 
+            $contador++;
+        endforeach; 
+        if ($contador % 3 != 0):
+            echo '</div><div class="clearfix"></div>';
+        endif; ?>
+    </div>
+</section>
+
+<?php if (!empty($successMessage)): ?>
+    <div class="success-message"><?php echo $successMessage; ?></div>
+<?php endif; ?>
+
 <footer class="footer" id="footer"></footer>
 <script src="../scripts/footer.js"></script>
 <script src="../scripts/usuarios.js"></script>
-
+</body>
 </html>
