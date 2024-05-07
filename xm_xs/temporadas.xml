@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<temporadas xsi:noNamespaceSchemaLocation="temporadas.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<temp>2021</temp>
+<temp>2022</temp>
+<temp>2023</temp>
+</temporadas>

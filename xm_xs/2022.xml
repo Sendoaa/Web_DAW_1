@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="calendar.xsl"?>
+<temporada xsi:noNamespaceSchemaLocation="calendar.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <numtemp>Temporada 2022</numtemp>
+    <jornada num="1">
+        <partido>
+            <fecha>Viernes, 2 de marzo</fecha>
+            <hora>20:15</hora>
+            <equipos>
+                <local>Cardinals</local>
+                <puntoslocal>25</puntoslocal>
+                <visitante>Rams</visitante>
+                <puntosvisitante>35</puntosvisitante>
+            </equipos>
+        </partido>
+        <partido>
+            <fecha>Sábado, 3 de marzo</fecha>
+            <hora>21:45</hora>
+            <equipos>
+                <local>Raiders</local>
+                <puntoslocal>20</puntoslocal>
+                <visitante>Cowboys</visitante>
+                <puntosvisitante>30</puntosvisitante>
+            </equipos>
+        </partido>
+        <partido>
+            <fecha>Domingo, 4 de marzo</fecha>
+            <hora>23:30</hora>
+            <equipos>
+                <local>Bengals</local>
+                <puntoslocal>40</puntoslocal>
+                <visitante>Steelers</visitante>
+                <puntosvisitante>45</puntosvisitante>
+            </equipos>
+        </partido>
+    </jornada>
+    <jornada num="2">
+        <partido>
+            <fecha>Viernes, 9 de marzo</fecha>
+            <hora>19:15</hora>
+            <equipos>
+                <local>Rams</local>
+                <puntoslocal>15</puntoslocal>
+                <visitante>Cardinals</visitante>
+                <puntosvisitante>20</puntosvisitante>
+            </equipos>
+        </partido>
+        <partido>
+            <fecha>Sábado, 10 de marzo</fecha>
+            <hora>21:00</hora>
+            <equipos>
+                <local>Cowboys</local>
+                <puntoslocal>25</puntoslocal>
+                <visitante>Raiders</visitante>
+                <puntosvisitante>30</puntosvisitante>
+            </equipos>
+        </partido>
+        <partido>
+            <fecha>Domingo, 11 de marzo</fecha>
+            <hora>18:30</hora>
+            <equipos>
+                <local>Steelers</local>
+                <puntoslocal>35</puntoslocal>
+                <visitante>Bengals</visitante>
+                <puntosvisitante>40</puntosvisitante>
+            </equipos>
+        </partido>
+    </jornada>    
+    <jornada num="3">
+        <partido>
+            <fecha>Martes, 13 de marzo</fecha>
+            <hora>16:30</hora>
+            <equipos>
+                <local>Cardinals</local>
+                <puntoslocal>10</puntoslocal>
+                <visitante>Cowboys</visitante>
+                <puntosvisitante>15</puntosvisitante>
+            </equipos>
+        </partido>
+        <partido>
+            <fecha>Miércoles, 14 de marzo</fecha>
+            <hora>18:00</hora>
+            <equipos>
+                <local>Raiders</local>
+                <puntoslocal>20</puntoslocal>
+                <visitante>Rams</visitante>
+                <puntosvisitante>25</puntosvisitante>
+            </equipos>
+        </partido>
+        <partido>
+            <fecha>Jueves, 15 de marzo</fecha>
+            <hora>20:00</hora>
+            <equipos>
+                <local>Bengals</local>
+                <puntoslocal>30</puntoslocal>
+                <visitante>Steelers</visitante>
+                <puntosvisitante>35</puntosvisitante>
+            </equipos>
+        </partido>
+    </jornada>    
+    <jornada num="4">
+        <partido>
+            <fecha>Martes, 20 de marzo</fecha>
+            <hora>17:15</hora>
+            <equipos>
+                <local>Rams</local>
+                <puntoslocal>15</puntoslocal>
+                <visitante>Cardinals</visitante>
+                <puntosvisitante>20</puntosvisitante>
+            </equipos>
+        </partido>
+        <partido>
+            <fecha>Miércoles, 21 de marzo</fecha>
+            <hora>18:45</hora>
+            <equipos>
+                <local>Cowboys</local>
+                <puntoslocal>25</puntoslocal>
+                <visitante>Raiders</visitante>
+                <puntosvisitante>30</puntosvisitante>
+            </equipos>
+        </partido>
+        <partido>
+            <fecha>Jueves, 22 de marzo</fecha>
+            <hora>20:30</hora>
+            <equipos>
+                <local>Steelers</local>
+                <puntoslocal>35</puntoslocal>
+                <visitante>Bengals</visitante>
+                <puntosvisitante>40</puntosvisitante>
+            </equipos>
+        </partido>
+    </jornada>    
+    <jornada num="5">
+        <partido>
+            <fecha>Lunes, 26 de marzo</fecha>
+            <hora>16:45</hora>
+            <equipos>
+                <local>Rams</local>
+                <puntoslocal>10</puntoslocal>
+                <visitante>Steelers</visitante>
+                <puntosvisitante>15</puntosvisitante>
+            </equipos>
+        </partido>
+        <partido>
+            <fecha>Martes, 27 de marzo</fecha>
+            <hora>18:15</hora>
+            <equipos>
+                <local>Bengals</local>
+                <puntoslocal>20</puntoslocal>
+                <visitante>Cardinals</visitante>
+                <puntosvisitante>25</puntosvisitante>
+            </equipos>
+        </partido>
+        <partido>
+            <fecha>Jueves, 29 de marzo</fecha>
+            <hora>21:15</hora>
+            <equipos>
+                <local>Cowboys</local>
+                <puntoslocal>40</puntoslocal>
+                <visitante>Raiders</visitante>
+                <puntosvisitante>45</puntosvisitante>
+            </equipos>
+        </partido>
+    </jornada>    
+    <jornada num="6">
+        <partido>
+            <fecha>Lunes, 9 de abril</fecha>
+            <hora>16:45</hora>
+            <equipos>
+                <local>Steelers</local>
+                <puntoslocal>15</puntoslocal>
+                <visitante>Rams</visitante>
+                <puntosvisitante>20</puntosvisitante>
+            </equipos>
+        </partido>
+        <partido>
+            <fecha>Martes, 10 de abril</fecha>
+            <hora>18:15</hora>
+            <equipos>
+                <local>Cardinals</local>
+                <puntoslocal>25</puntoslocal>
+                <visitante>Bengals</visitante>
+                <puntosvisitante>30</puntosvisitante>
+            </equipos>
+        </partido>
+        <partido>
+            <fecha>Jueves, 12 de abril</fecha>
+            <hora>21:15</hora>
+            <equipos>
+                <local>Raiders</local>
+                <puntoslocal>20</puntoslocal>
+                <visitante>Cowboys</visitante>
+                <puntosvisitante>25</puntosvisitante>
+            </equipos>
+        </partido>
+    </jornada>    
+    <jornada num="7">
+        <partido>
+            <fecha>Lunes, 23 de abril</fecha>
+            <hora>16:30</hora>
+            <equipos>
+                <local>Cowboys</local>
+                <puntoslocal>30</puntoslocal>
+                <visitante>Rams</visitante>
+                <puntosvisitante>35</puntosvisitante>
+            </equipos>
+        </partido>
+        <partido>
+            <fecha>Martes, 24 de abril</fecha>
+            <hora>18:00</hora>
+            <equipos>
+                <local>Raiders</local>
+                <puntoslocal>25</puntoslocal>
+                <visitante>Cardinals</visitante>
+                <puntosvisitante>30</puntosvisitante>
+            </equipos>
+        </partido>
+        <partido>
+            <fecha>Miércoles, 25 de abril</fecha>
+            <hora>19:30</hora>
+            <equipos>
+                <local>Bengals</local>
+                <puntoslocal>35</puntoslocal>
+                <visitante>Steelers</visitante>
+                <puntosvisitante>40</puntosvisitante>
+            </equipos>
+        </partido>
+    </jornada>    
+    <jornada num="8">
+        <partido>
+            <fecha>Lunes, 30 de abril</fecha>
+            <hora>16:30</hora>
+            <equipos>
+                <local>Rams</local>
+                <puntoslocal>25</puntoslocal>
+                <visitante>Cowboys</visitante>
+                <puntosvisitante>30</puntosvisitante>
+            </equipos>
+        </partido>
+        <partido>
+            <fecha>Martes, 1 de mayo</fecha>
+            <hora>18:00</hora>
+            <equipos>
+                <local>Cardinals</local>
+                <puntoslocal>35</puntoslocal>
+                <visitante>Raiders</visitante>
+                <puntosvisitante>40</puntosvisitante>
+            </equipos>
+        </partido>
+        <partido>
+            <fecha>Miércoles, 2 de mayo</fecha>
+            <hora>19:30</hora>
+            <equipos>
+                <local>Steelers</local>
+                <puntoslocal>20</puntoslocal>
+                <visitante>Bengals</visitante>
+                <puntosvisitante>25</puntosvisitante>
+            </equipos>
+        </partido>
+    </jornada>    
+    <jornada num="9">
+        <partido>
+            <fecha>Lunes, 7 de mayo</fecha>
+            <hora>16:30</hora>
+            <equipos>
+                <local>Cardinals</local>
+                <puntoslocal>15</puntoslocal>
+                <visitante>Bengals</visitante>
+                <puntosvisitante>20</puntosvisitante>
+            </equipos>
+        </partido>
+        <partido>
+            <fecha>Martes, 8 de mayo</fecha>
+            <hora>18:00</hora>
+            <equipos>
+                <local>Steelers</local>
+                <puntoslocal>25</puntoslocal>
+                <visitante>Rams</visitante>
+                <puntosvisitante>30</puntosvisitante>
+            </equipos>
+        </partido>
+        <partido>
+            <fecha>Miércoles, 9 de mayo</fecha>
+            <hora>19:30</hora>
+            <equipos>
+                <local>Cowboys</local>
+                <puntoslocal>35</puntoslocal>
+                <visitante>Raiders</visitante>
+                <puntosvisitante>40</puntosvisitante>
+            </equipos>
+        </partido>
+    </jornada>    
+    <jornada num="10">
+        <partido>
+            <fecha>Lunes, 14 de mayo</fecha>
+            <hora>16:30</hora>
+            <equipos>
+                <local>Bengals</local>
+                <puntoslocal>20</puntoslocal>
+                <visitante>Cardinals</visitante>
+                <puntosvisitante>25</puntosvisitante>
+            </equipos>
+        </partido>
+        <partido>
+            <fecha>Martes, 15 de mayo</fecha>
+            <hora>18:00</hora>
+            <equipos>
+                <local>Rams</local>
+                <puntoslocal>30</puntoslocal>
+                <visitante>Steelers</visitante>
+                <puntosvisitante>35</puntosvisitante>
+            </equipos>
+        </partido>
+        <partido>
+            <fecha>Miércoles, 16 de mayo</fecha>
+            <hora>19:30</hora>
+            <equipos>
+                <local>Raiders</local>
+                <puntoslocal>15</puntoslocal>
+                <visitante>Cowboys</visitante>
+                <puntosvisitante>20</puntosvisitante>
+            </equipos>
+        </partido>
+    </jornada>    
+</temporada>

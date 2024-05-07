@@ -1,0 +1,40 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="temporada">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element type="xs:string" name="numtemp"/>
+        <xs:element name="jornada" maxOccurs="unbounded" minOccurs="0">
+          <xs:annotation>
+            <xs:documentation> Datos de las jornadas  Jornada 6  Jornada 7  Jornada 8  Jornada 9  Jornada 10 </xs:documentation>
+          </xs:annotation>
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="partido" maxOccurs="unbounded" minOccurs="0">
+                <xs:annotation>
+                  <xs:documentation> Eliminamos el cuarto partido extra </xs:documentation>
+                </xs:annotation>
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="fecha"/>
+                    <xs:element type="xs:string" name="hora" maxOccurs="unbounded" minOccurs="0"/>
+                    <xs:element name="equipos">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="local"/>
+                          <xs:element type="xs:string" name="puntoslocal"/>
+                          <xs:element type="xs:string" name="visitante"/>
+                          <xs:element type="xs:string" name="puntosvisitante"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute type="xs:integer" name="num" use="optional"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
