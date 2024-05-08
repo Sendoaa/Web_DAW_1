@@ -39,10 +39,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['titulo']) && isset($_
     $imagen = $_FILES['imagen']['name'];
 
 
-    $xml = simplexml_load_file('../xm_xs/2023.xml');
+    $xml = simplexml_load_file('../xm_xs/temporada.xml');
 
     // Guarda el documento XML
-    $xml->asXML('../xm_xs/2023.xml');
+    $xml->asXML('../xm_xs/temporada.xml');
 
 
 
@@ -55,7 +55,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['titulo']) && isset($_
 
 // Cargar el contenido XML por defecto (calendario.xml) para mostrar el calendario inicialmente
 $temporadaSeleccionada = isset($_GET['temporada']) ? $_GET['temporada'] : '2023';
-$xml = simplexml_load_file("../xm_xs/2023.xml");
+$xml = simplexml_load_file("../xm_xs/temporada.xml");
 
 
 
