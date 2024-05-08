@@ -13,28 +13,6 @@
         <link rel="icon" type="image/x-icon" href="../imagenes/logos/nofondo.png"/>
       </head>
       <body>
-        <header>
-          <div class="left-section">
-            <a href="../index.html"><img class="marginleft" src="../imagenes/logos/nofondo2.png" alt=""/></a>
-          </div>
-          <div class="togglearea">
-            <label for="toggle">
-              <span></span>
-              <span></span>
-              <span></span>
-            </label>
-          </div>
-          <input type="checkbox" id="toggle"/>
-          <div class="navbar">
-            <a href="../index.html">Inicio</a>
-            <a href="2023.xml">Calendario</a>
-            <a href="../paginas/clasi.html">Clasificación</a>
-            <a id="active" href="datos.xml">Equipos</a>
-            <a href="../paginas/noticias.php">Noticias</a>
-            <a href="../paginas/contacto.html">Contacto</a>
-          </div>
-        </header>
-
         <xsl:apply-templates select="//equipos"/>
         <a class="boton" href="#active"><button class="pasubir">
           <svg class="svgIcon" viewBox="0 0 384 512">
@@ -43,27 +21,6 @@
             ></path>
           </svg>
         </button></a>
-        <footer class="footer">
-          <div>
-            <ul>
-              <li><img class="logopie" src="../imagenes/logos/nofondo.png" alt=""/></li>
-              <li>
-                <p>
-                  © 2023 NSLA Enterprises LLC. NSLA and the NSLA shield design are registered trademarks of the National Football League.
-                  The team names, logos and uniform designs are registered trademarks of the teams indicated.
-                  All other NSLA-related trademarks are trademarks of the National Football League. NSLA footage © NSLA Productions LLC.
-                </p>
-              </li>
-              <li class="terms">
-                <a href="../paginas/privacidad.html">Política de Privacidad</a>
-                <a href="../paginas/terminos.html">Terminos de Servicio</a>
-                <a href="">Términos y Condiciones de Subscripción</a>
-                <a href="">Tus Ajustes de Privacidad</a>
-                <a href="">Ajustes de Cookies</a>
-              </li>
-            </ul>
-          </div>
-        </footer>
       </body>
     </html>
   </xsl:template>

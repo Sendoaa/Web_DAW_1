@@ -324,9 +324,7 @@
                 </equipos>
             </partido>
         </jornada>
-
     </temporada>
-
     <temporada xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" num="2022" xsi:noNamespaceSchemaLocation="calendar.xsd">
         <numtemp>Temporada 2022</numtemp>
         <jornada num="1">
@@ -1043,765 +1041,503 @@
             <contenido/>
             <imagen src="../imagenes/otras/noticias/noticia8.png"/>
         </noticia>
-   <noticia><id>noticia_11</id><titulo>rtw4erwes</titulo><contenido>tgdrdg</contenido><imagen src="../imagenes/otras/noticias/sponsors.png"/></noticia><noticia><id>noticia_12</id><titulo>rtw4erwes</titulo><contenido>tgdrdg</contenido><imagen src="../imagenes/otras/noticias/sponsors.png"/></noticia><noticia><id>noticia_13</id><titulo>rtw4erwes</titulo><contenido>tgdrdg</contenido><imagen src="../imagenes/otras/noticias/sponsors.png"/></noticia><noticia><id>noticia_14</id><titulo>tge</titulo><contenido>gerr</contenido><imagen src="../imagenes/otras/noticias/luka.jpg"/></noticia><noticia><id>noticia_15</id><titulo>htrv</titulo><contenido>gergr</contenido><imagen src="../imagenes/otras/noticias/elliot.jpg"/></noticia></seccion>
-   <equipos xsi:noNamespaceSchemaLocation="datos.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   </seccion>
+   <equiposliga xsi:noNamespaceSchemaLocation="datos.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <equipo>
+        <nombreequipo>
+            <nombre>Lakers</nombre>
+        </nombreequipo>
+        <escudo>../imagenes/otras/logosequipos/Lakers.png</escudo>
+        <entrenador>
+            <nombre>Frank Vogel</nombre>
+            <imagen>../imagenes/otras/vogel.png</imagen>
+        </entrenador>
+        <jugadores>
+            <PG>
+                <jugador>
+                    <nombre>LeBron James</nombre>
+                    <imagen>https://is.gd/lebron_james</imagen>
+                </jugador>
+                <jugador>
+                    <nombre>Russell Westbrook</nombre>
+                    <imagen>https://is.gd/russell_westbrook</imagen>
+                </jugador>
+            </PG>
+            <SG>
+                <jugador>
+                    <nombre>Anthony Davis</nombre>
+                    <imagen>https://is.gd/anthony_davis</imagen>
+                </jugador>
+                <jugador>
+                    <nombre>Talen Horton-Tucker</nombre>
+                    <imagen>https://is.gd/talen_horton_tucker</imagen>
+                </jugador>
+            </SG>
+            <SF>
+                <jugador>
+                    <nombre>Carmelo Anthony</nombre>
+                    <imagen>https://is.gd/carmelo_anthony</imagen>
+                </jugador>
+                <jugador>
+                    <nombre>Kent Bazemore</nombre>
+                    <imagen>https://is.gd/kent_bazemore</imagen>
+                </jugador>
+            </SF>
+            <PF>
+                <jugador>
+                    <nombre>Dwight Howard</nombre>
+                    <imagen>https://is.gd/dwight_howard</imagen>
+                </jugador>
+                <jugador>
+                    <nombre>Malik Monk</nombre>
+                    <imagen>https://is.gd/malik_monk</imagen>
+                </jugador>
+            </PF>
+            <C>
+                <jugador>
+                    <nombre>DeAndre Jordan</nombre>
+                    <imagen>https://is.gd/deandre_jordan</imagen>
+                </jugador>
+                <jugador>
+                    <nombre>JaVale McGee</nombre>
+                    <imagen>https://is.gd/javale_mcgee</imagen>
+                </jugador>
+            </C>
+        </jugadores>
+    </equipo>
+        <equipo>
+            <nombreequipo>
+                <nombre>Mavericks</nombre>
+            </nombreequipo>
+            <escudo>../imagenes/otras/logosequipos/Mavericks.png</escudo>
+            <entrenador>
+                <nombre>Jason Kidd</nombre>
+                <imagen>../imagenes/otras/kidd.png</imagen>
+            </entrenador>
+            <jugadores>
+                <PG>
+                    <jugador>
+                        <nombre>Luka Dončić</nombre>
+                        <imagen>https://is.gd/luka_doncic</imagen>
+                    </jugador>
+                    <jugador>
+                        <nombre>Jalen Brunson</nombre>
+                        <imagen>https://is.gd/jalen_brunson</imagen>
+                    </jugador>
+                </PG>
+                <SG>
+                    <jugador>
+                        <nombre>Tim Hardaway Jr.</nombre>
+                        <imagen>https://is.gd/tim_hardaway_jr</imagen>
+                    </jugador>
+                    <jugador>
+                        <nombre>Seth Curry</nombre>
+                        <imagen>https://is.gd/seth_curry</imagen>
+                    </jugador>
+                </SG>
+                <SF>
+                    <jugador>
+                        <nombre>Dorian Finney-Smith</nombre>
+                        <imagen>https://is.gd/dorian_finney_smith</imagen>
+                    </jugador>
+                    <jugador>
+                        <nombre>Josh Green</nombre>
+                        <imagen>https://is.gd/josh_green</imagen>
+                    </jugador>
+                </SF>
+                <PF>
+                    <jugador>
+                        <nombre>Kristaps Porziņģis</nombre>
+                        <imagen>https://is.gd/kristaps_porzingis</imagen>
+                    </jugador>
+                    <jugador>
+                        <nombre>Dwight Powell</nombre>
+                        <imagen>https://is.gd/dwight_powell</imagen>
+                    </jugador>
+                </PF>
+                <C>
+                    <jugador>
+                        <nombre>Maxi Kleber</nombre>
+                        <imagen>https://is.gd/maxi_kleber</imagen>
+                    </jugador>
+                    <jugador>
+                        <nombre>Boban Marjanović</nombre>
+                        <imagen>https://is.gd/boban_marjanovic</imagen>
+                    </jugador>
+                </C>
+            </jugadores>
+        </equipo>                
+    <equipo>
+        <nombreequipo>
+            <nombre>Celtics</nombre>
+        </nombreequipo>
+        <escudo>../imagenes/otras/logosequipos/Celtics.png</escudo>
+        <entrenador>
+            <nombre>Ime Udoka</nombre>
+            <imagen>../imagenes/otras/udoka.png</imagen>
+        </entrenador>
+        <jugadores>
+            <PG>
+                <jugador>
+                    <nombre>Marcus Smart</nombre>
+                    <imagen>https://is.gd/marcus_smart</imagen>
+                </jugador>
+                <jugador>
+                    <nombre>Dennis Schröder</nombre>
+                    <imagen>https://is.gd/dennis_schroder</imagen>
+                </jugador>
+            </PG>
+            <SG>
+                <jugador>
+                    <nombre>Jaylen Brown</nombre>
+                    <imagen>https://is.gd/jaylen_brown</imagen>
+                </jugador>
+                <jugador>
+                    <nombre>Romeo Langford</nombre>
+                    <imagen>https://is.gd/romeo_langford</imagen>
+                </jugador>
+            </SG>
+            <SF>
+                <jugador>
+                    <nombre>Jayson Tatum</nombre>
+                    <imagen>https://is.gd/jayson_tatum</imagen>
+                </jugador>
+                <jugador>
+                    <nombre>Aaron Nesmith</nombre>
+                    <imagen>https://is.gd/aaron_nesmith</imagen>
+                </jugador>
+            </SF>
+            <PF>
+                <jugador>
+                    <nombre>Al Horford</nombre>
+                    <imagen>https://is.gd/al_horford</imagen>
+                </jugador>
+                <jugador>
+                    <nombre>Grant Williams</nombre>
+                    <imagen>https://is.gd/grant_williams</imagen>
+                </jugador>
+            </PF>
+            <C>
+                <jugador>
+                    <nombre>Robert Williams III</nombre>
+                    <imagen>https://is.gd/robert_williams</imagen>
+                </jugador>
+                <jugador>
+                    <nombre>Enes Kanter</nombre>
+                    <imagen>https://is.gd/enes_kanter</imagen>
+                </jugador>
+            </C>
+        </jugadores>
+    </equipo>         
+    <equipo>
+        <nombreequipo>
+            <nombre>Rockets</nombre>
+        </nombreequipo>
+        <escudo>../imagenes/otras/logosequipos/Rockets.png</escudo>
+        <entrenador>
+            <nombre>Stephen Silas</nombre>
+            <imagen>../imagenes/otras/silas.png</imagen>
+        </entrenador>
+        <jugadores>
+            <PG>
+                <jugador>
+                    <nombre>Kevin Porter Jr.</nombre>
+                    <imagen>https://is.gd/kevin_porter_jr</imagen>
+                </jugador>
+                <jugador>
+                    <nombre>D.J. Augustin</nombre>
+                    <imagen>https://is.gd/dj_augustin</imagen>
+                </jugador>
+            </PG>
+            <SG>
+                <jugador>
+                    <nombre>Jalen Green</nombre>
+                    <imagen>https://is.gd/jalen_green</imagen>
+                </jugador>
+                <jugador>
+                    <nombre>Armoni Brooks</nombre>
+                    <imagen>https://is.gd/armoni_brooks</imagen>
+                </jugador>
+            </SG>
+            <SF>
+                <jugador>
+                    <nombre>Jae'Sean Tate</nombre>
+                    <imagen>https://is.gd/jaesean_tate</imagen>
+                </jugador>
+                <jugador>
+                    <nombre>Khyri Thomas</nombre>
+                    <imagen>https://is.gd/khyri_thomas</imagen>
+                </jugador>
+            </SF>
+            <PF>
+                <jugador>
+                    <nombre>Christian Wood</nombre>
+                    <imagen>https://is.gd/christian_wood</imagen>
+                </jugador>
+                <jugador>
+                    <nombre>Danuel House Jr.</nombre>
+                    <imagen>https://is.gd/danuel_house_jr</imagen>
+                </jugador>
+            </PF>
+            <C>
+                <jugador>
+                    <nombre>Alperen Sengun</nombre>
+                    <imagen>https://is.gd/alperen_sengun</imagen>
+                </jugador>
+                <jugador>
+                    <nombre>Usman Garuba</nombre>
+                    <imagen>https://is.gd/usman_garuba</imagen>
+                </jugador>
+            </C>
+        </jugadores>
+    </equipo>
+<equipo>
     <nombreequipo>
-     <nombre>Cardinals</nombre>
+        <nombre>Warriors</nombre>
     </nombreequipo>
-    <escudo>../imagenes/otras/logosequipos/Cardinals.png</escudo>
+    <escudo>../imagenes/otras/logosequipos/Warriors.png</escudo>
     <entrenador>
-     <nombre>Jonathan Gannon</nombre>
-     <imagen>../imagenes\otras\ganon.png</imagen>
+        <nombre>Steve Kerr</nombre>
+        <imagen>../imagenes/otras/kerr.png</imagen>
     </entrenador>
     <jugadores>
-    <LB>
-     <jugador>
-         <nombre>Cris Barnes</nombre>
-         <imagen>https://is.gd/UEsdYd</imagen>
-     </jugador>
-     <jugador>
-         <nombre>Zaven Collins</nombre>
-         <imagen>https://is.gd/AZkKWN</imagen>
-     </jugador>
-     <jugador>
-         <nombre>Victor Dimukeje</nombre>
-         <imagen>https://is.gd/VTYBxu</imagen>
-     </jugador>
-     <jugador>
-         <nombre>Jesse Luketa</nombre>
-         <imagen>https://is.gd/zzpZ7a</imagen>
-     </jugador>
-     <jugador>
-         <nombre>BJ Ojulari</nombre>
-         <imagen>https://is.gd/532uCi</imagen>
-     </jugador>
-    </LB>
-    <SAF>
-     <jugador>
-         <nombre>Joey Blount</nombre>
-         <imagen>https://is.gd/QG9aEb</imagen>
-     </jugador>
-     <jugador>
-         <nombre>Andre Chachere</nombre>
-         <imagen>https://is.gd/jCZ0dX</imagen>
-     </jugador>
-     <jugador>
-         <nombre>Jovante Moffatt</nombre>
-         <imagen>https://is.gd/Hxpa5s</imagen>
-     </jugador>
-    </SAF>
-    <WR>
-     <jugador>
-         <nombre>Marquise Brown</nombre>
-         <imagen>https://is.gd/3xYxf2</imagen>
-     </jugador>
-     <jugador>
-         <nombre>Greg Dortch</nombre>
-         <imagen>https://is.gd/Ehmrnz</imagen>
-     </jugador>
-     <jugador>
-         <nombre>Rondale Moore</nombre>
-         <imagen>https://is.gd/08cno4</imagen>
-     </jugador>
-     <jugador>
-         <nombre>Zach Pascal</nombre>
-         <imagen>https://is.gd/LnWjIk</imagen>
-     </jugador>
-    </WR>
-    <CB>
-     <jugador>
-         <nombre>Kei Trel Clark</nombre>
-         <imagen>https://is.gd/5WEGXJ</imagen>
-     </jugador>
-     <jugador>
-         <nombre>Antonio Hamilton</nombre>
-         <imagen>https://is.gd/eXJ3Pc</imagen>
-     </jugador>
-     <jugador>
-         <nombre>Qwuantrezz Knight</nombre>
-         <imagen>https://is.gd/HqV0AX</imagen>
-     </jugador>
-     <jugador>
-         <nombre>Marco Wilson</nombre>
-         <imagen>https://is.gd/5KUUtC</imagen>
-     </jugador>
-     <jugador>
-         <nombre>Kris Boyd</nombre>
-         <imagen>https://is.gd/U9mMHG</imagen>
-     </jugador>
-    </CB>
-    <QB>
-     <jugador>
-         <nombre>Joshua Dobbs</nombre>
-         <imagen>https://is.gd/Cjhv09</imagen>
-     </jugador>
-     <jugador>
-         <nombre>Clayton Tune</nombre>
-         <imagen>https://is.gd/0i7K7c</imagen>
-     </jugador>
-     <jugador>
-         <nombre>Jeff Driskel</nombre>
-         <imagen>https://is.gd/OKweIF</imagen>
-     </jugador>
-     <jugador>
-         <nombre>Kyler Murray</nombre>
-         <imagen>https://is.gd/nav2VM</imagen>
-     </jugador>
-    </QB>
-    <DT>
-     <jugador>
-         <nombre>Leki Fotu</nombre>
-         <imagen>https://is.gd/eYCHss</imagen>
-     </jugador>
-     <jugador>
-         <nombre>Roy Lopez</nombre>
-         <imagen>https://is.gd/gh5xQ4</imagen>
-     </jugador>
-     <jugador>
-         <nombre>Dante Stills</nombre>
-         <imagen>https://is.gd/3J1zhv</imagen>
-     </jugador>
-     <jugador>
-         <nombre>Kevin Strong</nombre>
-         <imagen>https://is.gd/ZrvPWM</imagen>
-     </jugador>
-     </DT>
+        <PG>
+            <jugador>
+                <nombre>Stephen Curry</nombre>
+                <imagen>https://is.gd/stephen_curry</imagen>
+            </jugador>
+            <jugador>
+                <nombre>Shaun Livingston</nombre>
+                <imagen>https://is.gd/shaun_livingston</imagen>
+            </jugador>
+        </PG>
+        <SG>
+            <jugador>
+                <nombre>Klay Thompson</nombre>
+                <imagen>https://is.gd/klay_thompson</imagen>
+            </jugador>
+            <jugador>
+                <nombre>Jordan Poole</nombre>
+                <imagen>https://is.gd/jordan_poole</imagen>
+            </jugador>
+        </SG>
+        <SF>
+            <jugador>
+                <nombre>Andrew Wiggins</nombre>
+                <imagen>https://is.gd/andrew_wiggins</imagen>
+            </jugador>
+            <jugador>
+                <nombre>Andre Iguodala</nombre>
+                <imagen>https://is.gd/andre_iguodala</imagen>
+            </jugador>
+        </SF>
+        <PF>
+            <jugador>
+                <nombre>Draymond Green</nombre>
+                <imagen>https://is.gd/draymond_green</imagen>
+            </jugador>
+            <jugador>
+                <nombre>Eric Paschall</nombre>
+                <imagen>https://is.gd/eric_paschall</imagen>
+            </jugador>
+        </PF>
+        <C>
+            <jugador>
+                <nombre>James Wiseman</nombre>
+                <imagen>https://is.gd/james_wiseman</imagen>
+            </jugador>
+            <jugador>
+                <nombre>Kevon Looney</nombre>
+                <imagen>https://is.gd/kevon_looney</imagen>
+            </jugador>
+        </C>
     </jugadores>
 </equipo>
+    <equipo>
+        <nombreequipo>
+            <nombre>Clippers</nombre>
+        </nombreequipo>
+        <escudo>../imagenes/otras/logosequipos/Clippers.png</escudo>
+        <entrenador>
+            <nombre>Tyronn Lue</nombre>
+            <imagen>../imagenes/otras/lue.png</imagen>
+        </entrenador>
+        <jugadores>
+            <PG>
+                <jugador>
+                    <nombre>Reggie Jackson</nombre>
+                    <imagen>https://is.gd/reggie_jackson</imagen>
+                </jugador>
+                <jugador>
+                    <nombre>Lou Williams</nombre>
+                    <imagen>https://is.gd/lou_williams</imagen>
+                </jugador>
+            </PG>
+            <SG>
+                <jugador>
+                    <nombre>Paul George</nombre>
+                    <imagen>https://is.gd/paul_george</imagen>
+                </jugador>
+                <jugador>
+                    <nombre>Luke Kennard</nombre>
+                    <imagen>https://is.gd/luke_kennard</imagen>
+                </jugador>
+            </SG>
+            <SF>
+                <jugador>
+                    <nombre>Kawhi Leonard</nombre>
+                    <imagen>https://is.gd/kawhi_leonard</imagen>
+                </jugador>
+                <jugador>
+                    <nombre>Nicolas Batum</nombre>
+                    <imagen>https://is.gd/nicolas_batum</imagen>
+                </jugador>
+            </SF>
+            <PF>
+                <jugador>
+                    <nombre>Marcus Morris Sr.</nombre>
+                    <imagen>https://is.gd/marcus_morris_sr</imagen>
+                </jugador>
+                <jugador>
+                    <nombre>Ivica Zubac</nombre>
+                    <imagen>https://is.gd/ivica_zubac</imagen>
+                </jugador>
+            </PF>
+            <C>
+                <jugador>
+                    <nombre>Serge Ibaka</nombre>
+                    <imagen>https://is.gd/serge_ibaka</imagen>
+                </jugador>
+                <jugador>
+                    <nombre>DeMarcus Cousins</nombre>
+                    <imagen>https://is.gd/demarcus_cousins</imagen>
+                </jugador>
+            </C>
+        </jugadores>
+    </equipo>
 <equipo>
-<nombreequipo>
-    <nombre>Cowboys</nombre>
-</nombreequipo>
-<escudo>../imagenes/otras/logosequipos/Cowboys.png</escudo>
-<entrenador>
-    <nombre>Mike McCarthy</nombre>
-    <imagen>../imagenes/otras/checo.png</imagen>
-</entrenador>
-
-<jugadores>
-<LB>
-    <jugador>
-        <nombre>Damone Clark</nombre>
-        <imagen class="cowboysfond">https://is.gd/ndxnJ4</imagen>
-    </jugador>
-    <jugador>
-        <nombre>Micah Parsons</nombre>
-        <imagen>https://is.gd/Hv4Fm4</imagen>
-    </jugador>
-    <jugador>
-        <nombre>Malik Jefferson</nombre>
-        <imagen>https://is.gd/KKXmPI</imagen>
-    </jugador>
-    <jugador>
-        <nombre>DeMarvion Overshown</nombre>
-        <imagen>https://is.gd/qbNjzF</imagen>
-    </jugador>
-    <jugador>
-        <nombre>Devin Harper</nombre>
-        <imagen>https://is.gd/rhF67G</imagen>
-    </jugador>
-</LB>
-<SAF>
-    <jugador>
-        <nombre>Israel Mukuamu</nombre>
-        <imagen>https://is.gd/mVu9Zv</imagen>
-    </jugador>
-    <jugador>
-        <nombre>Donovan Wilson</nombre>
-        <imagen>https://is.gd/wWFhu8</imagen>
-    </jugador>
-</SAF>
-<WR>
-    <jugador>
-        <nombre>Jalen Brooks</nombre>
-        <imagen>https://is.gd/hKUrMh</imagen>
-    </jugador>
-    <jugador>
-        <nombre>Brandin Cooks</nombre>
-        <imagen>https://is.gd/RHvZKH</imagen>
-    </jugador>
-    <jugador>
-        <nombre>Michael Gallup</nombre>
-        <imagen>https://is.gd/sDGgF2</imagen>
-    </jugador>
-    <jugador>
-        <nombre>CeeDee Lamb</nombre>
-        <imagen>https://is.gd/t4QGzn</imagen>
-    </jugador>
-</WR>
-<CB>
-    <jugador>
-        <nombre>DaRon Bland</nombre>
-        <imagen>https://is.gd/seoyC2</imagen>
-    </jugador>
-    <jugador>
-        <nombre>Stephon Gilmore</nombre>
-        <imagen>https://is.gd/eClXss</imagen>
-    </jugador>
-    <jugador>
-        <nombre>Noah Igbinoghene</nombre>
-        <imagen>https://is.gd/EzaumT</imagen>
-    </jugador>
-    <jugador>
-        <nombre>Jourdan Lewis</nombre>
-        <imagen>https://is.gd/mTNEfU</imagen>
-    </jugador>
-    <jugador>
-        <nombre>Eric Scott Jr</nombre>
-        <imagen>https://is.gd/go1Zol</imagen>
-    </jugador>
-</CB>
-<QB>
-    <jugador>
-        <nombre>Trey Lance</nombre>
-        <imagen>https://is.gd/Hei5wj</imagen>
-    </jugador>
-    <jugador>
-        <nombre>Dak Prescott</nombre>
-        <imagen>https://is.gd/EFYerR</imagen>
-    </jugador>
-    <jugador>
-        <nombre>Cooper Rush</nombre>
-        <imagen>https://is.gd/IGHskr</imagen>
-    </jugador>
-</QB>
-<DT>
-    <jugador>
-        <nombre>Neville Gallimore</nombre>
-        <imagen>https://is.gd/HBPE0G</imagen>
-    </jugador>
-    <jugador>
-        <nombre>Johnathan Hankins</nombre>
-        <imagen>https://is.gd/qOUuim</imagen>
-    </jugador>
-    <jugador>
-        <nombre>Osa Odighizuwa</nombre>
-        <imagen>https://is.gd/d55sPG</imagen>
-    </jugador>
-    </DT>
-</jugadores>
+    <nombreequipo>
+        <nombre>Cavaliers</nombre>
+    </nombreequipo>
+    <escudo>../imagenes/otras/logosequipos/Cavaliers.png</escudo>
+    <entrenador>
+        <nombre>J.B. Bickerstaff</nombre>
+        <imagen>../imagenes/otras/bickerstaff.png</imagen>
+    </entrenador>
+    <jugadores>
+        <PG>
+            <jugador>
+                <nombre>Darius Garland</nombre>
+                <imagen>https://is.gd/darius_garland</imagen>
+            </jugador>
+            <jugador>
+                <nombre>Rajon Rondo</nombre>
+                <imagen>https://is.gd/rajon_rondo</imagen>
+            </jugador>
+        </PG>
+        <SG>
+            <jugador>
+                <nombre>Collin Sexton</nombre>
+                <imagen>https://is.gd/collin_sexton</imagen>
+            </jugador>
+            <jugador>
+                <nombre>Isaac Okoro</nombre>
+                <imagen>https://is.gd/isaac_okoro</imagen>
+            </jugador>
+        </SG>
+        <SF>
+            <jugador>
+                <nombre>Evan Mobley</nombre>
+                <imagen>https://is.gd/evan_mobley</imagen>
+            </jugador>
+            <jugador>
+                <nombre>Cedi Osman</nombre>
+                <imagen>https://is.gd/cedi_osman</imagen>
+            </jugador>
+        </SF>
+        <PF>
+            <jugador>
+                <nombre>Larry Nance Jr.</nombre>
+                <imagen>https://is.gd/larry_nance_jr</imagen>
+            </jugador>
+            <jugador>
+                <nombre>Kevin Love</nombre>
+                <imagen>https://is.gd/kevin_love</imagen>
+            </jugador>
+        </PF>
+        <C>
+            <jugador>
+                <nombre>Jarrett Allen</nombre>
+                <imagen>https://is.gd/jarrett_allen</imagen>
+            </jugador>
+            <jugador>
+                <nombre>Wendell Carter Jr.</nombre>
+                <imagen>https://is.gd/wendell_carter_jr</imagen>
+            </jugador>
+        </C>
+    </jugadores>
 </equipo>
-<equipo>
-<nombreequipo>
-<nombre>Raiders</nombre>
-</nombreequipo>
-<escudo>../imagenes/otras/logosequipos/Raiders.png</escudo>
-<entrenador>
-    <nombre>Josh McDaniels</nombre>
-    <imagen>../imagenes\otras\raicoah.png</imagen>
-</entrenador>
-<jugadores>
-    <LB>
-    <jugador>
-        <nombre>Amari Burney</nombre>
-        <imagen>https://is.gd/DegyLg</imagen>
-    </jugador>
-    <jugador>
-        <nombre>Divine Deablo</nombre>
-        <imagen>https://is.gd/nJSKnp</imagen>
-    </jugador>
-    <!-- Agrega más jugadores según sea necesario -->
-</LB>
-<SAF>
-    <jugador>
-        <nombre>Isaiah Pola-Mao</nombre>
-        <imagen>https://is.gd/ZM5ypj</imagen>
-    </jugador>
-    <jugador>
-        <nombre>Roderic Teamer</nombre>
-        <imagen>https://is.gd/4oEgDw</imagen>
-    </jugador>
-    <!-- Agrega más jugadores según sea necesario -->
-</SAF>
-<WR>
-    <jugador>
-        <nombre>Davante Adams</nombre>
-        <imagen>https://is.gd/vxMBLn</imagen>
-    </jugador>
-    <jugador>
-        <nombre>DeAndre Carter</nombre>
-        <imagen>https://is.gd/MzIXVN</imagen>
-    </jugador>
-    <!-- Agrega más jugadores según sea necesario -->
-</WR>
-<CB>
-    <jugador>
-        <nombre>Patrick Peterson</nombre>
-        <imagen>https://is.gd/tEGaFi</imagen>
-    </jugador>
-    <jugador>
-        <nombre>James Pierre</nombre>
-        <imagen>https://is.gd/mdfT3t</imagen>
-    </jugador>
-    <!-- Agrega más jugadores según sea necesario -->
-</CB>
-<QB>
-    <jugador>
-        <nombre>Kenny Pickett</nombre>
-        <imagen>https://is.gd/bhWHNh</imagen>
-    </jugador>
-    <jugador>
-        <nombre>Mason Rudolph</nombre>
-        <imagen>https://is.gd/yoI8qZ</imagen>
-    </jugador>
-    <!-- Agrega más jugadores según sea necesario -->
-</QB>
-<DT>
-    <jugador >
-        <nombre>Adam Butler</nombre>
-        <imagen>https://is.gd/c43jPz</imagen>
-    </jugador>
-    <jugador >
-        <nombre>John Jenkins</nombre>
-        <imagen>https://is.gd/K8ULdR</imagen>
-    </jugador>
-    <jugador >
-        <nombre>Bilal Nichols</nombre>
-        <imagen>https://is.gd/kQ9OWv</imagen>
-    </jugador>
-    <!-- Agrega más jugadores según sea necesario -->
-    </DT>
-</jugadores>
-</equipo>    
-<equipo>
-<nombreequipo>
-    <nombre>Steelers</nombre>
-</nombreequipo>
-<escudo>../imagenes/otras/logosequipos/Steelers.png</escudo>
-<entrenador>
-    <nombre>John Smith</nombre>
-    <imagen>https://is.gd/iUkpBv</imagen>
-</entrenador>
-
-<jugadores>    
-<LB>
-    <jugador>
-        <nombre>Andrew Davis</nombre>
-        <imagen>https://is.gd/Y222hL</imagen>
-    </jugador>
-    <jugador>
-        <nombre>Nathan Thompson</nombre>
-        <imagen>https://is.gd/TJQLKP</imagen>
-    </jugador>
-    <!-- Agrega más jugadores según sea necesario -->
-</LB>
-<SAF>
-    <jugador>
-        <nombre>Michael Robinson</nombre>
-        <imagen>https://is.gd/rU89MY</imagen>
-    </jugador>
-    <jugador>
-        <nombre>Christopher Taylor</nombre>
-        <imagen>https://is.gd/4oEgDw</imagen>
-    </jugador>
-    <!-- Agrega más jugadores según sea necesario -->
-</SAF>
-<WR>
-    <jugador>
-        <nombre>Derrick White</nombre>
-        <imagen>https://is.gd/CYA1oT</imagen>
-    </jugador>
-    <jugador>
-        <nombre>Jeremy Jackson</nombre>
-        <imagen>https://is.gd/MzIXVN</imagen>
-    </jugador>
-    <!-- Agrega más jugadores según sea necesario -->
-</WR>
-<CB>
-    <jugador>
-        <nombre>Kyle Davis</nombre>
-        <imagen>https://is.gd/NRy1JR</imagen>
-    </jugador>
-    <jugador>
-        <nombre>Alexander Turner</nombre>
-        <imagen>https://is.gd/Umb7uu</imagen>
-    </jugador>
-    <!-- Agrega más jugadores según sea necesario -->
-</CB>
-<QB>
-    <jugador>
-        <nombre>Dylan Harris</nombre>
-        <imagen>https://is.gd/M68ARs</imagen>
-    </jugador>
-    <jugador>
-        <nombre>Bradley Foster</nombre>
-        <imagen>https://is.gd/yoI8qZ</imagen>
-    </jugador>
-    <!-- Agrega más jugadores según sea necesario -->
-</QB>
-<DT>
-    <jugador >
-        <nombre>Jonathan Mitchell</nombre>
-        <imagen>https://is.gd/2W0b1X</imagen>
-    </jugador>
-    <jugador >
-        <nombre>Cameron Bennett</nombre>
-        <imagen>https://is.gd/eCHQdv</imagen>
-    </jugador>
-    <jugador >
-        <nombre>Renell Phillips</nombre>
-        <imagen>https://is.gd/xQPsQT</imagen>
-    </jugador>
-    <!-- Agrega más jugadores según sea necesario -->
-    </DT>
-</jugadores>
-</equipo>
-<equipo>
-<nombreequipo>
-    <nombre>Rams</nombre>
-</nombreequipo>
-<escudo>../imagenes/otras/logosequipos/Rams.png</escudo>
-<entrenador>
-    <nombre>Sean McVay</nombre>
-    <imagen>https://www.farma-erp.cl/img/no_photo.png</imagen>
-</entrenador>
-<jugadores>
-    <LB>
-        <jugador>
-            <nombre>Leonard Floyd</nombre>
-            <imagen>https://www.farma-erp.cl/img/no_photo.png</imagen>
-        </jugador>
-        <jugador>
-            <nombre>Troy Reeder</nombre>
-            <imagen>https://www.farma-erp.cl/img/no_photo.png</imagen>
-        </jugador>
-        <jugador>
-            <nombre>Justin Hollins</nombre>
-            <imagen>https://www.farma-erp.cl/img/no_photo.png</imagen>
-        </jugador>
-        <jugador>
-            <nombre>Terrell Lewis</nombre>
-            <imagen>https://www.farma-erp.cl/img/no_photo.png</imagen>
-        </jugador>
-        <jugador>
-            <nombre>Ogbo Okoronkwo</nombre>
-            <imagen>https://www.farma-erp.cl/img/no_photo.png</imagen>
-        </jugador>
-    </LB>
-    <SAF>
-        <jugador>
-            <nombre>Jordan Fuller</nombre>
-            <imagen>https://www.farma-erp.cl/img/no_photo.png</imagen>
-        </jugador>
-        <jugador>
-            <nombre>Terrell Burgess</nombre>
-            <imagen>https://www.farma-erp.cl/img/no_photo.png</imagen>
-        </jugador>
-        <jugador>
-            <nombre>Nick Scott</nombre>
-            <imagen>https://www.farma-erp.cl/img/no_photo.png</imagen>
-        </jugador>
-        <jugador>
-            <nombre>J.R. Reed</nombre>
-            <imagen>https://www.farma-erp.cl/img/no_photo.png</imagen>
-        </jugador>
-    </SAF>
-    <WR>
-        <jugador>
-            <nombre>Cooper Kupp</nombre>
-            <imagen>https://www.farma-erp.cl/img/no_photo.png</imagen>
-        </jugador>
-        <jugador>
-            <nombre>Robert Woods</nombre>
-            <imagen>https://www.farma-erp.cl/img/no_photo.png</imagen>
-        </jugador>
-        <jugador>
-            <nombre>Van Jefferson</nombre>
-            <imagen>https://www.farma-erp.cl/img/no_photo.png</imagen>
-        </jugador>
-        <jugador>
-            <nombre>DeSean Jackson</nombre>
-            <imagen>https://www.farma-erp.cl/img/no_photo.png</imagen>
-        </jugador>
-    </WR>
-    <CB>
-        <jugador>
-            <nombre>Darious Williams</nombre>
-            <imagen>https://www.farma-erp.cl/img/no_photo.png</imagen>
-        </jugador>
-        <jugador>
-            <nombre>Jalen Ramsey</nombre>
-            <imagen>https://www.farma-erp.cl/img/no_photo.png</imagen>
-        </jugador>
-        <jugador>
-            <nombre>David Long Jr.</nombre>
-            <imagen>https://www.farma-erp.cl/img/no_photo.png</imagen>
-        </jugador>
-        <jugador>
-            <nombre>Donte Deayon</nombre>
-            <imagen>https://www.farma-erp.cl/img/no_photo.png</imagen>
-        </jugador>
-    </CB>
-</jugadores>
-</equipo>
-
-<!-- Repite la estructura para otros equipos según sea necesario -->
-
-<equipo>
-<nombreequipo>
-    <nombre>Chiefs</nombre>
-</nombreequipo>
-<escudo>../imagenes/otras/logosequipos/Chiefs.png</escudo>
-<entrenador>
-    <nombre>Andy Reid</nombre>
-    <imagen>https://www.farma-erp.cl/img/no_photo.png</imagen>
-</entrenador>
-<jugadores>
-    <LB>
-        <jugador>
-            <nombre>Tyrann Mathieu</nombre>
-            <imagen>https://www.farma-erp.cl/img/no_photo.png</imagen>
-        </jugador>
-        <jugador>
-            <nombre>Frank Clark</nombre>
-            <imagen>https://www.farma-erp.cl/img/no_photo.png</imagen>
-        </jugador>
-        <jugador>
-            <nombre>Derrick Johnson</nombre>
-            <imagen>https://www.farma-erp.cl/img/no_photo.png</imagen>
-        </jugador>
-        <jugador>
-            <nombre>Dee Ford</nombre>
-            <imagen>https://www.farma-erp.cl/img/no_photo.png</imagen>
-        </jugador>
-        <jugador>
-            <nombre>Anthony Hitchens</nombre>
-            <imagen>https://www.farma-erp.cl/img/no_photo.png</imagen>
-        </jugador>
-    </LB>
-    <SAF>
-        <jugador>
-            <nombre>Juan Thornhill</nombre>
-            <imagen>https://www.farma-erp.cl/img/no_photo.png</imagen>
-        </jugador>
-        <jugador>
-            <nombre>Tyrann Mathieu</nombre>
-            <imagen>https://www.farma-erp.cl/img/no_photo.png</imagen>
-        </jugador>
-        <jugador>
-            <nombre>Eric Berry</nombre>
-            <imagen>https://www.farma-erp.cl/img/no_photo.png</imagen>
-        </jugador>
-        <jugador>
-            <nombre>Daniel Sorensen</nombre>
-            <imagen>https://www.farma-erp.cl/img/no_photo.png</imagen>
-        </jugador>
-    </SAF>
-    <WR>
-        <jugador>
-            <nombre>Tyreek Hill</nombre>
-            <imagen>https://www.farma-erp.cl/img/no_photo.png</imagen>
-        </jugador>
-        <jugador>
-            <nombre>Travis Kelce</nombre>
-            <imagen>https://www.farma-erp.cl/img/no_photo.png</imagen>
-        </jugador>
-        <jugador>
-            <nombre>Mecole Hardman</nombre>
-            <imagen>https://www.farma-erp.cl/img/no_photo.png</imagen>
-        </jugador>
-        <jugador>
-            <nombre>Sammy Watkins</nombre>
-            <imagen>https://www.farma-erp.cl/img/no_photo.png</imagen>
-        </jugador>
-    </WR>
-    <CB>
-        <jugador>
-            <nombre>Charvarius Ward</nombre>
-            <imagen>https://www.farma-erp.cl/img/no_photo.png</imagen>
-        </jugador>
-        <jugador>
-            <nombre>Kendall Fuller</nombre>
-            <imagen>https://www.farma-erp.cl/img/no_photo.png</imagen>
-        </jugador>
-        <jugador>
-            <nombre>Tyrann Mathieu</nombre>
-            <imagen>https://www.farma-erp.cl/img/no_photo.png</imagen>
-        </jugador>
-        <jugador>
-            <nombre>L'Jarius Sneed</nombre>
-            <imagen>https://www.farma-erp.cl/img/no_photo.png</imagen>
-        </jugador>
-    </CB>
-</jugadores>
-</equipo>
-<equipo>
-<nombreequipo>
-    <nombre>Bengals</nombre>
-</nombreequipo>
-<escudo>../imagenes/otras/logosequipos/Bengals.png</escudo>
-<entrenador>
-    <nombre>Zac Taylor</nombre>
-    <imagen>https://www.farma-erp.cl/img/no_photo.png</imagen>
-</entrenador>
-<jugadores>
-    <LB>
-        <jugador>
-            <nombre>Logan Wilson</nombre>
-            <imagen>https://www.farma-erp.cl/img/no_photo.png</imagen>
-        </jugador>
-        <jugador>
-            <nombre>Jermaine Pratt</nombre>
-            <imagen>https://www.farma-erp.cl/img/no_photo.png</imagen>
-        </jugador>
-        <jugador>
-            <nombre>Akeem Davis-Gaither</nombre>
-            <imagen>https://www.farma-erp.cl/img/no_photo.png</imagen>
-        </jugador>
-        <jugador>
-            <nombre>Jordan Evans</nombre>
-            <imagen>https://www.farma-erp.cl/img/no_photo.png</imagen>
-        </jugador>
-        <jugador>
-            <nombre>Keandre Jones</nombre>
-            <imagen>https://www.farma-erp.cl/img/no_photo.png</imagen>
-        </jugador>
-    </LB>
-    <SAF>
-        <jugador>
-            <nombre>Vonn Bell</nombre>
-            <imagen>https://www.farma-erp.cl/img/no_photo.png</imagen>
-        </jugador>
-        <jugador>
-            <nombre>Jessie Bates III</nombre>
-            <imagen>https://www.farma-erp.cl/img/no_photo.png</imagen>
-        </jugador>
-        <jugador>
-            <nombre>Ricardo Allen</nombre>
-            <imagen>https://www.farma-erp.cl/img/no_photo.png</imagen>
-        </jugador>
-        <jugador>
-            <nombre>Brandon Wilson</nombre>
-            <imagen>https://www.farma-erp.cl/img/no_photo.png</imagen>
-        </jugador>
-    </SAF>
-    <WR>
-        <jugador>
-            <nombre>Ja'Marr Chase</nombre>
-            <imagen>https://www.farma-erp.cl/img/no_photo.png</imagen>
-        </jugador>
-        <jugador>
-            <nombre>Tee Higgins</nombre>
-            <imagen>https://www.farma-erp.cl/img/no_photo.png</imagen>
-        </jugador>
-        <jugador>
-            <nombre>Tyler Boyd</nombre>
-            <imagen>https://www.farma-erp.cl/img/no_photo.png</imagen>
-        </jugador>
-        <jugador>
-            <nombre>Auden Tate</nombre>
-            <imagen>https://www.farma-erp.cl/img/no_photo.png</imagen>
-        </jugador>
-    </WR>
-    <CB>
-        <jugador>
-            <nombre>Eli Apple</nombre>
-            <imagen>https://www.farma-erp.cl/img/no_photo.png</imagen>
-        </jugador>
-        <jugador>
-            <nombre>Chidobe Awuzie</nombre>
-            <imagen>https://www.farma-erp.cl/img/no_photo.png</imagen>
-        </jugador>
-        <jugador>
-            <nombre>Mackensie Alexander</nombre>
-            <imagen>https://www.farma-erp.cl/img/no_photo.png</imagen>
-        </jugador>
-        <jugador>
-            <nombre>Darius Phillips</nombre>
-            <imagen>https://www.farma-erp.cl/img/no_photo.png</imagen>
-        </jugador>
-    </CB>
-</jugadores>
-</equipo>    
-<equipo>
-<nombreequipo>
-    <nombre>Bears</nombre>
-</nombreequipo>
-<escudo>../imagenes/otras/logosequipos/Bears.png</escudo>
-<entrenador>
-    <nombre>John Smith</nombre>
-    <imagen>https://www.farma-erp.cl/img/no_photo.png</imagen>
-</entrenador>
-<jugadores>
-    <LB>
-        <jugador>
-            <nombre>Brandon Thompson</nombre>
-            <imagen>https://www.farma-erp.cl/img/no_photo.png</imagen>
-        </jugador>
-        <jugador>
-            <nombre>Austin Davis</nombre>
-            <imagen>https://www.farma-erp.cl/img/no_photo.png</imagen>
-        </jugador>
-        <jugador>
-            <nombre>Chris Walker</nombre>
-            <imagen>https://www.farma-erp.cl/img/no_photo.png</imagen>
-        </jugador>
-        <jugador>
-            <nombre>Jeremiah Robinson</nombre>
-            <imagen>https://www.farma-erp.cl/img/no_photo.png</imagen>
-        </jugador>
-        <jugador>
-            <nombre>Derrick White</nombre>
-            <imagen>https://www.farma-erp.cl/img/no_photo.png</imagen>
-        </jugador>
-    </LB>
-    <SAF>
-        <jugador>
-            <nombre>Malcolm Johnson</nombre>
-            <imagen>https://www.farma-erp.cl/img/no_photo.png</imagen>
-        </jugador>
-        <jugador>
-            <nombre>Reginald Turner</nombre>
-            <imagen>https://www.farma-erp.cl/img/no_photo.png</imagen>
-        </jugador>
-        <jugador>
-            <nombre>Darnell Harris</nombre>
-            <imagen>https://www.farma-erp.cl/img/no_photo.png</imagen>
-        </jugador>
-        <jugador>
-            <nombre>Gregory Martinez</nombre>
-            <imagen>https://www.farma-erp.cl/img/no_photo.png</imagen>
-        </jugador>
-    </SAF>
-    <WR>
-        <jugador>
-            <nombre>Terrence Taylor</nombre>
-            <imagen>https://www.farma-erp.cl/img/no_photo.png</imagen>
-        </jugador>
-        <jugador>
-            <nombre>Devonte Brown</nombre>
-            <imagen>https://www.farma-erp.cl/img/no_photo.png</imagen>
-        </jugador>
-        <jugador>
-            <nombre>Marvin Jones</nombre>
-            <imagen>https://www.farma-erp.cl/img/no_photo.png</imagen>
-        </jugador>
-        <jugador>
-            <nombre>Justin Turner</nombre>
-            <imagen>https://www.farma-erp.cl/img/no_photo.png</imagen>
-        </jugador>
-    </WR>
-    <CB>
-        <jugador>
-            <nombre>Isaiah White</nombre>
-            <imagen>https://www.farma-erp.cl/img/no_photo.png</imagen>
-        </jugador>
-        <jugador>
-            <nombre>Ryan Mitchell</nombre>
-            <imagen>https://www.farma-erp.cl/img/no_photo.png</imagen>
-        </jugador>
-        <jugador>
-            <nombre>Carlos Allen</nombre>
-            <imagen>https://www.farma-erp.cl/img/no_photo.png</imagen>
-        </jugador>
-        <jugador>
-            <nombre>Brandon Davis</nombre>
-            <imagen>https://www.farma-erp.cl/img/no_photo.png</imagen>
-        </jugador>
-    </CB>
-</jugadores>
-</equipo>
-
-</equipos>
+    <equipo>
+        <nombreequipo>
+            <nombre>Grizzlies</nombre>
+        </nombreequipo>
+        <escudo>../imagenes/otras/logosequipos/Grizzlies.png</escudo>
+        <entrenador>
+            <nombre>Taylor Jenkins</nombre>
+            <imagen>../imagenes/otras/jenkins.png</imagen>
+        </entrenador>
+        <jugadores>
+            <PG>
+                <jugador>
+                    <nombre>Ja Morant</nombre>
+                    <imagen>https://is.gd/ja_morant</imagen>
+                </jugador>
+                <jugador>
+                    <nombre>Tyus Jones</nombre>
+                    <imagen>https://is.gd/tyus_jones</imagen>
+                </jugador>
+            </PG>
+            <SG>
+                <jugador>
+                    <nombre>Dillon Brooks</nombre>
+                    <imagen>https://is.gd/dillon_brooks</imagen>
+                </jugador>
+                <jugador>
+                    <nombre>Desmond Bane</nombre>
+                    <imagen>https://is.gd/desmond_bane</imagen>
+                </jugador>
+            </SG>
+            <SF>
+                <jugador>
+                    <nombre>Kyle Anderson</nombre>
+                    <imagen>https://is.gd/kyle_anderson</imagen>
+                </jugador>
+                <jugador>
+                    <nombre>De'Anthony Melton</nombre>
+                    <imagen>https://is.gd/deanthony_melton</imagen>
+                </jugador>
+            </SF>
+            <PF>
+                <jugador>
+                    <nombre>Jaren Jackson Jr.</nombre>
+                    <imagen>https://is.gd/jaren_jackson_jr</imagen>
+                </jugador>
+                <jugador>
+                    <nombre>Brandon Clarke</nombre>
+                    <imagen>https://is.gd/brandon_clarke</imagen>
+                </jugador>
+            </PF>
+            <C>
+                <jugador>
+                    <nombre>Steven Adams</nombre>
+                    <imagen>https://is.gd/steven_adams</imagen>
+                </jugador>
+                <jugador>
+                    <nombre>Xavier Tillman Sr.</nombre>
+                    <imagen>https://is.gd/xavier_tillman_sr</imagen>
+                </jugador>
+            </C>
+        </jugadores>
+    </equipo>
+</equiposliga>
 </temporadas>

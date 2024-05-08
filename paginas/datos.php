@@ -38,64 +38,69 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['titulo']) && isset($_
     $contenido = $_POST['contenido'];
     $imagen = $_FILES['imagen']['name'];
 
-
+    // Cargar el XML
     $xml = simplexml_load_file('../xm_xs/2023.xml');
 
-    // Guarda el documento XML
+    // Verificar si el XML se cargó correctamente
+    if ($xml === false) {
+        die('Error al cargar el archivo XML.');
+    }
+
+    // Guardar el documento XML
     $xml->asXML('../xm_xs/2023.xml');
 
-
-
-
-    
     // Redireccionar para evitar reenvío del formulario al actualizar la página
     header("Location: {$_SERVER['REQUEST_URI']}");
     exit();
 }
 
-// Cargar el contenido XML por defecto (calendario.xml) para mostrar el calendario inicialmente
-$temporadaSeleccionada = isset($_GET['temporada']) ? $_GET['temporada'] : '2023';
+// Cargar el contenido XML
 $xml = simplexml_load_file("../xm_xs/2023.xml");
 
+// Verificar si el XML se cargó correctamente
+if ($xml === false) {
+    die('Error al cargar el archivo XML.');
+}
 
-
-// Filtrar los datos de la temporada seleccionada
-$resultado = $xml->xpath("//temporada[@num='$temporadaSeleccionada']");
-
-
-
-
-
-$temporada = $resultado[0];
 // Crear un nuevo documento XML con los datos de la temporada seleccionada
-$newXml = new SimpleXMLElement('<temporada></temporada>');
-$newXml->addAttribute('num', $temporadaSeleccionada);
-foreach ($temporada->children() as $child) {
-    if ($child->getName() == 'jornada') {
-        $newJornada = $newXml->addChild($child->getName());
-        foreach ($child->attributes() as $attrKey => $attrValue) {
-            $newJornada->addAttribute($attrKey, $attrValue);
-        }
-        foreach ($child->partido as $partido) {
-            $newPartido = $newJornada->addChild('partido');
-            $newPartido->addChild('fecha', $partido->fecha);
-            $newPartido->addChild('hora', $partido->hora);
-            $equipos = $newPartido->addChild('equipos');
-            $equipos->addChild('local', $partido->equipos->local);
-            $equipos->addChild('puntoslocal', $partido->equipos->puntoslocal);
-            $equipos->addChild('visitante', $partido->equipos->visitante);
-            $equipos->addChild('puntosvisitante', $partido->equipos->puntosvisitante);
-        }
-    } else {
-        $newChild = $newXml->addChild($child->getName(), $child);
-        foreach ($child->attributes() as $attrKey => $attrValue) {
-            $newChild->addAttribute($attrKey, $attrValue);
+$newXml = new SimpleXMLElement('<equiposliga></equiposliga>');
+
+// Añadir cada equipo al XML
+foreach ($xml->equipo as $equipo) {
+    $newEquipo = $newXml->addChild('equipo');
+
+    // Añadir el nombre del equipo
+    $nombreequipo = $newEquipo->addChild('nombreequipo');
+    $nombreequipo->addChild('nombre', $equipo->nombreequipo->nombre);
+
+    // Añadir el escudo del equipo
+    $newEquipo->addChild('escudo', $equipo->escudo);
+
+    // Añadir el entrenador del equipo
+    $entrenador = $newEquipo->addChild('entrenador');
+    $entrenador->addChild('nombre', $equipo->entrenador->nombre);
+    $entrenador->addChild('imagen', $equipo->entrenador->imagen);
+
+    // Añadir los jugadores del equipo
+    $jugadores = $newEquipo->addChild('jugadores');
+    foreach ($equipo->jugadores->children() as $posicion => $jugador_posicion) {
+        $posicion_node = $jugadores->addChild($posicion);
+        foreach ($jugador_posicion->jugador as $jugador) {
+            $jugador_node = $posicion_node->addChild('jugador');
+            $jugador_node->addChild('nombre', $jugador->nombre);
+            $jugador_node->addChild('imagen', $jugador->imagen);
         }
     }
 }
+
 // Cargar el archivo XSL
 $xsl = new DOMDocument();
-$xsl->load('../xm_xs/calendar.xsl');
+$xsl->load('../xm_xs/datos.xsl');
+
+// Verificar si el XSL se cargó correctamente
+if ($xsl === false) {
+    die('Error al cargar el archivo XSL.');
+}
 
 // Crear el procesador XSLT
 $proc = new XSLTProcessor();
@@ -111,6 +116,12 @@ if (!empty($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVER['HTTP_X_REQ
     exit();
 }
 ?>
+
+
+
+
+
+
 
 <!DOCTYPE html>
 <html lang="es">
