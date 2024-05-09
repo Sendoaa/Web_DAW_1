@@ -76,51 +76,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['titulo']) && isset($_
 <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="fb2e60d4-77bc-40f3-abd5-a336f7e2f383" data-blockingmode="auto" type="text/javascript"></script>
 
 <body>
-  <!--Cabecera de la página Barra Navegación mas Logo-->
-  <header>
-    <!-- Logo de la página -->
-    <div class="left-section">
-      <a href="./index.html"><img src="../imagenes/logos/BOFlogo.png" alt=""></a>
-    </div>
-    <!-- Hamburguesa de menu para abrir menu navegación -->
-    <div class="togglearea">
-      <label for="toggle">
-        <span></span>
-        <span></span>
-        <span></span>
-      </label>
-    </div>
-    <input type="checkbox" id="toggle">
-    <!-- Barra navegación -->
-    <div class="navbar">
-      <a href="../index.php">Inicio</a>
-      <a href="../paginas/calendario.php">Calendario</a>
-      <a id="active" href="../paginas/clasi.php">Clasificación</a>
-      <a href="../paginas/datos.php">Equipos</a>
-      <a href="../paginas/noticias.php">Noticias</a>
-      <a href="../paginas/contacto.php">Contacto</a>
-      <?php if ($loggedIn) : ?>
-        <?php if ($esAdmin) : ?>
-          <img id="userImage" src="../imagenes/otras/usuario.png" alt="Usuario Administrador">
-          <div id="dropdownMenu" style="display: none;">
-            <h1>ADMIN</h1>
-            <a href="../paginas/admin.php">Mi cuenta</a>
-            <a id="logoutlink" href="../bof-main/index.php?logout=true">Cerrar sesión</a>
-          </div>
-        <?php elseif ($esInvitado) : ?>
-          <img id="userImage" src="../imagenes/otras/usuario.png" alt="Usuario Invitado">
-          <div id="dropdownMenu" style="display: none;">
-            <h1>INVITADO</h1>
-            <a href="/mi-cuenta">Mi cuenta</a>
-            <a id="logoutlink" href="noticias.php?logout=true">Cerrar sesión</a>
-          </div>
-        <?php endif; ?>
-      <?php else : ?>
-        <button class="button-login"><a href="../bof-main/paginas/login.html" class="navbar-login">LOGIN</a></button>
-      <?php endif; ?>
-    </div>
-    </div>
-  </header>
+<?php include '../php/header.php'; ?>
 
   <div class="select">
     <select id="seleccionarPagina">

@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="calendar.xsl"?>
 <temporadas>
     <temporada xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="calendar.xsd">
-        <numero>3</numero>
+        <numero>2023</numero>
         <jornada num="1">
             <partido>
                 <fecha>Miercoles, 5 de junio</fecha>
@@ -824,7 +824,7 @@
         </equiposliga>
     </temporada>
     <temporada xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="calendar.xsd">
-        <numero>2</numero>
+        <numero>2022</numero>
         <jornada num="1">
             <partido>
                 <fecha>Viernes, 2 de marzo</fecha>
@@ -1646,7 +1646,7 @@
     </temporada>
 
     <temporada xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="calendar.xsd">
-        <numero>1</numero>
+        <numero>2021</numero>
         <!-- Datos de las jornadas -->
         <jornada num="1">
             <partido>
@@ -2535,5 +2535,5 @@
             <contenido/>
             <imagen src="../imagenes/otras/noticias/noticia8.png"/>
         </noticia>
-   </seccion>
+   <noticia><id>noticia_11</id><titulo>gdf</titulo><contenido>fdsd</contenido><imagen src="../imagenes/otras/noticias/elliot.jpg"/></noticia></seccion>
 </temporadas>

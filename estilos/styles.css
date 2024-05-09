@@ -407,6 +407,9 @@ select {
 .titulin {
   text-align: center;
   font-size: 35px;
+  background-color: black;
+  color: white;
+  padding: 10px;
 }
 .button-a{
   padding: 8px;
@@ -1097,9 +1100,7 @@ details[open] .toggle-summary .toggle-button {
   background-color: #333;
 }
 
-.tamano-img{
-  width: 20%;
-}
+
 
 .login-img{
   justify-content: center;
@@ -1109,9 +1110,13 @@ details[open] .toggle-summary .toggle-button {
 
 .tamano-img{
   width: 20%;
-  height: 100px; /* Ajusta este valor según sea necesario */
+  
 }
 
+@media screen and (max-width: 700px) {
+  .tamano-img{
+    width: 70%;
+}}
 #dropdownMenu {
   position: absolute;
   background-color: #000000;

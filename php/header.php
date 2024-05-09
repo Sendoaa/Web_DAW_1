@@ -1,6 +1,6 @@
 <header>
     <div class="left-section">
-        <a href="./index.html"><img src="../imagenes/logos/BOFlogo.png" alt=""></a>
+        <a href="./index.php"><img src="../imagenes/logos/BOFlogo.png" alt=""></a>
     </div>
     <div class="togglearea">
         <label for="toggle">
@@ -15,7 +15,7 @@
         <a <?php echo ($currentPage == 'index.php') ? 'id="active"' : ''; ?> href="../index.php">Inicio</a>
         <a <?php echo ($currentPage == 'calendario.php') ? 'id="active"' : ''; ?> href="../paginas/calendario.php">Calendario</a>
         <a <?php echo ($currentPage == 'clasi.php') ? 'id="active"' : ''; ?> href="../paginas/clasi.php">Clasificación</a>
-        <a <?php echo ($currentPage == 'datos.php') ? 'id="active"' : ''; ?> href="../xm_xs/datos.php">Equipos</a>
+        <a <?php echo ($currentPage == 'datos.php') ? 'id="active"' : ''; ?> href="../paginas/datos.php">Equipos</a>
         <a <?php echo ($currentPage == 'noticias.php') ? 'id="active"' : ''; ?> href="../paginas/noticias.php">Noticias</a>
         <a <?php echo ($currentPage == 'contacto.php') ? 'id="active"' : ''; ?> href="../paginas/contacto.php">Contacto</a>
         <?php if ($loggedIn) : ?>

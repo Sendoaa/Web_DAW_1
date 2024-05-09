@@ -28,8 +28,8 @@
         
           // Cargar la temporada 3 por defecto al cargar la página
           window.onload = function() {
-            document.getElementById('temporada').value = '3';
-            mostrarEquipos('3');
+            document.getElementById('temporada').value = '2023';
+            mostrarEquipos('2023');
           }
         </script>
       </head>
@@ -38,7 +38,7 @@
         <select id="temporada" onchange="mostrarEquipos(this.value)">
           <xsl:for-each select="//temporada">
             <option value="{numero}">
-              <xsl:value-of select="concat('Temporada ', numero)" />
+              <xsl:value-of select="concat('TEMPORADA ', numero)" />
             </option>
           </xsl:for-each>
         </select>
