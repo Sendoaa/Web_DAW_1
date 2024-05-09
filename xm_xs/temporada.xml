@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="calendar.xsl"?>
 <temporadas>
-    <temporada xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" num="2023" xsi:noNamespaceSchemaLocation="calendar.xsd">
-        <numtemp>Temporada 2023</numtemp>
+    <temporada xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="calendar.xsd">
+        <numero>3</numero>
         <jornada num="1">
             <partido>
                 <fecha>Miercoles, 5 de junio</fecha>
@@ -324,7 +324,7 @@
                 </equipos>
             </partido>
         </jornada>
-        <equiposliga xsi:noNamespaceSchemaLocation="datos.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <equiposliga xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="datos.xsd">
             <equipo>
                 <nombreequipo>
                     <nombre>Lakers</nombre>
@@ -823,8 +823,8 @@
             </equipo>
         </equiposliga>
     </temporada>
-    <temporada xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" num="2022" xsi:noNamespaceSchemaLocation="calendar.xsd">
-        <numtemp>Temporada 2022</numtemp>
+    <temporada xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="calendar.xsd">
+        <numero>2</numero>
         <jornada num="1">
             <partido>
                 <fecha>Viernes, 2 de marzo</fecha>
@@ -1145,7 +1145,7 @@
                 </equipos>
             </partido>
         </jornada>
-        <equiposliga xsi:noNamespaceSchemaLocation="datos.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <equiposliga xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="datos.xsd">
             <equipo>
                 <nombreequipo>
                     <nombre>Lakers</nombre>
@@ -1645,8 +1645,8 @@
         </equiposliga>
     </temporada>
 
-    <temporada xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" num="2021" xsi:noNamespaceSchemaLocation="calendar.xsd">
-        <numtemp>Temporada 2021</numtemp>
+    <temporada xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="calendar.xsd">
+        <numero>1</numero>
         <!-- Datos de las jornadas -->
         <jornada num="1">
             <partido>
@@ -1978,7 +1978,7 @@
                 </equipos>
             </partido>
         </jornada>
-        <equiposliga xsi:noNamespaceSchemaLocation="datos.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <equiposliga xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="datos.xsd">
             <equipo>
                 <nombreequipo>
                     <nombre>Lakers</nombre>

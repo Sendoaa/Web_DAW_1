@@ -31,7 +31,7 @@ if (isset($_GET['logout'])) {
 }
 
 // Ruta al archivo XML
-$xmlFile = "../xm_xs/temporadas.xml";
+$xmlFile = "../xm_xs/temporada.xml";
 
 // Cargar el archivo XML
 $xmlString = file_get_contents($xmlFile);
