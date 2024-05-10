@@ -43,9 +43,9 @@
           </xsl:for-each>
         </select>
 
+        
         <!-- Aplicamos las plantillas para todas las temporadas -->
         <xsl:apply-templates select="//temporada" />
-
         <a class="boton" href="#active">
           <button class="pasubir">
             <svg class="svgIcon" viewBox="0 0 384 512">

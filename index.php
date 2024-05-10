@@ -103,7 +103,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['titulo']) && isset($_
           <img id="userImage" src="./imagenes/otras/usuario.png" alt="Usuario Administrador">
           <div id="dropdownMenu" style="display: none;">
             <h1>ADMIN</h1>
-            <a href="../paginas/admin.php">Mi cuenta</a>
+            <a href="./paginas/admin.php">Mi cuenta</a>
             <a id="logoutlink" href="../bof-main/index.php?logout=true">Cerrar sesión</a>
           </div>
         <?php elseif ($esInvitado) : ?>
