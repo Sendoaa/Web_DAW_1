@@ -1,32 +1,4 @@
 <?php
-session_start();
-
-// Definir $esAdmin y $esInvitado inicialmente como falsos
-$esAdmin = false;
-$esInvitado = false;
-
-// Verificar si el usuario ha iniciado sesión
-if (isset($_SESSION['nombre'])) {
-    $loggedIn = true;
-    $nombreUsuario = $_SESSION['nombre'];
-    $esAdmin = ($_SESSION['nombre'] == 'admin');
-    $esInvitado = ($_SESSION['nombre'] == 'invitado');
-    if ($_SESSION['nombre'] == 'admin') {
-        $esAdmin = true;
-        $esInvitado = false;
-    } else {
-        $esAdmin = false;
-        $esInvitado = true;
-    }
-} else {
-    $loggedIn = false;
-}
-
-// Verificar si el usuario ha hecho clic en el enlace de cierre de sesión
-if (isset($_GET['logout'])) {
-    $loggedIn = false;
-    unset($_SESSION['nombre']);
-}
 
 // Variable para el mensaje de éxito
 $successMessage = '';
@@ -72,6 +44,7 @@ $xmlOutput = $proc->transformToXML($xml);
     </article>
     <footer class="footer" id="footer"></footer>
     <script src="../scripts/footer.js"></script>
+    <script src="../scripts/usuarios.js"></script>
 </body>
 
 </html>

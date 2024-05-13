@@ -332,57 +332,57 @@
                 <escudo>../imagenes/otras/logosequipos/Lakers.png</escudo>
                 <entrenador>
                     <nombre>Frank Vogel</nombre>
-                    <imagen>../imagenes/otras/vogel.png</imagen>
+                    <imagen>https://as01.epimg.net/img/especiales/baloncesto/nba/2019/guia/lakers/player_0.png</imagen>
                 </entrenador>
                 <jugadores>
                     <PG>
                         <jugador>
                             <nombre>LeBron James</nombre>
-                            <imagen>https://is.gd/lebron_james</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/2544.png</imagen>
                         </jugador>
                         <jugador>
                             <nombre>Russell Westbrook</nombre>
-                            <imagen>https://is.gd/russell_westbrook</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/201566.png</imagen>
                         </jugador>
                     </PG>
                     <SG>
                         <jugador>
                             <nombre>Anthony Davis</nombre>
-                            <imagen>https://is.gd/anthony_davis</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/203076.png</imagen>
                         </jugador>
                         <jugador>
                             <nombre>Talen Horton-Tucker</nombre>
-                            <imagen>https://is.gd/talen_horton_tucker</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1629659.png</imagen>
                         </jugador>
                     </SG>
                     <SF>
                         <jugador>
                             <nombre>Carmelo Anthony</nombre>
-                            <imagen>https://is.gd/carmelo_anthony</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/2546.png</imagen>
                         </jugador>
                         <jugador>
                             <nombre>Kent Bazemore</nombre>
-                            <imagen>https://is.gd/kent_bazemore</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/203145.png</imagen>
                         </jugador>
                     </SF>
                     <PF>
                         <jugador>
                             <nombre>Dwight Howard</nombre>
-                            <imagen>https://is.gd/dwight_howard</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/2730.png</imagen>
                         </jugador>
                         <jugador>
                             <nombre>Malik Monk</nombre>
-                            <imagen>https://is.gd/malik_monk</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1628370.png</imagen>
                         </jugador>
                     </PF>
                     <C>
                         <jugador>
                             <nombre>DeAndre Jordan</nombre>
-                            <imagen>https://is.gd/deandre_jordan</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/201599.png</imagen>
                         </jugador>
                         <jugador>
                             <nombre>JaVale McGee</nombre>
-                            <imagen>https://is.gd/javale_mcgee</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/201580.png</imagen>
                         </jugador>
                     </C>
                 </jugadores>
@@ -394,60 +394,61 @@
                     <escudo>../imagenes/otras/logosequipos/Mavericks.png</escudo>
                     <entrenador>
                         <nombre>Jason Kidd</nombre>
-                        <imagen>../imagenes/otras/kidd.png</imagen>
+                        <imagen>../imagenes/otras/jasonkidd.png</imagen>
                     </entrenador>
                     <jugadores>
                         <PG>
                             <jugador>
                                 <nombre>Luka Dončić</nombre>
-                                <imagen>https://is.gd/luka_doncic</imagen>
+                                <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1629029.png</imagen>
                             </jugador>
                             <jugador>
                                 <nombre>Jalen Brunson</nombre>
-                                <imagen>https://is.gd/jalen_brunson</imagen>
+                                <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1628973.png</imagen>
                             </jugador>
                         </PG>
                         <SG>
                             <jugador>
                                 <nombre>Tim Hardaway Jr.</nombre>
-                                <imagen>https://is.gd/tim_hardaway_jr</imagen>
+                                <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/203501.png</imagen>
                             </jugador>
                             <jugador>
                                 <nombre>Seth Curry</nombre>
-                                <imagen>https://is.gd/seth_curry</imagen>
+                                <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/203552.png</imagen>
                             </jugador>
                         </SG>
                         <SF>
                             <jugador>
                                 <nombre>Dorian Finney-Smith</nombre>
-                                <imagen>https://is.gd/dorian_finney_smith</imagen>
+                                <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1627827.png</imagen>
                             </jugador>
                             <jugador>
                                 <nombre>Josh Green</nombre>
-                                <imagen>https://is.gd/josh_green</imagen>
+                                <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1630173.png</imagen>
                             </jugador>
                         </SF>
                         <PF>
                             <jugador>
                                 <nombre>Kristaps Porziņģis</nombre>
-                                <imagen>https://is.gd/kristaps_porzingis</imagen>
+                                <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/204001.png</imagen>
                             </jugador>
                             <jugador>
                                 <nombre>Dwight Powell</nombre>
-                                <imagen>https://is.gd/dwight_powell</imagen>
+                                <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/203486.png</imagen>
                             </jugador>
                         </PF>
                         <C>
                             <jugador>
                                 <nombre>Maxi Kleber</nombre>
-                                <imagen>https://is.gd/maxi_kleber</imagen>
+                                <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1628467.png</imagen>
                             </jugador>
                             <jugador>
                                 <nombre>Boban Marjanović</nombre>
-                                <imagen>https://is.gd/boban_marjanovic</imagen>
+                                <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1626246.png</imagen>
                             </jugador>
                         </C>
                     </jugadores>
+                    
                 </equipo>                
             <equipo>
                 <nombreequipo>
@@ -462,54 +463,55 @@
                     <PG>
                         <jugador>
                             <nombre>Marcus Smart</nombre>
-                            <imagen>https://is.gd/marcus_smart</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/203935.png</imagen>
                         </jugador>
                         <jugador>
                             <nombre>Dennis Schröder</nombre>
-                            <imagen>https://is.gd/dennis_schroder</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/203471.png</imagen>
                         </jugador>
                     </PG>
                     <SG>
                         <jugador>
                             <nombre>Jaylen Brown</nombre>
-                            <imagen>https://is.gd/jaylen_brown</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1627759.png</imagen>
                         </jugador>
                         <jugador>
                             <nombre>Romeo Langford</nombre>
-                            <imagen>https://is.gd/romeo_langford</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1629641.png</imagen>
                         </jugador>
                     </SG>
                     <SF>
                         <jugador>
                             <nombre>Jayson Tatum</nombre>
-                            <imagen>https://is.gd/jayson_tatum</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1628369.png</imagen>
                         </jugador>
                         <jugador>
                             <nombre>Aaron Nesmith</nombre>
-                            <imagen>https://is.gd/aaron_nesmith</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1630206.png</imagen>
                         </jugador>
                     </SF>
                     <PF>
                         <jugador>
                             <nombre>Al Horford</nombre>
-                            <imagen>https://is.gd/al_horford</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/201143.png</imagen>
                         </jugador>
                         <jugador>
                             <nombre>Grant Williams</nombre>
-                            <imagen>https://is.gd/grant_williams</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1629684.png</imagen>
                         </jugador>
                     </PF>
                     <C>
                         <jugador>
                             <nombre>Robert Williams III</nombre>
-                            <imagen>https://is.gd/robert_williams</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1629057.png</imagen>
                         </jugador>
                         <jugador>
                             <nombre>Enes Kanter</nombre>
-                            <imagen>https://is.gd/enes_kanter</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/202683.png</imagen>
                         </jugador>
                     </C>
                 </jugadores>
+                
             </equipo>         
             <equipo>
                 <nombreequipo>
@@ -524,54 +526,55 @@
                     <PG>
                         <jugador>
                             <nombre>Kevin Porter Jr.</nombre>
-                            <imagen>https://is.gd/kevin_porter_jr</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1629645.png</imagen>
                         </jugador>
                         <jugador>
                             <nombre>D.J. Augustin</nombre>
-                            <imagen>https://is.gd/dj_augustin</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/201571.png</imagen>
                         </jugador>
                     </PG>
                     <SG>
                         <jugador>
                             <nombre>Jalen Green</nombre>
-                            <imagen>https://is.gd/jalen_green</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1630177.png</imagen>
                         </jugador>
                         <jugador>
                             <nombre>Armoni Brooks</nombre>
-                            <imagen>https://is.gd/armoni_brooks</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1629673.png</imagen>
                         </jugador>
                     </SG>
                     <SF>
                         <jugador>
                             <nombre>Jae'Sean Tate</nombre>
-                            <imagen>https://is.gd/jaesean_tate</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1628961.png</imagen>
                         </jugador>
                         <jugador>
                             <nombre>Khyri Thomas</nombre>
-                            <imagen>https://is.gd/khyri_thomas</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1629017.png</imagen>
                         </jugador>
                     </SF>
                     <PF>
                         <jugador>
                             <nombre>Christian Wood</nombre>
-                            <imagen>https://is.gd/christian_wood</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1626174.png</imagen>
                         </jugador>
                         <jugador>
                             <nombre>Danuel House Jr.</nombre>
-                            <imagen>https://is.gd/danuel_house_jr</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1627863.png</imagen>
                         </jugador>
                     </PF>
                     <C>
                         <jugador>
                             <nombre>Alperen Sengun</nombre>
-                            <imagen>https://is.gd/alperen_sengun</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/260x190/1629111.png</imagen>
                         </jugador>
                         <jugador>
                             <nombre>Usman Garuba</nombre>
-                            <imagen>https://is.gd/usman_garuba</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1630582.png</imagen>
                         </jugador>
                     </C>
                 </jugadores>
+                
             </equipo>
         <equipo>
             <nombreequipo>
@@ -586,54 +589,55 @@
                 <PG>
                     <jugador>
                         <nombre>Stephen Curry</nombre>
-                        <imagen>https://is.gd/stephen_curry</imagen>
+                        <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/201939.png</imagen>
                     </jugador>
                     <jugador>
                         <nombre>Shaun Livingston</nombre>
-                        <imagen>https://is.gd/shaun_livingston</imagen>
+                        <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/2733.png</imagen>
                     </jugador>
                 </PG>
                 <SG>
                     <jugador>
                         <nombre>Klay Thompson</nombre>
-                        <imagen>https://is.gd/klay_thompson</imagen>
+                        <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/202691.png</imagen>
                     </jugador>
                     <jugador>
                         <nombre>Jordan Poole</nombre>
-                        <imagen>https://is.gd/jordan_poole</imagen>
+                        <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1629673.png</imagen>
                     </jugador>
                 </SG>
                 <SF>
                     <jugador>
                         <nombre>Andrew Wiggins</nombre>
-                        <imagen>https://is.gd/andrew_wiggins</imagen>
+                        <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/203952.png</imagen>
                     </jugador>
                     <jugador>
                         <nombre>Andre Iguodala</nombre>
-                        <imagen>https://is.gd/andre_iguodala</imagen>
+                        <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/2738.png</imagen>
                     </jugador>
                 </SF>
                 <PF>
                     <jugador>
                         <nombre>Draymond Green</nombre>
-                        <imagen>https://is.gd/draymond_green</imagen>
+                        <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/203110.png</imagen>
                     </jugador>
                     <jugador>
                         <nombre>Eric Paschall</nombre>
-                        <imagen>https://is.gd/eric_paschall</imagen>
+                        <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1629672.png</imagen>
                     </jugador>
                 </PF>
                 <C>
                     <jugador>
                         <nombre>James Wiseman</nombre>
-                        <imagen>https://is.gd/james_wiseman</imagen>
+                        <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1630192.png</imagen>
                     </jugador>
                     <jugador>
                         <nombre>Kevon Looney</nombre>
-                        <imagen>https://is.gd/kevon_looney</imagen>
+                        <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1626172.png</imagen>
                     </jugador>
                 </C>
             </jugadores>
+            
         </equipo>
             <equipo>
                 <nombreequipo>
@@ -648,54 +652,55 @@
                     <PG>
                         <jugador>
                             <nombre>Reggie Jackson</nombre>
-                            <imagen>https://is.gd/reggie_jackson</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/202704.png</imagen>
                         </jugador>
                         <jugador>
                             <nombre>Lou Williams</nombre>
-                            <imagen>https://is.gd/lou_williams</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/101150.png</imagen>
                         </jugador>
                     </PG>
                     <SG>
                         <jugador>
                             <nombre>Paul George</nombre>
-                            <imagen>https://is.gd/paul_george</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/202331.png</imagen>
                         </jugador>
                         <jugador>
                             <nombre>Luke Kennard</nombre>
-                            <imagen>https://is.gd/luke_kennard</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1628379.png</imagen>
                         </jugador>
                     </SG>
                     <SF>
                         <jugador>
                             <nombre>Kawhi Leonard</nombre>
-                            <imagen>https://is.gd/kawhi_leonard</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/202695.png</imagen>
                         </jugador>
                         <jugador>
                             <nombre>Nicolas Batum</nombre>
-                            <imagen>https://is.gd/nicolas_batum</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/201587.png</imagen>
                         </jugador>
                     </SF>
                     <PF>
                         <jugador>
                             <nombre>Marcus Morris Sr.</nombre>
-                            <imagen>https://is.gd/marcus_morris_sr</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/202694.png</imagen>
                         </jugador>
                         <jugador>
                             <nombre>Ivica Zubac</nombre>
-                            <imagen>https://is.gd/ivica_zubac</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1627826.png</imagen>
                         </jugador>
                     </PF>
                     <C>
                         <jugador>
                             <nombre>Serge Ibaka</nombre>
-                            <imagen>https://is.gd/serge_ibaka</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/201586.png</imagen>
                         </jugador>
                         <jugador>
                             <nombre>DeMarcus Cousins</nombre>
-                            <imagen>https://is.gd/demarcus_cousins</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/202326.png</imagen>
                         </jugador>
                     </C>
                 </jugadores>
+                
             </equipo>
         <equipo>
             <nombreequipo>
@@ -710,54 +715,55 @@
                 <PG>
                     <jugador>
                         <nombre>Darius Garland</nombre>
-                        <imagen>https://is.gd/darius_garland</imagen>
+                        <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1629678.png</imagen>
                     </jugador>
                     <jugador>
                         <nombre>Rajon Rondo</nombre>
-                        <imagen>https://is.gd/rajon_rondo</imagen>
+                        <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/200765.png</imagen>
                     </jugador>
                 </PG>
                 <SG>
                     <jugador>
                         <nombre>Collin Sexton</nombre>
-                        <imagen>https://is.gd/collin_sexton</imagen>
+                        <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1629012.png</imagen>
                     </jugador>
                     <jugador>
                         <nombre>Isaac Okoro</nombre>
-                        <imagen>https://is.gd/isaac_okoro</imagen>
+                        <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1630174.png</imagen>
                     </jugador>
                 </SG>
                 <SF>
                     <jugador>
                         <nombre>Evan Mobley</nombre>
-                        <imagen>https://is.gd/evan_mobley</imagen>
+                        <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1630567.png</imagen>
                     </jugador>
                     <jugador>
                         <nombre>Cedi Osman</nombre>
-                        <imagen>https://is.gd/cedi_osman</imagen>
+                        <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1626224.png</imagen>
                     </jugador>
                 </SF>
                 <PF>
                     <jugador>
                         <nombre>Larry Nance Jr.</nombre>
-                        <imagen>https://is.gd/larry_nance_jr</imagen>
+                        <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1626204.png</imagen>
                     </jugador>
                     <jugador>
                         <nombre>Kevin Love</nombre>
-                        <imagen>https://is.gd/kevin_love</imagen>
+                        <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/201567.png</imagen>
                     </jugador>
                 </PF>
                 <C>
                     <jugador>
                         <nombre>Jarrett Allen</nombre>
-                        <imagen>https://is.gd/jarrett_allen</imagen>
+                        <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1628384.png</imagen>
                     </jugador>
                     <jugador>
                         <nombre>Wendell Carter Jr.</nombre>
-                        <imagen>https://is.gd/wendell_carter_jr</imagen>
+                        <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1628976.png</imagen>
                     </jugador>
                 </C>
             </jugadores>
+            
         </equipo>
             <equipo>
                 <nombreequipo>
@@ -772,54 +778,55 @@
                     <PG>
                         <jugador>
                             <nombre>Ja Morant</nombre>
-                            <imagen>https://is.gd/ja_morant</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1629630.png</imagen>
                         </jugador>
                         <jugador>
                             <nombre>Tyus Jones</nombre>
-                            <imagen>https://is.gd/tyus_jones</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1626145.png</imagen>
                         </jugador>
                     </PG>
                     <SG>
                         <jugador>
                             <nombre>Dillon Brooks</nombre>
-                            <imagen>https://is.gd/dillon_brooks</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1628415.png</imagen>
                         </jugador>
                         <jugador>
                             <nombre>Desmond Bane</nombre>
-                            <imagen>https://is.gd/desmond_bane</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1630182.png</imagen>
                         </jugador>
                     </SG>
                     <SF>
                         <jugador>
                             <nombre>Kyle Anderson</nombre>
-                            <imagen>https://is.gd/kyle_anderson</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/203937.png</imagen>
                         </jugador>
                         <jugador>
                             <nombre>De'Anthony Melton</nombre>
-                            <imagen>https://is.gd/deanthony_melton</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1629001.png</imagen>
                         </jugador>
                     </SF>
                     <PF>
                         <jugador>
                             <nombre>Jaren Jackson Jr.</nombre>
-                            <imagen>https://is.gd/jaren_jackson_jr</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1628991.png</imagen>
                         </jugador>
                         <jugador>
                             <nombre>Brandon Clarke</nombre>
-                            <imagen>https://is.gd/brandon_clarke</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1629634.png</imagen>
                         </jugador>
                     </PF>
                     <C>
                         <jugador>
                             <nombre>Steven Adams</nombre>
-                            <imagen>https://is.gd/steven_adams</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/203500.png</imagen>
                         </jugador>
                         <jugador>
                             <nombre>Xavier Tillman Sr.</nombre>
-                            <imagen>https://is.gd/xavier_tillman_sr</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1630243.png</imagen>
                         </jugador>
                     </C>
                 </jugadores>
+                
             </equipo>
         </equiposliga>
     </temporada>
@@ -1153,57 +1160,57 @@
                 <escudo>../imagenes/otras/logosequipos/Lakers.png</escudo>
                 <entrenador>
                     <nombre>Frank Vogel</nombre>
-                    <imagen>../imagenes/otras/vogel.png</imagen>
+                    <imagen>https://as01.epimg.net/img/especiales/baloncesto/nba/2019/guia/lakers/player_0.png</imagen>
                 </entrenador>
                 <jugadores>
                     <PG>
                         <jugador>
                             <nombre>LeBron James</nombre>
-                            <imagen>https://is.gd/lebron_james</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/2544.png</imagen>
                         </jugador>
                         <jugador>
                             <nombre>Russell Westbrook</nombre>
-                            <imagen>https://is.gd/russell_westbrook</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/201566.png</imagen>
                         </jugador>
                     </PG>
                     <SG>
                         <jugador>
                             <nombre>Anthony Davis</nombre>
-                            <imagen>https://is.gd/anthony_davis</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/203076.png</imagen>
                         </jugador>
                         <jugador>
                             <nombre>Talen Horton-Tucker</nombre>
-                            <imagen>https://is.gd/talen_horton_tucker</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1629659.png</imagen>
                         </jugador>
                     </SG>
                     <SF>
                         <jugador>
                             <nombre>Carmelo Anthony</nombre>
-                            <imagen>https://is.gd/carmelo_anthony</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/2546.png</imagen>
                         </jugador>
                         <jugador>
                             <nombre>Kent Bazemore</nombre>
-                            <imagen>https://is.gd/kent_bazemore</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/203145.png</imagen>
                         </jugador>
                     </SF>
                     <PF>
                         <jugador>
                             <nombre>Dwight Howard</nombre>
-                            <imagen>https://is.gd/dwight_howard</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/2730.png</imagen>
                         </jugador>
                         <jugador>
                             <nombre>Malik Monk</nombre>
-                            <imagen>https://is.gd/malik_monk</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1628370.png</imagen>
                         </jugador>
                     </PF>
                     <C>
                         <jugador>
                             <nombre>DeAndre Jordan</nombre>
-                            <imagen>https://is.gd/deandre_jordan</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/201599.png</imagen>
                         </jugador>
                         <jugador>
                             <nombre>JaVale McGee</nombre>
-                            <imagen>https://is.gd/javale_mcgee</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/201580.png</imagen>
                         </jugador>
                     </C>
                 </jugadores>
@@ -1215,60 +1222,61 @@
                     <escudo>../imagenes/otras/logosequipos/Mavericks.png</escudo>
                     <entrenador>
                         <nombre>Jason Kidd</nombre>
-                        <imagen>../imagenes/otras/kidd.png</imagen>
+                        <imagen>../imagenes/otras/jasonkidd.png</imagen>
                     </entrenador>
                     <jugadores>
                         <PG>
                             <jugador>
                                 <nombre>Luka Dončić</nombre>
-                                <imagen>https://is.gd/luka_doncic</imagen>
+                                <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1629029.png</imagen>
                             </jugador>
                             <jugador>
                                 <nombre>Jalen Brunson</nombre>
-                                <imagen>https://is.gd/jalen_brunson</imagen>
+                                <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1628973.png</imagen>
                             </jugador>
                         </PG>
                         <SG>
                             <jugador>
                                 <nombre>Tim Hardaway Jr.</nombre>
-                                <imagen>https://is.gd/tim_hardaway_jr</imagen>
+                                <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/203501.png</imagen>
                             </jugador>
                             <jugador>
                                 <nombre>Seth Curry</nombre>
-                                <imagen>https://is.gd/seth_curry</imagen>
+                                <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/203552.png</imagen>
                             </jugador>
                         </SG>
                         <SF>
                             <jugador>
                                 <nombre>Dorian Finney-Smith</nombre>
-                                <imagen>https://is.gd/dorian_finney_smith</imagen>
+                                <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1627827.png</imagen>
                             </jugador>
                             <jugador>
                                 <nombre>Josh Green</nombre>
-                                <imagen>https://is.gd/josh_green</imagen>
+                                <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1630173.png</imagen>
                             </jugador>
                         </SF>
                         <PF>
                             <jugador>
                                 <nombre>Kristaps Porziņģis</nombre>
-                                <imagen>https://is.gd/kristaps_porzingis</imagen>
+                                <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/204001.png</imagen>
                             </jugador>
                             <jugador>
                                 <nombre>Dwight Powell</nombre>
-                                <imagen>https://is.gd/dwight_powell</imagen>
+                                <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/203486.png</imagen>
                             </jugador>
                         </PF>
                         <C>
                             <jugador>
                                 <nombre>Maxi Kleber</nombre>
-                                <imagen>https://is.gd/maxi_kleber</imagen>
+                                <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1628467.png</imagen>
                             </jugador>
                             <jugador>
                                 <nombre>Boban Marjanović</nombre>
-                                <imagen>https://is.gd/boban_marjanovic</imagen>
+                                <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1626246.png</imagen>
                             </jugador>
                         </C>
                     </jugadores>
+                    
                 </equipo>                
             <equipo>
                 <nombreequipo>
@@ -1283,54 +1291,55 @@
                     <PG>
                         <jugador>
                             <nombre>Marcus Smart</nombre>
-                            <imagen>https://is.gd/marcus_smart</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/203935.png</imagen>
                         </jugador>
                         <jugador>
                             <nombre>Dennis Schröder</nombre>
-                            <imagen>https://is.gd/dennis_schroder</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/203471.png</imagen>
                         </jugador>
                     </PG>
                     <SG>
                         <jugador>
                             <nombre>Jaylen Brown</nombre>
-                            <imagen>https://is.gd/jaylen_brown</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1627759.png</imagen>
                         </jugador>
                         <jugador>
                             <nombre>Romeo Langford</nombre>
-                            <imagen>https://is.gd/romeo_langford</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1629641.png</imagen>
                         </jugador>
                     </SG>
                     <SF>
                         <jugador>
                             <nombre>Jayson Tatum</nombre>
-                            <imagen>https://is.gd/jayson_tatum</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1628369.png</imagen>
                         </jugador>
                         <jugador>
                             <nombre>Aaron Nesmith</nombre>
-                            <imagen>https://is.gd/aaron_nesmith</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1630206.png</imagen>
                         </jugador>
                     </SF>
                     <PF>
                         <jugador>
                             <nombre>Al Horford</nombre>
-                            <imagen>https://is.gd/al_horford</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/201143.png</imagen>
                         </jugador>
                         <jugador>
                             <nombre>Grant Williams</nombre>
-                            <imagen>https://is.gd/grant_williams</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1629684.png</imagen>
                         </jugador>
                     </PF>
                     <C>
                         <jugador>
                             <nombre>Robert Williams III</nombre>
-                            <imagen>https://is.gd/robert_williams</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1629057.png</imagen>
                         </jugador>
                         <jugador>
                             <nombre>Enes Kanter</nombre>
-                            <imagen>https://is.gd/enes_kanter</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/202683.png</imagen>
                         </jugador>
                     </C>
                 </jugadores>
+                
             </equipo>         
             <equipo>
                 <nombreequipo>
@@ -1345,54 +1354,55 @@
                     <PG>
                         <jugador>
                             <nombre>Kevin Porter Jr.</nombre>
-                            <imagen>https://is.gd/kevin_porter_jr</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1629645.png</imagen>
                         </jugador>
                         <jugador>
                             <nombre>D.J. Augustin</nombre>
-                            <imagen>https://is.gd/dj_augustin</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/201571.png</imagen>
                         </jugador>
                     </PG>
                     <SG>
                         <jugador>
                             <nombre>Jalen Green</nombre>
-                            <imagen>https://is.gd/jalen_green</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1630177.png</imagen>
                         </jugador>
                         <jugador>
                             <nombre>Armoni Brooks</nombre>
-                            <imagen>https://is.gd/armoni_brooks</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1629673.png</imagen>
                         </jugador>
                     </SG>
                     <SF>
                         <jugador>
                             <nombre>Jae'Sean Tate</nombre>
-                            <imagen>https://is.gd/jaesean_tate</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1628961.png</imagen>
                         </jugador>
                         <jugador>
                             <nombre>Khyri Thomas</nombre>
-                            <imagen>https://is.gd/khyri_thomas</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1629017.png</imagen>
                         </jugador>
                     </SF>
                     <PF>
                         <jugador>
                             <nombre>Christian Wood</nombre>
-                            <imagen>https://is.gd/christian_wood</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1626174.png</imagen>
                         </jugador>
                         <jugador>
                             <nombre>Danuel House Jr.</nombre>
-                            <imagen>https://is.gd/danuel_house_jr</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1627863.png</imagen>
                         </jugador>
                     </PF>
                     <C>
                         <jugador>
                             <nombre>Alperen Sengun</nombre>
-                            <imagen>https://is.gd/alperen_sengun</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/260x190/1629111.png</imagen>
                         </jugador>
                         <jugador>
                             <nombre>Usman Garuba</nombre>
-                            <imagen>https://is.gd/usman_garuba</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1630582.png</imagen>
                         </jugador>
                     </C>
                 </jugadores>
+                
             </equipo>
         <equipo>
             <nombreequipo>
@@ -1407,54 +1417,55 @@
                 <PG>
                     <jugador>
                         <nombre>Stephen Curry</nombre>
-                        <imagen>https://is.gd/stephen_curry</imagen>
+                        <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/201939.png</imagen>
                     </jugador>
                     <jugador>
                         <nombre>Shaun Livingston</nombre>
-                        <imagen>https://is.gd/shaun_livingston</imagen>
+                        <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/2733.png</imagen>
                     </jugador>
                 </PG>
                 <SG>
                     <jugador>
                         <nombre>Klay Thompson</nombre>
-                        <imagen>https://is.gd/klay_thompson</imagen>
+                        <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/202691.png</imagen>
                     </jugador>
                     <jugador>
                         <nombre>Jordan Poole</nombre>
-                        <imagen>https://is.gd/jordan_poole</imagen>
+                        <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1629673.png</imagen>
                     </jugador>
                 </SG>
                 <SF>
                     <jugador>
                         <nombre>Andrew Wiggins</nombre>
-                        <imagen>https://is.gd/andrew_wiggins</imagen>
+                        <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/203952.png</imagen>
                     </jugador>
                     <jugador>
                         <nombre>Andre Iguodala</nombre>
-                        <imagen>https://is.gd/andre_iguodala</imagen>
+                        <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/2738.png</imagen>
                     </jugador>
                 </SF>
                 <PF>
                     <jugador>
                         <nombre>Draymond Green</nombre>
-                        <imagen>https://is.gd/draymond_green</imagen>
+                        <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/203110.png</imagen>
                     </jugador>
                     <jugador>
                         <nombre>Eric Paschall</nombre>
-                        <imagen>https://is.gd/eric_paschall</imagen>
+                        <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1629672.png</imagen>
                     </jugador>
                 </PF>
                 <C>
                     <jugador>
                         <nombre>James Wiseman</nombre>
-                        <imagen>https://is.gd/james_wiseman</imagen>
+                        <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1630192.png</imagen>
                     </jugador>
                     <jugador>
                         <nombre>Kevon Looney</nombre>
-                        <imagen>https://is.gd/kevon_looney</imagen>
+                        <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1626172.png</imagen>
                     </jugador>
                 </C>
             </jugadores>
+            
         </equipo>
             <equipo>
                 <nombreequipo>
@@ -1469,54 +1480,55 @@
                     <PG>
                         <jugador>
                             <nombre>Reggie Jackson</nombre>
-                            <imagen>https://is.gd/reggie_jackson</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/202704.png</imagen>
                         </jugador>
                         <jugador>
                             <nombre>Lou Williams</nombre>
-                            <imagen>https://is.gd/lou_williams</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/101150.png</imagen>
                         </jugador>
                     </PG>
                     <SG>
                         <jugador>
                             <nombre>Paul George</nombre>
-                            <imagen>https://is.gd/paul_george</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/202331.png</imagen>
                         </jugador>
                         <jugador>
                             <nombre>Luke Kennard</nombre>
-                            <imagen>https://is.gd/luke_kennard</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1628379.png</imagen>
                         </jugador>
                     </SG>
                     <SF>
                         <jugador>
                             <nombre>Kawhi Leonard</nombre>
-                            <imagen>https://is.gd/kawhi_leonard</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/202695.png</imagen>
                         </jugador>
                         <jugador>
                             <nombre>Nicolas Batum</nombre>
-                            <imagen>https://is.gd/nicolas_batum</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/201587.png</imagen>
                         </jugador>
                     </SF>
                     <PF>
                         <jugador>
                             <nombre>Marcus Morris Sr.</nombre>
-                            <imagen>https://is.gd/marcus_morris_sr</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/202694.png</imagen>
                         </jugador>
                         <jugador>
                             <nombre>Ivica Zubac</nombre>
-                            <imagen>https://is.gd/ivica_zubac</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1627826.png</imagen>
                         </jugador>
                     </PF>
                     <C>
                         <jugador>
                             <nombre>Serge Ibaka</nombre>
-                            <imagen>https://is.gd/serge_ibaka</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/201586.png</imagen>
                         </jugador>
                         <jugador>
                             <nombre>DeMarcus Cousins</nombre>
-                            <imagen>https://is.gd/demarcus_cousins</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/202326.png</imagen>
                         </jugador>
                     </C>
                 </jugadores>
+                
             </equipo>
         <equipo>
             <nombreequipo>
@@ -1531,54 +1543,55 @@
                 <PG>
                     <jugador>
                         <nombre>Darius Garland</nombre>
-                        <imagen>https://is.gd/darius_garland</imagen>
+                        <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1629678.png</imagen>
                     </jugador>
                     <jugador>
                         <nombre>Rajon Rondo</nombre>
-                        <imagen>https://is.gd/rajon_rondo</imagen>
+                        <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/200765.png</imagen>
                     </jugador>
                 </PG>
                 <SG>
                     <jugador>
                         <nombre>Collin Sexton</nombre>
-                        <imagen>https://is.gd/collin_sexton</imagen>
+                        <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1629012.png</imagen>
                     </jugador>
                     <jugador>
                         <nombre>Isaac Okoro</nombre>
-                        <imagen>https://is.gd/isaac_okoro</imagen>
+                        <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1630174.png</imagen>
                     </jugador>
                 </SG>
                 <SF>
                     <jugador>
                         <nombre>Evan Mobley</nombre>
-                        <imagen>https://is.gd/evan_mobley</imagen>
+                        <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1630567.png</imagen>
                     </jugador>
                     <jugador>
                         <nombre>Cedi Osman</nombre>
-                        <imagen>https://is.gd/cedi_osman</imagen>
+                        <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1626224.png</imagen>
                     </jugador>
                 </SF>
                 <PF>
                     <jugador>
                         <nombre>Larry Nance Jr.</nombre>
-                        <imagen>https://is.gd/larry_nance_jr</imagen>
+                        <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1626204.png</imagen>
                     </jugador>
                     <jugador>
                         <nombre>Kevin Love</nombre>
-                        <imagen>https://is.gd/kevin_love</imagen>
+                        <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/201567.png</imagen>
                     </jugador>
                 </PF>
                 <C>
                     <jugador>
                         <nombre>Jarrett Allen</nombre>
-                        <imagen>https://is.gd/jarrett_allen</imagen>
+                        <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1628384.png</imagen>
                     </jugador>
                     <jugador>
                         <nombre>Wendell Carter Jr.</nombre>
-                        <imagen>https://is.gd/wendell_carter_jr</imagen>
+                        <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1628976.png</imagen>
                     </jugador>
                 </C>
             </jugadores>
+            
         </equipo>
             <equipo>
                 <nombreequipo>
@@ -1593,54 +1606,55 @@
                     <PG>
                         <jugador>
                             <nombre>Ja Morant</nombre>
-                            <imagen>https://is.gd/ja_morant</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1629630.png</imagen>
                         </jugador>
                         <jugador>
                             <nombre>Tyus Jones</nombre>
-                            <imagen>https://is.gd/tyus_jones</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1626145.png</imagen>
                         </jugador>
                     </PG>
                     <SG>
                         <jugador>
                             <nombre>Dillon Brooks</nombre>
-                            <imagen>https://is.gd/dillon_brooks</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1628415.png</imagen>
                         </jugador>
                         <jugador>
                             <nombre>Desmond Bane</nombre>
-                            <imagen>https://is.gd/desmond_bane</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1630182.png</imagen>
                         </jugador>
                     </SG>
                     <SF>
                         <jugador>
                             <nombre>Kyle Anderson</nombre>
-                            <imagen>https://is.gd/kyle_anderson</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/203937.png</imagen>
                         </jugador>
                         <jugador>
                             <nombre>De'Anthony Melton</nombre>
-                            <imagen>https://is.gd/deanthony_melton</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1629001.png</imagen>
                         </jugador>
                     </SF>
                     <PF>
                         <jugador>
                             <nombre>Jaren Jackson Jr.</nombre>
-                            <imagen>https://is.gd/jaren_jackson_jr</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1628991.png</imagen>
                         </jugador>
                         <jugador>
                             <nombre>Brandon Clarke</nombre>
-                            <imagen>https://is.gd/brandon_clarke</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1629634.png</imagen>
                         </jugador>
                     </PF>
                     <C>
                         <jugador>
                             <nombre>Steven Adams</nombre>
-                            <imagen>https://is.gd/steven_adams</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/203500.png</imagen>
                         </jugador>
                         <jugador>
                             <nombre>Xavier Tillman Sr.</nombre>
-                            <imagen>https://is.gd/xavier_tillman_sr</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1630243.png</imagen>
                         </jugador>
                     </C>
                 </jugadores>
+                
             </equipo>
         </equiposliga>
     </temporada>
@@ -1986,57 +2000,57 @@
                 <escudo>../imagenes/otras/logosequipos/Lakers.png</escudo>
                 <entrenador>
                     <nombre>Frank Vogel</nombre>
-                    <imagen>../imagenes/otras/vogel.png</imagen>
+                    <imagen>https://as01.epimg.net/img/especiales/baloncesto/nba/2019/guia/lakers/player_0.png</imagen>
                 </entrenador>
                 <jugadores>
                     <PG>
                         <jugador>
                             <nombre>LeBron James</nombre>
-                            <imagen>https://is.gd/lebron_james</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/2544.png</imagen>
                         </jugador>
                         <jugador>
                             <nombre>Russell Westbrook</nombre>
-                            <imagen>https://is.gd/russell_westbrook</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/201566.png</imagen>
                         </jugador>
                     </PG>
                     <SG>
                         <jugador>
                             <nombre>Anthony Davis</nombre>
-                            <imagen>https://is.gd/anthony_davis</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/203076.png</imagen>
                         </jugador>
                         <jugador>
                             <nombre>Talen Horton-Tucker</nombre>
-                            <imagen>https://is.gd/talen_horton_tucker</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1629659.png</imagen>
                         </jugador>
                     </SG>
                     <SF>
                         <jugador>
                             <nombre>Carmelo Anthony</nombre>
-                            <imagen>https://is.gd/carmelo_anthony</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/2546.png</imagen>
                         </jugador>
                         <jugador>
                             <nombre>Kent Bazemore</nombre>
-                            <imagen>https://is.gd/kent_bazemore</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/203145.png</imagen>
                         </jugador>
                     </SF>
                     <PF>
                         <jugador>
                             <nombre>Dwight Howard</nombre>
-                            <imagen>https://is.gd/dwight_howard</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/2730.png</imagen>
                         </jugador>
                         <jugador>
                             <nombre>Malik Monk</nombre>
-                            <imagen>https://is.gd/malik_monk</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1628370.png</imagen>
                         </jugador>
                     </PF>
                     <C>
                         <jugador>
                             <nombre>DeAndre Jordan</nombre>
-                            <imagen>https://is.gd/deandre_jordan</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/201599.png</imagen>
                         </jugador>
                         <jugador>
                             <nombre>JaVale McGee</nombre>
-                            <imagen>https://is.gd/javale_mcgee</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/201580.png</imagen>
                         </jugador>
                     </C>
                 </jugadores>
@@ -2048,60 +2062,61 @@
                     <escudo>../imagenes/otras/logosequipos/Mavericks.png</escudo>
                     <entrenador>
                         <nombre>Jason Kidd</nombre>
-                        <imagen>../imagenes/otras/kidd.png</imagen>
+                        <imagen>../imagenes/otras/jasonkidd.png</imagen>
                     </entrenador>
                     <jugadores>
                         <PG>
                             <jugador>
                                 <nombre>Luka Dončić</nombre>
-                                <imagen>https://is.gd/luka_doncic</imagen>
+                                <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1629029.png</imagen>
                             </jugador>
                             <jugador>
                                 <nombre>Jalen Brunson</nombre>
-                                <imagen>https://is.gd/jalen_brunson</imagen>
+                                <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1628973.png</imagen>
                             </jugador>
                         </PG>
                         <SG>
                             <jugador>
                                 <nombre>Tim Hardaway Jr.</nombre>
-                                <imagen>https://is.gd/tim_hardaway_jr</imagen>
+                                <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/203501.png</imagen>
                             </jugador>
                             <jugador>
                                 <nombre>Seth Curry</nombre>
-                                <imagen>https://is.gd/seth_curry</imagen>
+                                <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/203552.png</imagen>
                             </jugador>
                         </SG>
                         <SF>
                             <jugador>
                                 <nombre>Dorian Finney-Smith</nombre>
-                                <imagen>https://is.gd/dorian_finney_smith</imagen>
+                                <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1627827.png</imagen>
                             </jugador>
                             <jugador>
                                 <nombre>Josh Green</nombre>
-                                <imagen>https://is.gd/josh_green</imagen>
+                                <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1630173.png</imagen>
                             </jugador>
                         </SF>
                         <PF>
                             <jugador>
                                 <nombre>Kristaps Porziņģis</nombre>
-                                <imagen>https://is.gd/kristaps_porzingis</imagen>
+                                <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/204001.png</imagen>
                             </jugador>
                             <jugador>
                                 <nombre>Dwight Powell</nombre>
-                                <imagen>https://is.gd/dwight_powell</imagen>
+                                <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/203486.png</imagen>
                             </jugador>
                         </PF>
                         <C>
                             <jugador>
                                 <nombre>Maxi Kleber</nombre>
-                                <imagen>https://is.gd/maxi_kleber</imagen>
+                                <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1628467.png</imagen>
                             </jugador>
                             <jugador>
                                 <nombre>Boban Marjanović</nombre>
-                                <imagen>https://is.gd/boban_marjanovic</imagen>
+                                <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1626246.png</imagen>
                             </jugador>
                         </C>
                     </jugadores>
+                    
                 </equipo>                
             <equipo>
                 <nombreequipo>
@@ -2116,54 +2131,55 @@
                     <PG>
                         <jugador>
                             <nombre>Marcus Smart</nombre>
-                            <imagen>https://is.gd/marcus_smart</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/203935.png</imagen>
                         </jugador>
                         <jugador>
                             <nombre>Dennis Schröder</nombre>
-                            <imagen>https://is.gd/dennis_schroder</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/203471.png</imagen>
                         </jugador>
                     </PG>
                     <SG>
                         <jugador>
                             <nombre>Jaylen Brown</nombre>
-                            <imagen>https://is.gd/jaylen_brown</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1627759.png</imagen>
                         </jugador>
                         <jugador>
                             <nombre>Romeo Langford</nombre>
-                            <imagen>https://is.gd/romeo_langford</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1629641.png</imagen>
                         </jugador>
                     </SG>
                     <SF>
                         <jugador>
                             <nombre>Jayson Tatum</nombre>
-                            <imagen>https://is.gd/jayson_tatum</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1628369.png</imagen>
                         </jugador>
                         <jugador>
                             <nombre>Aaron Nesmith</nombre>
-                            <imagen>https://is.gd/aaron_nesmith</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1630206.png</imagen>
                         </jugador>
                     </SF>
                     <PF>
                         <jugador>
                             <nombre>Al Horford</nombre>
-                            <imagen>https://is.gd/al_horford</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/201143.png</imagen>
                         </jugador>
                         <jugador>
                             <nombre>Grant Williams</nombre>
-                            <imagen>https://is.gd/grant_williams</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1629684.png</imagen>
                         </jugador>
                     </PF>
                     <C>
                         <jugador>
                             <nombre>Robert Williams III</nombre>
-                            <imagen>https://is.gd/robert_williams</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1629057.png</imagen>
                         </jugador>
                         <jugador>
                             <nombre>Enes Kanter</nombre>
-                            <imagen>https://is.gd/enes_kanter</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/202683.png</imagen>
                         </jugador>
                     </C>
                 </jugadores>
+                
             </equipo>         
             <equipo>
                 <nombreequipo>
@@ -2178,54 +2194,55 @@
                     <PG>
                         <jugador>
                             <nombre>Kevin Porter Jr.</nombre>
-                            <imagen>https://is.gd/kevin_porter_jr</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1629645.png</imagen>
                         </jugador>
                         <jugador>
                             <nombre>D.J. Augustin</nombre>
-                            <imagen>https://is.gd/dj_augustin</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/201571.png</imagen>
                         </jugador>
                     </PG>
                     <SG>
                         <jugador>
                             <nombre>Jalen Green</nombre>
-                            <imagen>https://is.gd/jalen_green</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1630177.png</imagen>
                         </jugador>
                         <jugador>
                             <nombre>Armoni Brooks</nombre>
-                            <imagen>https://is.gd/armoni_brooks</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1629673.png</imagen>
                         </jugador>
                     </SG>
                     <SF>
                         <jugador>
                             <nombre>Jae'Sean Tate</nombre>
-                            <imagen>https://is.gd/jaesean_tate</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1628961.png</imagen>
                         </jugador>
                         <jugador>
                             <nombre>Khyri Thomas</nombre>
-                            <imagen>https://is.gd/khyri_thomas</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1629017.png</imagen>
                         </jugador>
                     </SF>
                     <PF>
                         <jugador>
                             <nombre>Christian Wood</nombre>
-                            <imagen>https://is.gd/christian_wood</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1626174.png</imagen>
                         </jugador>
                         <jugador>
                             <nombre>Danuel House Jr.</nombre>
-                            <imagen>https://is.gd/danuel_house_jr</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1627863.png</imagen>
                         </jugador>
                     </PF>
                     <C>
                         <jugador>
                             <nombre>Alperen Sengun</nombre>
-                            <imagen>https://is.gd/alperen_sengun</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/260x190/1629111.png</imagen>
                         </jugador>
                         <jugador>
                             <nombre>Usman Garuba</nombre>
-                            <imagen>https://is.gd/usman_garuba</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1630582.png</imagen>
                         </jugador>
                     </C>
                 </jugadores>
+                
             </equipo>
         <equipo>
             <nombreequipo>
@@ -2240,54 +2257,55 @@
                 <PG>
                     <jugador>
                         <nombre>Stephen Curry</nombre>
-                        <imagen>https://is.gd/stephen_curry</imagen>
+                        <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/201939.png</imagen>
                     </jugador>
                     <jugador>
                         <nombre>Shaun Livingston</nombre>
-                        <imagen>https://is.gd/shaun_livingston</imagen>
+                        <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/2733.png</imagen>
                     </jugador>
                 </PG>
                 <SG>
                     <jugador>
                         <nombre>Klay Thompson</nombre>
-                        <imagen>https://is.gd/klay_thompson</imagen>
+                        <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/202691.png</imagen>
                     </jugador>
                     <jugador>
                         <nombre>Jordan Poole</nombre>
-                        <imagen>https://is.gd/jordan_poole</imagen>
+                        <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1629673.png</imagen>
                     </jugador>
                 </SG>
                 <SF>
                     <jugador>
                         <nombre>Andrew Wiggins</nombre>
-                        <imagen>https://is.gd/andrew_wiggins</imagen>
+                        <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/203952.png</imagen>
                     </jugador>
                     <jugador>
                         <nombre>Andre Iguodala</nombre>
-                        <imagen>https://is.gd/andre_iguodala</imagen>
+                        <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/2738.png</imagen>
                     </jugador>
                 </SF>
                 <PF>
                     <jugador>
                         <nombre>Draymond Green</nombre>
-                        <imagen>https://is.gd/draymond_green</imagen>
+                        <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/203110.png</imagen>
                     </jugador>
                     <jugador>
                         <nombre>Eric Paschall</nombre>
-                        <imagen>https://is.gd/eric_paschall</imagen>
+                        <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1629672.png</imagen>
                     </jugador>
                 </PF>
                 <C>
                     <jugador>
                         <nombre>James Wiseman</nombre>
-                        <imagen>https://is.gd/james_wiseman</imagen>
+                        <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1630192.png</imagen>
                     </jugador>
                     <jugador>
                         <nombre>Kevon Looney</nombre>
-                        <imagen>https://is.gd/kevon_looney</imagen>
+                        <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1626172.png</imagen>
                     </jugador>
                 </C>
             </jugadores>
+            
         </equipo>
             <equipo>
                 <nombreequipo>
@@ -2302,54 +2320,55 @@
                     <PG>
                         <jugador>
                             <nombre>Reggie Jackson</nombre>
-                            <imagen>https://is.gd/reggie_jackson</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/202704.png</imagen>
                         </jugador>
                         <jugador>
                             <nombre>Lou Williams</nombre>
-                            <imagen>https://is.gd/lou_williams</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/101150.png</imagen>
                         </jugador>
                     </PG>
                     <SG>
                         <jugador>
                             <nombre>Paul George</nombre>
-                            <imagen>https://is.gd/paul_george</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/202331.png</imagen>
                         </jugador>
                         <jugador>
                             <nombre>Luke Kennard</nombre>
-                            <imagen>https://is.gd/luke_kennard</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1628379.png</imagen>
                         </jugador>
                     </SG>
                     <SF>
                         <jugador>
                             <nombre>Kawhi Leonard</nombre>
-                            <imagen>https://is.gd/kawhi_leonard</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/202695.png</imagen>
                         </jugador>
                         <jugador>
                             <nombre>Nicolas Batum</nombre>
-                            <imagen>https://is.gd/nicolas_batum</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/201587.png</imagen>
                         </jugador>
                     </SF>
                     <PF>
                         <jugador>
                             <nombre>Marcus Morris Sr.</nombre>
-                            <imagen>https://is.gd/marcus_morris_sr</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/202694.png</imagen>
                         </jugador>
                         <jugador>
                             <nombre>Ivica Zubac</nombre>
-                            <imagen>https://is.gd/ivica_zubac</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1627826.png</imagen>
                         </jugador>
                     </PF>
                     <C>
                         <jugador>
                             <nombre>Serge Ibaka</nombre>
-                            <imagen>https://is.gd/serge_ibaka</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/201586.png</imagen>
                         </jugador>
                         <jugador>
                             <nombre>DeMarcus Cousins</nombre>
-                            <imagen>https://is.gd/demarcus_cousins</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/202326.png</imagen>
                         </jugador>
                     </C>
                 </jugadores>
+                
             </equipo>
         <equipo>
             <nombreequipo>
@@ -2364,54 +2383,55 @@
                 <PG>
                     <jugador>
                         <nombre>Darius Garland</nombre>
-                        <imagen>https://is.gd/darius_garland</imagen>
+                        <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1629678.png</imagen>
                     </jugador>
                     <jugador>
                         <nombre>Rajon Rondo</nombre>
-                        <imagen>https://is.gd/rajon_rondo</imagen>
+                        <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/200765.png</imagen>
                     </jugador>
                 </PG>
                 <SG>
                     <jugador>
                         <nombre>Collin Sexton</nombre>
-                        <imagen>https://is.gd/collin_sexton</imagen>
+                        <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1629012.png</imagen>
                     </jugador>
                     <jugador>
                         <nombre>Isaac Okoro</nombre>
-                        <imagen>https://is.gd/isaac_okoro</imagen>
+                        <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1630174.png</imagen>
                     </jugador>
                 </SG>
                 <SF>
                     <jugador>
                         <nombre>Evan Mobley</nombre>
-                        <imagen>https://is.gd/evan_mobley</imagen>
+                        <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1630567.png</imagen>
                     </jugador>
                     <jugador>
                         <nombre>Cedi Osman</nombre>
-                        <imagen>https://is.gd/cedi_osman</imagen>
+                        <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1626224.png</imagen>
                     </jugador>
                 </SF>
                 <PF>
                     <jugador>
                         <nombre>Larry Nance Jr.</nombre>
-                        <imagen>https://is.gd/larry_nance_jr</imagen>
+                        <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1626204.png</imagen>
                     </jugador>
                     <jugador>
                         <nombre>Kevin Love</nombre>
-                        <imagen>https://is.gd/kevin_love</imagen>
+                        <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/201567.png</imagen>
                     </jugador>
                 </PF>
                 <C>
                     <jugador>
                         <nombre>Jarrett Allen</nombre>
-                        <imagen>https://is.gd/jarrett_allen</imagen>
+                        <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1628384.png</imagen>
                     </jugador>
                     <jugador>
                         <nombre>Wendell Carter Jr.</nombre>
-                        <imagen>https://is.gd/wendell_carter_jr</imagen>
+                        <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1628976.png</imagen>
                     </jugador>
                 </C>
             </jugadores>
+            
         </equipo>
             <equipo>
                 <nombreequipo>
@@ -2426,54 +2446,55 @@
                     <PG>
                         <jugador>
                             <nombre>Ja Morant</nombre>
-                            <imagen>https://is.gd/ja_morant</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1629630.png</imagen>
                         </jugador>
                         <jugador>
                             <nombre>Tyus Jones</nombre>
-                            <imagen>https://is.gd/tyus_jones</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1626145.png</imagen>
                         </jugador>
                     </PG>
                     <SG>
                         <jugador>
                             <nombre>Dillon Brooks</nombre>
-                            <imagen>https://is.gd/dillon_brooks</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1628415.png</imagen>
                         </jugador>
                         <jugador>
                             <nombre>Desmond Bane</nombre>
-                            <imagen>https://is.gd/desmond_bane</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1630182.png</imagen>
                         </jugador>
                     </SG>
                     <SF>
                         <jugador>
                             <nombre>Kyle Anderson</nombre>
-                            <imagen>https://is.gd/kyle_anderson</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/203937.png</imagen>
                         </jugador>
                         <jugador>
                             <nombre>De'Anthony Melton</nombre>
-                            <imagen>https://is.gd/deanthony_melton</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1629001.png</imagen>
                         </jugador>
                     </SF>
                     <PF>
                         <jugador>
                             <nombre>Jaren Jackson Jr.</nombre>
-                            <imagen>https://is.gd/jaren_jackson_jr</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1628991.png</imagen>
                         </jugador>
                         <jugador>
                             <nombre>Brandon Clarke</nombre>
-                            <imagen>https://is.gd/brandon_clarke</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1629634.png</imagen>
                         </jugador>
                     </PF>
                     <C>
                         <jugador>
                             <nombre>Steven Adams</nombre>
-                            <imagen>https://is.gd/steven_adams</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/203500.png</imagen>
                         </jugador>
                         <jugador>
                             <nombre>Xavier Tillman Sr.</nombre>
-                            <imagen>https://is.gd/xavier_tillman_sr</imagen>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1630243.png</imagen>
                         </jugador>
                     </C>
                 </jugadores>
+                
             </equipo>
         </equiposliga>
     </temporada>
@@ -2536,4 +2557,17 @@
             <imagen src="../imagenes/otras/noticias/noticia8.png"/>
         </noticia>
    <noticia><id>noticia_11</id><titulo>gdf</titulo><contenido>fdsd</contenido><imagen src="../imagenes/otras/noticias/elliot.jpg"/></noticia></seccion>
+
+   <usuarios>
+    <admin>
+    <usuario>admin</usuario>
+    <contraseña>12345</contraseña>
+    </admin>
+    <invitado>
+        <usuario>invitado</usuario>
+        <contraseña>12345</contraseña>
+    </invitado>
+
+   </usuarios>
+   
 </temporadas>

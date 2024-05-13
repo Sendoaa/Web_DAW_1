@@ -1,33 +1,3 @@
-<?php
-session_start();
-
-// Verificar si el usuario ha iniciado sesión
-if (isset($_SESSION['nombre'])) {
-    $loggedIn = true;
-    $nombreUsuario = $_SESSION['nombre'];
-    $esAdmin = ($_SESSION['nombre'] == 'admin');
-    $esInvitado = ($_SESSION['nombre'] == 'invitado');
-    if ($_SESSION['nombre'] == 'admin') {
-      $esAdmin = true;
-      $esInvitado = false;
-    } else {
-      $esAdmin = false;
-      $esInvitado = true;
-    }
-    
-
-} else {
-    $loggedIn = false;
-}
-
-// Verificar si el usuario ha hecho clic en el enlace de cierre de sesión
-if (isset($_GET['logout'])) {
-  $loggedIn = false;
-  unset($_SESSION['nombre']);
-}
-
-?>
-
 <!DOCTYPE html>
 <html lang="es">
   
@@ -43,49 +13,14 @@ if (isset($_GET['logout'])) {
 <!-- Contenido de la pagina -->
 <body>
   <!-- Barra de navegacion -->
-  <header>
-        <!-- Logo de la página -->
-        <div class="left-section">
-          <a href="./index.html"><img src="../imagenes/logos/BOFlogo.png" alt=""></a>
-        </div>
-        <!-- Hamburguesa de menu para abrir menu navegación -->
-        <div class="togglearea">
-            <label for="toggle">
-                <span></span>
-                <span></span>
-                <span></span>
-            </label>
-        </div>
-          <input type="checkbox" id="toggle"> 
-        <!-- Barra navegación -->
-        <div class="navbar">
-          <a href="../index.html">Inicio</a>
-          <a href="../xm_xs/2023.xml">Calendario</a>
-          <a href="../paginas/clasi.html">Clasificación</a>
-          <a href="../xm_xs/datos.xml">Equipos</a>
-          <a href="../paginas/noticias.php">Noticias</a>
-          <a href="../paginas/contacto.html">Contacto</a>
-          <?php if ($loggedIn): ?>
-    <?php if ($esAdmin): ?>
-        <img id="userImage" src="../imagenes/otras/usuario.png" alt="Usuario Administrador">
-        <div id="dropdownMenu" style="display: none;">
-        <h1>ADMIN</h1>
-        <a href="../paginas/admin.php">Mi cuenta</a>
-        <a id="logoutlink" href="noticias.php?logout=true">Cerrar sesión</a>
-        </div>
-    <?php elseif ($esInvitado): ?>
-        <img id="userImage" src="../imagenes/otras/usuario.png" alt="Usuario Invitado">
-        <div id="dropdownMenu" style="display: none;">
-        <h1>INVITADO</h1>
-        <a href="/mi-cuenta">Mi cuenta</a>
-        <a id="logoutlink" href="noticias.php?logout=true">Cerrar sesión</a>
-        </div>
-    <?php endif; ?>
-<?php else: ?>
-    <button class="button-login"><a href="./login.html" class="navbar-login">LOGIN</a></button>
-<?php endif; ?>
-</div>
-    </header>
+  <?php include '../php/header.php'; ?>
+ <?php // Verificar si el usuario es un administrador
+if (!$esAdmin) {
+    // Si el usuario no es un administrador, mostrar un mensaje de alerta y redirigir a la página principal
+    echo "<script>alert('No tienes el acceso autorizado.'); window.location.href='../index.php';</script>";
+    exit;
+}
+?>
     <article class="cuadromensajes">
     <h2>¡Bienvenido admin!</h2>
             <p>Estos son los ultimos mensajes de contacto recibidos</p>

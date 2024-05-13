@@ -369,25 +369,25 @@ label h3{
 }
 /*Fondos Partidos*/
 .carcow{
-  background: #e60202;
+  background: navy;
 }
 .raiste{
   background: black;
 }
 .benram{
-  background: #ff7800;;
+  background: purple;
 }
 .chibea{
   background: linear-gradient(135deg, rgba(255,255,255,1) 0%, rgba(255,0,0,1) 100%);
 }
 .cowcar{
-  background: black;
+  background: green;
 }
 .sterai{
-  background: #aaa;
+  background: rgb(98, 8, 8);
 }
 .ramben{
-  background: linear-gradient(135deg,rgba(255,255,255,1) 0%,rgba(255,98,0,1) 100%);
+  background: rgb(94, 102, 207);
 }
 
 .fechahora {
@@ -817,6 +817,18 @@ details[open] .toggle-summary .toggle-button {
 
 .divjugadores> div {
   margin-bottom: 10px;
+  width: 20%;
+}
+
+@media screen and (max-width: 700px) {
+  .divjugadores> div {
+    margin-bottom: 10px;
+    width: 50%;
+}
+.escudo{
+  width: 80px;
+  height: 80px;
+}
 }
 
 /* Alinea el texto del nombre debajo de la imagen */
@@ -911,8 +923,8 @@ details[open] .toggle-summary .toggle-button {
   height: 30px;
 }
 .escudo{
-  width: 80px;
-  height: 80px;
+  width: 120px;
+  height: 120px;
 }
 .boton {
   position: fixed;
@@ -1263,3 +1275,4 @@ details[open] .toggle-summary .toggle-button {
   background-color: #cb0d59;
   color: white;
 }
+
