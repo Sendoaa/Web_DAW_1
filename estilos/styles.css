@@ -756,7 +756,7 @@ label h3{
 }
 .enviar{ 
   width: 107%;
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,58,116,1) 69%, rgba(0,212,255,1) 100%);
+  background: black;
   border-radius: 5px;
   cursor: pointer;
   color: white;
