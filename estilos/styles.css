@@ -1276,3 +1276,7 @@ details[open] .toggle-summary .toggle-button {
   color: white;
 }
 
+.tablaclasi .divequipos img {
+  width: 50px; /* Ajusta este valor a la medida que prefieras */
+  height: auto;
+}

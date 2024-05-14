@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="calendar.xsl"?>
+<?xml-stylesheet type="text/xsl" href="clasi.xsl"?>
 <temporadas>
     <temporada xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="calendar.xsd">
         <numero>2023</numero>
@@ -8,30 +8,40 @@
                 <fecha>Miercoles, 5 de junio</fecha>
                 <hora>20:15</hora>
                 <equipos>
-                    <local>Cardinals</local>
-                    <puntoslocal>25</puntoslocal>
-                    <visitante>Cowboys</visitante>
-                    <puntosvisitante>45</puntosvisitante>
+                    <local>Lakers</local>
+                    <puntoslocal>92</puntoslocal>
+                    <visitante>Mavericks</visitante>
+                    <puntosvisitante>98</puntosvisitante>
                 </equipos>
             </partido>
             <partido>
                 <fecha>Jueves, 6 de junio</fecha>
                 <hora>21:45</hora>
                 <equipos>
-                    <local>Raiders</local>
-                    <puntoslocal>20</puntoslocal>
-                    <visitante>Steelers</visitante>
-                    <puntosvisitante>35</puntosvisitante>
+                    <local>Warriors</local>
+                    <puntoslocal>110</puntoslocal>
+                    <visitante>Clippers</visitante>
+                    <puntosvisitante>105</puntosvisitante>
                 </equipos>
             </partido>
             <partido>
                 <fecha>Viernes, 7 de junio</fecha>
                 <hora>23:30</hora>
                 <equipos>
-                    <local>Bengals</local>
-                    <puntoslocal>40</puntoslocal>
-                    <visitante>Rams</visitante>
-                    <puntosvisitante>30</puntosvisitante>
+                    <local>Celtics</local>
+                    <puntoslocal>100</puntoslocal>
+                    <visitante>Rockets</visitante>
+                    <puntosvisitante>98</puntosvisitante>
+                </equipos>
+            </partido>
+            <partido>
+                <fecha>Sábado, 8 de junio</fecha>
+                <hora>22:00</hora>
+                <equipos>
+                    <local>Cavaliers</local>
+                    <puntoslocal>97</puntoslocal>
+                    <visitante>Grizzlies</visitante>
+                    <puntosvisitante>93</puntosvisitante>
                 </equipos>
             </partido>
         </jornada>
@@ -40,30 +50,40 @@
                 <fecha>Viernes, 14 de junio</fecha>
                 <hora>19:15</hora>
                 <equipos>
-                    <local>Cardinals</local>
-                    <puntoslocal>20</puntoslocal>
-                    <visitante>Cowboys</visitante>
-                    <puntosvisitante>25</puntosvisitante>
+                    <local>Warriors</local>
+                    <puntoslocal>105</puntoslocal>
+                    <visitante>Lakers</visitante>
+                    <puntosvisitante>100</puntosvisitante>
                 </equipos>
             </partido>
             <partido>
                 <fecha>Sábado, 15 de junio</fecha>
                 <hora>21:00</hora>
                 <equipos>
-                    <local>Raiders</local>
-                    <puntoslocal>15</puntoslocal>
-                    <visitante>Steelers</visitante>
-                    <puntosvisitante>20</puntosvisitante>
+                    <local>Clippers</local>
+                    <puntoslocal>98</puntoslocal>
+                    <visitante>Celtics</visitante>
+                    <puntosvisitante>95</puntosvisitante>
                 </equipos>
             </partido>
             <partido>
                 <fecha>Domingo, 16 de junio</fecha>
                 <hora>18:30</hora>
                 <equipos>
-                    <local>Rams</local>
-                    <puntoslocal>25</puntoslocal>
-                    <visitante>Bengals</visitante>
-                    <puntosvisitante>30</puntosvisitante>
+                    <local>Rockets</local>
+                    <puntoslocal>108</puntoslocal>
+                    <visitante>Cavaliers</visitante>
+                    <puntosvisitante>103</puntosvisitante>
+                </equipos>
+            </partido>
+            <partido>
+                <fecha>Lunes, 17 de junio</fecha>
+                <hora>20:00</hora>
+                <equipos>
+                    <local>Grizzlies</local>
+                    <puntoslocal>94</puntoslocal>
+                    <visitante>Mavericks</visitante>
+                    <puntosvisitante>90</puntosvisitante>
                 </equipos>
             </partido>
         </jornada>
@@ -72,30 +92,40 @@
                 <fecha>Viernes, 21 de junio</fecha>
                 <hora>16:30</hora>
                 <equipos>
-                    <local>Raiders</local>
-                    <puntoslocal>?</puntoslocal>
-                    <visitante>Bengals</visitante>
-                    <puntosvisitante>?</puntosvisitante>
+                    <local>Celtics</local>
+                    <puntoslocal>102</puntoslocal>
+                    <visitante>Warriors</visitante>
+                    <puntosvisitante>98</puntosvisitante>
                 </equipos>
             </partido>
             <partido>
-                <fecha>Sabado, 22 de junio</fecha>
+                <fecha>Sábado, 22 de junio</fecha>
                 <hora>18:00</hora>
                 <equipos>
-                    <local>Rams</local>
-                    <puntoslocal>?</puntoslocal>
-                    <visitante>Steelers</visitante>
-                    <puntosvisitante>?</puntosvisitante>
+                    <local>Clippers</local>
+                    <puntoslocal>105</puntoslocal>
+                    <visitante>Rockets</visitante>
+                    <puntosvisitante>100</puntosvisitante>
                 </equipos>
             </partido>
             <partido>
                 <fecha>Domingo, 23 de junio</fecha>
                 <hora>20:00</hora>
                 <equipos>
-                    <local>Cowboys</local>
-                    <puntoslocal>?</puntoslocal>
-                    <visitante>Cardinals</visitante>
-                    <puntosvisitante>?</puntosvisitante>
+                    <local>Mavericks</local>
+                    <puntoslocal>98</puntoslocal>
+                    <visitante>Lakers</visitante>
+                    <puntosvisitante>96</puntosvisitante>
+                </equipos>
+            </partido>
+            <partido>
+                <fecha>Lunes, 24 de junio</fecha>
+                <hora>21:30</hora>
+                <equipos>
+                    <local>Grizzlies</local>
+                    <puntoslocal>93</puntoslocal>
+                    <visitante>Cavaliers</visitante>
+                    <puntosvisitante>91</puntosvisitante>
                 </equipos>
             </partido>
         </jornada>
@@ -104,30 +134,40 @@
                 <fecha>Viernes, 28 de junio</fecha>
                 <hora>17:15</hora>
                 <equipos>
-                    <local>Bengals</local>
-                    <puntoslocal>?</puntoslocal>
-                    <visitante>Raiders</visitante>
-                    <puntosvisitante>?</puntosvisitante>
+                    <local>Cavaliers</local>
+                    <puntoslocal>97</puntoslocal>
+                    <visitante>Clippers</visitante>
+                    <puntosvisitante>95</puntosvisitante>
                 </equipos>
             </partido>
             <partido>
-                <fecha>Sabado, 29 de junio</fecha>
+                <fecha>Sábado, 29 de junio</fecha>
                 <hora>18:45</hora>
                 <equipos>
-                    <local>Steelers</local>
-                    <puntoslocal>?</puntoslocal>
-                    <visitante>Rams</visitante>
-                    <puntosvisitante>?</puntosvisitante>
+                    <local>Warriors</local>
+                    <puntoslocal>110</puntoslocal>
+                    <visitante>Mavericks</visitante>
+                    <puntosvisitante>105</puntosvisitante>
                 </equipos>
             </partido>
             <partido>
                 <fecha>Domingo, 30 de junio</fecha>
                 <hora>20:30</hora>
                 <equipos>
-                    <local>Cardinals</local>
-                    <puntoslocal>?</puntoslocal>
-                    <visitante>Cowboys</visitante>
-                    <puntosvisitante>?</puntosvisitante>
+                    <local>Lakers</local>
+                    <puntoslocal>115</puntoslocal>
+                    <visitante>Rockets</visitante>
+                    <puntosvisitante>110</puntosvisitante>
+                </equipos>
+            </partido>
+            <partido>
+                <fecha>Lunes, 1 de julio</fecha>
+                <hora>21:00</hora>
+                <equipos>
+                    <local>Grizzlies</local>
+                    <puntoslocal>96</puntoslocal>
+                    <visitante>Celtics</visitante>
+                    <puntosvisitante>94</puntosvisitante>
                 </equipos>
             </partido>
         </jornada>
@@ -136,30 +176,40 @@
                 <fecha>Viernes, 5 de julio</fecha>
                 <hora>17:15</hora>
                 <equipos>
-                    <local>Raiders</local>
-                    <puntoslocal>?</puntoslocal>
-                    <visitante>Cardinals</visitante>
-                    <puntosvisitante>?</puntosvisitante>
+                    <local>Warriors</local>
+                    <puntoslocal>105</puntoslocal>
+                    <visitante>Lakers</visitante>
+                    <puntosvisitante>100</puntosvisitante>
                 </equipos>
             </partido>
             <partido>
                 <fecha>Sabado, 6 de julio</fecha>
                 <hora>18:45</hora>
                 <equipos>
-                    <local>Bengals</local>
-                    <puntoslocal>?</puntoslocal>
-                    <visitante>Cowboys</visitante>
-                    <puntosvisitante>?</puntosvisitante>
+                    <local>Grizzlies</local>
+                    <puntoslocal>95</puntoslocal>
+                    <visitante>Celtics</visitante>
+                    <puntosvisitante>92</puntosvisitante>
                 </equipos>
             </partido>
             <partido>
                 <fecha>Domingo, 7 de julio</fecha>
                 <hora>20:30</hora>
                 <equipos>
-                    <local>Steelers</local>
-                    <puntoslocal>?</puntoslocal>
-                    <visitante>Rams</visitante>
-                    <puntosvisitante>?</puntosvisitante>
+                    <local>Rockets</local>
+                    <puntoslocal>108</puntoslocal>
+                    <visitante>Clippers</visitante>
+                    <puntosvisitante>103</puntosvisitante>
+                </equipos>
+            </partido>
+            <partido>
+                <fecha>Lunes, 8 de julio</fecha>
+                <hora>21:00</hora>
+                <equipos>
+                    <local>Cavaliers</local>
+                    <puntoslocal>98</puntoslocal>
+                    <visitante>Mavericks</visitante>
+                    <puntosvisitante>96</puntosvisitante>
                 </equipos>
             </partido>
         </jornada>
@@ -168,31 +218,40 @@
                 <fecha>Viernes, 12 de julio</fecha>
                 <hora>16:45</hora>
                 <equipos>
-                    <local>Cardinals</local>
-                    <puntoslocal>?</puntoslocal>
-                    <visitante>Raiders</visitante>
-                    <puntosvisitante>?</puntosvisitante>
+                    <local>Lakers</local>
+                    <puntoslocal>102</puntoslocal>
+                    <visitante>Warriors</visitante>
+                    <puntosvisitante>98</puntosvisitante>
                 </equipos>
             </partido>
             <partido>
                 <fecha>Sabado, 13 de julio</fecha>
                 <hora>18:15</hora>
                 <equipos>
-                    <local>Cowboys</local>
-                    <puntoslocal>?</puntoslocal>
-
-                    <visitante>Bengals</visitante>
-                    <puntosvisitante>?</puntosvisitante>
+                    <local>Mavericks</local>
+                    <puntoslocal>97</puntoslocal>
+                    <visitante>Celtics</visitante>
+                    <puntosvisitante>95</puntosvisitante>
                 </equipos>
             </partido>
             <partido>
                 <fecha>Domingo, 14 de julio</fecha>
                 <hora>21:15</hora>
                 <equipos>
-                    <local>Rams</local>
-                    <puntoslocal>?</puntoslocal>
-                    <visitante>Steelers</visitante>
-                    <puntosvisitante>?</puntosvisitante>
+                    <local>Rockets</local>
+                    <puntoslocal>108</puntoslocal>
+                    <visitante>Clippers</visitante>
+                    <puntosvisitante>103</puntosvisitante>
+                </equipos>
+            </partido>
+            <partido>
+                <fecha>Lunes, 15 de julio</fecha>
+                <hora>21:30</hora>
+                <equipos>
+                    <local>Grizzlies</local>
+                    <puntoslocal>96</puntoslocal>
+                    <visitante>Cavaliers</visitante>
+                    <puntosvisitante>94</puntosvisitante>
                 </equipos>
             </partido>
         </jornada>
@@ -201,30 +260,40 @@
                 <fecha>Viernes, 19 de julio</fecha>
                 <hora>16:30</hora>
                 <equipos>
-                    <local>Rams</local>
-                    <puntoslocal>?</puntoslocal>
-                    <visitante>Cowboys</visitante>
-                    <puntosvisitante>?</puntosvisitante>
+                    <local>Rockets</local>
+                    <puntoslocal>105</puntoslocal>
+                    <visitante>Mavericks</visitante>
+                    <puntosvisitante>100</puntosvisitante>
                 </equipos>
             </partido>
             <partido>
                 <fecha>Sabado, 20 de julio</fecha>
                 <hora>18:00</hora>
                 <equipos>
-                    <local>Raiders</local>
-                    <puntoslocal>?</puntoslocal>
-                    <visitante>Bengals</visitante>
-                    <puntosvisitante>?</puntosvisitante>
+                    <local>Warriors</local>
+                    <puntoslocal>112</puntoslocal>
+                    <visitante>Celtics</visitante>
+                    <puntosvisitante>108</puntosvisitante>
                 </equipos>
             </partido>
             <partido>
                 <fecha>Domingo, 21 de julio</fecha>
                 <hora>19:30</hora>
                 <equipos>
-                    <local>Cardinals</local>
-                    <puntoslocal>?</puntoslocal>
-                    <visitante>Steelers</visitante>
-                    <puntosvisitante>?</puntosvisitante>
+                    <local>Lakers</local>
+                    <puntoslocal>98</puntoslocal>
+                    <visitante>Clippers</visitante>
+                    <puntosvisitante>96</puntosvisitante>
+                </equipos>
+            </partido>
+            <partido>
+                <fecha>Lunes, 22 de julio</fecha>
+                <hora>21:00</hora>
+                <equipos>
+                    <local>Cavaliers</local>
+                    <puntoslocal>97</puntoslocal>
+                    <visitante>Grizzlies</visitante>
+                    <puntosvisitante>95</puntosvisitante>
                 </equipos>
             </partido>
         </jornada>
@@ -233,30 +302,40 @@
                 <fecha>Viernes, 26 de julio</fecha>
                 <hora>16:30</hora>
                 <equipos>
-                    <local>Cowboys</local>
-                    <puntoslocal>?</puntoslocal>
-                    <visitante>Rams</visitante>
-                    <puntosvisitante>?</puntosvisitante>
+                    <local>Mavericks</local>
+                    <puntoslocal>102</puntoslocal>
+                    <visitante>Rockets</visitante>
+                    <puntosvisitante>98</puntosvisitante>
                 </equipos>
             </partido>
             <partido>
                 <fecha>Sabado, 27 de julio</fecha>
                 <hora>18:00</hora>
                 <equipos>
-                    <local>Bengals</local>
-                    <puntoslocal>?</puntoslocal>
-                    <visitante>Raiders</visitante>
-                    <puntosvisitante>?</puntosvisitante>
+                    <local>Celtics</local>
+                    <puntoslocal>105</puntoslocal>
+                    <visitante>Warriors</visitante>
+                    <puntosvisitante>100</puntosvisitante>
                 </equipos>
             </partido>
             <partido>
                 <fecha>Domingo, 28 de julio</fecha>
                 <hora>19:30</hora>
                 <equipos>
-                    <local>Steelers</local>
-                    <puntoslocal>?</puntoslocal>
-                    <visitante>Cardinals</visitante>
-                    <puntosvisitante>?</puntosvisitante>
+                    <local>Clippers</local>
+                    <puntoslocal>108</puntoslocal>
+                    <visitante>Lakers</visitante>
+                    <puntosvisitante>103</puntosvisitante>
+                </equipos>
+            </partido>
+            <partido>
+                <fecha>Lunes, 29 de julio</fecha>
+                <hora>20:00</hora>
+                <equipos>
+                    <local>Grizzlies</local>
+                    <puntoslocal>95</puntoslocal>
+                    <visitante>Cavaliers</visitante>
+                    <puntosvisitante>92</puntosvisitante>
                 </equipos>
             </partido>
         </jornada>
@@ -265,30 +344,40 @@
                 <fecha>Viernes, 2 de agosto</fecha>
                 <hora>16:30</hora>
                 <equipos>
-                    <local>Cowboys</local>
-                    <puntoslocal>?</puntoslocal>
-                    <visitante>Bengals</visitante>
-                    <puntosvisitante>?</puntosvisitante>
+                    <local>Mavericks</local>
+                    <puntoslocal>100</puntoslocal>
+                    <visitante>Celtics</visitante>
+                    <puntosvisitante>98</puntosvisitante>
                 </equipos>
             </partido>
             <partido>
                 <fecha>Sabado, 3 de agosto</fecha>
                 <hora>18:00</hora>
                 <equipos>
-                    <local>Raiders</local>
-                    <puntoslocal>?</puntoslocal>
-                    <visitante>Cardinals</visitante>
-                    <puntosvisitante>?</puntosvisitante>
+                    <local>Warriors</local>
+                    <puntoslocal>105</puntoslocal>
+                    <visitante>Lakers</visitante>
+                    <puntosvisitante>100</puntosvisitante>
                 </equipos>
             </partido>
             <partido>
                 <fecha>Domingo, 4 de agosto</fecha>
                 <hora>19:30</hora>
                 <equipos>
-                    <local>Steelers</local>
-                    <puntoslocal>?</puntoslocal>
-                    <visitante>Rams</visitante>
-                    <puntosvisitante>?</puntosvisitante>
+                    <local>Clippers</local>
+                    <puntoslocal>108</puntoslocal>
+                    <visitante>Rockets</visitante>
+                    <puntosvisitante>105</puntosvisitante>
+                </equipos>
+            </partido>
+            <partido>
+                <fecha>Lunes, 5 de agosto</fecha>
+                <hora>20:00</hora>
+                <equipos>
+                    <local>Grizzlies</local>
+                    <puntoslocal>97</puntoslocal>
+                    <visitante>Cavaliers</visitante>
+                    <puntosvisitante>95</puntosvisitante>
                 </equipos>
             </partido>
         </jornada>
@@ -297,33 +386,44 @@
                 <fecha>Viernes, 9 de agosto</fecha>
                 <hora>16:30</hora>
                 <equipos>
-                    <local>Bengals</local>
-                    <puntoslocal>?</puntoslocal>
-                    <visitante>Cowboys</visitante>
-                    <puntosvisitante>?</puntosvisitante>
+                    <local>Celtics</local>
+                    <puntoslocal>102</puntoslocal>
+                    <visitante>Mavericks</visitante>
+                    <puntosvisitante>98</puntosvisitante>
                 </equipos>
             </partido>
             <partido>
                 <fecha>Sabado, 10 de agosto</fecha>
                 <hora>18:00</hora>
                 <equipos>
-                    <local>Cardinals</local>
-                    <puntoslocal>?</puntoslocal>
-                    <visitante>Raiders</visitante>
-                    <puntosvisitante>?</puntosvisitante>
+                    <local>Lakers</local>
+                    <puntoslocal>105</puntoslocal>
+                    <visitante>Warriors</visitante>
+                    <puntosvisitante>100</puntosvisitante>
                 </equipos>
             </partido>
             <partido>
                 <fecha>Domingo, 11 de agosto</fecha>
                 <hora>19:30</hora>
                 <equipos>
-                    <local>Rams</local>
-                    <puntoslocal>?</puntoslocal>
-                    <visitante>Steelers</visitante>
-                    <puntosvisitante>?</puntosvisitante>
+                    <local>Rockets</local>
+                    <puntoslocal>108</puntoslocal>
+                    <visitante>Clippers</visitante>
+                    <puntosvisitante>103</puntosvisitante>
+                </equipos>
+            </partido>
+            <partido>
+                <fecha>Lunes, 12 de agosto</fecha>
+                <hora>20:00</hora>
+                <equipos>
+                    <local>Cavaliers</local>
+                    <puntoslocal>97</puntoslocal>
+                    <visitante>Grizzlies</visitante>
+                    <puntosvisitante>95</puntosvisitante>
                 </equipos>
             </partido>
         </jornada>
+        
         <equiposliga xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="datos.xsd">
             <equipo>
                 <nombreequipo>
@@ -834,324 +934,425 @@
         <numero>2022</numero>
         <jornada num="1">
             <partido>
-                <fecha>Viernes, 2 de marzo</fecha>
+                <fecha>Miercoles, 5 de junio</fecha>
                 <hora>20:15</hora>
                 <equipos>
-                    <local>Cardinals</local>
-                    <puntoslocal>25</puntoslocal>
-                    <visitante>Rams</visitante>
-                    <puntosvisitante>35</puntosvisitante>
+                    <local>Lakers</local>
+                    <puntoslocal>105</puntoslocal>
+                    <visitante>Mavericks</visitante>
+                    <puntosvisitante>98</puntosvisitante>
                 </equipos>
             </partido>
             <partido>
-                <fecha>Sábado, 3 de marzo</fecha>
+                <fecha>Jueves, 6 de junio</fecha>
                 <hora>21:45</hora>
                 <equipos>
-                    <local>Raiders</local>
-                    <puntoslocal>20</puntoslocal>
-                    <visitante>Cowboys</visitante>
-                    <puntosvisitante>30</puntosvisitante>
+                    <local>Warriors</local>
+                    <puntoslocal>112</puntoslocal>
+                    <visitante>Clippers</visitante>
+                    <puntosvisitante>108</puntosvisitante>
                 </equipos>
             </partido>
             <partido>
-                <fecha>Domingo, 4 de marzo</fecha>
+                <fecha>Viernes, 7 de junio</fecha>
                 <hora>23:30</hora>
                 <equipos>
-                    <local>Bengals</local>
-                    <puntoslocal>40</puntoslocal>
-                    <visitante>Steelers</visitante>
-                    <puntosvisitante>45</puntosvisitante>
+                    <local>Celtics</local>
+                    <puntoslocal>100</puntoslocal>
+                    <visitante>Rockets</visitante>
+                    <puntosvisitante>105</puntosvisitante>
+                </equipos>
+            </partido>
+            <partido>
+                <fecha>Sábado, 8 de junio</fecha>
+                <hora>22:00</hora>
+                <equipos>
+                    <local>Cavaliers</local>
+                    <puntoslocal>110</puntoslocal>
+                    <visitante>Grizzlies</visitante>
+                    <puntosvisitante>102</puntosvisitante>
                 </equipos>
             </partido>
         </jornada>
         <jornada num="2">
             <partido>
-                <fecha>Viernes, 9 de marzo</fecha>
+                <fecha>Viernes, 14 de junio</fecha>
                 <hora>19:15</hora>
                 <equipos>
-                    <local>Rams</local>
-                    <puntoslocal>15</puntoslocal>
-                    <visitante>Cardinals</visitante>
-                    <puntosvisitante>20</puntosvisitante>
+                    <local>Warriors</local>
+                    <puntoslocal>108</puntoslocal>
+                    <visitante>Lakers</visitante>
+                    <puntosvisitante>102</puntosvisitante>
                 </equipos>
             </partido>
             <partido>
-                <fecha>Sábado, 10 de marzo</fecha>
+                <fecha>Sábado, 15 de junio</fecha>
                 <hora>21:00</hora>
                 <equipos>
-                    <local>Cowboys</local>
-                    <puntoslocal>25</puntoslocal>
-                    <visitante>Raiders</visitante>
-                    <puntosvisitante>30</puntosvisitante>
+                    <local>Clippers</local>
+                    <puntoslocal>105</puntoslocal>
+                    <visitante>Celtics</visitante>
+                    <puntosvisitante>100</puntosvisitante>
                 </equipos>
             </partido>
             <partido>
-                <fecha>Domingo, 11 de marzo</fecha>
+                <fecha>Domingo, 16 de junio</fecha>
                 <hora>18:30</hora>
                 <equipos>
-                    <local>Steelers</local>
-                    <puntoslocal>35</puntoslocal>
-                    <visitante>Bengals</visitante>
-                    <puntosvisitante>40</puntosvisitante>
+                    <local>Rockets</local>
+                    <puntoslocal>112</puntoslocal>
+                    <visitante>Cavaliers</visitante>
+                    <puntosvisitante>106</puntosvisitante>
+                </equipos>
+            </partido>
+            <partido>
+                <fecha>Lunes, 17 de junio</fecha>
+                <hora>20:00</hora>
+                <equipos>
+                    <local>Grizzlies</local>
+                    <puntoslocal>98</puntoslocal>
+                    <visitante>Mavericks</visitante>
+                    <puntosvisitante>96</puntosvisitante>
                 </equipos>
             </partido>
         </jornada>
         <jornada num="3">
             <partido>
-                <fecha>Martes, 13 de marzo</fecha>
+                <fecha>Viernes, 21 de junio</fecha>
                 <hora>16:30</hora>
                 <equipos>
-                    <local>Cardinals</local>
-                    <puntoslocal>10</puntoslocal>
-                    <visitante>Cowboys</visitante>
-                    <puntosvisitante>15</puntosvisitante>
+                    <local>Celtics</local>
+                    <puntoslocal>110</puntoslocal>
+                    <visitante>Warriors</visitante>
+                    <puntosvisitante>105</puntosvisitante>
                 </equipos>
             </partido>
             <partido>
-                <fecha>Miércoles, 14 de marzo</fecha>
+                <fecha>Sábado, 22 de junio</fecha>
                 <hora>18:00</hora>
                 <equipos>
-                    <local>Raiders</local>
-                    <puntoslocal>20</puntoslocal>
-                    <visitante>Rams</visitante>
-                    <puntosvisitante>25</puntosvisitante>
+                    <local>Clippers</local>
+                    <puntoslocal>98</puntoslocal>
+                    <visitante>Rockets</visitante>
+                    <puntosvisitante>95</puntosvisitante>
                 </equipos>
             </partido>
             <partido>
-                <fecha>Jueves, 15 de marzo</fecha>
+                <fecha>Domingo, 23 de junio</fecha>
                 <hora>20:00</hora>
                 <equipos>
-                    <local>Bengals</local>
-                    <puntoslocal>30</puntoslocal>
-                    <visitante>Steelers</visitante>
-                    <puntosvisitante>35</puntosvisitante>
+                    <local>Mavericks</local>
+                    <puntoslocal>105</puntoslocal>
+                    <visitante>Lakers</visitante>
+                    <puntosvisitante>98</puntosvisitante>
+                </equipos>
+            </partido>
+            <partido>
+                <fecha>Lunes, 24 de junio</fecha>
+                <hora>21:30</hora>
+                <equipos>
+                    <local>Grizzlies</local>
+                    <puntoslocal>92</puntoslocal>
+                    <visitante>Cavaliers</visitante>
+                    <puntosvisitante>90</puntosvisitante>
                 </equipos>
             </partido>
         </jornada>
         <jornada num="4">
             <partido>
-                <fecha>Martes, 20 de marzo</fecha>
+                <fecha>Viernes, 28 de junio</fecha>
                 <hora>17:15</hora>
                 <equipos>
-                    <local>Rams</local>
-                    <puntoslocal>15</puntoslocal>
-                    <visitante>Cardinals</visitante>
-                    <puntosvisitante>20</puntosvisitante>
+                    <local>Cavaliers</local>
+                    <puntoslocal>100</puntoslocal>
+                    <visitante>Clippers</visitante>
+                    <puntosvisitante>98</puntosvisitante>
                 </equipos>
             </partido>
             <partido>
-                <fecha>Miércoles, 21 de marzo</fecha>
+                <fecha>Sábado, 29 de junio</fecha>
                 <hora>18:45</hora>
                 <equipos>
-                    <local>Cowboys</local>
-                    <puntoslocal>25</puntoslocal>
-                    <visitante>Raiders</visitante>
-                    <puntosvisitante>30</puntosvisitante>
+                    <local>Warriors</local>
+                    <puntoslocal>115</puntoslocal>
+                    <visitante>Mavericks</visitante>
+                    <puntosvisitante>110</puntosvisitante>
                 </equipos>
             </partido>
             <partido>
-                <fecha>Jueves, 22 de marzo</fecha>
+                <fecha>Domingo, 30 de junio</fecha>
                 <hora>20:30</hora>
                 <equipos>
-                    <local>Steelers</local>
-                    <puntoslocal>35</puntoslocal>
-                    <visitante>Bengals</visitante>
-                    <puntosvisitante>40</puntosvisitante>
+                    <local>Lakers</local>
+                    <puntoslocal>105</puntoslocal>
+                    <visitante>Rockets</visitante>
+                    <puntosvisitante>108</puntosvisitante>
+                </equipos>
+            </partido>
+            <partido>
+                <fecha>Lunes, 1 de julio</fecha>
+                <hora>21:00</hora>
+                <equipos>
+                    <local>Grizzlies</local>
+                    <puntoslocal>98</puntoslocal>
+                    <visitante>Celtics</visitante>
+                    <puntosvisitante>96</puntosvisitante>
                 </equipos>
             </partido>
         </jornada>
         <jornada num="5">
             <partido>
-                <fecha>Lunes, 26 de marzo</fecha>
-                <hora>16:45</hora>
+                <fecha>Viernes, 5 de julio</fecha>
+                <hora>17:15</hora>
                 <equipos>
-                    <local>Rams</local>
-                    <puntoslocal>10</puntoslocal>
-                    <visitante>Steelers</visitante>
-                    <puntosvisitante>15</puntosvisitante>
+                    <local>Warriors</local>
+                    <puntoslocal>112</puntoslocal>
+                    <visitante>Lakers</visitante>
+                    <puntosvisitante>108</puntosvisitante>
                 </equipos>
             </partido>
             <partido>
-                <fecha>Martes, 27 de marzo</fecha>
-                <hora>18:15</hora>
+                <fecha>Sábado, 6 de julio</fecha>
+                <hora>18:45</hora>
                 <equipos>
-                    <local>Bengals</local>
-                    <puntoslocal>20</puntoslocal>
-                    <visitante>Cardinals</visitante>
-                    <puntosvisitante>25</puntosvisitante>
+                    <local>Grizzlies</local>
+                    <puntoslocal>105</puntoslocal>
+                    <visitante>Celtics</visitante>
+                    <puntosvisitante>100</puntosvisitante>
                 </equipos>
             </partido>
             <partido>
-                <fecha>Jueves, 29 de marzo</fecha>
-                <hora>21:15</hora>
+                <fecha>Domingo, 7 de julio</fecha>
+                <hora>20:30</hora>
                 <equipos>
-                    <local>Cowboys</local>
-                    <puntoslocal>40</puntoslocal>
-                    <visitante>Raiders</visitante>
-                    <puntosvisitante>45</puntosvisitante>
+                    <local>Clippers</local>
+                    <puntoslocal>108</puntoslocal>
+                    <visitante>Rockets</visitante>
+                    <puntosvisitante>103</puntosvisitante>
+                </equipos>
+            </partido>
+            <partido>
+                <fecha>Lunes, 8 de julio</fecha>
+                <hora>21:00</hora>
+                <equipos>
+                    <local>Cavaliers</local>
+                    <puntoslocal>98</puntoslocal>
+                    <visitante>Mavericks</visitante>
+                    <puntosvisitante>96</puntosvisitante>
                 </equipos>
             </partido>
         </jornada>
         <jornada num="6">
             <partido>
-                <fecha>Lunes, 9 de abril</fecha>
+                <fecha>Viernes, 12 de julio</fecha>
                 <hora>16:45</hora>
                 <equipos>
-                    <local>Steelers</local>
-                    <puntoslocal>15</puntoslocal>
-                    <visitante>Rams</visitante>
-                    <puntosvisitante>20</puntosvisitante>
+                    <local>Lakers</local>
+                    <puntoslocal>102</puntoslocal>
+                    <visitante>Warriors</visitante>
+                    <puntosvisitante>98</puntosvisitante>
                 </equipos>
             </partido>
             <partido>
-                <fecha>Martes, 10 de abril</fecha>
+                <fecha>Sabado, 13 de julio</fecha>
                 <hora>18:15</hora>
                 <equipos>
-                    <local>Cardinals</local>
-                    <puntoslocal>25</puntoslocal>
-                    <visitante>Bengals</visitante>
-                    <puntosvisitante>30</puntosvisitante>
+                    <local>Mavericks</local>
+                    <puntoslocal>97</puntoslocal>
+                    <visitante>Celtics</visitante>
+                    <puntosvisitante>95</puntosvisitante>
                 </equipos>
             </partido>
             <partido>
-                <fecha>Jueves, 12 de abril</fecha>
+                <fecha>Domingo, 14 de julio</fecha>
                 <hora>21:15</hora>
                 <equipos>
-                    <local>Raiders</local>
-                    <puntoslocal>20</puntoslocal>
-                    <visitante>Cowboys</visitante>
-                    <puntosvisitante>25</puntosvisitante>
+                    <local>Rockets</local>
+                    <puntoslocal>108</puntoslocal>
+                    <visitante>Clippers</visitante>
+                    <puntosvisitante>103</puntosvisitante>
+                </equipos>
+            </partido>
+            <partido>
+                <fecha>Lunes, 15 de julio</fecha>
+                <hora>21:30</hora>
+                <equipos>
+                    <local>Grizzlies</local>
+                    <puntoslocal>96</puntoslocal>
+                    <visitante>Cavaliers</visitante>
+                    <puntosvisitante>94</puntosvisitante>
                 </equipos>
             </partido>
         </jornada>
         <jornada num="7">
             <partido>
-                <fecha>Lunes, 23 de abril</fecha>
+                <fecha>Viernes, 19 de julio</fecha>
                 <hora>16:30</hora>
                 <equipos>
-                    <local>Cowboys</local>
-                    <puntoslocal>30</puntoslocal>
-                    <visitante>Rams</visitante>
-                    <puntosvisitante>35</puntosvisitante>
+                    <local>Rockets</local>
+                    <puntoslocal>105</puntoslocal>
+                    <visitante>Mavericks</visitante>
+                    <puntosvisitante>100</puntosvisitante>
                 </equipos>
             </partido>
             <partido>
-                <fecha>Martes, 24 de abril</fecha>
+                <fecha>Sabado, 20 de julio</fecha>
                 <hora>18:00</hora>
                 <equipos>
-                    <local>Raiders</local>
-                    <puntoslocal>25</puntoslocal>
-                    <visitante>Cardinals</visitante>
-                    <puntosvisitante>30</puntosvisitante>
+                    <local>Warriors</local>
+                    <puntoslocal>112</puntoslocal>
+                    <visitante>Celtics</visitante>
+                    <puntosvisitante>108</puntosvisitante>
                 </equipos>
             </partido>
             <partido>
-                <fecha>Miércoles, 25 de abril</fecha>
+                <fecha>Domingo, 21 de julio</fecha>
                 <hora>19:30</hora>
                 <equipos>
-                    <local>Bengals</local>
-                    <puntoslocal>35</puntoslocal>
-                    <visitante>Steelers</visitante>
-                    <puntosvisitante>40</puntosvisitante>
+                    <local>Lakers</local>
+                    <puntoslocal>98</puntoslocal>
+                    <visitante>Clippers</visitante>
+                    <puntosvisitante>96</puntosvisitante>
+                </equipos>
+            </partido>
+            <partido>
+                <fecha>Lunes, 22 de julio</fecha>
+                <hora>21:00</hora>
+                <equipos>
+                    <local>Cavaliers</local>
+                    <puntoslocal>97</puntoslocal>
+                    <visitante>Grizzlies</visitante>
+                    <puntosvisitante>95</puntosvisitante>
                 </equipos>
             </partido>
         </jornada>
         <jornada num="8">
             <partido>
-                <fecha>Lunes, 30 de abril</fecha>
+                <fecha>Viernes, 26 de julio</fecha>
                 <hora>16:30</hora>
                 <equipos>
-                    <local>Rams</local>
-                    <puntoslocal>25</puntoslocal>
-                    <visitante>Cowboys</visitante>
-                    <puntosvisitante>30</puntosvisitante>
+                    <local>Mavericks</local>
+                    <puntoslocal>102</puntoslocal>
+                    <visitante>Rockets</visitante>
+                    <puntosvisitante>98</puntosvisitante>
                 </equipos>
             </partido>
             <partido>
-                <fecha>Martes, 1 de mayo</fecha>
+                <fecha>Sabado, 27 de julio</fecha>
                 <hora>18:00</hora>
                 <equipos>
-                    <local>Cardinals</local>
-                    <puntoslocal>35</puntoslocal>
-                    <visitante>Raiders</visitante>
-                    <puntosvisitante>40</puntosvisitante>
+                    <local>Celtics</local>
+                    <puntoslocal>105</puntoslocal>
+                    <visitante>Warriors</visitante>
+                    <puntosvisitante>100</puntosvisitante>
                 </equipos>
             </partido>
             <partido>
-                <fecha>Miércoles, 2 de mayo</fecha>
+                <fecha>Domingo, 28 de julio</fecha>
                 <hora>19:30</hora>
                 <equipos>
-                    <local>Steelers</local>
-                    <puntoslocal>20</puntoslocal>
-                    <visitante>Bengals</visitante>
-                    <puntosvisitante>25</puntosvisitante>
+                    <local>Clippers</local>
+                    <puntoslocal>108</puntoslocal>
+                    <visitante>Lakers</visitante>
+                    <puntosvisitante>103</puntosvisitante>
+                </equipos>
+            </partido>
+            <partido>
+                <fecha>Lunes, 29 de julio</fecha>
+                <hora>20:00</hora>
+                <equipos>
+                    <local>Grizzlies</local>
+                    <puntoslocal>95</puntoslocal>
+                    <visitante>Cavaliers</visitante>
+                    <puntosvisitante>92</puntosvisitante>
                 </equipos>
             </partido>
         </jornada>
         <jornada num="9">
             <partido>
-                <fecha>Lunes, 7 de mayo</fecha>
+                <fecha>Viernes, 2 de agosto</fecha>
                 <hora>16:30</hora>
                 <equipos>
-                    <local>Cardinals</local>
-                    <puntoslocal>15</puntoslocal>
-                    <visitante>Bengals</visitante>
-                    <puntosvisitante>20</puntosvisitante>
+                    <local>Celtics</local>
+                    <puntoslocal>102</puntoslocal>
+                    <visitante>Mavericks</visitante>
+                    <puntosvisitante>98</puntosvisitante>
                 </equipos>
             </partido>
             <partido>
-                <fecha>Martes, 8 de mayo</fecha>
+                <fecha>Sabado, 3 de agosto</fecha>
                 <hora>18:00</hora>
                 <equipos>
-                    <local>Steelers</local>
-                    <puntoslocal>25</puntoslocal>
-                    <visitante>Rams</visitante>
-                    <puntosvisitante>30</puntosvisitante>
+                    <local>Warriors</local>
+                    <puntoslocal>105</puntoslocal>
+                    <visitante>Lakers</visitante>
+                    <puntosvisitante>100</puntosvisitante>
                 </equipos>
             </partido>
             <partido>
-                <fecha>Miércoles, 9 de mayo</fecha>
+                <fecha>Domingo, 4 de agosto</fecha>
                 <hora>19:30</hora>
                 <equipos>
-                    <local>Cowboys</local>
-                    <puntoslocal>35</puntoslocal>
-                    <visitante>Raiders</visitante>
-                    <puntosvisitante>40</puntosvisitante>
+                    <local>Clippers</local>
+                    <puntoslocal>108</puntoslocal>
+                    <visitante>Rockets</visitante>
+                    <puntosvisitante>103</puntosvisitante>
+                </equipos>
+            </partido>
+            <partido>
+                <fecha>Lunes, 5 de agosto</fecha>
+                <hora>20:00</hora>
+                <equipos>
+                    <local>Cavaliers</local>
+                    <puntoslocal>97</puntoslocal>
+                    <visitante>Grizzlies</visitante>
+                    <puntosvisitante>95</puntosvisitante>
                 </equipos>
             </partido>
         </jornada>
         <jornada num="10">
             <partido>
-                <fecha>Lunes, 14 de mayo</fecha>
+                <fecha>Viernes, 9 de agosto</fecha>
                 <hora>16:30</hora>
                 <equipos>
-                    <local>Bengals</local>
-                    <puntoslocal>20</puntoslocal>
-                    <visitante>Cardinals</visitante>
-                    <puntosvisitante>25</puntosvisitante>
+                    <local>Celtics</local>
+                    <puntoslocal>102</puntoslocal>
+                    <visitante>Mavericks</visitante>
+                    <puntosvisitante>98</puntosvisitante>
                 </equipos>
             </partido>
             <partido>
-                <fecha>Martes, 15 de mayo</fecha>
+                <fecha>Sabado, 10 de agosto</fecha>
                 <hora>18:00</hora>
                 <equipos>
-                    <local>Rams</local>
-                    <puntoslocal>30</puntoslocal>
-                    <visitante>Steelers</visitante>
-                    <puntosvisitante>35</puntosvisitante>
+                    <local>Lakers</local>
+                    <puntoslocal>105</puntoslocal>
+                    <visitante>Warriors</visitante>
+                    <puntosvisitante>100</puntosvisitante>
                 </equipos>
             </partido>
             <partido>
-                <fecha>Miércoles, 16 de mayo</fecha>
+                <fecha>Domingo, 11 de agosto</fecha>
                 <hora>19:30</hora>
                 <equipos>
-                    <local>Raiders</local>
-                    <puntoslocal>15</puntoslocal>
-                    <visitante>Cowboys</visitante>
-                    <puntosvisitante>20</puntosvisitante>
+                    <local>Rockets</local>
+                    <puntoslocal>108</puntoslocal>
+                    <visitante>Clippers</visitante>
+                    <puntosvisitante>103</puntosvisitante>
+                </equipos>
+            </partido>
+            <partido>
+                <fecha>Lunes, 12 de agosto</fecha>
+                <hora>20:00</hora>
+                <equipos>
+                    <local>Cavaliers</local>
+                    <puntoslocal>97</puntoslocal>
+                    <visitante>Grizzlies</visitante>
+                    <puntosvisitante>95</puntosvisitante>
                 </equipos>
             </partido>
         </jornada>
+        
         <equiposliga xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="datos.xsd">
             <equipo>
                 <nombreequipo>
@@ -1667,9 +1868,9 @@
                 <fecha>Viernes, 13 de octubre</fecha>
                 <hora>20:00</hora>
                 <equipos>
-                    <local>Rams</local>
+                    <local>Rockets</local>
                     <puntoslocal>55</puntoslocal>
-                    <visitante>Bengals</visitante>
+                    <visitante>Celtics</visitante>
                     <puntosvisitante>25</puntosvisitante>
                 </equipos>
             </partido>
@@ -1677,9 +1878,9 @@
                 <fecha>Sábado, 14 de octubre</fecha>
                 <hora>21:30</hora>
                 <equipos>
-                    <local>Cardinals</local>
+                    <local>Lakers</local>
                     <puntoslocal>45</puntoslocal>
-                    <visitante>Raiders</visitante>
+                    <visitante>Warriors</visitante>
                     <puntosvisitante>35</puntosvisitante>
                 </equipos>
             </partido>
@@ -1687,9 +1888,9 @@
                 <fecha>Domingo, 15 de octubre</fecha>
                 <hora>23:00</hora>
                 <equipos>
-                    <local>Cowboys</local>
+                    <local>Mavericks</local>
                     <puntoslocal>15</puntoslocal>
-                    <visitante>Steelers</visitante>
+                    <visitante>Clippers</visitante>
                     <puntosvisitante>45</puntosvisitante>
                 </equipos>
             </partido>
@@ -1699,9 +1900,9 @@
                 <fecha>Viernes, 20 de octubre</fecha>
                 <hora>19:00</hora>
                 <equipos>
-                    <local>Bengals</local>
+                    <local>Celtics</local>
                     <puntoslocal>35</puntoslocal>
-                    <visitante>Rams</visitante>
+                    <visitante>Rockets</visitante>
                     <puntosvisitante>20</puntosvisitante>
                 </equipos>
             </partido>
@@ -1709,9 +1910,9 @@
                 <fecha>Sábado, 21 de octubre</fecha>
                 <hora>21:00</hora>
                 <equipos>
-                    <local>Raiders</local>
+                    <local>Warriors</local>
                     <puntoslocal>25</puntoslocal>
-                    <visitante>Cardinals</visitante>
+                    <visitante>Lakers</visitante>
                     <puntosvisitante>30</puntosvisitante>
                 </equipos>
             </partido>
@@ -1719,9 +1920,9 @@
                 <fecha>Domingo, 22 de octubre</fecha>
                 <hora>18:00</hora>
                 <equipos>
-                    <local>Steelers</local>
+                    <local>Clippers</local>
                     <puntoslocal>35</puntoslocal>
-                    <visitante>Cowboys</visitante>
+                    <visitante>Mavericks</visitante>
                     <puntosvisitante>40</puntosvisitante>
                 </equipos>
             </partido>
@@ -1731,9 +1932,9 @@
                 <fecha>Martes, 24 de octubre</fecha>
                 <hora>16:30</hora>
                 <equipos>
-                    <local>Cardinals</local>
+                    <local>Lakers</local>
                     <puntoslocal>20</puntoslocal>
-                    <visitante>Raiders</visitante>
+                    <visitante>Warriors</visitante>
                     <puntosvisitante>25</puntosvisitante>
                 </equipos>
             </partido>
@@ -1741,9 +1942,9 @@
                 <fecha>Miércoles, 25 de octubre</fecha>
                 <hora>18:00</hora>
                 <equipos>
-                    <local>Cowboys</local>
+                    <local>Mavericks</local>
                     <puntoslocal>30</puntoslocal>
-                    <visitante>Bengals</visitante>
+                    <visitante>Celtics</visitante>
                     <puntosvisitante>35</puntosvisitante>
                 </equipos>
             </partido>
@@ -1751,9 +1952,9 @@
                 <fecha>Jueves, 26 de octubre</fecha>
                 <hora>20:00</hora>
                 <equipos>
-                    <local>Rams</local>
+                    <local>Rockets</local>
                     <puntoslocal>40</puntoslocal>
-                    <visitante>Steelers</visitante>
+                    <visitante>Clippers</visitante>
                     <puntosvisitante>15</puntosvisitante>
                 </equipos>
             </partido>
@@ -1765,9 +1966,9 @@
                 <fecha>Martes, 7 de noviembre</fecha>
                 <hora>17:15</hora>
                 <equipos>
-                    <local>Raiders</local>
+                    <local>Warriors</local>
                     <puntoslocal>25</puntoslocal>
-                    <visitante>Cardinals</visitante>
+                    <visitante>Lakers</visitante>
                     <puntosvisitante>30</puntosvisitante>
                 </equipos>
             </partido>
@@ -1775,9 +1976,9 @@
                 <fecha>Miércoles, 8 de noviembre</fecha>
                 <hora>18:45</hora>
                 <equipos>
-                    <local>Bengals</local>
+                    <local>Celtics</local>
                     <puntoslocal>35</puntoslocal>
-                    <visitante>Cowboys</visitante>
+                    <visitante>Mavericks</visitante>
                     <puntosvisitante>40</puntosvisitante>
                 </equipos>
             </partido>
@@ -1785,9 +1986,9 @@
                 <fecha>Jueves, 9 de noviembre</fecha>
                 <hora>20:30</hora>
                 <equipos>
-                    <local>Steelers</local>
+                    <local>Clippers</local>
                     <puntoslocal>25</puntoslocal>
-                    <visitante>Rams</visitante>
+                    <visitante>Rockets</visitante>
                     <puntosvisitante>30</puntosvisitante>
                 </equipos>
             </partido>
@@ -1797,9 +1998,9 @@
                 <fecha>Lunes, 20 de noviembre</fecha>
                 <hora>16:45</hora>
                 <equipos>
-                    <local>Rams</local>
+                    <local>Rockets</local>
                     <puntoslocal>35</puntoslocal>
-                    <visitante>Steelers</visitante>
+                    <visitante>Clippers</visitante>
                     <puntosvisitante>40</puntosvisitante>
                 </equipos>
             </partido>
@@ -1807,9 +2008,9 @@
                 <fecha>Martes, 21 de noviembre</fecha>
                 <hora>18:15</hora>
                 <equipos>
-                    <local>Bengals</local>
+                    <local>Celtics</local>
                     <puntoslocal>25</puntoslocal>
-                    <visitante>Cardinals</visitante>
+                    <visitante>Lakers</visitante>
                     <puntosvisitante>30</puntosvisitante>
                 </equipos>
             </partido>
@@ -1817,9 +2018,9 @@
                 <fecha>Jueves, 23 de noviembre</fecha>
                 <hora>21:15</hora>
                 <equipos>
-                    <local>Cowboys</local>
+                    <local>Mavericks</local>
                     <puntoslocal>25</puntoslocal>
-                    <visitante>Raiders</visitante>
+                    <visitante>Warriors</visitante>
                     <puntosvisitante>30</puntosvisitante>
                 </equipos>
             </partido>
@@ -1830,9 +2031,9 @@
                 <fecha>Lunes, 4 de diciembre</fecha>
                 <hora>16:45</hora>
                 <equipos>
-                    <local>Steelers</local>
+                    <local>Clippers</local>
                     <puntoslocal>15</puntoslocal>
-                    <visitante>Rams</visitante>
+                    <visitante>Rockets</visitante>
                     <puntosvisitante>20</puntosvisitante>
                 </equipos>
             </partido>
@@ -1840,9 +2041,9 @@
                 <fecha>Martes, 5 de diciembre</fecha>
                 <hora>18:15</hora>
                 <equipos>
-                    <local>Cardinals</local>
+                    <local>Lakers</local>
                     <puntoslocal>25</puntoslocal>
-                    <visitante>Bengals</visitante>
+                    <visitante>Celtics</visitante>
                     <puntosvisitante>30</puntosvisitante>
                 </equipos>
             </partido>
@@ -1850,9 +2051,9 @@
                 <fecha>Jueves, 7 de diciembre</fecha>
                 <hora>21:15</hora>
                 <equipos>
-                    <local>Raiders</local>
+                    <local>Warriors</local>
                     <puntoslocal>20</puntoslocal>
-                    <visitante>Cowboys</visitante>
+                    <visitante>Mavericks</visitante>
                     <puntosvisitante>25</puntosvisitante>
                 </equipos>
             </partido>
@@ -1864,9 +2065,9 @@
                 <fecha>Lunes, 11 de diciembre</fecha>
                 <hora>16:30</hora>
                 <equipos>
-                    <local>Cowboys</local>
+                    <local>Mavericks</local>
                     <puntoslocal>30</puntoslocal>
-                    <visitante>Rams</visitante>
+                    <visitante>Rockets</visitante>
                     <puntosvisitante>35</puntosvisitante>
                 </equipos>
             </partido>
@@ -1874,9 +2075,9 @@
                 <fecha>Martes, 12 de diciembre</fecha>
                 <hora>18:00</hora>
                 <equipos>
-                    <local>Raiders</local>
+                    <local>Warriors</local>
                     <puntoslocal>25</puntoslocal>
-                    <visitante>Cardinals</visitante>
+                    <visitante>Lakers</visitante>
                     <puntosvisitante>25</puntosvisitante>
                 </equipos>
             </partido>
@@ -1884,9 +2085,9 @@
                 <fecha>Miércoles, 13 de diciembre</fecha>
                 <hora>19:30</hora>
                 <equipos>
-                    <local>Bengals</local>
+                    <local>Celtics</local>
                     <puntoslocal>35</puntoslocal>
-                    <visitante>Steelers</visitante>
+                    <visitante>Clippers</visitante>
                     <puntosvisitante>40</puntosvisitante>
                 </equipos>
             </partido>
@@ -1897,9 +2098,9 @@
                 <fecha>Lunes, 18 de diciembre</fecha>
                 <hora>16:30</hora>
                 <equipos>
-                    <local>Rams</local>
+                    <local>Rockets</local>
                     <puntoslocal>25</puntoslocal>
-                    <visitante>Cowboys</visitante>
+                    <visitante>Mavericks</visitante>
                     <puntosvisitante>30</puntosvisitante>
                 </equipos>
             </partido>
@@ -1907,9 +2108,9 @@
                 <fecha>Martes, 19 de diciembre</fecha>
                 <hora>18:00</hora>
                 <equipos>
-                    <local>Bengals</local>
+                    <local>Celtics</local>
                     <puntoslocal>35</puntoslocal>
-                    <visitante>Raiders</visitante>
+                    <visitante>Warriors</visitante>
                     <puntosvisitante>40</puntosvisitante>
                 </equipos>
             </partido>
@@ -1917,9 +2118,9 @@
                 <fecha>Miércoles, 20 de diciembre</fecha>
                 <hora>19:30</hora>
                 <equipos>
-                    <local>Cardinals</local>
+                    <local>Lakers</local>
                     <puntoslocal>20</puntoslocal>
-                    <visitante>Steelers</visitante>
+                    <visitante>Clippers</visitante>
                     <puntosvisitante>25</puntosvisitante>
                 </equipos>
             </partido>
@@ -1931,9 +2132,9 @@
                 <fecha>Lunes, 20 de diciembre</fecha>
                 <hora>16:30</hora>
                 <equipos>
-                    <local>Cardinals</local>
+                    <local>Lakers</local>
                     <puntoslocal>15</puntoslocal>
-                    <visitante>Bengals</visitante>
+                    <visitante>Celtics</visitante>
                     <puntosvisitante>20</puntosvisitante>
                 </equipos>
             </partido>
@@ -1941,9 +2142,9 @@
                 <fecha>Martes, 21 de diciembre</fecha>
                 <hora>18:00</hora>
                 <equipos>
-                    <local>Steelers</local>
+                    <local>Clippers</local>
                     <puntoslocal>25</puntoslocal>
-                    <visitante>Rams</visitante>
+                    <visitante>Rockets</visitante>
                     <puntosvisitante>30</puntosvisitante>
                 </equipos>
             </partido>
@@ -1951,9 +2152,9 @@
                 <fecha>Miércoles, 22 de diciembre</fecha>
                 <hora>19:30</hora>
                 <equipos>
-                    <local>Cowboys</local>
+                    <local>Mavericks</local>
                     <puntoslocal>35</puntoslocal>
-                    <visitante>Raiders</visitante>
+                    <visitante>Warriors</visitante>
                     <puntosvisitante>40</puntosvisitante>
                 </equipos>
             </partido>
@@ -1965,9 +2166,9 @@
                 <fecha>Lunes, 27 de diciembre</fecha>
                 <hora>16:30</hora>
                 <equipos>
-                    <local>Bengals</local>
+                    <local>Celtics</local>
                     <puntoslocal>20</puntoslocal>
-                    <visitante>Cardinals</visitante>
+                    <visitante>Lakers</visitante>
                     <puntosvisitante>25</puntosvisitante>
                 </equipos>
             </partido>
@@ -1975,9 +2176,9 @@
                 <fecha>Martes, 28 de diciembre</fecha>
                 <hora>18:00</hora>
                 <equipos>
-                    <local>Rams</local>
+                    <local>Rockets</local>
                     <puntoslocal>30</puntoslocal>
-                    <visitante>Steelers</visitante>
+                    <visitante>Clippers</visitante>
                     <puntosvisitante>35</puntosvisitante>
                 </equipos>
             </partido>
@@ -1985,9 +2186,9 @@
                 <fecha>Miércoles, 29 de diciembre</fecha>
                 <hora>19:30</hora>
                 <equipos>
-                    <local>Raiders</local>
+                    <local>Warriors</local>
                     <puntoslocal>15</puntoslocal>
-                    <visitante>Cowboys</visitante>
+                    <visitante>Mavericks</visitante>
                     <puntosvisitante>20</puntosvisitante>
                 </equipos>
             </partido>

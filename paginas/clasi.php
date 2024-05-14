@@ -1,42 +1,22 @@
 <?php
-
 // Variable para el mensaje de éxito
 $successMessage = '';
-
 // Ruta al archivo XML y XSL
 $xmlFile = '../xm_xs/temporada.xml';
 $xslFile = '../xm_xs/clasi.xsl';
 
-// Verificar si los archivos XML y XSLT existen
-if (!file_exists($xmlFile)) {
-    die('Error: El archivo XML no se encontró en la ruta especificada.');
-}
-
-if (!file_exists($xslFile)) {
-    die('Error: El archivo XSLT no se encontró en la ruta especificada.');
-}
-
 // Cargar el archivo XML
 $xml = new DOMDocument();
-if (!$xml->load($xmlFile)) {
-    die('Error: No se pudo cargar el archivo XML.');
-}
+$xml->load($xmlFile);
 
 // Cargar la hoja de estilo XSL
 $xsl = new DOMDocument();
-if (!$xsl->load($xslFile)) {
-    die('Error: No se pudo cargar el archivo XSLT.');
-}
+$xsl->load($xslFile);
 
 // Procesar la transformación
 $proc = new XSLTProcessor();
 $proc->importStylesheet($xsl);
 $xmlOutput = $proc->transformToXML($xml);
-
-// Verificar si se generó la salida XML después de la transformación
-if ($xmlOutput === false) {
-    die('Error: No se pudo generar la salida XML después de la transformación XSLT.');
-}
 ?>
 
 <!DOCTYPE html>
@@ -50,7 +30,6 @@ if ($xmlOutput === false) {
     <link rel="stylesheet" href="../estilos/styles.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
     <link rel="icon" type="image/x-icon" href="../imagenes/logos/BOFlogo.png">
-    <script src="../scripts/usuarios.js"></script>
 </head>
 
 <body>
@@ -85,7 +64,7 @@ if ($xmlOutput === false) {
             </ul>
         </div>
     </footer>
-    <script src="../scripts/usuarios.js"></script>
+    <script src="../scripts/clasificacion.js"></script>
 </body>
 
 </html>

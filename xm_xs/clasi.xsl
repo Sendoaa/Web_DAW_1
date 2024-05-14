@@ -10,62 +10,58 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Clasificación Temporada</title>
         <link rel="stylesheet" href="../estilos/styles.css" />
-        <style>
-          /* Estilos adicionales pueden ser agregados aquí */
-        </style>
-        <script>
-          function mostrarEquipos(temporada) {
-            console.log("Temporada seleccionada:", temporada);
-            var equipos = document.querySelectorAll('.divequipos');
-            equipos.forEach(function(equipo) {
-              if (equipo.id === 'temporada' + temporada) {
-                equipo.style.display = 'block';
-              } else {
-                equipo.style.display = 'none';
-              }
-            });
-          }
-        
-
-          // Cargar la temporada 3 por defecto al cargar la página
-          window.onload = function() {
-            document.getElementById('seleccionarPagina').value = '2023';
-            mostrarEquipos('2023');
-          }
-          
-        </script>
       </head>
-      <body>
-        <xsl:apply-templates select="temporada"/>
+      <body onload="mostrarClasificacionPredeterminada()">
+        <xsl:apply-templates select="temporadas/temporada"/>
+          <script>
+            function mostrarClasificacionPredeterminada() {
+              mostrarClasificacion('2023');
+            }
+          
+            function mostrarClasificacion(temporada) {
+              console.log("Temporada seleccionada:", temporada);
+              var clasificaciones = document.querySelectorAll('.divtabla');
+              clasificaciones.forEach(function(clasificacion) {
+                if (clasificacion.id === 'temporada' + temporada) {
+                  clasificacion.style.display = 'block';
+                } else {
+                  clasificacion.style.display = 'none';
+                }
+              });
+          
+              // Actualizar el valor del selector de temporada
+              document.getElementById('temporada').value = temporada;
+            }
+          </script>
       </body>
     </html>
   </xsl:template>
 
   <!-- Plantilla para la clasificación -->
   <xsl:template match="temporada">
-    <xsl:variable name="tituloTemporada" select="@nombre"/>
-    <xsl:variable name="equipos" select="equipo"/>
-    
+    <xsl:variable name="tituloTemporada" select="numero"/>
+    <xsl:variable name="equipos" select="equiposliga/equipo"/>
+
     <div class="select">
-      <select id="temporada" onchange="mostrarEquipos(this.value)">
-        <option value="">Selecciona una Temporada</option>
-        <xsl:for-each select="//temporada">
-          <option value="{@numero}">
-            <xsl:value-of select="@nombre" />
-          </option>
-        </xsl:for-each>
-      </select>
+     <!-- Selector de temporada -->
+     <select id="temporada" onchange="mostrarClasificacion(this.value)">
+      <xsl:for-each select="//temporada">
+        <option value="{numero}">
+          <xsl:value-of select="concat('TEMPORADA ', numero)" />
+        </option>
+      </xsl:for-each>
+    </select>
     </div>
-    
+
     <section>
-      <h1 id="tituloTemporada" class="titulin">
+      <h1 id="{concat('tituloTemporada', numero)}" class="titulin">
         <xsl:value-of select="$tituloTemporada"/>
       </h1>
-      <div class="divtabla">
-        <table id="tablaclasi" class="tablaclasi">
+      <div class="divtabla" id="{concat('temporada', numero)}">
+        <table id="{concat('tablaclasi', numero)}" class="tablaclasi">
           <thead>
             <tr>
-              <th colspan="7" class="titulotabla">Tabla de Clasificación de la NSLA</th>
+              <th colspan="6" class="titulotabla">Tabla de Clasificación de BOF</th>
             </tr>
             <tr class="columnatabla">
               <th title="Logo">Logo</th>
@@ -73,17 +69,16 @@
               <th title="Partidos Jugados">PJ</th>
               <th title="Victorias">V</th>
               <th title="Derrotas">D</th>
-              <th title="Empates">E</th>
               <th title="Puntos Totales">PT</th>
             </tr>
           </thead>
-          <tbody id="tablaBody">
+          <tbody id="{concat('tablaBody', numero)}">
             <xsl:apply-templates select="$equipos"/>
           </tbody>
         </table>
       </div>
     </section>
-    
+
     <a class="boton" href="#active">
       <button class="pasubir">
         <svg class="svgIcon" viewBox="0 0 384 512">
@@ -95,14 +90,20 @@
 
   <!-- Plantilla para cada equipo -->
   <xsl:template match="equipo">
-    <tr class="divequipos" id="{concat('temporada', ../@numero)}" style="display: none;">
-      <td><xsl:value-of select="logo"/></td>
-      <td><xsl:value-of select="nombre"/></td>
-      <td><xsl:value-of select="partidos_jugados"/></td>
-      <td><xsl:value-of select="victorias"/></td>
-      <td><xsl:value-of select="derrotas"/></td>
-      <td><xsl:value-of select="empates"/></td>
-      <td><xsl:value-of select="puntos_totales"/></td>
+    <xsl:variable name="nombre_equipo" select="nombreequipo/nombre"/>
+    <xsl:variable name="escudo_equipo" select="escudo"/>
+    <xsl:variable name="partidos_jugados" select="count(../../jornada/partido[equipos/local = $nombre_equipo or equipos/visitante = $nombre_equipo])"/>
+    <xsl:variable name="victorias" select="count(../../jornada/partido[equipos/local = $nombre_equipo and number(equipos/puntoslocal) &gt; number(equipos/puntosvisitante)]) + count(../../jornada/partido[equipos/visitante = $nombre_equipo and number(equipos/puntosvisitante) &gt; number(equipos/puntoslocal)])"/>
+    <xsl:variable name="derrotas" select="count(../../jornada/partido[equipos/local = $nombre_equipo and number(equipos/puntoslocal) &lt; number(equipos/puntosvisitante)]) + count(../../jornada/partido[equipos/visitante = $nombre_equipo and number(equipos/puntosvisitante) &lt; number(equipos/puntoslocal)])"/>
+    <xsl:variable name="puntos_totales" select="$victorias * 3"/>
+
+    <tr class="divequipos">
+      <td><img src="{$escudo_equipo}" alt="{$nombre_equipo}" style="width: 50px; height: auto;" /></td>
+      <td><xsl:value-of select="$nombre_equipo"/></td>
+      <td><xsl:value-of select="$partidos_jugados"/></td>
+      <td><xsl:value-of select="$victorias"/></td>
+      <td><xsl:value-of select="$derrotas"/></td>
+      <td><xsl:value-of select="$puntos_totales"/></td>
     </tr>
   </xsl:template>
 
