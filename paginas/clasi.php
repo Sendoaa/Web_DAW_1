@@ -1,6 +1,7 @@
 <?php
 // Variable para el mensaje de éxito
 $successMessage = '';
+
 // Ruta al archivo XML y XSL
 $xmlFile = '../xm_xs/temporada.xml';
 $xslFile = '../xm_xs/clasi.xsl';
@@ -17,54 +18,122 @@ $xsl->load($xslFile);
 $proc = new XSLTProcessor();
 $proc->importStylesheet($xsl);
 $xmlOutput = $proc->transformToXML($xml);
+
+// Obtener la temporada actual (puedes modificar esto según la lógica de tu aplicación)
+$temporadaActual = '2023';
 ?>
 
 <!DOCTYPE html>
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BOF-Clasificacion</title>
-    <link rel="stylesheet" href="../estilos/styles.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
-    <link rel="icon" type="image/x-icon" href="../imagenes/logos/BOFlogo.png">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BOF-Clasificacion</title>
+  <link rel="stylesheet" href="../estilos/styles.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+  <link rel="icon" type="image/x-icon" href="../imagenes/logos/BOFlogo.png">
 </head>
 
 <body>
-    <?php include '../php/header.php'; ?>
-    <article>
-        <!-- Contenido XML -->
-        <div id="contenidoXML">
-            <?php echo $xmlOutput; ?>
-        </div>
-    </article>
-    <!-- Botón para subir arriba de la Pag -->
-    <a class="boton" href="#active"><button class="pasubir">
-            <svg class="svgIcon" viewBox="0 0 384 512">
-                <path d="M214.6 41.4c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 141.2V448c0 17.7 14.3 32 32 32s32-14.3 32-32V141.2L329.4 246.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-160-160z"></path>
-            </svg>
-        </button></a>
-    <!-- Pie de pagina -->
-    <footer class="footer">
-        <div>
-            <ul>
-                <li><img src="../imagenes/logos/BOFlogo.png" alt="" class="logopie"></li>
-                <li>
-                    <p>© 2023 NSLA Enterprises LLC. NSLA and the NSLA shield design are registered trademarks of the National Football League.The team names, logos and uniform designs are registered trademarks of the teams indicated. All other NSLA-related trademarks are trademarks of the National Football League. NSLA footage © NSLA Productions LLC.</p>
-                </li>
-                <li class="terms">
-                    <a href="./paginas/privacidad.html">Política de Privacidad</a>
-                    <a href="./paginas/terminos.html">Terminos de Servicio</a>
-                    <a href="">Términos y Condiciones de Subscripción</a>
-                    <a href="">Tus Ajustes de Privacidad</a>
-                    <a href="">Ajustes de Cookies</a>
-                </li>
-            </ul>
-        </div>
-    </footer>
-    <script src="../scripts/clasificacion.js"></script>
-</body>
+  <?php include '../php/header.php'; ?>
+  <article>
+    <div id="contenidoXML">
+      <?php echo $xmlOutput; ?>
+    </div>
+  </article>
 
+  <a class="boton" href="#active"><button class="pasubir">
+    <svg class="svgIcon" viewBox="0 0 384 512">
+      <path d="M214.6 41.4c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 141.2V448c0 17.7 14.3 32 32 32s32-14.3 32-32V141.2L329.4 246.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-160-160z"></path>
+    </svg>
+  </button></a>
+
+  <footer class="footer">
+    <div>
+      <ul>
+        <li><img src="../imagenes/logos/BOFlogo.png" alt="" class="logopie"></li>
+        <li>
+          <p>© 2023 NSLA Enterprises LLC. NSLA and the NSLA shield design are registered trademarks of the National Football League. The team names, logos and uniform designs are registered trademarks of the teams indicated. All other NSLA-related trademarks are trademarks of the National Football League. NSLA footage © NSLA Productions LLC.</p>
+        </li>
+        <li class="terms">
+          <a href="./paginas/privacidad.html">Política de Privacidad</a>
+          <a href="./paginas/terminos.html">Términos de Servicio</a>
+          <a href="">Términos y Condiciones de Subscripción</a>
+          <a href="">Tus Ajustes de Privacidad</a>
+          <a href="">Ajustes de Cookies</a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+<script>
+// Pasar la variable de temporada desde PHP a JavaScript
+const temporadaActual = "<?php echo $temporadaActual; ?>";
+
+function ordenarTablaPorPuntosTotales(ascendente = false) { // Cambiado a false para orden descendente por defecto
+        // Get the table body element
+        const tablaBody = document.getElementById('tablaBody' + temporadaActual);
+
+        // Get table rows and extract data
+        const filas = tablaBody.querySelectorAll('tr.divequipos');
+        const datosFilas = Array.from(filas).map(fila => {
+                const logoEquipo = fila.querySelector('td:nth-child(1) img').src; // Assuming logo is in the 1st cell
+                const nombreEquipo = fila.querySelector('td:nth-child(2)').textContent; // Assuming team name is in 2nd cell
+                const partidosJugados = fila.querySelector('td:nth-child(3)').textContent; // Assuming matches played is in 3rd cell
+                const victorias = fila.querySelector('td:nth-child(4)').textContent; // Assuming wins are in 4th cell
+                const derrotas = fila.querySelector('td:nth-child(5)').textContent; // Assuming losses are in 5th cell
+                const puntosTotales = parseInt(fila.querySelector('td:nth-child(6)').textContent); // Assuming points are in 6th cell
+                return { logoEquipo, nombreEquipo, partidosJugados, victorias, derrotas, puntosTotales };
+        });
+
+        // Sort the data array
+        datosFilas.sort((a, b) => {
+                if (ascendente) {
+                        return a.puntosTotales - b.puntosTotales;
+                } else {
+                        return b.puntosTotales - a.puntosTotales;
+                }
+        });
+
+        // Clear the table body
+        tablaBody.innerHTML = '';
+
+        // Recreate table body with sorted data
+        datosFilas.forEach(({ logoEquipo, nombreEquipo, partidosJugados, victorias, derrotas, puntosTotales }) => {
+                const fila = document.createElement('tr');
+                fila.classList.add('divequipos'); // Re-add the class for styling
+                // Update cell content based on your actual table structure
+                fila.innerHTML = `
+                        <td><img src="${logoEquipo}" alt="${nombreEquipo}" style="width: 50px; height: auto;" /></td>
+                        <td>${nombreEquipo}</td>
+                        <td>${partidosJugados}</td>
+                        <td>${victorias}</td>
+                        <td>${derrotas}</td>
+                        <td>${puntosTotales}</td>
+                `;
+                tablaBody.appendChild(fila);
+        });
+}
+
+// Call the function to sort the table on page load
+document.addEventListener('DOMContentLoaded', () => {
+  setInterval(() => {
+    ordenarTablaPorPuntosTotales();
+  }, 500); // Sort the table every 0.5 seconds
+});
+
+// Llamar a la función para ordenar la tabla cuando sea necesario, por ejemplo, cuando se haga clic en un botón
+document.getElementById('botonOrdenar').addEventListener('click', () => {
+    // Obtener la temporada seleccionada
+    const temporadaSeleccionada = document.getElementById('temporadaSeleccionada').value;
+    // Determinar si se debe ordenar ascendente o descendente
+    const ascendente = true; // Cambiar a false para orden descendente
+    // Actualizar la variable de temporada actual
+    temporadaActual = temporadaSeleccionada;
+    // Llamar a la función de ordenamiento
+    ordenarTablaPorPuntosTotales(ascendente);
+});
+</script>
+</body>
 </html>

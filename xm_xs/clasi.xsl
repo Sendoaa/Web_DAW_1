@@ -10,57 +10,57 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Clasificación Temporada</title>
         <link rel="stylesheet" href="../estilos/styles.css" />
+        <script>
+          function mostrarClasificacionPredeterminada() {
+            mostrarClasificacion('2023');
+          }
+
+          function mostrarClasificacion(temporada) {
+            console.log("Temporada seleccionada:", temporada);
+            var clasificaciones = document.querySelectorAll('.divtabla');
+            clasificaciones.forEach(function(clasificacion) {
+              if (clasificacion.id === 'temporada' + temporada) {
+                clasificacion.style.display = 'block';
+              } else {
+                clasificacion.style.display = 'none';
+              }
+            });
+
+            // Actualizar el valor del selector de temporada
+            document.getElementById('temporadaTitulo').innerText = 'Temporada ' + temporada;
+          }
+        </script>
       </head>
       <body onload="mostrarClasificacionPredeterminada()">
-        <xsl:apply-templates select="temporadas/temporada"/>
-          <script>
-            function mostrarClasificacionPredeterminada() {
-              mostrarClasificacion('2023');
-            }
-          
-            function mostrarClasificacion(temporada) {
-              console.log("Temporada seleccionada:", temporada);
-              var clasificaciones = document.querySelectorAll('.divtabla');
-              clasificaciones.forEach(function(clasificacion) {
-                if (clasificacion.id === 'temporada' + temporada) {
-                  clasificacion.style.display = 'block';
-                } else {
-                  clasificacion.style.display = 'none';
-                }
-              });
-          
-              // Actualizar el valor del selector de temporada
-              document.getElementById('temporada').value = temporada;
-            }
-          </script>
+        <div class="select">
+          <!-- Selector de temporada -->
+          <select id="temporada" onchange="mostrarClasificacion(this.value)">
+            <xsl:apply-templates select="//temporadas/temporada"/>
+          </select>
+        </div>
+        <h1 id="temporadaTitulo" class="titulin"></h1>
+        <xsl:apply-templates select="//temporadas/temporada[not(preceding-sibling::temporada/numero = numero)]"/>
       </body>
     </html>
   </xsl:template>
 
-  <!-- Plantilla para la clasificación -->
+  <!-- Plantilla para cada temporada -->
   <xsl:template match="temporada">
-    <xsl:variable name="tituloTemporada" select="numero"/>
+    <xsl:variable name="numeroTemporada" select="numero"/>
     <xsl:variable name="equipos" select="equiposliga/equipo"/>
 
-    <div class="select">
-     <!-- Selector de temporada -->
-     <select id="temporada" onchange="mostrarClasificacion(this.value)">
-      <xsl:for-each select="//temporada">
-        <option value="{numero}">
-          <xsl:value-of select="concat('TEMPORADA ', numero)" />
-        </option>
-      </xsl:for-each>
-    </select>
-    </div>
+    <!-- Generación de opciones para el selector de temporada -->
+    <option value="{$numeroTemporada}">
+      <xsl:text>TEMPORADA </xsl:text>
+      <xsl:value-of select="numero" />
+    </option>
 
+    <!-- Creación de la clasificación -->
     <section>
-      <h1 id="{concat('tituloTemporada', numero)}" class="titulin">
-        <xsl:value-of select="$tituloTemporada"/>
-      </h1>
-      <div class="divtabla" id="{concat('temporada', numero)}">
-        <table id="{concat('tablaclasi', numero)}" class="tablaclasi">
+      <div class="divtabla" id="{concat('temporada', $numeroTemporada)}" style="display: none;">
+        <table id="{concat('tablaclasi', $numeroTemporada)}" class="tablaclasi">
           <thead>
-            <tr>
+            <tr> 
               <th colspan="6" class="titulotabla">Tabla de Clasificación de BOF</th>
             </tr>
             <tr class="columnatabla">
@@ -72,20 +72,12 @@
               <th title="Puntos Totales">PT</th>
             </tr>
           </thead>
-          <tbody id="{concat('tablaBody', numero)}">
+          <tbody id="{concat('tablaBody', $numeroTemporada)}">
             <xsl:apply-templates select="$equipos"/>
           </tbody>
         </table>
       </div>
     </section>
-
-    <a class="boton" href="#active">
-      <button class="pasubir">
-        <svg class="svgIcon" viewBox="0 0 384 512">
-          <path d="M214.6 41.4c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 141.2V448c0 17.7 14.3 32 32 32s32-14.3 32-32V141.2L329.4 246.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-160-160z"></path>
-        </svg>
-      </button>
-    </a>
   </xsl:template>
 
   <!-- Plantilla para cada equipo -->
