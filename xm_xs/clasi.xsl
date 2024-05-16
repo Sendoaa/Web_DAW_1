@@ -35,25 +35,28 @@
         <div class="select">
           <!-- Selector de temporada -->
           <select id="temporada" onchange="mostrarClasificacion(this.value)">
-            <xsl:apply-templates select="//temporadas/temporada"/>
+            <xsl:apply-templates select="//temporadas/temporada" mode="opciones"/>
           </select>
         </div>
         <h1 id="temporadaTitulo" class="titulin"></h1>
-        <xsl:apply-templates select="//temporadas/temporada[not(preceding-sibling::temporada/numero = numero)]"/>
+        <xsl:apply-templates select="//temporadas/temporada[not(preceding-sibling::temporada/numero = numero)]" mode="clasificacion"/>
       </body>
     </html>
   </xsl:template>
 
-  <!-- Plantilla para cada temporada -->
-  <xsl:template match="temporada">
+  <!-- Plantilla para las opciones del selector de temporada -->
+  <xsl:template match="temporada" mode="opciones">
     <xsl:variable name="numeroTemporada" select="numero"/>
-    <xsl:variable name="equipos" select="equiposliga/equipo"/>
-
-    <!-- Generación de opciones para el selector de temporada -->
     <option value="{$numeroTemporada}">
       <xsl:text>TEMPORADA </xsl:text>
       <xsl:value-of select="numero" />
     </option>
+  </xsl:template>
+
+  <!-- Plantilla para cada temporada (clasificación) -->
+  <xsl:template match="temporada" mode="clasificacion">
+    <xsl:variable name="numeroTemporada" select="numero"/>
+    <xsl:variable name="equipos" select="equiposliga/equipo"/>
 
     <!-- Creación de la clasificación -->
     <section>
