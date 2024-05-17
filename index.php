@@ -1,63 +1,50 @@
 <?php
+// Iniciar la sesión
 session_start();
 
-// Definir $esAdmin y $esInvitado inicialmente como falsos
+// Verificar si el parámetro 'logout' está presente en la URL
+if (isset($_GET['logout'])) {
+    // Destruir todas las variables de sesión.
+    $_SESSION = array();
+
+    // Si se desea destruir la sesión completamente, eliminar también la cookie de sesión.
+    // Nota: ¡Esto destruirá la sesión, y no la información de la sesión!
+    if (ini_get("session.use_cookies")) {
+        $params = session_get_cookie_params();
+        setcookie(session_name(), '', time() - 42000,
+            $params["path"], $params["domain"],
+            $params["secure"], $params["httponly"]
+        );
+    }
+
+    // Finalmente, destruir la sesión.
+    session_destroy();
+    // Redirigir al usuario a la misma página para eliminar el parámetro 'logout' de la URL
+    header("Location: ./index.php");
+    exit;
+}
+
+
+
+// Variable para indicar si el usuario está conectado
+$loggedIn = false;
 $esAdmin = false;
 $esInvitado = false;
 
 // Verificar si el usuario ha iniciado sesión
-if (isset($_SESSION['nombre'])) {
-  $loggedIn = true;
-  $nombreUsuario = $_SESSION['nombre'];
-  $esAdmin = ($_SESSION['nombre'] == 'admin');
-  $esInvitado = ($_SESSION['nombre'] == 'invitado');
-  if ($_SESSION['nombre'] == 'admin') {
-    $esAdmin = true;
-    $esInvitado = false;
+if (isset($_SESSION['usuario'])) {
+    $loggedIn = true;
+    // Aquí puedes realizar cualquier otra comprobación necesaria, como si el usuario es administrador o invitado
+    // Por ahora, vamos a asumir que es un administrador si el usuario es 'admin' y un invitado si el usuario es 'invitado'
+    if ($_SESSION['usuario'] == 'admin') {
+        $esAdmin = true;
+    } elseif ($_SESSION['usuario'] == 'invitado') {
+        $esInvitado = true;
+    }
   } else {
-    $esAdmin = false;
-    $esInvitado = true;
-  }
-} else {
-  $loggedIn = false;
-}
-
-// Verificar si el usuario ha hecho clic en el enlace de cierre de sesión
-if (isset($_GET['logout'])) {
-  $loggedIn = false;
-  unset($_SESSION['nombre']);
-}
-
-
-// Variable para el mensaje de éxito
-$successMessage = '';
-
-// Verificar si el formulario ha sido enviado
-if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['titulo']) && isset($_POST['contenido']) && isset($_FILES['imagen'])) {
-  // Obtén los valores de los campos del formulario
-  $titulo = $_POST['titulo'];
-  $contenido = $_POST['contenido'];
-  $imagen = $_FILES['imagen']['name'];
-
-  // Crea un nuevo elemento de noticia
-  $newNoticia = $xml->addChild('noticia');
-  $newNoticia->addChild('id', 'noticia_' . (count($xml->noticia) + 1));
-  $newNoticia->addChild('titulo', $titulo);
-  $newNoticia->addChild('contenido', $contenido);
-  $newNoticia->addChild('imagen')->addAttribute('src', '../imagenes/otras/noticias/' . $imagen);
-
-  // Guarda el documento XML
-  $xml->asXML($xmlFile);
-
-  // Mueve el archivo de imagen subido a la carpeta de imágenes
-  move_uploaded_file($_FILES['imagen']['tmp_name'], "../imagenes/otras/noticias/" . $imagen);
-
-  // Mensaje de éxito
-  $successMessage = 'La noticia se ha añadido correctamente.';
-
-  // Redireccionar para evitar reenvío del formulario al actualizar la página
-  header("Location: {$_SERVER['REQUEST_URI']}");
-  exit();
+    // Si el usuario no ha iniciado sesión, redirigir a login.php
+    header("Location: ./paginas/login.php");
+    exit;
 }
 ?>
 <!DOCTYPE html>
@@ -77,49 +64,45 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['titulo']) && isset($_
 <body>
   <!--Cabecera de la página Barra Navegación mas Logo-->
   <header>
-    <!-- Logo de la página -->
     <div class="left-section">
-      <a href="./index.html"><img src="./imagenes/logos/BOFlogo.png" alt=""></a>
+        <a href="./index.php"><img src="./imagenes/logos/BOFlogo.png" alt=""></a>
     </div>
-    <!-- Hamburguesa de menu para abrir menu navegación -->
     <div class="togglearea">
-      <label for="toggle">
-        <span></span>
-        <span></span>
-        <span></span>
-      </label>
+        <label for="toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
     </div>
     <input type="checkbox" id="toggle">
-    <!-- Barra navegación -->
     <div class="navbar">
-      <a id="active" href="../bof-main/index.php">Inicio</a>
-      <a href="../bof-main/paginas/calendario.php">Calendario</a>
-      <a href="../bof-main/paginas/clasi.php">Clasificación</a>
-      <a href="../bof-main/paginas/datos.php">Equipos</a>
-      <a href="../bof-main/paginas/noticias.php">Noticias</a>
-      <a href="../bof-main/paginas/contacto.php">Contacto</a>
-      <?php if ($loggedIn) : ?>
-        <?php if ($esAdmin) : ?>
-          <img id="userImage" src="./imagenes/otras/usuario.png" alt="Usuario Administrador">
-          <div id="dropdownMenu" style="display: none;">
-            <h1>ADMIN</h1>
-            <a href="../paginas/admin.php">Mi cuenta</a>
-            <a id="logoutlink" href="../bof-main/index.php?logout=true">Cerrar sesión</a>
-          </div>
-        <?php elseif ($esInvitado) : ?>
-          <img id="userImage" src="../imagenes/otras/usuario.png" alt="Usuario Invitado">
-          <div id="dropdownMenu" style="display: none;">
-            <h1>INVITADO</h1>
-            <a href="/mi-cuenta">Mi cuenta</a>
-            <a id="logoutlink" href="noticias.php?logout=true">Cerrar sesión</a>
-          </div>
+        <?php $currentPage = basename($_SERVER['PHP_SELF']); ?>
+        <a <?php echo ($currentPage == 'index.php') ? 'id="active"' : ''; ?> href="./index.php">Inicio</a>
+        <a <?php echo ($currentPage == 'calendario.php') ? 'id="active"' : ''; ?> href="./paginas/calendario.php">Calendario</a>
+        <a <?php echo ($currentPage == 'clasi.php') ? 'id="active"' : ''; ?> href="./paginas/clasi.php">Clasificación</a>
+        <a <?php echo ($currentPage == 'datos.php') ? 'id="active"' : ''; ?> href="./paginas/datos.php">Equipos</a>
+        <a <?php echo ($currentPage == 'noticias.php') ? 'id="active"' : ''; ?> href="./paginas/noticias.php">Noticias</a>
+        <a <?php echo ($currentPage == 'contacto.php') ? 'id="active"' : ''; ?> href="./paginas/contacto.php">Contacto</a>
+        <?php if ($loggedIn) : ?>
+            <?php if ($esAdmin) : ?>
+                <img id="userImage" src="./imagenes/otras/usuario.png" alt="Usuario Administrador">
+                <div id="dropdownMenu" style="display: none;">
+                    <h1>ADMIN</h1>
+                    <a href="./paginas/admin.php">Mi cuenta</a>
+                    <a id="logoutlink" href="index.php?logout=true">Cerrar sesión</a>
+                </div>
+            <?php elseif ($esInvitado) : ?>
+                <img id="userImage" src="./imagenes/otras/usuario.png" alt="Usuario Invitado">
+                <div id="dropdownMenu" style="display: none;">
+                    <h1>INVITADO</h1>
+                    <a id="logoutlink" href="index.php?logout=true">Cerrar sesión</a>
+                </div>
+            <?php endif; ?>
+        <?php else : ?>
+            <button class="button-login"><a href="./paginas/login.php" class="navbar-login">LOGIN</a></button>
         <?php endif; ?>
-      <?php else : ?>
-        <button class="button-login"><a href="../bof-main/paginas/login.html" class="navbar-login">LOGIN</a></button>
-      <?php endif; ?>
     </div>
-    </div>
-  </header>
+</header>
   <!-- Articulos de noticias principales -->
   <article>
     <!-- Articulos de noticias principales -->
@@ -165,14 +148,14 @@ Luka Doncic impresiona con su actuación estelar liderando a los Mavericks hacia
               <div>Vie,13,2023ㅤㅤㅤㅤㅤ 20:00</div>
             </div>
             <div class="equipos">
-              <p>Cardinals</p>
+              <p>Warriors</p>
               <img src="./imagenes/otras/vs.png" alt="">
-              <p>Cowboys</p>
+              <p>Rockets</p>
             </div>
             <div class="equipos">
-              <img class=logito src="./imagenes/otras/logosequipos/Cardinals.png" alt="">
+              <img class=logito src="./imagenes/otras/logosequipos/warriors.png" alt="">
               <a href="./xm_xs/calendar_t3.xml"><button class="vermas">Ver más</button></a>
-              <img class=logito src="./imagenes/otras/logosequipos/Cowboys.png" alt="">
+              <img class=logito src="./imagenes/otras/logosequipos/rockets.png" alt="">
             </div>
           </div>
           <!-- Primer proximo partido -->
@@ -181,14 +164,14 @@ Luka Doncic impresiona con su actuación estelar liderando a los Mavericks hacia
               <div>Sab,14,2023ㅤㅤㅤㅤㅤ 19:00</div>
             </div>
             <div class="equipos">
-              <p>Raiders</p>
+              <p>Clippers</p>
               <img src="./imagenes/otras/vs.png" alt="">
-              <p>Steelers</p>
+              <p>Celtics</p>
             </div>
             <div class="equipos">
-              <img class=logito src="./imagenes/otras/logosequipos/Raiders.png" alt="">
+              <img class=logito src="./imagenes/otras/logosequipos/clippers.png" alt="">
               <a href="./xm_xs/calendar_t3.xml"><button class="vermas">Ver más</button></a>
-              <img class=logito src="./imagenes/otras/logosequipos/Steelers.png" alt="">
+              <img class=logito src="./imagenes/otras/logosequipos/celtics.png" alt="">
             </div>
           </div>
           <!-- Segundo proximo partido -->
@@ -197,14 +180,14 @@ Luka Doncic impresiona con su actuación estelar liderando a los Mavericks hacia
               <div>Dom,15,2023ㅤㅤㅤㅤㅤ 17:00</div>
             </div>
             <div class="equipos">
-              <p>Bengals</p>
+              <p>Lakers</p>
               <img src="./imagenes/otras/vs.png" alt="">
-              <p>Rams</p>
+              <p>Rockets</p>
             </div>
             <div class="equipos">
-              <img class=logito src="./imagenes/otras/logosequipos/Bengals.png" alt="">
+              <img class=logito src="./imagenes/otras/logosequipos/lakers.png" alt="">
               <a href="./xm_xs/calendar_t3.xml"><button class="vermas">Ver más</button></a>
-              <img class=logito src="./imagenes/otras/logosequipos/Rams.png" alt="">
+              <img class=logito src="./imagenes/otras/logosequipos/rockets.png" alt="">
             </div>
           </div>
           <!-- tercer proximo partido -->
@@ -213,14 +196,14 @@ Luka Doncic impresiona con su actuación estelar liderando a los Mavericks hacia
               <div>Vie,20,2023ㅤㅤㅤㅤㅤ 19:00</div>
             </div>
             <div class="equipos">
-              <p>Cowboys</p>
+              <p>Celtics</p>
               <img src="./imagenes/otras/vs.png" alt="">
-              <p>Cardinals</p>
+              <p>Mavericks</p>
             </div>
             <div class="equipos">
-              <img class=logito src="./imagenes/otras/logosequipos/Cowboys.png" alt="">
+              <img class=logito src="./imagenes/otras/logosequipos/celtics.png" alt="">
               <a href="./xm_xs/calendar_t3.xml"><button class="vermas">Ver más</button></a>
-              <img class=logito src="./imagenes/otras/logosequipos/Cardinals.png" alt="">
+              <img class=logito src="./imagenes/otras/logosequipos/mavericks.png" alt="">
             </div>
           </div>
           <!-- Cuarto proximo partido -->
@@ -234,9 +217,9 @@ Luka Doncic impresiona con su actuación estelar liderando a los Mavericks hacia
               <p>Raiders</p>
             </div>
             <div class="equipos">
-              <img class=logito src="./imagenes/otras/logosequipos/Steelers.png" alt="">
+              <img class=logito src="./imagenes/otras/logosequipos/cavaliers.png" alt="">
               <a href="./xm_xs/calendar_t3.xml"><button class="vermas">Ver más</button></a>
-              <img class=logito src="./imagenes/otras/logosequipos/Raiders.png" alt="">
+              <img class=logito src="./imagenes/otras/logosequipos/grizzlies.png" alt="">
             </div>
           </div>
           <div class="proxpar ramben">
@@ -244,14 +227,14 @@ Luka Doncic impresiona con su actuación estelar liderando a los Mavericks hacia
               <div>Dom,22,2023ㅤㅤㅤㅤㅤ 21:00</div>
             </div>
             <div class="equipos">
-              <p>Rams</p>
+              <p>Mavericks</p>
               <img src="./imagenes/otras/vs.png" alt="">
-              <p>Bengals</p>
+              <p>Clippers</p>
             </div>
             <div class="equipos">
-              <img class=logito src="./imagenes/otras/logosequipos/Rams.png" alt="">
+              <img class=logito src="./imagenes/otras/logosequipos/mavericks.png" alt="">
               <a href="./xm_xs/calendar_t3.xml"><button class="vermas">Ver más</button></a>
-              <img class=logito src="./imagenes/otras/logosequipos/Bengals.png" alt="">
+                <img class=logito src="./imagenes/otras/logosequipos/clippers.png" alt="">
             </div>
           </div>
         </div>

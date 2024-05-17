@@ -1,37 +1,6 @@
 <?php
-error_reporting(E_ALL);
-ini_set('display_errors', 1);
-session_start();
-
-// Definir $esAdmin y $esInvitado inicialmente como falsos
-$esAdmin = false;
-$esInvitado = false;
-
-// Verificar si el usuario ha iniciado sesión
-if (isset($_SESSION['nombre'])) {
-    $loggedIn = true;
-    $nombreUsuario = $_SESSION['nombre'];
-    $esAdmin = ($_SESSION['nombre'] == 'admin');
-    $esInvitado = ($_SESSION['nombre'] == 'invitado');
-    if ($_SESSION['nombre'] == 'admin') {
-        $esAdmin = true;
-        $esInvitado = false;
-    } else {
-        $esAdmin = false;
-        $esInvitado = true;
-    }
-} else {
-    $loggedIn = false;
-}
-
-// Verificar si el usuario ha hecho clic en el enlace de cierre de sesión
-if (isset($_GET['logout'])) {
-    $loggedIn = false;
-    unset($_SESSION['nombre']);
-}
-
 // Ruta al archivo XML
-$xmlFile = "../xm_xs/2023.xml";
+$xmlFile = "../xm_xs/temporada.xml";
 
 // Cargar el archivo XML
 $xmlString = file_get_contents($xmlFile);
@@ -88,46 +57,7 @@ if ($xml === false) {
     <link rel="icon" type="image/x-icon" href="../imagenes/logos/BOFlogo.png">
 </head>
 <body>
-<header>
-    <div class="left-section">
-        <a href="./index.html"><img src="../imagenes/logos/BOFlogo.png" alt=""></a>
-    </div>
-    <div class="togglearea">
-        <label for="toggle">
-            <span></span>
-            <span></span>
-            <span></span>
-        </label>
-    </div>
-    <input type="checkbox" id="toggle">
-    <div class="navbar">
-        <a href="../index.php">Inicio</a>
-        <a href="../paginas/calendario.php">Calendario</a>
-        <a href="../paginas/clasi.php">Clasificación</a>
-        <a href="../paginas/datos.php">Equipos</a>
-        <a id="active" href="../paginas/noticias.php">Noticias</a>
-        <a href="../paginas/contacto.php">Contacto</a>
-        <?php if ($loggedIn): ?>
-            <?php if ($esAdmin): ?>
-                <img id="userImage" src="../imagenes/otras/usuario.png" alt="Usuario Administrador">
-                <div id="dropdownMenu" style="display: none;">
-                    <h1>ADMIN</h1>
-                    <a href="../paginas/admin.php">Mi cuenta</a>
-                    <a id="logoutlink" href="noticias.php?logout=true">Cerrar sesión</a>
-                </div>
-            <?php elseif ($esInvitado): ?>
-                <img id="userImage" src="../imagenes/otras/usuario.png" alt="Usuario Invitado">
-                <div id="dropdownMenu" style="display: none;">
-                    <h1>INVITADO</h1>
-                    <a href="/mi-cuenta">Mi cuenta</a>
-                    <a id="logoutlink" href="noticias.php?logout=true">Cerrar sesión</a>
-                </div>
-            <?php endif; ?>
-        <?php else: ?>
-            <button class="button-login"><a href="./login.html" class="navbar-login">LOGIN</a></button>
-        <?php endif; ?>
-    </div>
-</header> 
+<?php include '../php/header.php'; ?>
 
 <?php if ($loggedIn && $esAdmin): ?>
     <div class="button-add-news-centrar">

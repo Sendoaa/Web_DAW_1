@@ -1,0 +1,2774 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="clasi.xsl"?>
+<temporadas>
+    <temporada xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="calendar.xsd">
+        <numero>2023</numero>
+        <jornada num="1">
+            <partido>
+                <fecha>Miercoles, 5 de junio</fecha>
+                <hora>20:15</hora>
+                <equipos>
+                    <local>Lakers</local>
+                    <puntoslocal>92</puntoslocal>
+                    <visitante>Mavericks</visitante>
+                    <puntosvisitante>98</puntosvisitante>
+                </equipos>
+            </partido>
+            <partido>
+                <fecha>Jueves, 6 de junio</fecha>
+                <hora>21:45</hora>
+                <equipos>
+                    <local>Warriors</local>
+                    <puntoslocal>110</puntoslocal>
+                    <visitante>Clippers</visitante>
+                    <puntosvisitante>105</puntosvisitante>
+                </equipos>
+            </partido>
+            <partido>
+                <fecha>Viernes, 7 de junio</fecha>
+                <hora>23:30</hora>
+                <equipos>
+                    <local>Celtics</local>
+                    <puntoslocal>100</puntoslocal>
+                    <visitante>Rockets</visitante>
+                    <puntosvisitante>98</puntosvisitante>
+                </equipos>
+            </partido>
+            <partido>
+                <fecha>Sábado, 8 de junio</fecha>
+                <hora>22:00</hora>
+                <equipos>
+                    <local>Cavaliers</local>
+                    <puntoslocal>97</puntoslocal>
+                    <visitante>Grizzlies</visitante>
+                    <puntosvisitante>93</puntosvisitante>
+                </equipos>
+            </partido>
+        </jornada>
+        <jornada num="2">
+            <partido>
+                <fecha>Viernes, 14 de junio</fecha>
+                <hora>19:15</hora>
+                <equipos>
+                    <local>Warriors</local>
+                    <puntoslocal>105</puntoslocal>
+                    <visitante>Lakers</visitante>
+                    <puntosvisitante>100</puntosvisitante>
+                </equipos>
+            </partido>
+            <partido>
+                <fecha>Sábado, 15 de junio</fecha>
+                <hora>21:00</hora>
+                <equipos>
+                    <local>Clippers</local>
+                    <puntoslocal>98</puntoslocal>
+                    <visitante>Celtics</visitante>
+                    <puntosvisitante>95</puntosvisitante>
+                </equipos>
+            </partido>
+            <partido>
+                <fecha>Domingo, 16 de junio</fecha>
+                <hora>18:30</hora>
+                <equipos>
+                    <local>Rockets</local>
+                    <puntoslocal>108</puntoslocal>
+                    <visitante>Cavaliers</visitante>
+                    <puntosvisitante>103</puntosvisitante>
+                </equipos>
+            </partido>
+            <partido>
+                <fecha>Lunes, 17 de junio</fecha>
+                <hora>20:00</hora>
+                <equipos>
+                    <local>Grizzlies</local>
+                    <puntoslocal>94</puntoslocal>
+                    <visitante>Mavericks</visitante>
+                    <puntosvisitante>90</puntosvisitante>
+                </equipos>
+            </partido>
+        </jornada>
+        <jornada num="3">
+            <partido>
+                <fecha>Viernes, 21 de junio</fecha>
+                <hora>16:30</hora>
+                <equipos>
+                    <local>Celtics</local>
+                    <puntoslocal>102</puntoslocal>
+                    <visitante>Warriors</visitante>
+                    <puntosvisitante>98</puntosvisitante>
+                </equipos>
+            </partido>
+            <partido>
+                <fecha>Sábado, 22 de junio</fecha>
+                <hora>18:00</hora>
+                <equipos>
+                    <local>Clippers</local>
+                    <puntoslocal>105</puntoslocal>
+                    <visitante>Rockets</visitante>
+                    <puntosvisitante>100</puntosvisitante>
+                </equipos>
+            </partido>
+            <partido>
+                <fecha>Domingo, 23 de junio</fecha>
+                <hora>20:00</hora>
+                <equipos>
+                    <local>Mavericks</local>
+                    <puntoslocal>98</puntoslocal>
+                    <visitante>Lakers</visitante>
+                    <puntosvisitante>96</puntosvisitante>
+                </equipos>
+            </partido>
+            <partido>
+                <fecha>Lunes, 24 de junio</fecha>
+                <hora>21:30</hora>
+                <equipos>
+                    <local>Grizzlies</local>
+                    <puntoslocal>93</puntoslocal>
+                    <visitante>Cavaliers</visitante>
+                    <puntosvisitante>91</puntosvisitante>
+                </equipos>
+            </partido>
+        </jornada>
+        <jornada num="4">
+            <partido>
+                <fecha>Viernes, 28 de junio</fecha>
+                <hora>17:15</hora>
+                <equipos>
+                    <local>Cavaliers</local>
+                    <puntoslocal>97</puntoslocal>
+                    <visitante>Clippers</visitante>
+                    <puntosvisitante>95</puntosvisitante>
+                </equipos>
+            </partido>
+            <partido>
+                <fecha>Sábado, 29 de junio</fecha>
+                <hora>18:45</hora>
+                <equipos>
+                    <local>Warriors</local>
+                    <puntoslocal>110</puntoslocal>
+                    <visitante>Mavericks</visitante>
+                    <puntosvisitante>105</puntosvisitante>
+                </equipos>
+            </partido>
+            <partido>
+                <fecha>Domingo, 30 de junio</fecha>
+                <hora>20:30</hora>
+                <equipos>
+                    <local>Lakers</local>
+                    <puntoslocal>115</puntoslocal>
+                    <visitante>Rockets</visitante>
+                    <puntosvisitante>110</puntosvisitante>
+                </equipos>
+            </partido>
+            <partido>
+                <fecha>Lunes, 1 de julio</fecha>
+                <hora>21:00</hora>
+                <equipos>
+                    <local>Grizzlies</local>
+                    <puntoslocal>96</puntoslocal>
+                    <visitante>Celtics</visitante>
+                    <puntosvisitante>94</puntosvisitante>
+                </equipos>
+            </partido>
+        </jornada>
+        <jornada num="5">
+            <partido>
+                <fecha>Viernes, 5 de julio</fecha>
+                <hora>17:15</hora>
+                <equipos>
+                    <local>Warriors</local>
+                    <puntoslocal>105</puntoslocal>
+                    <visitante>Lakers</visitante>
+                    <puntosvisitante>100</puntosvisitante>
+                </equipos>
+            </partido>
+            <partido>
+                <fecha>Sabado, 6 de julio</fecha>
+                <hora>18:45</hora>
+                <equipos>
+                    <local>Grizzlies</local>
+                    <puntoslocal>95</puntoslocal>
+                    <visitante>Celtics</visitante>
+                    <puntosvisitante>92</puntosvisitante>
+                </equipos>
+            </partido>
+            <partido>
+                <fecha>Domingo, 7 de julio</fecha>
+                <hora>20:30</hora>
+                <equipos>
+                    <local>Rockets</local>
+                    <puntoslocal>108</puntoslocal>
+                    <visitante>Clippers</visitante>
+                    <puntosvisitante>103</puntosvisitante>
+                </equipos>
+            </partido>
+            <partido>
+                <fecha>Lunes, 8 de julio</fecha>
+                <hora>21:00</hora>
+                <equipos>
+                    <local>Cavaliers</local>
+                    <puntoslocal>98</puntoslocal>
+                    <visitante>Mavericks</visitante>
+                    <puntosvisitante>96</puntosvisitante>
+                </equipos>
+            </partido>
+        </jornada>
+        <jornada num="6">
+            <partido>
+                <fecha>Viernes, 12 de julio</fecha>
+                <hora>16:45</hora>
+                <equipos>
+                    <local>Lakers</local>
+                    <puntoslocal>102</puntoslocal>
+                    <visitante>Warriors</visitante>
+                    <puntosvisitante>98</puntosvisitante>
+                </equipos>
+            </partido>
+            <partido>
+                <fecha>Sabado, 13 de julio</fecha>
+                <hora>18:15</hora>
+                <equipos>
+                    <local>Mavericks</local>
+                    <puntoslocal>97</puntoslocal>
+                    <visitante>Celtics</visitante>
+                    <puntosvisitante>95</puntosvisitante>
+                </equipos>
+            </partido>
+            <partido>
+                <fecha>Domingo, 14 de julio</fecha>
+                <hora>21:15</hora>
+                <equipos>
+                    <local>Rockets</local>
+                    <puntoslocal>108</puntoslocal>
+                    <visitante>Clippers</visitante>
+                    <puntosvisitante>103</puntosvisitante>
+                </equipos>
+            </partido>
+            <partido>
+                <fecha>Lunes, 15 de julio</fecha>
+                <hora>21:30</hora>
+                <equipos>
+                    <local>Grizzlies</local>
+                    <puntoslocal>96</puntoslocal>
+                    <visitante>Cavaliers</visitante>
+                    <puntosvisitante>94</puntosvisitante>
+                </equipos>
+            </partido>
+        </jornada>
+        <jornada num="7">
+            <partido>
+                <fecha>Viernes, 19 de julio</fecha>
+                <hora>16:30</hora>
+                <equipos>
+                    <local>Rockets</local>
+                    <puntoslocal>105</puntoslocal>
+                    <visitante>Mavericks</visitante>
+                    <puntosvisitante>100</puntosvisitante>
+                </equipos>
+            </partido>
+            <partido>
+                <fecha>Sabado, 20 de julio</fecha>
+                <hora>18:00</hora>
+                <equipos>
+                    <local>Warriors</local>
+                    <puntoslocal>112</puntoslocal>
+                    <visitante>Celtics</visitante>
+                    <puntosvisitante>108</puntosvisitante>
+                </equipos>
+            </partido>
+            <partido>
+                <fecha>Domingo, 21 de julio</fecha>
+                <hora>19:30</hora>
+                <equipos>
+                    <local>Lakers</local>
+                    <puntoslocal>98</puntoslocal>
+                    <visitante>Clippers</visitante>
+                    <puntosvisitante>96</puntosvisitante>
+                </equipos>
+            </partido>
+            <partido>
+                <fecha>Lunes, 22 de julio</fecha>
+                <hora>21:00</hora>
+                <equipos>
+                    <local>Cavaliers</local>
+                    <puntoslocal>97</puntoslocal>
+                    <visitante>Grizzlies</visitante>
+                    <puntosvisitante>95</puntosvisitante>
+                </equipos>
+            </partido>
+        </jornada>
+        <jornada num="8">
+            <partido>
+                <fecha>Viernes, 26 de julio</fecha>
+                <hora>16:30</hora>
+                <equipos>
+                    <local>Mavericks</local>
+                    <puntoslocal>102</puntoslocal>
+                    <visitante>Rockets</visitante>
+                    <puntosvisitante>98</puntosvisitante>
+                </equipos>
+            </partido>
+            <partido>
+                <fecha>Sabado, 27 de julio</fecha>
+                <hora>18:00</hora>
+                <equipos>
+                    <local>Celtics</local>
+                    <puntoslocal>105</puntoslocal>
+                    <visitante>Warriors</visitante>
+                    <puntosvisitante>100</puntosvisitante>
+                </equipos>
+            </partido>
+            <partido>
+                <fecha>Domingo, 28 de julio</fecha>
+                <hora>19:30</hora>
+                <equipos>
+                    <local>Clippers</local>
+                    <puntoslocal>108</puntoslocal>
+                    <visitante>Lakers</visitante>
+                    <puntosvisitante>103</puntosvisitante>
+                </equipos>
+            </partido>
+            <partido>
+                <fecha>Lunes, 29 de julio</fecha>
+                <hora>20:00</hora>
+                <equipos>
+                    <local>Grizzlies</local>
+                    <puntoslocal>95</puntoslocal>
+                    <visitante>Cavaliers</visitante>
+                    <puntosvisitante>92</puntosvisitante>
+                </equipos>
+            </partido>
+        </jornada>
+        <jornada num="9">
+            <partido>
+                <fecha>Viernes, 2 de agosto</fecha>
+                <hora>16:30</hora>
+                <equipos>
+                    <local>Mavericks</local>
+                    <puntoslocal>100</puntoslocal>
+                    <visitante>Celtics</visitante>
+                    <puntosvisitante>98</puntosvisitante>
+                </equipos>
+            </partido>
+            <partido>
+                <fecha>Sabado, 3 de agosto</fecha>
+                <hora>18:00</hora>
+                <equipos>
+                    <local>Warriors</local>
+                    <puntoslocal>105</puntoslocal>
+                    <visitante>Lakers</visitante>
+                    <puntosvisitante>100</puntosvisitante>
+                </equipos>
+            </partido>
+            <partido>
+                <fecha>Domingo, 4 de agosto</fecha>
+                <hora>19:30</hora>
+                <equipos>
+                    <local>Clippers</local>
+                    <puntoslocal>108</puntoslocal>
+                    <visitante>Rockets</visitante>
+                    <puntosvisitante>105</puntosvisitante>
+                </equipos>
+            </partido>
+            <partido>
+                <fecha>Lunes, 5 de agosto</fecha>
+                <hora>20:00</hora>
+                <equipos>
+                    <local>Grizzlies</local>
+                    <puntoslocal>97</puntoslocal>
+                    <visitante>Cavaliers</visitante>
+                    <puntosvisitante>95</puntosvisitante>
+                </equipos>
+            </partido>
+        </jornada>
+        <jornada num="10">
+            <partido>
+                <fecha>Viernes, 9 de agosto</fecha>
+                <hora>16:30</hora>
+                <equipos>
+                    <local>Celtics</local>
+                    <puntoslocal>102</puntoslocal>
+                    <visitante>Mavericks</visitante>
+                    <puntosvisitante>98</puntosvisitante>
+                </equipos>
+            </partido>
+            <partido>
+                <fecha>Sabado, 10 de agosto</fecha>
+                <hora>18:00</hora>
+                <equipos>
+                    <local>Lakers</local>
+                    <puntoslocal>105</puntoslocal>
+                    <visitante>Warriors</visitante>
+                    <puntosvisitante>100</puntosvisitante>
+                </equipos>
+            </partido>
+            <partido>
+                <fecha>Domingo, 11 de agosto</fecha>
+                <hora>19:30</hora>
+                <equipos>
+                    <local>Rockets</local>
+                    <puntoslocal>108</puntoslocal>
+                    <visitante>Clippers</visitante>
+                    <puntosvisitante>103</puntosvisitante>
+                </equipos>
+            </partido>
+            <partido>
+                <fecha>Lunes, 12 de agosto</fecha>
+                <hora>20:00</hora>
+                <equipos>
+                    <local>Cavaliers</local>
+                    <puntoslocal>97</puntoslocal>
+                    <visitante>Grizzlies</visitante>
+                    <puntosvisitante>95</puntosvisitante>
+                </equipos>
+            </partido>
+        </jornada>
+        
+        <equiposliga xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="datos.xsd">
+            <equipo>
+                <nombreequipo>
+                    <nombre>Lakers</nombre>
+                </nombreequipo>
+                <escudo>../imagenes/otras/logosequipos/Lakers.png</escudo>
+                <entrenador>
+                    <nombre>Frank Vogel</nombre>
+                    <imagen>https://as01.epimg.net/img/especiales/baloncesto/nba/2019/guia/lakers/player_0.png</imagen>
+                </entrenador>
+                <jugadores>
+                    <PG>
+                        <jugador>
+                            <nombre>LeBron James</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/2544.png</imagen>
+                        </jugador>
+                        <jugador>
+                            <nombre>Russell Westbrook</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/201566.png</imagen>
+                        </jugador>
+                    </PG>
+                    <SG>
+                        <jugador>
+                            <nombre>Anthony Davis</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/203076.png</imagen>
+                        </jugador>
+                        <jugador>
+                            <nombre>Talen Horton-Tucker</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1629659.png</imagen>
+                        </jugador>
+                    </SG>
+                    <SF>
+                        <jugador>
+                            <nombre>Carmelo Anthony</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/2546.png</imagen>
+                        </jugador>
+                        <jugador>
+                            <nombre>Kent Bazemore</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/203145.png</imagen>
+                        </jugador>
+                    </SF>
+                    <PF>
+                        <jugador>
+                            <nombre>Dwight Howard</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/2730.png</imagen>
+                        </jugador>
+                        <jugador>
+                            <nombre>Malik Monk</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1628370.png</imagen>
+                        </jugador>
+                    </PF>
+                    <C>
+                        <jugador>
+                            <nombre>DeAndre Jordan</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/201599.png</imagen>
+                        </jugador>
+                        <jugador>
+                            <nombre>JaVale McGee</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/201580.png</imagen>
+                        </jugador>
+                    </C>
+                </jugadores>
+            </equipo>
+                <equipo>
+                    <nombreequipo>
+                        <nombre>Mavericks</nombre>
+                    </nombreequipo>
+                    <escudo>../imagenes/otras/logosequipos/Mavericks.png</escudo>
+                    <entrenador>
+                        <nombre>Jason Kidd</nombre>
+                        <imagen>../imagenes/otras/jasonkidd.png</imagen>
+                    </entrenador>
+                    <jugadores>
+                        <PG>
+                            <jugador>
+                                <nombre>Luka Dončić</nombre>
+                                <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1629029.png</imagen>
+                            </jugador>
+                            <jugador>
+                                <nombre>Jalen Brunson</nombre>
+                                <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1628973.png</imagen>
+                            </jugador>
+                        </PG>
+                        <SG>
+                            <jugador>
+                                <nombre>Tim Hardaway Jr.</nombre>
+                                <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/203501.png</imagen>
+                            </jugador>
+                            <jugador>
+                                <nombre>Seth Curry</nombre>
+                                <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/203552.png</imagen>
+                            </jugador>
+                        </SG>
+                        <SF>
+                            <jugador>
+                                <nombre>Dorian Finney-Smith</nombre>
+                                <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1627827.png</imagen>
+                            </jugador>
+                            <jugador>
+                                <nombre>Josh Green</nombre>
+                                <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1630173.png</imagen>
+                            </jugador>
+                        </SF>
+                        <PF>
+                            <jugador>
+                                <nombre>Kristaps Porziņģis</nombre>
+                                <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/204001.png</imagen>
+                            </jugador>
+                            <jugador>
+                                <nombre>Dwight Powell</nombre>
+                                <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/203486.png</imagen>
+                            </jugador>
+                        </PF>
+                        <C>
+                            <jugador>
+                                <nombre>Maxi Kleber</nombre>
+                                <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1628467.png</imagen>
+                            </jugador>
+                            <jugador>
+                                <nombre>Boban Marjanović</nombre>
+                                <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1626246.png</imagen>
+                            </jugador>
+                        </C>
+                    </jugadores>
+                    
+                </equipo>                
+            <equipo>
+                <nombreequipo>
+                    <nombre>Celtics</nombre>
+                </nombreequipo>
+                <escudo>../imagenes/otras/logosequipos/Celtics.png</escudo>
+                <entrenador>
+                    <nombre>Ime Udoka</nombre>
+                    <imagen>../imagenes/otras/udoka.png</imagen>
+                </entrenador>
+                <jugadores>
+                    <PG>
+                        <jugador>
+                            <nombre>Marcus Smart</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/203935.png</imagen>
+                        </jugador>
+                        <jugador>
+                            <nombre>Dennis Schröder</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/203471.png</imagen>
+                        </jugador>
+                    </PG>
+                    <SG>
+                        <jugador>
+                            <nombre>Jaylen Brown</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1627759.png</imagen>
+                        </jugador>
+                        <jugador>
+                            <nombre>Romeo Langford</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1629641.png</imagen>
+                        </jugador>
+                    </SG>
+                    <SF>
+                        <jugador>
+                            <nombre>Jayson Tatum</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1628369.png</imagen>
+                        </jugador>
+                        <jugador>
+                            <nombre>Aaron Nesmith</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1630206.png</imagen>
+                        </jugador>
+                    </SF>
+                    <PF>
+                        <jugador>
+                            <nombre>Al Horford</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/201143.png</imagen>
+                        </jugador>
+                        <jugador>
+                            <nombre>Grant Williams</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1629684.png</imagen>
+                        </jugador>
+                    </PF>
+                    <C>
+                        <jugador>
+                            <nombre>Robert Williams III</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1629057.png</imagen>
+                        </jugador>
+                        <jugador>
+                            <nombre>Enes Kanter</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/202683.png</imagen>
+                        </jugador>
+                    </C>
+                </jugadores>
+                
+            </equipo>         
+            <equipo>
+                <nombreequipo>
+                    <nombre>Rockets</nombre>
+                </nombreequipo>
+                <escudo>../imagenes/otras/logosequipos/Rockets.png</escudo>
+                <entrenador>
+                    <nombre>Stephen Silas</nombre>
+                    <imagen>../imagenes/otras/silas.png</imagen>
+                </entrenador>
+                <jugadores>
+                    <PG>
+                        <jugador>
+                            <nombre>Kevin Porter Jr.</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1629645.png</imagen>
+                        </jugador>
+                        <jugador>
+                            <nombre>D.J. Augustin</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/201571.png</imagen>
+                        </jugador>
+                    </PG>
+                    <SG>
+                        <jugador>
+                            <nombre>Jalen Green</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1630177.png</imagen>
+                        </jugador>
+                        <jugador>
+                            <nombre>Armoni Brooks</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1629673.png</imagen>
+                        </jugador>
+                    </SG>
+                    <SF>
+                        <jugador>
+                            <nombre>Jae'Sean Tate</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1628961.png</imagen>
+                        </jugador>
+                        <jugador>
+                            <nombre>Khyri Thomas</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1629017.png</imagen>
+                        </jugador>
+                    </SF>
+                    <PF>
+                        <jugador>
+                            <nombre>Christian Wood</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1626174.png</imagen>
+                        </jugador>
+                        <jugador>
+                            <nombre>Danuel House Jr.</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1627863.png</imagen>
+                        </jugador>
+                    </PF>
+                    <C>
+                        <jugador>
+                            <nombre>Alperen Sengun</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/260x190/1629111.png</imagen>
+                        </jugador>
+                        <jugador>
+                            <nombre>Usman Garuba</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1630582.png</imagen>
+                        </jugador>
+                    </C>
+                </jugadores>
+                
+            </equipo>
+        <equipo>
+            <nombreequipo>
+                <nombre>Warriors</nombre>
+            </nombreequipo>
+            <escudo>../imagenes/otras/logosequipos/Warriors.png</escudo>
+            <entrenador>
+                <nombre>Steve Kerr</nombre>
+                <imagen>../imagenes/otras/kerr.png</imagen>
+            </entrenador>
+            <jugadores>
+                <PG>
+                    <jugador>
+                        <nombre>Stephen Curry</nombre>
+                        <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/201939.png</imagen>
+                    </jugador>
+                    <jugador>
+                        <nombre>Shaun Livingston</nombre>
+                        <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/2733.png</imagen>
+                    </jugador>
+                </PG>
+                <SG>
+                    <jugador>
+                        <nombre>Klay Thompson</nombre>
+                        <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/202691.png</imagen>
+                    </jugador>
+                    <jugador>
+                        <nombre>Jordan Poole</nombre>
+                        <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1629673.png</imagen>
+                    </jugador>
+                </SG>
+                <SF>
+                    <jugador>
+                        <nombre>Andrew Wiggins</nombre>
+                        <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/203952.png</imagen>
+                    </jugador>
+                    <jugador>
+                        <nombre>Andre Iguodala</nombre>
+                        <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/2738.png</imagen>
+                    </jugador>
+                </SF>
+                <PF>
+                    <jugador>
+                        <nombre>Draymond Green</nombre>
+                        <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/203110.png</imagen>
+                    </jugador>
+                    <jugador>
+                        <nombre>Eric Paschall</nombre>
+                        <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1629672.png</imagen>
+                    </jugador>
+                </PF>
+                <C>
+                    <jugador>
+                        <nombre>James Wiseman</nombre>
+                        <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1630192.png</imagen>
+                    </jugador>
+                    <jugador>
+                        <nombre>Kevon Looney</nombre>
+                        <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1626172.png</imagen>
+                    </jugador>
+                </C>
+            </jugadores>
+            
+        </equipo>
+            <equipo>
+                <nombreequipo>
+                    <nombre>Clippers</nombre>
+                </nombreequipo>
+                <escudo>../imagenes/otras/logosequipos/Clippers.png</escudo>
+                <entrenador>
+                    <nombre>Tyronn Lue</nombre>
+                    <imagen>../imagenes/otras/lue.png</imagen>
+                </entrenador>
+                <jugadores>
+                    <PG>
+                        <jugador>
+                            <nombre>Reggie Jackson</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/202704.png</imagen>
+                        </jugador>
+                        <jugador>
+                            <nombre>Lou Williams</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/101150.png</imagen>
+                        </jugador>
+                    </PG>
+                    <SG>
+                        <jugador>
+                            <nombre>Paul George</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/202331.png</imagen>
+                        </jugador>
+                        <jugador>
+                            <nombre>Luke Kennard</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1628379.png</imagen>
+                        </jugador>
+                    </SG>
+                    <SF>
+                        <jugador>
+                            <nombre>Kawhi Leonard</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/202695.png</imagen>
+                        </jugador>
+                        <jugador>
+                            <nombre>Nicolas Batum</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/201587.png</imagen>
+                        </jugador>
+                    </SF>
+                    <PF>
+                        <jugador>
+                            <nombre>Marcus Morris Sr.</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/202694.png</imagen>
+                        </jugador>
+                        <jugador>
+                            <nombre>Ivica Zubac</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1627826.png</imagen>
+                        </jugador>
+                    </PF>
+                    <C>
+                        <jugador>
+                            <nombre>Serge Ibaka</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/201586.png</imagen>
+                        </jugador>
+                        <jugador>
+                            <nombre>DeMarcus Cousins</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/202326.png</imagen>
+                        </jugador>
+                    </C>
+                </jugadores>
+                
+            </equipo>
+        <equipo>
+            <nombreequipo>
+                <nombre>Cavaliers</nombre>
+            </nombreequipo>
+            <escudo>../imagenes/otras/logosequipos/Cavaliers.png</escudo>
+            <entrenador>
+                <nombre>J.B. Bickerstaff</nombre>
+                <imagen>../imagenes/otras/bickerstaff.png</imagen>
+            </entrenador>
+            <jugadores>
+                <PG>
+                    <jugador>
+                        <nombre>Darius Garland</nombre>
+                        <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1629678.png</imagen>
+                    </jugador>
+                    <jugador>
+                        <nombre>Rajon Rondo</nombre>
+                        <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/200765.png</imagen>
+                    </jugador>
+                </PG>
+                <SG>
+                    <jugador>
+                        <nombre>Collin Sexton</nombre>
+                        <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1629012.png</imagen>
+                    </jugador>
+                    <jugador>
+                        <nombre>Isaac Okoro</nombre>
+                        <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1630174.png</imagen>
+                    </jugador>
+                </SG>
+                <SF>
+                    <jugador>
+                        <nombre>Evan Mobley</nombre>
+                        <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1630567.png</imagen>
+                    </jugador>
+                    <jugador>
+                        <nombre>Cedi Osman</nombre>
+                        <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1626224.png</imagen>
+                    </jugador>
+                </SF>
+                <PF>
+                    <jugador>
+                        <nombre>Larry Nance Jr.</nombre>
+                        <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1626204.png</imagen>
+                    </jugador>
+                    <jugador>
+                        <nombre>Kevin Love</nombre>
+                        <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/201567.png</imagen>
+                    </jugador>
+                </PF>
+                <C>
+                    <jugador>
+                        <nombre>Jarrett Allen</nombre>
+                        <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1628384.png</imagen>
+                    </jugador>
+                    <jugador>
+                        <nombre>Wendell Carter Jr.</nombre>
+                        <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1628976.png</imagen>
+                    </jugador>
+                </C>
+            </jugadores>
+            
+        </equipo>
+            <equipo>
+                <nombreequipo>
+                    <nombre>Grizzlies</nombre>
+                </nombreequipo>
+                <escudo>../imagenes/otras/logosequipos/Grizzlies.png</escudo>
+                <entrenador>
+                    <nombre>Taylor Jenkins</nombre>
+                    <imagen>../imagenes/otras/jenkins.png</imagen>
+                </entrenador>
+                <jugadores>
+                    <PG>
+                        <jugador>
+                            <nombre>Ja Morant</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1629630.png</imagen>
+                        </jugador>
+                        <jugador>
+                            <nombre>Tyus Jones</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1626145.png</imagen>
+                        </jugador>
+                    </PG>
+                    <SG>
+                        <jugador>
+                            <nombre>Dillon Brooks</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1628415.png</imagen>
+                        </jugador>
+                        <jugador>
+                            <nombre>Desmond Bane</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1630182.png</imagen>
+                        </jugador>
+                    </SG>
+                    <SF>
+                        <jugador>
+                            <nombre>Kyle Anderson</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/203937.png</imagen>
+                        </jugador>
+                        <jugador>
+                            <nombre>De'Anthony Melton</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1629001.png</imagen>
+                        </jugador>
+                    </SF>
+                    <PF>
+                        <jugador>
+                            <nombre>Jaren Jackson Jr.</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1628991.png</imagen>
+                        </jugador>
+                        <jugador>
+                            <nombre>Brandon Clarke</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1629634.png</imagen>
+                        </jugador>
+                    </PF>
+                    <C>
+                        <jugador>
+                            <nombre>Steven Adams</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/203500.png</imagen>
+                        </jugador>
+                        <jugador>
+                            <nombre>Xavier Tillman Sr.</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1630243.png</imagen>
+                        </jugador>
+                    </C>
+                </jugadores>
+                
+            </equipo>
+        </equiposliga>
+    </temporada>
+    <temporada xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="calendar.xsd">
+        <numero>2022</numero>
+        <jornada num="1">
+            <partido>
+                <fecha>Miercoles, 5 de junio</fecha>
+                <hora>20:15</hora>
+                <equipos>
+                    <local>Lakers</local>
+                    <puntoslocal>105</puntoslocal>
+                    <visitante>Mavericks</visitante>
+                    <puntosvisitante>98</puntosvisitante>
+                </equipos>
+            </partido>
+            <partido>
+                <fecha>Jueves, 6 de junio</fecha>
+                <hora>21:45</hora>
+                <equipos>
+                    <local>Warriors</local>
+                    <puntoslocal>112</puntoslocal>
+                    <visitante>Clippers</visitante>
+                    <puntosvisitante>108</puntosvisitante>
+                </equipos>
+            </partido>
+            <partido>
+                <fecha>Viernes, 7 de junio</fecha>
+                <hora>23:30</hora>
+                <equipos>
+                    <local>Celtics</local>
+                    <puntoslocal>100</puntoslocal>
+                    <visitante>Rockets</visitante>
+                    <puntosvisitante>105</puntosvisitante>
+                </equipos>
+            </partido>
+            <partido>
+                <fecha>Sábado, 8 de junio</fecha>
+                <hora>22:00</hora>
+                <equipos>
+                    <local>Cavaliers</local>
+                    <puntoslocal>110</puntoslocal>
+                    <visitante>Grizzlies</visitante>
+                    <puntosvisitante>102</puntosvisitante>
+                </equipos>
+            </partido>
+        </jornada>
+        <jornada num="2">
+            <partido>
+                <fecha>Viernes, 14 de junio</fecha>
+                <hora>19:15</hora>
+                <equipos>
+                    <local>Warriors</local>
+                    <puntoslocal>108</puntoslocal>
+                    <visitante>Lakers</visitante>
+                    <puntosvisitante>102</puntosvisitante>
+                </equipos>
+            </partido>
+            <partido>
+                <fecha>Sábado, 15 de junio</fecha>
+                <hora>21:00</hora>
+                <equipos>
+                    <local>Clippers</local>
+                    <puntoslocal>105</puntoslocal>
+                    <visitante>Celtics</visitante>
+                    <puntosvisitante>100</puntosvisitante>
+                </equipos>
+            </partido>
+            <partido>
+                <fecha>Domingo, 16 de junio</fecha>
+                <hora>18:30</hora>
+                <equipos>
+                    <local>Rockets</local>
+                    <puntoslocal>112</puntoslocal>
+                    <visitante>Cavaliers</visitante>
+                    <puntosvisitante>106</puntosvisitante>
+                </equipos>
+            </partido>
+            <partido>
+                <fecha>Lunes, 17 de junio</fecha>
+                <hora>20:00</hora>
+                <equipos>
+                    <local>Grizzlies</local>
+                    <puntoslocal>98</puntoslocal>
+                    <visitante>Mavericks</visitante>
+                    <puntosvisitante>96</puntosvisitante>
+                </equipos>
+            </partido>
+        </jornada>
+        <jornada num="3">
+            <partido>
+                <fecha>Viernes, 21 de junio</fecha>
+                <hora>16:30</hora>
+                <equipos>
+                    <local>Celtics</local>
+                    <puntoslocal>110</puntoslocal>
+                    <visitante>Warriors</visitante>
+                    <puntosvisitante>105</puntosvisitante>
+                </equipos>
+            </partido>
+            <partido>
+                <fecha>Sábado, 22 de junio</fecha>
+                <hora>18:00</hora>
+                <equipos>
+                    <local>Clippers</local>
+                    <puntoslocal>98</puntoslocal>
+                    <visitante>Rockets</visitante>
+                    <puntosvisitante>95</puntosvisitante>
+                </equipos>
+            </partido>
+            <partido>
+                <fecha>Domingo, 23 de junio</fecha>
+                <hora>20:00</hora>
+                <equipos>
+                    <local>Mavericks</local>
+                    <puntoslocal>105</puntoslocal>
+                    <visitante>Lakers</visitante>
+                    <puntosvisitante>98</puntosvisitante>
+                </equipos>
+            </partido>
+            <partido>
+                <fecha>Lunes, 24 de junio</fecha>
+                <hora>21:30</hora>
+                <equipos>
+                    <local>Grizzlies</local>
+                    <puntoslocal>92</puntoslocal>
+                    <visitante>Cavaliers</visitante>
+                    <puntosvisitante>90</puntosvisitante>
+                </equipos>
+            </partido>
+        </jornada>
+        <jornada num="4">
+            <partido>
+                <fecha>Viernes, 28 de junio</fecha>
+                <hora>17:15</hora>
+                <equipos>
+                    <local>Cavaliers</local>
+                    <puntoslocal>100</puntoslocal>
+                    <visitante>Clippers</visitante>
+                    <puntosvisitante>98</puntosvisitante>
+                </equipos>
+            </partido>
+            <partido>
+                <fecha>Sábado, 29 de junio</fecha>
+                <hora>18:45</hora>
+                <equipos>
+                    <local>Warriors</local>
+                    <puntoslocal>115</puntoslocal>
+                    <visitante>Mavericks</visitante>
+                    <puntosvisitante>110</puntosvisitante>
+                </equipos>
+            </partido>
+            <partido>
+                <fecha>Domingo, 30 de junio</fecha>
+                <hora>20:30</hora>
+                <equipos>
+                    <local>Lakers</local>
+                    <puntoslocal>105</puntoslocal>
+                    <visitante>Rockets</visitante>
+                    <puntosvisitante>108</puntosvisitante>
+                </equipos>
+            </partido>
+            <partido>
+                <fecha>Lunes, 1 de julio</fecha>
+                <hora>21:00</hora>
+                <equipos>
+                    <local>Grizzlies</local>
+                    <puntoslocal>98</puntoslocal>
+                    <visitante>Celtics</visitante>
+                    <puntosvisitante>96</puntosvisitante>
+                </equipos>
+            </partido>
+        </jornada>
+        <jornada num="5">
+            <partido>
+                <fecha>Viernes, 5 de julio</fecha>
+                <hora>17:15</hora>
+                <equipos>
+                    <local>Warriors</local>
+                    <puntoslocal>112</puntoslocal>
+                    <visitante>Lakers</visitante>
+                    <puntosvisitante>108</puntosvisitante>
+                </equipos>
+            </partido>
+            <partido>
+                <fecha>Sábado, 6 de julio</fecha>
+                <hora>18:45</hora>
+                <equipos>
+                    <local>Grizzlies</local>
+                    <puntoslocal>105</puntoslocal>
+                    <visitante>Celtics</visitante>
+                    <puntosvisitante>100</puntosvisitante>
+                </equipos>
+            </partido>
+            <partido>
+                <fecha>Domingo, 7 de julio</fecha>
+                <hora>20:30</hora>
+                <equipos>
+                    <local>Clippers</local>
+                    <puntoslocal>108</puntoslocal>
+                    <visitante>Rockets</visitante>
+                    <puntosvisitante>103</puntosvisitante>
+                </equipos>
+            </partido>
+            <partido>
+                <fecha>Lunes, 8 de julio</fecha>
+                <hora>21:00</hora>
+                <equipos>
+                    <local>Cavaliers</local>
+                    <puntoslocal>98</puntoslocal>
+                    <visitante>Mavericks</visitante>
+                    <puntosvisitante>96</puntosvisitante>
+                </equipos>
+            </partido>
+        </jornada>
+        <jornada num="6">
+            <partido>
+                <fecha>Viernes, 12 de julio</fecha>
+                <hora>16:45</hora>
+                <equipos>
+                    <local>Lakers</local>
+                    <puntoslocal>102</puntoslocal>
+                    <visitante>Warriors</visitante>
+                    <puntosvisitante>98</puntosvisitante>
+                </equipos>
+            </partido>
+            <partido>
+                <fecha>Sabado, 13 de julio</fecha>
+                <hora>18:15</hora>
+                <equipos>
+                    <local>Mavericks</local>
+                    <puntoslocal>97</puntoslocal>
+                    <visitante>Celtics</visitante>
+                    <puntosvisitante>95</puntosvisitante>
+                </equipos>
+            </partido>
+            <partido>
+                <fecha>Domingo, 14 de julio</fecha>
+                <hora>21:15</hora>
+                <equipos>
+                    <local>Rockets</local>
+                    <puntoslocal>108</puntoslocal>
+                    <visitante>Clippers</visitante>
+                    <puntosvisitante>103</puntosvisitante>
+                </equipos>
+            </partido>
+            <partido>
+                <fecha>Lunes, 15 de julio</fecha>
+                <hora>21:30</hora>
+                <equipos>
+                    <local>Grizzlies</local>
+                    <puntoslocal>96</puntoslocal>
+                    <visitante>Cavaliers</visitante>
+                    <puntosvisitante>94</puntosvisitante>
+                </equipos>
+            </partido>
+        </jornada>
+        <jornada num="7">
+            <partido>
+                <fecha>Viernes, 19 de julio</fecha>
+                <hora>16:30</hora>
+                <equipos>
+                    <local>Rockets</local>
+                    <puntoslocal>105</puntoslocal>
+                    <visitante>Mavericks</visitante>
+                    <puntosvisitante>100</puntosvisitante>
+                </equipos>
+            </partido>
+            <partido>
+                <fecha>Sabado, 20 de julio</fecha>
+                <hora>18:00</hora>
+                <equipos>
+                    <local>Warriors</local>
+                    <puntoslocal>112</puntoslocal>
+                    <visitante>Celtics</visitante>
+                    <puntosvisitante>108</puntosvisitante>
+                </equipos>
+            </partido>
+            <partido>
+                <fecha>Domingo, 21 de julio</fecha>
+                <hora>19:30</hora>
+                <equipos>
+                    <local>Lakers</local>
+                    <puntoslocal>98</puntoslocal>
+                    <visitante>Clippers</visitante>
+                    <puntosvisitante>96</puntosvisitante>
+                </equipos>
+            </partido>
+            <partido>
+                <fecha>Lunes, 22 de julio</fecha>
+                <hora>21:00</hora>
+                <equipos>
+                    <local>Cavaliers</local>
+                    <puntoslocal>97</puntoslocal>
+                    <visitante>Grizzlies</visitante>
+                    <puntosvisitante>95</puntosvisitante>
+                </equipos>
+            </partido>
+        </jornada>
+        <jornada num="8">
+            <partido>
+                <fecha>Viernes, 26 de julio</fecha>
+                <hora>16:30</hora>
+                <equipos>
+                    <local>Mavericks</local>
+                    <puntoslocal>102</puntoslocal>
+                    <visitante>Rockets</visitante>
+                    <puntosvisitante>98</puntosvisitante>
+                </equipos>
+            </partido>
+            <partido>
+                <fecha>Sabado, 27 de julio</fecha>
+                <hora>18:00</hora>
+                <equipos>
+                    <local>Celtics</local>
+                    <puntoslocal>105</puntoslocal>
+                    <visitante>Warriors</visitante>
+                    <puntosvisitante>100</puntosvisitante>
+                </equipos>
+            </partido>
+            <partido>
+                <fecha>Domingo, 28 de julio</fecha>
+                <hora>19:30</hora>
+                <equipos>
+                    <local>Clippers</local>
+                    <puntoslocal>108</puntoslocal>
+                    <visitante>Lakers</visitante>
+                    <puntosvisitante>103</puntosvisitante>
+                </equipos>
+            </partido>
+            <partido>
+                <fecha>Lunes, 29 de julio</fecha>
+                <hora>20:00</hora>
+                <equipos>
+                    <local>Grizzlies</local>
+                    <puntoslocal>95</puntoslocal>
+                    <visitante>Cavaliers</visitante>
+                    <puntosvisitante>92</puntosvisitante>
+                </equipos>
+            </partido>
+        </jornada>
+        <jornada num="9">
+            <partido>
+                <fecha>Viernes, 2 de agosto</fecha>
+                <hora>16:30</hora>
+                <equipos>
+                    <local>Celtics</local>
+                    <puntoslocal>102</puntoslocal>
+                    <visitante>Mavericks</visitante>
+                    <puntosvisitante>98</puntosvisitante>
+                </equipos>
+            </partido>
+            <partido>
+                <fecha>Sabado, 3 de agosto</fecha>
+                <hora>18:00</hora>
+                <equipos>
+                    <local>Warriors</local>
+                    <puntoslocal>105</puntoslocal>
+                    <visitante>Lakers</visitante>
+                    <puntosvisitante>100</puntosvisitante>
+                </equipos>
+            </partido>
+            <partido>
+                <fecha>Domingo, 4 de agosto</fecha>
+                <hora>19:30</hora>
+                <equipos>
+                    <local>Clippers</local>
+                    <puntoslocal>108</puntoslocal>
+                    <visitante>Rockets</visitante>
+                    <puntosvisitante>103</puntosvisitante>
+                </equipos>
+            </partido>
+            <partido>
+                <fecha>Lunes, 5 de agosto</fecha>
+                <hora>20:00</hora>
+                <equipos>
+                    <local>Cavaliers</local>
+                    <puntoslocal>97</puntoslocal>
+                    <visitante>Grizzlies</visitante>
+                    <puntosvisitante>95</puntosvisitante>
+                </equipos>
+            </partido>
+        </jornada>
+        <jornada num="10">
+            <partido>
+                <fecha>Viernes, 9 de agosto</fecha>
+                <hora>16:30</hora>
+                <equipos>
+                    <local>Celtics</local>
+                    <puntoslocal>102</puntoslocal>
+                    <visitante>Mavericks</visitante>
+                    <puntosvisitante>98</puntosvisitante>
+                </equipos>
+            </partido>
+            <partido>
+                <fecha>Sabado, 10 de agosto</fecha>
+                <hora>18:00</hora>
+                <equipos>
+                    <local>Lakers</local>
+                    <puntoslocal>105</puntoslocal>
+                    <visitante>Warriors</visitante>
+                    <puntosvisitante>100</puntosvisitante>
+                </equipos>
+            </partido>
+            <partido>
+                <fecha>Domingo, 11 de agosto</fecha>
+                <hora>19:30</hora>
+                <equipos>
+                    <local>Rockets</local>
+                    <puntoslocal>108</puntoslocal>
+                    <visitante>Clippers</visitante>
+                    <puntosvisitante>103</puntosvisitante>
+                </equipos>
+            </partido>
+            <partido>
+                <fecha>Lunes, 12 de agosto</fecha>
+                <hora>20:00</hora>
+                <equipos>
+                    <local>Cavaliers</local>
+                    <puntoslocal>97</puntoslocal>
+                    <visitante>Grizzlies</visitante>
+                    <puntosvisitante>95</puntosvisitante>
+                </equipos>
+            </partido>
+        </jornada>
+        
+        <equiposliga xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="datos.xsd">
+            <equipo>
+                <nombreequipo>
+                    <nombre>Lakers</nombre>
+                </nombreequipo>
+                <escudo>../imagenes/otras/logosequipos/Lakers.png</escudo>
+                <entrenador>
+                    <nombre>Frank Vogel</nombre>
+                    <imagen>https://as01.epimg.net/img/especiales/baloncesto/nba/2019/guia/lakers/player_0.png</imagen>
+                </entrenador>
+                <jugadores>
+                    <PG>
+                        <jugador>
+                            <nombre>LeBron James</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/2544.png</imagen>
+                        </jugador>
+                        <jugador>
+                            <nombre>Russell Westbrook</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/201566.png</imagen>
+                        </jugador>
+                    </PG>
+                    <SG>
+                        <jugador>
+                            <nombre>Anthony Davis</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/203076.png</imagen>
+                        </jugador>
+                        <jugador>
+                            <nombre>Talen Horton-Tucker</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1629659.png</imagen>
+                        </jugador>
+                    </SG>
+                    <SF>
+                        <jugador>
+                            <nombre>Carmelo Anthony</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/2546.png</imagen>
+                        </jugador>
+                        <jugador>
+                            <nombre>Kent Bazemore</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/203145.png</imagen>
+                        </jugador>
+                    </SF>
+                    <PF>
+                        <jugador>
+                            <nombre>Dwight Howard</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/2730.png</imagen>
+                        </jugador>
+                        <jugador>
+                            <nombre>Malik Monk</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1628370.png</imagen>
+                        </jugador>
+                    </PF>
+                    <C>
+                        <jugador>
+                            <nombre>DeAndre Jordan</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/201599.png</imagen>
+                        </jugador>
+                        <jugador>
+                            <nombre>JaVale McGee</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/201580.png</imagen>
+                        </jugador>
+                    </C>
+                </jugadores>
+            </equipo>
+                <equipo>
+                    <nombreequipo>
+                        <nombre>Mavericks</nombre>
+                    </nombreequipo>
+                    <escudo>../imagenes/otras/logosequipos/Mavericks.png</escudo>
+                    <entrenador>
+                        <nombre>Jason Kidd</nombre>
+                        <imagen>../imagenes/otras/jasonkidd.png</imagen>
+                    </entrenador>
+                    <jugadores>
+                        <PG>
+                            <jugador>
+                                <nombre>Luka Dončić</nombre>
+                                <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1629029.png</imagen>
+                            </jugador>
+                            <jugador>
+                                <nombre>Jalen Brunson</nombre>
+                                <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1628973.png</imagen>
+                            </jugador>
+                        </PG>
+                        <SG>
+                            <jugador>
+                                <nombre>Tim Hardaway Jr.</nombre>
+                                <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/203501.png</imagen>
+                            </jugador>
+                            <jugador>
+                                <nombre>Seth Curry</nombre>
+                                <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/203552.png</imagen>
+                            </jugador>
+                        </SG>
+                        <SF>
+                            <jugador>
+                                <nombre>Dorian Finney-Smith</nombre>
+                                <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1627827.png</imagen>
+                            </jugador>
+                            <jugador>
+                                <nombre>Josh Green</nombre>
+                                <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1630173.png</imagen>
+                            </jugador>
+                        </SF>
+                        <PF>
+                            <jugador>
+                                <nombre>Kristaps Porziņģis</nombre>
+                                <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/204001.png</imagen>
+                            </jugador>
+                            <jugador>
+                                <nombre>Dwight Powell</nombre>
+                                <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/203486.png</imagen>
+                            </jugador>
+                        </PF>
+                        <C>
+                            <jugador>
+                                <nombre>Maxi Kleber</nombre>
+                                <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1628467.png</imagen>
+                            </jugador>
+                            <jugador>
+                                <nombre>Boban Marjanović</nombre>
+                                <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1626246.png</imagen>
+                            </jugador>
+                        </C>
+                    </jugadores>
+                    
+                </equipo>                
+            <equipo>
+                <nombreequipo>
+                    <nombre>Celtics</nombre>
+                </nombreequipo>
+                <escudo>../imagenes/otras/logosequipos/Celtics.png</escudo>
+                <entrenador>
+                    <nombre>Ime Udoka</nombre>
+                    <imagen>../imagenes/otras/udoka.png</imagen>
+                </entrenador>
+                <jugadores>
+                    <PG>
+                        <jugador>
+                            <nombre>Marcus Smart</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/203935.png</imagen>
+                        </jugador>
+                        <jugador>
+                            <nombre>Dennis Schröder</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/203471.png</imagen>
+                        </jugador>
+                    </PG>
+                    <SG>
+                        <jugador>
+                            <nombre>Jaylen Brown</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1627759.png</imagen>
+                        </jugador>
+                        <jugador>
+                            <nombre>Romeo Langford</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1629641.png</imagen>
+                        </jugador>
+                    </SG>
+                    <SF>
+                        <jugador>
+                            <nombre>Jayson Tatum</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1628369.png</imagen>
+                        </jugador>
+                        <jugador>
+                            <nombre>Aaron Nesmith</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1630206.png</imagen>
+                        </jugador>
+                    </SF>
+                    <PF>
+                        <jugador>
+                            <nombre>Al Horford</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/201143.png</imagen>
+                        </jugador>
+                        <jugador>
+                            <nombre>Grant Williams</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1629684.png</imagen>
+                        </jugador>
+                    </PF>
+                    <C>
+                        <jugador>
+                            <nombre>Robert Williams III</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1629057.png</imagen>
+                        </jugador>
+                        <jugador>
+                            <nombre>Enes Kanter</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/202683.png</imagen>
+                        </jugador>
+                    </C>
+                </jugadores>
+                
+            </equipo>         
+            <equipo>
+                <nombreequipo>
+                    <nombre>Rockets</nombre>
+                </nombreequipo>
+                <escudo>../imagenes/otras/logosequipos/Rockets.png</escudo>
+                <entrenador>
+                    <nombre>Stephen Silas</nombre>
+                    <imagen>../imagenes/otras/silas.png</imagen>
+                </entrenador>
+                <jugadores>
+                    <PG>
+                        <jugador>
+                            <nombre>Kevin Porter Jr.</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1629645.png</imagen>
+                        </jugador>
+                        <jugador>
+                            <nombre>D.J. Augustin</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/201571.png</imagen>
+                        </jugador>
+                    </PG>
+                    <SG>
+                        <jugador>
+                            <nombre>Jalen Green</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1630177.png</imagen>
+                        </jugador>
+                        <jugador>
+                            <nombre>Armoni Brooks</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1629673.png</imagen>
+                        </jugador>
+                    </SG>
+                    <SF>
+                        <jugador>
+                            <nombre>Jae'Sean Tate</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1628961.png</imagen>
+                        </jugador>
+                        <jugador>
+                            <nombre>Khyri Thomas</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1629017.png</imagen>
+                        </jugador>
+                    </SF>
+                    <PF>
+                        <jugador>
+                            <nombre>Christian Wood</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1626174.png</imagen>
+                        </jugador>
+                        <jugador>
+                            <nombre>Danuel House Jr.</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1627863.png</imagen>
+                        </jugador>
+                    </PF>
+                    <C>
+                        <jugador>
+                            <nombre>Alperen Sengun</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/260x190/1629111.png</imagen>
+                        </jugador>
+                        <jugador>
+                            <nombre>Usman Garuba</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1630582.png</imagen>
+                        </jugador>
+                    </C>
+                </jugadores>
+                
+            </equipo>
+        <equipo>
+            <nombreequipo>
+                <nombre>Warriors</nombre>
+            </nombreequipo>
+            <escudo>../imagenes/otras/logosequipos/Warriors.png</escudo>
+            <entrenador>
+                <nombre>Steve Kerr</nombre>
+                <imagen>../imagenes/otras/kerr.png</imagen>
+            </entrenador>
+            <jugadores>
+                <PG>
+                    <jugador>
+                        <nombre>Stephen Curry</nombre>
+                        <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/201939.png</imagen>
+                    </jugador>
+                    <jugador>
+                        <nombre>Shaun Livingston</nombre>
+                        <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/2733.png</imagen>
+                    </jugador>
+                </PG>
+                <SG>
+                    <jugador>
+                        <nombre>Klay Thompson</nombre>
+                        <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/202691.png</imagen>
+                    </jugador>
+                    <jugador>
+                        <nombre>Jordan Poole</nombre>
+                        <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1629673.png</imagen>
+                    </jugador>
+                </SG>
+                <SF>
+                    <jugador>
+                        <nombre>Andrew Wiggins</nombre>
+                        <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/203952.png</imagen>
+                    </jugador>
+                    <jugador>
+                        <nombre>Andre Iguodala</nombre>
+                        <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/2738.png</imagen>
+                    </jugador>
+                </SF>
+                <PF>
+                    <jugador>
+                        <nombre>Draymond Green</nombre>
+                        <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/203110.png</imagen>
+                    </jugador>
+                    <jugador>
+                        <nombre>Eric Paschall</nombre>
+                        <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1629672.png</imagen>
+                    </jugador>
+                </PF>
+                <C>
+                    <jugador>
+                        <nombre>James Wiseman</nombre>
+                        <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1630192.png</imagen>
+                    </jugador>
+                    <jugador>
+                        <nombre>Kevon Looney</nombre>
+                        <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1626172.png</imagen>
+                    </jugador>
+                </C>
+            </jugadores>
+            
+        </equipo>
+            <equipo>
+                <nombreequipo>
+                    <nombre>Clippers</nombre>
+                </nombreequipo>
+                <escudo>../imagenes/otras/logosequipos/Clippers.png</escudo>
+                <entrenador>
+                    <nombre>Tyronn Lue</nombre>
+                    <imagen>../imagenes/otras/lue.png</imagen>
+                </entrenador>
+                <jugadores>
+                    <PG>
+                        <jugador>
+                            <nombre>Reggie Jackson</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/202704.png</imagen>
+                        </jugador>
+                        <jugador>
+                            <nombre>Lou Williams</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/101150.png</imagen>
+                        </jugador>
+                    </PG>
+                    <SG>
+                        <jugador>
+                            <nombre>Paul George</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/202331.png</imagen>
+                        </jugador>
+                        <jugador>
+                            <nombre>Luke Kennard</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1628379.png</imagen>
+                        </jugador>
+                    </SG>
+                    <SF>
+                        <jugador>
+                            <nombre>Kawhi Leonard</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/202695.png</imagen>
+                        </jugador>
+                        <jugador>
+                            <nombre>Nicolas Batum</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/201587.png</imagen>
+                        </jugador>
+                    </SF>
+                    <PF>
+                        <jugador>
+                            <nombre>Marcus Morris Sr.</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/202694.png</imagen>
+                        </jugador>
+                        <jugador>
+                            <nombre>Ivica Zubac</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1627826.png</imagen>
+                        </jugador>
+                    </PF>
+                    <C>
+                        <jugador>
+                            <nombre>Serge Ibaka</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/201586.png</imagen>
+                        </jugador>
+                        <jugador>
+                            <nombre>DeMarcus Cousins</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/202326.png</imagen>
+                        </jugador>
+                    </C>
+                </jugadores>
+                
+            </equipo>
+        <equipo>
+            <nombreequipo>
+                <nombre>Cavaliers</nombre>
+            </nombreequipo>
+            <escudo>../imagenes/otras/logosequipos/Cavaliers.png</escudo>
+            <entrenador>
+                <nombre>J.B. Bickerstaff</nombre>
+                <imagen>../imagenes/otras/bickerstaff.png</imagen>
+            </entrenador>
+            <jugadores>
+                <PG>
+                    <jugador>
+                        <nombre>Darius Garland</nombre>
+                        <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1629678.png</imagen>
+                    </jugador>
+                    <jugador>
+                        <nombre>Rajon Rondo</nombre>
+                        <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/200765.png</imagen>
+                    </jugador>
+                </PG>
+                <SG>
+                    <jugador>
+                        <nombre>Collin Sexton</nombre>
+                        <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1629012.png</imagen>
+                    </jugador>
+                    <jugador>
+                        <nombre>Isaac Okoro</nombre>
+                        <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1630174.png</imagen>
+                    </jugador>
+                </SG>
+                <SF>
+                    <jugador>
+                        <nombre>Evan Mobley</nombre>
+                        <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1630567.png</imagen>
+                    </jugador>
+                    <jugador>
+                        <nombre>Cedi Osman</nombre>
+                        <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1626224.png</imagen>
+                    </jugador>
+                </SF>
+                <PF>
+                    <jugador>
+                        <nombre>Larry Nance Jr.</nombre>
+                        <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1626204.png</imagen>
+                    </jugador>
+                    <jugador>
+                        <nombre>Kevin Love</nombre>
+                        <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/201567.png</imagen>
+                    </jugador>
+                </PF>
+                <C>
+                    <jugador>
+                        <nombre>Jarrett Allen</nombre>
+                        <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1628384.png</imagen>
+                    </jugador>
+                    <jugador>
+                        <nombre>Wendell Carter Jr.</nombre>
+                        <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1628976.png</imagen>
+                    </jugador>
+                </C>
+            </jugadores>
+            
+        </equipo>
+            <equipo>
+                <nombreequipo>
+                    <nombre>Grizzlies</nombre>
+                </nombreequipo>
+                <escudo>../imagenes/otras/logosequipos/Grizzlies.png</escudo>
+                <entrenador>
+                    <nombre>Taylor Jenkins</nombre>
+                    <imagen>../imagenes/otras/jenkins.png</imagen>
+                </entrenador>
+                <jugadores>
+                    <PG>
+                        <jugador>
+                            <nombre>Ja Morant</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1629630.png</imagen>
+                        </jugador>
+                        <jugador>
+                            <nombre>Tyus Jones</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1626145.png</imagen>
+                        </jugador>
+                    </PG>
+                    <SG>
+                        <jugador>
+                            <nombre>Dillon Brooks</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1628415.png</imagen>
+                        </jugador>
+                        <jugador>
+                            <nombre>Desmond Bane</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1630182.png</imagen>
+                        </jugador>
+                    </SG>
+                    <SF>
+                        <jugador>
+                            <nombre>Kyle Anderson</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/203937.png</imagen>
+                        </jugador>
+                        <jugador>
+                            <nombre>De'Anthony Melton</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1629001.png</imagen>
+                        </jugador>
+                    </SF>
+                    <PF>
+                        <jugador>
+                            <nombre>Jaren Jackson Jr.</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1628991.png</imagen>
+                        </jugador>
+                        <jugador>
+                            <nombre>Brandon Clarke</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1629634.png</imagen>
+                        </jugador>
+                    </PF>
+                    <C>
+                        <jugador>
+                            <nombre>Steven Adams</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/203500.png</imagen>
+                        </jugador>
+                        <jugador>
+                            <nombre>Xavier Tillman Sr.</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1630243.png</imagen>
+                        </jugador>
+                    </C>
+                </jugadores>
+                
+            </equipo>
+        </equiposliga>
+    </temporada>
+
+    <temporada xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="calendar.xsd">
+        <numero>2021</numero>
+        <!-- Datos de las jornadas -->
+        <jornada num="1">
+            <partido>
+                <fecha>Viernes, 13 de octubre</fecha>
+                <hora>20:00</hora>
+                <equipos>
+                    <local>Rockets</local>
+                    <puntoslocal>55</puntoslocal>
+                    <visitante>Celtics</visitante>
+                    <puntosvisitante>25</puntosvisitante>
+                </equipos>
+            </partido>
+            <partido>
+                <fecha>Sábado, 14 de octubre</fecha>
+                <hora>21:30</hora>
+                <equipos>
+                    <local>Lakers</local>
+                    <puntoslocal>45</puntoslocal>
+                    <visitante>Warriors</visitante>
+                    <puntosvisitante>35</puntosvisitante>
+                </equipos>
+            </partido>
+            <partido>
+                <fecha>Domingo, 15 de octubre</fecha>
+                <hora>23:00</hora>
+                <equipos>
+                    <local>Mavericks</local>
+                    <puntoslocal>15</puntoslocal>
+                    <visitante>Clippers</visitante>
+                    <puntosvisitante>45</puntosvisitante>
+                </equipos>
+            </partido>
+        </jornada>
+        <jornada num="2">
+            <partido>
+                <fecha>Viernes, 20 de octubre</fecha>
+                <hora>19:00</hora>
+                <equipos>
+                    <local>Celtics</local>
+                    <puntoslocal>35</puntoslocal>
+                    <visitante>Rockets</visitante>
+                    <puntosvisitante>20</puntosvisitante>
+                </equipos>
+            </partido>
+            <partido>
+                <fecha>Sábado, 21 de octubre</fecha>
+                <hora>21:00</hora>
+                <equipos>
+                    <local>Warriors</local>
+                    <puntoslocal>25</puntoslocal>
+                    <visitante>Lakers</visitante>
+                    <puntosvisitante>30</puntosvisitante>
+                </equipos>
+            </partido>
+            <partido>
+                <fecha>Domingo, 22 de octubre</fecha>
+                <hora>18:00</hora>
+                <equipos>
+                    <local>Clippers</local>
+                    <puntoslocal>35</puntoslocal>
+                    <visitante>Mavericks</visitante>
+                    <puntosvisitante>40</puntosvisitante>
+                </equipos>
+            </partido>
+        </jornada>
+        <jornada num="3">
+            <partido>
+                <fecha>Martes, 24 de octubre</fecha>
+                <hora>16:30</hora>
+                <equipos>
+                    <local>Lakers</local>
+                    <puntoslocal>20</puntoslocal>
+                    <visitante>Warriors</visitante>
+                    <puntosvisitante>25</puntosvisitante>
+                </equipos>
+            </partido>
+            <partido>
+                <fecha>Miércoles, 25 de octubre</fecha>
+                <hora>18:00</hora>
+                <equipos>
+                    <local>Mavericks</local>
+                    <puntoslocal>30</puntoslocal>
+                    <visitante>Celtics</visitante>
+                    <puntosvisitante>35</puntosvisitante>
+                </equipos>
+            </partido>
+            <partido>
+                <fecha>Jueves, 26 de octubre</fecha>
+                <hora>20:00</hora>
+                <equipos>
+                    <local>Rockets</local>
+                    <puntoslocal>40</puntoslocal>
+                    <visitante>Clippers</visitante>
+                    <puntosvisitante>15</puntosvisitante>
+                </equipos>
+            </partido>
+        </jornada>
+
+        <jornada num="4">
+            <!-- Eliminamos el cuarto partido extra -->
+            <partido>
+                <fecha>Martes, 7 de noviembre</fecha>
+                <hora>17:15</hora>
+                <equipos>
+                    <local>Warriors</local>
+                    <puntoslocal>25</puntoslocal>
+                    <visitante>Lakers</visitante>
+                    <puntosvisitante>30</puntosvisitante>
+                </equipos>
+            </partido>
+            <partido>
+                <fecha>Miércoles, 8 de noviembre</fecha>
+                <hora>18:45</hora>
+                <equipos>
+                    <local>Celtics</local>
+                    <puntoslocal>35</puntoslocal>
+                    <visitante>Mavericks</visitante>
+                    <puntosvisitante>40</puntosvisitante>
+                </equipos>
+            </partido>
+            <partido>
+                <fecha>Jueves, 9 de noviembre</fecha>
+                <hora>20:30</hora>
+                <equipos>
+                    <local>Clippers</local>
+                    <puntoslocal>25</puntoslocal>
+                    <visitante>Rockets</visitante>
+                    <puntosvisitante>30</puntosvisitante>
+                </equipos>
+            </partido>
+        </jornada>
+        <jornada num="5">
+            <partido>
+                <fecha>Lunes, 20 de noviembre</fecha>
+                <hora>16:45</hora>
+                <equipos>
+                    <local>Rockets</local>
+                    <puntoslocal>35</puntoslocal>
+                    <visitante>Clippers</visitante>
+                    <puntosvisitante>40</puntosvisitante>
+                </equipos>
+            </partido>
+            <partido>
+                <fecha>Martes, 21 de noviembre</fecha>
+                <hora>18:15</hora>
+                <equipos>
+                    <local>Celtics</local>
+                    <puntoslocal>25</puntoslocal>
+                    <visitante>Lakers</visitante>
+                    <puntosvisitante>30</puntosvisitante>
+                </equipos>
+            </partido>
+            <partido>
+                <fecha>Jueves, 23 de noviembre</fecha>
+                <hora>21:15</hora>
+                <equipos>
+                    <local>Mavericks</local>
+                    <puntoslocal>25</puntoslocal>
+                    <visitante>Warriors</visitante>
+                    <puntosvisitante>30</puntosvisitante>
+                </equipos>
+            </partido>
+        </jornada>
+        <!-- Jornada 6 -->
+        <jornada num="6">
+            <partido>
+                <fecha>Lunes, 4 de diciembre</fecha>
+                <hora>16:45</hora>
+                <equipos>
+                    <local>Clippers</local>
+                    <puntoslocal>15</puntoslocal>
+                    <visitante>Rockets</visitante>
+                    <puntosvisitante>20</puntosvisitante>
+                </equipos>
+            </partido>
+            <partido>
+                <fecha>Martes, 5 de diciembre</fecha>
+                <hora>18:15</hora>
+                <equipos>
+                    <local>Lakers</local>
+                    <puntoslocal>25</puntoslocal>
+                    <visitante>Celtics</visitante>
+                    <puntosvisitante>30</puntosvisitante>
+                </equipos>
+            </partido>
+            <partido>
+                <fecha>Jueves, 7 de diciembre</fecha>
+                <hora>21:15</hora>
+                <equipos>
+                    <local>Warriors</local>
+                    <puntoslocal>20</puntoslocal>
+                    <visitante>Mavericks</visitante>
+                    <puntosvisitante>25</puntosvisitante>
+                </equipos>
+            </partido>
+        </jornada>
+
+        <!-- Jornada 7 -->
+        <jornada num="7">
+            <partido>
+                <fecha>Lunes, 11 de diciembre</fecha>
+                <hora>16:30</hora>
+                <equipos>
+                    <local>Mavericks</local>
+                    <puntoslocal>30</puntoslocal>
+                    <visitante>Rockets</visitante>
+                    <puntosvisitante>35</puntosvisitante>
+                </equipos>
+            </partido>
+            <partido>
+                <fecha>Martes, 12 de diciembre</fecha>
+                <hora>18:00</hora>
+                <equipos>
+                    <local>Warriors</local>
+                    <puntoslocal>25</puntoslocal>
+                    <visitante>Lakers</visitante>
+                    <puntosvisitante>25</puntosvisitante>
+                </equipos>
+            </partido>
+            <partido>
+                <fecha>Miércoles, 13 de diciembre</fecha>
+                <hora>19:30</hora>
+                <equipos>
+                    <local>Celtics</local>
+                    <puntoslocal>35</puntoslocal>
+                    <visitante>Clippers</visitante>
+                    <puntosvisitante>40</puntosvisitante>
+                </equipos>
+            </partido>
+        </jornada>
+        <!-- Jornada 8 -->
+        <jornada num="8">
+            <partido>
+                <fecha>Lunes, 18 de diciembre</fecha>
+                <hora>16:30</hora>
+                <equipos>
+                    <local>Rockets</local>
+                    <puntoslocal>25</puntoslocal>
+                    <visitante>Mavericks</visitante>
+                    <puntosvisitante>30</puntosvisitante>
+                </equipos>
+            </partido>
+            <partido>
+                <fecha>Martes, 19 de diciembre</fecha>
+                <hora>18:00</hora>
+                <equipos>
+                    <local>Celtics</local>
+                    <puntoslocal>35</puntoslocal>
+                    <visitante>Warriors</visitante>
+                    <puntosvisitante>40</puntosvisitante>
+                </equipos>
+            </partido>
+            <partido>
+                <fecha>Miércoles, 20 de diciembre</fecha>
+                <hora>19:30</hora>
+                <equipos>
+                    <local>Lakers</local>
+                    <puntoslocal>20</puntoslocal>
+                    <visitante>Clippers</visitante>
+                    <puntosvisitante>25</puntosvisitante>
+                </equipos>
+            </partido>
+        </jornada>
+
+        <!-- Jornada 9 -->
+        <jornada num="9">
+            <partido>
+                <fecha>Lunes, 20 de diciembre</fecha>
+                <hora>16:30</hora>
+                <equipos>
+                    <local>Lakers</local>
+                    <puntoslocal>15</puntoslocal>
+                    <visitante>Celtics</visitante>
+                    <puntosvisitante>20</puntosvisitante>
+                </equipos>
+            </partido>
+            <partido>
+                <fecha>Martes, 21 de diciembre</fecha>
+                <hora>18:00</hora>
+                <equipos>
+                    <local>Clippers</local>
+                    <puntoslocal>25</puntoslocal>
+                    <visitante>Rockets</visitante>
+                    <puntosvisitante>30</puntosvisitante>
+                </equipos>
+            </partido>
+            <partido>
+                <fecha>Miércoles, 22 de diciembre</fecha>
+                <hora>19:30</hora>
+                <equipos>
+                    <local>Mavericks</local>
+                    <puntoslocal>35</puntoslocal>
+                    <visitante>Warriors</visitante>
+                    <puntosvisitante>40</puntosvisitante>
+                </equipos>
+            </partido>
+        </jornada>
+
+        <!-- Jornada 10 -->
+        <jornada num="10">
+            <partido>
+                <fecha>Lunes, 27 de diciembre</fecha>
+                <hora>16:30</hora>
+                <equipos>
+                    <local>Celtics</local>
+                    <puntoslocal>20</puntoslocal>
+                    <visitante>Lakers</visitante>
+                    <puntosvisitante>25</puntosvisitante>
+                </equipos>
+            </partido>
+            <partido>
+                <fecha>Martes, 28 de diciembre</fecha>
+                <hora>18:00</hora>
+                <equipos>
+                    <local>Rockets</local>
+                    <puntoslocal>30</puntoslocal>
+                    <visitante>Clippers</visitante>
+                    <puntosvisitante>35</puntosvisitante>
+                </equipos>
+            </partido>
+            <partido>
+                <fecha>Miércoles, 29 de diciembre</fecha>
+                <hora>19:30</hora>
+                <equipos>
+                    <local>Warriors</local>
+                    <puntoslocal>15</puntoslocal>
+                    <visitante>Mavericks</visitante>
+                    <puntosvisitante>20</puntosvisitante>
+                </equipos>
+            </partido>
+        </jornada>
+        <equiposliga xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="datos.xsd">
+            <equipo>
+                <nombreequipo>
+                    <nombre>Lakers</nombre>
+                </nombreequipo>
+                <escudo>../imagenes/otras/logosequipos/Lakers.png</escudo>
+                <entrenador>
+                    <nombre>Frank Vogel</nombre>
+                    <imagen>https://as01.epimg.net/img/especiales/baloncesto/nba/2019/guia/lakers/player_0.png</imagen>
+                </entrenador>
+                <jugadores>
+                    <PG>
+                        <jugador>
+                            <nombre>LeBron James</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/2544.png</imagen>
+                        </jugador>
+                        <jugador>
+                            <nombre>Russell Westbrook</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/201566.png</imagen>
+                        </jugador>
+                    </PG>
+                    <SG>
+                        <jugador>
+                            <nombre>Anthony Davis</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/203076.png</imagen>
+                        </jugador>
+                        <jugador>
+                            <nombre>Talen Horton-Tucker</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1629659.png</imagen>
+                        </jugador>
+                    </SG>
+                    <SF>
+                        <jugador>
+                            <nombre>Carmelo Anthony</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/2546.png</imagen>
+                        </jugador>
+                        <jugador>
+                            <nombre>Kent Bazemore</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/203145.png</imagen>
+                        </jugador>
+                    </SF>
+                    <PF>
+                        <jugador>
+                            <nombre>Dwight Howard</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/2730.png</imagen>
+                        </jugador>
+                        <jugador>
+                            <nombre>Malik Monk</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1628370.png</imagen>
+                        </jugador>
+                    </PF>
+                    <C>
+                        <jugador>
+                            <nombre>DeAndre Jordan</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/201599.png</imagen>
+                        </jugador>
+                        <jugador>
+                            <nombre>JaVale McGee</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/201580.png</imagen>
+                        </jugador>
+                    </C>
+                </jugadores>
+            </equipo>
+                <equipo>
+                    <nombreequipo>
+                        <nombre>Mavericks</nombre>
+                    </nombreequipo>
+                    <escudo>../imagenes/otras/logosequipos/Mavericks.png</escudo>
+                    <entrenador>
+                        <nombre>Jason Kidd</nombre>
+                        <imagen>../imagenes/otras/jasonkidd.png</imagen>
+                    </entrenador>
+                    <jugadores>
+                        <PG>
+                            <jugador>
+                                <nombre>Luka Dončić</nombre>
+                                <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1629029.png</imagen>
+                            </jugador>
+                            <jugador>
+                                <nombre>Jalen Brunson</nombre>
+                                <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1628973.png</imagen>
+                            </jugador>
+                        </PG>
+                        <SG>
+                            <jugador>
+                                <nombre>Tim Hardaway Jr.</nombre>
+                                <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/203501.png</imagen>
+                            </jugador>
+                            <jugador>
+                                <nombre>Seth Curry</nombre>
+                                <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/203552.png</imagen>
+                            </jugador>
+                        </SG>
+                        <SF>
+                            <jugador>
+                                <nombre>Dorian Finney-Smith</nombre>
+                                <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1627827.png</imagen>
+                            </jugador>
+                            <jugador>
+                                <nombre>Josh Green</nombre>
+                                <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1630173.png</imagen>
+                            </jugador>
+                        </SF>
+                        <PF>
+                            <jugador>
+                                <nombre>Kristaps Porziņģis</nombre>
+                                <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/204001.png</imagen>
+                            </jugador>
+                            <jugador>
+                                <nombre>Dwight Powell</nombre>
+                                <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/203486.png</imagen>
+                            </jugador>
+                        </PF>
+                        <C>
+                            <jugador>
+                                <nombre>Maxi Kleber</nombre>
+                                <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1628467.png</imagen>
+                            </jugador>
+                            <jugador>
+                                <nombre>Boban Marjanović</nombre>
+                                <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1626246.png</imagen>
+                            </jugador>
+                        </C>
+                    </jugadores>
+                    
+                </equipo>                
+            <equipo>
+                <nombreequipo>
+                    <nombre>Celtics</nombre>
+                </nombreequipo>
+                <escudo>../imagenes/otras/logosequipos/Celtics.png</escudo>
+                <entrenador>
+                    <nombre>Ime Udoka</nombre>
+                    <imagen>../imagenes/otras/udoka.png</imagen>
+                </entrenador>
+                <jugadores>
+                    <PG>
+                        <jugador>
+                            <nombre>Marcus Smart</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/203935.png</imagen>
+                        </jugador>
+                        <jugador>
+                            <nombre>Dennis Schröder</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/203471.png</imagen>
+                        </jugador>
+                    </PG>
+                    <SG>
+                        <jugador>
+                            <nombre>Jaylen Brown</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1627759.png</imagen>
+                        </jugador>
+                        <jugador>
+                            <nombre>Romeo Langford</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1629641.png</imagen>
+                        </jugador>
+                    </SG>
+                    <SF>
+                        <jugador>
+                            <nombre>Jayson Tatum</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1628369.png</imagen>
+                        </jugador>
+                        <jugador>
+                            <nombre>Aaron Nesmith</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1630206.png</imagen>
+                        </jugador>
+                    </SF>
+                    <PF>
+                        <jugador>
+                            <nombre>Al Horford</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/201143.png</imagen>
+                        </jugador>
+                        <jugador>
+                            <nombre>Grant Williams</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1629684.png</imagen>
+                        </jugador>
+                    </PF>
+                    <C>
+                        <jugador>
+                            <nombre>Robert Williams III</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1629057.png</imagen>
+                        </jugador>
+                        <jugador>
+                            <nombre>Enes Kanter</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/202683.png</imagen>
+                        </jugador>
+                    </C>
+                </jugadores>
+                
+            </equipo>         
+            <equipo>
+                <nombreequipo>
+                    <nombre>Rockets</nombre>
+                </nombreequipo>
+                <escudo>../imagenes/otras/logosequipos/Rockets.png</escudo>
+                <entrenador>
+                    <nombre>Stephen Silas</nombre>
+                    <imagen>../imagenes/otras/silas.png</imagen>
+                </entrenador>
+                <jugadores>
+                    <PG>
+                        <jugador>
+                            <nombre>Kevin Porter Jr.</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1629645.png</imagen>
+                        </jugador>
+                        <jugador>
+                            <nombre>D.J. Augustin</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/201571.png</imagen>
+                        </jugador>
+                    </PG>
+                    <SG>
+                        <jugador>
+                            <nombre>Jalen Green</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1630177.png</imagen>
+                        </jugador>
+                        <jugador>
+                            <nombre>Armoni Brooks</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1629673.png</imagen>
+                        </jugador>
+                    </SG>
+                    <SF>
+                        <jugador>
+                            <nombre>Jae'Sean Tate</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1628961.png</imagen>
+                        </jugador>
+                        <jugador>
+                            <nombre>Khyri Thomas</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1629017.png</imagen>
+                        </jugador>
+                    </SF>
+                    <PF>
+                        <jugador>
+                            <nombre>Christian Wood</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1626174.png</imagen>
+                        </jugador>
+                        <jugador>
+                            <nombre>Danuel House Jr.</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1627863.png</imagen>
+                        </jugador>
+                    </PF>
+                    <C>
+                        <jugador>
+                            <nombre>Alperen Sengun</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/260x190/1629111.png</imagen>
+                        </jugador>
+                        <jugador>
+                            <nombre>Usman Garuba</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1630582.png</imagen>
+                        </jugador>
+                    </C>
+                </jugadores>
+                
+            </equipo>
+        <equipo>
+            <nombreequipo>
+                <nombre>Warriors</nombre>
+            </nombreequipo>
+            <escudo>../imagenes/otras/logosequipos/Warriors.png</escudo>
+            <entrenador>
+                <nombre>Steve Kerr</nombre>
+                <imagen>../imagenes/otras/kerr.png</imagen>
+            </entrenador>
+            <jugadores>
+                <PG>
+                    <jugador>
+                        <nombre>Stephen Curry</nombre>
+                        <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/201939.png</imagen>
+                    </jugador>
+                    <jugador>
+                        <nombre>Shaun Livingston</nombre>
+                        <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/2733.png</imagen>
+                    </jugador>
+                </PG>
+                <SG>
+                    <jugador>
+                        <nombre>Klay Thompson</nombre>
+                        <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/202691.png</imagen>
+                    </jugador>
+                    <jugador>
+                        <nombre>Jordan Poole</nombre>
+                        <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1629673.png</imagen>
+                    </jugador>
+                </SG>
+                <SF>
+                    <jugador>
+                        <nombre>Andrew Wiggins</nombre>
+                        <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/203952.png</imagen>
+                    </jugador>
+                    <jugador>
+                        <nombre>Andre Iguodala</nombre>
+                        <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/2738.png</imagen>
+                    </jugador>
+                </SF>
+                <PF>
+                    <jugador>
+                        <nombre>Draymond Green</nombre>
+                        <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/203110.png</imagen>
+                    </jugador>
+                    <jugador>
+                        <nombre>Eric Paschall</nombre>
+                        <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1629672.png</imagen>
+                    </jugador>
+                </PF>
+                <C>
+                    <jugador>
+                        <nombre>James Wiseman</nombre>
+                        <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1630192.png</imagen>
+                    </jugador>
+                    <jugador>
+                        <nombre>Kevon Looney</nombre>
+                        <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1626172.png</imagen>
+                    </jugador>
+                </C>
+            </jugadores>
+            
+        </equipo>
+            <equipo>
+                <nombreequipo>
+                    <nombre>Clippers</nombre>
+                </nombreequipo>
+                <escudo>../imagenes/otras/logosequipos/Clippers.png</escudo>
+                <entrenador>
+                    <nombre>Tyronn Lue</nombre>
+                    <imagen>../imagenes/otras/lue.png</imagen>
+                </entrenador>
+                <jugadores>
+                    <PG>
+                        <jugador>
+                            <nombre>Reggie Jackson</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/202704.png</imagen>
+                        </jugador>
+                        <jugador>
+                            <nombre>Lou Williams</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/101150.png</imagen>
+                        </jugador>
+                    </PG>
+                    <SG>
+                        <jugador>
+                            <nombre>Paul George</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/202331.png</imagen>
+                        </jugador>
+                        <jugador>
+                            <nombre>Luke Kennard</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1628379.png</imagen>
+                        </jugador>
+                    </SG>
+                    <SF>
+                        <jugador>
+                            <nombre>Kawhi Leonard</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/202695.png</imagen>
+                        </jugador>
+                        <jugador>
+                            <nombre>Nicolas Batum</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/201587.png</imagen>
+                        </jugador>
+                    </SF>
+                    <PF>
+                        <jugador>
+                            <nombre>Marcus Morris Sr.</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/202694.png</imagen>
+                        </jugador>
+                        <jugador>
+                            <nombre>Ivica Zubac</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1627826.png</imagen>
+                        </jugador>
+                    </PF>
+                    <C>
+                        <jugador>
+                            <nombre>Serge Ibaka</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/201586.png</imagen>
+                        </jugador>
+                        <jugador>
+                            <nombre>DeMarcus Cousins</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/202326.png</imagen>
+                        </jugador>
+                    </C>
+                </jugadores>
+                
+            </equipo>
+        <equipo>
+            <nombreequipo>
+                <nombre>Cavaliers</nombre>
+            </nombreequipo>
+            <escudo>../imagenes/otras/logosequipos/Cavaliers.png</escudo>
+            <entrenador>
+                <nombre>J.B. Bickerstaff</nombre>
+                <imagen>../imagenes/otras/bickerstaff.png</imagen>
+            </entrenador>
+            <jugadores>
+                <PG>
+                    <jugador>
+                        <nombre>Darius Garland</nombre>
+                        <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1629678.png</imagen>
+                    </jugador>
+                    <jugador>
+                        <nombre>Rajon Rondo</nombre>
+                        <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/200765.png</imagen>
+                    </jugador>
+                </PG>
+                <SG>
+                    <jugador>
+                        <nombre>Collin Sexton</nombre>
+                        <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1629012.png</imagen>
+                    </jugador>
+                    <jugador>
+                        <nombre>Isaac Okoro</nombre>
+                        <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1630174.png</imagen>
+                    </jugador>
+                </SG>
+                <SF>
+                    <jugador>
+                        <nombre>Evan Mobley</nombre>
+                        <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1630567.png</imagen>
+                    </jugador>
+                    <jugador>
+                        <nombre>Cedi Osman</nombre>
+                        <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1626224.png</imagen>
+                    </jugador>
+                </SF>
+                <PF>
+                    <jugador>
+                        <nombre>Larry Nance Jr.</nombre>
+                        <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1626204.png</imagen>
+                    </jugador>
+                    <jugador>
+                        <nombre>Kevin Love</nombre>
+                        <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/201567.png</imagen>
+                    </jugador>
+                </PF>
+                <C>
+                    <jugador>
+                        <nombre>Jarrett Allen</nombre>
+                        <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1628384.png</imagen>
+                    </jugador>
+                    <jugador>
+                        <nombre>Wendell Carter Jr.</nombre>
+                        <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1628976.png</imagen>
+                    </jugador>
+                </C>
+            </jugadores>
+            
+        </equipo>
+            <equipo>
+                <nombreequipo>
+                    <nombre>Grizzlies</nombre>
+                </nombreequipo>
+                <escudo>../imagenes/otras/logosequipos/Grizzlies.png</escudo>
+                <entrenador>
+                    <nombre>Taylor Jenkins</nombre>
+                    <imagen>../imagenes/otras/jenkins.png</imagen>
+                </entrenador>
+                <jugadores>
+                    <PG>
+                        <jugador>
+                            <nombre>Ja Morant</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1629630.png</imagen>
+                        </jugador>
+                        <jugador>
+                            <nombre>Tyus Jones</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1626145.png</imagen>
+                        </jugador>
+                    </PG>
+                    <SG>
+                        <jugador>
+                            <nombre>Dillon Brooks</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1628415.png</imagen>
+                        </jugador>
+                        <jugador>
+                            <nombre>Desmond Bane</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1630182.png</imagen>
+                        </jugador>
+                    </SG>
+                    <SF>
+                        <jugador>
+                            <nombre>Kyle Anderson</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/203937.png</imagen>
+                        </jugador>
+                        <jugador>
+                            <nombre>De'Anthony Melton</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1629001.png</imagen>
+                        </jugador>
+                    </SF>
+                    <PF>
+                        <jugador>
+                            <nombre>Jaren Jackson Jr.</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1628991.png</imagen>
+                        </jugador>
+                        <jugador>
+                            <nombre>Brandon Clarke</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1629634.png</imagen>
+                        </jugador>
+                    </PF>
+                    <C>
+                        <jugador>
+                            <nombre>Steven Adams</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/203500.png</imagen>
+                        </jugador>
+                        <jugador>
+                            <nombre>Xavier Tillman Sr.</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1630243.png</imagen>
+                        </jugador>
+                    </C>
+                </jugadores>
+                
+            </equipo>
+        </equiposliga>
+    </temporada>
+    <seccion nombre="Noticias">
+        <noticia>
+            <id>noticia_1</id>
+            <titulo>Un desastre llamado Zach Wilson</titulo>
+            <contenido/>
+            <imagen src="../imagenes/otras/noticias/noticia1.jpg"/>
+        </noticia>
+        <noticia>
+            <id>noticia_2</id>
+            <titulo>Los Jets cambian al WR Mecole Hardman a los Chiefs</titulo>
+            <contenido/>
+            <imagen src="../imagenes/otras/noticias/noticia2.jpg"/>
+        </noticia>
+        <noticia>
+            <id>noticia_3</id>
+            <titulo>Informe de lesiones de la NSLA de la semana 7 para la temporada 2023</titulo>
+            <contenido/>
+            <imagen src="../imagenes/otras/noticias/noticia3.png"/>
+        </noticia>
+        <noticia>
+            <id>noticia_4</id>
+            <titulo>Nuevas reglas para los playoffs</titulo>
+            <contenido/>
+            <imagen src="../imagenes/otras/noticias/noticia4.png"/>
+        </noticia>
+        <noticia>
+            <id>noticia_5</id>
+            <titulo>Anthony Richardson se someterá a una cirugía de hombro que pondrá fin
+                a su temporada</titulo>
+            <contenido/>
+            <imagen src="../imagenes/otras/noticias/noticia5.png"/>
+        </noticia>
+        <noticia>
+            <id>noticia_6</id>
+            <titulo>El comisionado de la NSLA, Roger Goodell, acuerda una extensión de contrato
+                hasta 2027</titulo>
+            <contenido/>
+            <imagen src="../imagenes/otras/noticias/noticia6.webp"/>
+        </noticia>
+        <noticia>
+            <id>noticia_7</id>
+            <titulo>La NSLA busca eliminar el tackle con caída de cadera y discute el 'empuje de
+                trasero'</titulo>
+            <contenido/>
+            <imagen src="../imagenes/otras/noticias/noticia7.webp"/>
+        </noticia>
+        <noticia>
+            <id>noticia_8</id>
+            <titulo>Bears CB Jaylon Johnson 'no ciego' para negociar</titulo>
+            <contenido/>
+            <imagen src="../imagenes/otras/noticias/noticia8.png"/>
+        </noticia>
+        <noticia>
+            <id>noticia_9</id>
+            <titulo>Noticia de audio</titulo>
+            <contenido/>
+            <imagen src="../imagenes/otras/noticias/noticia8.png"/>
+        </noticia>
+   <noticia><id>noticia_11</id><titulo>gdf</titulo><contenido>fdsd</contenido><imagen src="../imagenes/otras/noticias/elliot.jpg"/></noticia></seccion>
+
+   <usuarios>
+    <admin>
+    <usuario>admin</usuario>
+    <contraseña>12345</contraseña>
+    </admin>
+    <invitado>
+        <usuario>invitado</usuario>
+        <contraseña>12345</contraseña>
+    </invitado>
+
+   </usuarios>
+   
+</temporadas>

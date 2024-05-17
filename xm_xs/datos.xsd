@@ -1,130 +1,117 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Created with Liquid Technologies Online Tools 1.0 (https://www.liquid-technologies.com) -->
-<xs:schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
-  <xs:element name="equipos">
-    <xs:complexType>
-      <xs:sequence>
-        <xs:element maxOccurs="unbounded" name="equipo">
-          <xs:complexType>
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="equiposliga">
+        <xs:complexType>
             <xs:sequence>
-              <xs:element name="nombreequipo">
-                <xs:complexType>
-                  <xs:sequence>
-                    <xs:element name="nombre" type="xs:string" />
-                  </xs:sequence>
-                </xs:complexType>
-              </xs:element>
-              <xs:element name="escudo" type="xs:string" />
-              <xs:element name="entrenador">
-                <xs:complexType>
-                  <xs:sequence>
-                    <xs:element name="nombre" type="xs:string" />
-                    <xs:element name="imagen" type="xs:string" />
-                  </xs:sequence>
-                </xs:complexType>
-              </xs:element>
-              <xs:element name="jugadores">
-                <xs:complexType>
-                  <xs:sequence>
-                    <xs:element name="LB">
-                      <xs:complexType>
+                <xs:element name="equipo" maxOccurs="unbounded">
+                    <xs:complexType>
                         <xs:sequence>
-                          <xs:element maxOccurs="unbounded" name="jugador">
-                            <xs:complexType>
-                              <xs:sequence>
-                                <xs:element name="nombre" type="xs:string" />
-                                <xs:element name="imagen">
-                                  <xs:complexType>
-                                    <xs:simpleContent>
-                                      <xs:extension base="xs:string">
-                                        <xs:attribute name="class" type="xs:string" use="optional" />
-                                      </xs:extension>
-                                    </xs:simpleContent>
-                                  </xs:complexType>
-                                </xs:element>
-                              </xs:sequence>
-                            </xs:complexType>
-                          </xs:element>
+                            <xs:element name="nombreequipo">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="nombre" type="xs:string" />
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="escudo" type="xs:string" />
+                            <xs:element name="entrenador">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="nombre" type="xs:string" />
+                                        <xs:element name="imagen" type="xs:string" />
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="jugadores">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="PG">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="jugador" maxOccurs="unbounded">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element name="nombre"
+                                                                    type="xs:string" />
+                                                                <xs:element name="imagen"
+                                                                    type="xs:string" />
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="SG">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="jugador" maxOccurs="unbounded">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element name="nombre"
+                                                                    type="xs:string" />
+                                                                <xs:element name="imagen"
+                                                                    type="xs:string" />
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="SF">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="jugador" maxOccurs="unbounded">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element name="nombre"
+                                                                    type="xs:string" />
+                                                                <xs:element name="imagen"
+                                                                    type="xs:string" />
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="PF">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="jugador" maxOccurs="unbounded">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element name="nombre"
+                                                                    type="xs:string" />
+                                                                <xs:element name="imagen"
+                                                                    type="xs:string" />
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="C">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="jugador" maxOccurs="unbounded">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element name="nombre"
+                                                                    type="xs:string" />
+                                                                <xs:element name="imagen"
+                                                                    type="xs:string" />
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
                         </xs:sequence>
-                      </xs:complexType>
-                    </xs:element>
-                    <xs:element name="SAF">
-                      <xs:complexType>
-                        <xs:sequence>
-                          <xs:element maxOccurs="unbounded" name="jugador">
-                            <xs:complexType>
-                              <xs:sequence>
-                                <xs:element name="nombre" type="xs:string" />
-                                <xs:element name="imagen" type="xs:string" />
-                              </xs:sequence>
-                            </xs:complexType>
-                          </xs:element>
-                        </xs:sequence>
-                      </xs:complexType>
-                    </xs:element>
-                    <xs:element name="WR">
-                      <xs:complexType>
-                        <xs:sequence>
-                          <xs:element maxOccurs="unbounded" name="jugador">
-                            <xs:complexType>
-                              <xs:sequence>
-                                <xs:element name="nombre" type="xs:string" />
-                                <xs:element name="imagen" type="xs:string" />
-                              </xs:sequence>
-                            </xs:complexType>
-                          </xs:element>
-                        </xs:sequence>
-                      </xs:complexType>
-                    </xs:element>
-                    <xs:element name="CB">
-                      <xs:complexType>
-                        <xs:sequence>
-                          <xs:element maxOccurs="unbounded" name="jugador">
-                            <xs:complexType>
-                              <xs:sequence>
-                                <xs:element name="nombre" type="xs:string" />
-                                <xs:element name="imagen" type="xs:string" />
-                              </xs:sequence>
-                            </xs:complexType>
-                          </xs:element>
-                        </xs:sequence>
-                      </xs:complexType>
-                    </xs:element>
-                    <xs:element minOccurs="0" name="QB">
-                      <xs:complexType>
-                        <xs:sequence>
-                          <xs:element maxOccurs="unbounded" name="jugador">
-                            <xs:complexType>
-                              <xs:sequence>
-                                <xs:element name="nombre" type="xs:string" />
-                                <xs:element name="imagen" type="xs:string" />
-                              </xs:sequence>
-                            </xs:complexType>
-                          </xs:element>
-                        </xs:sequence>
-                      </xs:complexType>
-                    </xs:element>
-                    <xs:element minOccurs="0" name="DT">
-                      <xs:complexType>
-                        <xs:sequence>
-                          <xs:element maxOccurs="unbounded" name="jugador">
-                            <xs:complexType>
-                              <xs:sequence>
-                                <xs:element name="nombre" type="xs:string" />
-                                <xs:element name="imagen" type="xs:string" />
-                              </xs:sequence>
-                            </xs:complexType>
-                          </xs:element>
-                        </xs:sequence>
-                      </xs:complexType>
-                    </xs:element>
-                  </xs:sequence>
-                </xs:complexType>
-              </xs:element>
+                    </xs:complexType>
+                </xs:element>
             </xs:sequence>
-          </xs:complexType>
-        </xs:element>
-      </xs:sequence>
-    </xs:complexType>
-  </xs:element>
+        </xs:complexType>
+    </xs:element>
 </xs:schema>

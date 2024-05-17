@@ -369,25 +369,25 @@ label h3{
 }
 /*Fondos Partidos*/
 .carcow{
-  background: #e60202;
+  background: navy;
 }
 .raiste{
   background: black;
 }
 .benram{
-  background: #ff7800;;
+  background: purple;
 }
 .chibea{
   background: linear-gradient(135deg, rgba(255,255,255,1) 0%, rgba(255,0,0,1) 100%);
 }
 .cowcar{
-  background: black;
+  background: green;
 }
 .sterai{
-  background: #aaa;
+  background: rgb(98, 8, 8);
 }
 .ramben{
-  background: linear-gradient(135deg,rgba(255,255,255,1) 0%,rgba(255,98,0,1) 100%);
+  background: rgb(94, 102, 207);
 }
 
 .fechahora {
@@ -407,6 +407,9 @@ select {
 .titulin {
   text-align: center;
   font-size: 35px;
+  background-color: black;
+  color: white;
+  padding: 10px;
 }
 .button-a{
   padding: 8px;
@@ -753,7 +756,7 @@ label h3{
 }
 .enviar{ 
   width: 107%;
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,58,116,1) 69%, rgba(0,212,255,1) 100%);
+  background: black;
   border-radius: 5px;
   cursor: pointer;
   color: white;
@@ -814,6 +817,18 @@ details[open] .toggle-summary .toggle-button {
 
 .divjugadores> div {
   margin-bottom: 10px;
+  width: 20%;
+}
+
+@media screen and (max-width: 700px) {
+  .divjugadores> div {
+    margin-bottom: 10px;
+    width: 50%;
+}
+.escudo{
+  width: 80px;
+  height: 80px;
+}
 }
 
 /* Alinea el texto del nombre debajo de la imagen */
@@ -908,8 +923,8 @@ details[open] .toggle-summary .toggle-button {
   height: 30px;
 }
 .escudo{
-  width: 80px;
-  height: 80px;
+  width: 120px;
+  height: 120px;
 }
 .boton {
   position: fixed;
@@ -1097,9 +1112,7 @@ details[open] .toggle-summary .toggle-button {
   background-color: #333;
 }
 
-.tamano-img{
-  width: 20%;
-}
+
 
 .login-img{
   justify-content: center;
@@ -1109,9 +1122,13 @@ details[open] .toggle-summary .toggle-button {
 
 .tamano-img{
   width: 20%;
-  height: 100px; /* Ajusta este valor según sea necesario */
+  
 }
 
+@media screen and (max-width: 700px) {
+  .tamano-img{
+    width: 70%;
+}}
 #dropdownMenu {
   position: absolute;
   background-color: #000000;
@@ -1257,4 +1274,9 @@ details[open] .toggle-summary .toggle-button {
 .modal-content form input[type="submit"] {
   background-color: #cb0d59;
   color: white;
+}
+
+.tablaclasi .divequipos img {
+  width: 50px; /* Ajusta este valor a la medida que prefieras */
+  height: auto;
 }
