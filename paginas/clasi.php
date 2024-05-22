@@ -146,5 +146,6 @@ document.getElementById('botonOrdenar').addEventListener('click', () => {
 });
 
 </script>
+<script src="../scripts/usuarios.js"></script>
 </body>
 </html>

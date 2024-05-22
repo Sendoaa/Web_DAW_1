@@ -104,12 +104,10 @@ if (isset($_SESSION['usuario'])) {
     </div>
 </header>
   <!-- Articulos de noticias principales -->
-  <article>
-    <!-- Articulos de noticias principales -->
     <article>
       <!-- Divs para las dos Noticias -->
       <div class="noticiasinicio">
-        <a class="textdecoration" href="./paginas/noticia1.html">
+        <a class="textdecoration">
           <!-- Primera Noticia -->
           <div class="columna espaciado">
             <div class="foto">
@@ -123,7 +121,7 @@ if (isset($_SESSION['usuario'])) {
             </div>
           </div>
         </a>
-        <a class="textdecoration" href="./paginas/noticia2.html">
+        <a class="textdecoration">
           <!-- Segunda Noticia -->
           <div class="columna">
             <div class="foto">
