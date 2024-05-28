@@ -683,7 +683,7 @@
             <escudo>../imagenes/otras/logosequipos/Warriors.png</escudo>
             <entrenador>
                 <nombre>Steve Kerr</nombre>
-                <imagen>../imagenes/otras/kerr.png</imagen>
+                <imagen>../imagenes/otras/steve.png</imagen>
             </entrenador>
             <jugadores>
                 <PG>
@@ -1361,7 +1361,7 @@
                 <escudo>../imagenes/otras/logosequipos/Warriors.png</escudo>
                 <entrenador>
                     <nombre>Steve Kerr</nombre>
-                    <imagen>../imagenes/otras/kerr.png</imagen>
+                    <imagen>../imagenes/otras/steve.png</imagen>
                 </entrenador>
                 <jugadores>
                     <PG>
@@ -2453,7 +2453,7 @@
             <escudo>../imagenes/otras/logosequipos/Warriors.png</escudo>
             <entrenador>
                 <nombre>Steve Kerr</nombre>
-                <imagen>../imagenes/otras/kerr.png</imagen>
+                <imagen>../imagenes/otras/steve.png</imagen>
             </entrenador>
             <jugadores>
                 <PG>
