@@ -2714,7 +2714,7 @@
         </noticia>
         <noticia>
             <id>noticia_3</id>
-            <titulo>Informe de lesiones de la NSLA de la semana 7 para la temporada 2023</titulo>
+            <titulo>Informe de lesiones de la BOF de la semana 7 para la temporada 2023</titulo>
             <contenido/>
             <imagen src="../imagenes/otras/noticias/noticia3.png"/>
         </noticia>
@@ -2733,14 +2733,14 @@
         </noticia>
         <noticia>
             <id>noticia_6</id>
-            <titulo>El comisionado de la NSLA, Roger Goodell, acuerda una extensión de contrato
+            <titulo>El comisionado de la BOF, Roger Goodell, acuerda una extensión de contrato
                 hasta 2027</titulo>
             <contenido/>
             <imagen src="../imagenes/otras/noticias/noticia6.webp"/>
         </noticia>
         <noticia>
             <id>noticia_7</id>
-            <titulo>La NSLA busca eliminar el tackle con caída de cadera y discute el 'empuje de
+            <titulo>La BOF busca eliminar el tackle con caída de cadera y discute el 'empuje de
                 trasero'</titulo>
             <contenido/>
             <imagen src="../imagenes/otras/noticias/noticia7.webp"/>

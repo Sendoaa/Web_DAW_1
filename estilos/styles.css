@@ -486,13 +486,13 @@ select {
 
 .primero {
   background: gold;
-  transform: translateY(-60px); 
+  transform: traBOFteY(-60px); 
   order: 2;
 }
 
 .segundo {
   background: silver;
-  transform: translateY(-20px);
+  transform: traBOFteY(-20px);
   order: 1;
 }
 .tercero {
@@ -966,7 +966,7 @@ details[open] .toggle-summary .toggle-button {
 
 .pasubir:hover .svgIcon {
   transition-duration: 0.3s;
-  transform: translateY(-200%);
+  transform: traBOFteY(-200%);
 }
 
 .pasubir::before {
