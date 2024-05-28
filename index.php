@@ -1,3 +1,4 @@
+// CONTROL DEL LOGIN
 <?php
 // Iniciar la sesión
 session_start();
@@ -46,6 +47,7 @@ if (isset($_SESSION['usuario'])) {
     header("Location: ./paginas/login.php");
     exit;
 }
+// ESTE ES EL INDICE DE LA PAGINA
 ?>
 <!DOCTYPE html>
 <html lang="es">
