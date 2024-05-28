@@ -307,7 +307,7 @@ Luka Doncic impresiona con su actuación estelar liderando a los Mavericks hacia
         <ul>
           <li><img src="./imagenes/logos/BOFlogo.png" alt="" class="logopie"></li>
           <li>
-            <p>© 2024 BOF Enterprises LLC. BOF and the BOF shield design are registered trademarks of the National Football League.The team names, logos and uniform designs are registered trademarks of the teams indicated. All other BOF-related trademarks are trademarks of the National Football League. BOF footage © BOF Productions LLC.</p>
+            <p>© 2024 BOF Enterprises LLC. BOF and the BOF shield design are registered trademarks of the National Football League.The team names, logos and uniform designs are registered trademarks of the teams indicated. All other BOF-related trademarks are trademarks of the National Football League. BOF footage © NSLA Productions LLC.</p>
           </li>
           <li class="terms">
             <a href="./paginas/privacidad.html">Política de Privacidad</a>

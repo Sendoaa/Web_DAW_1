@@ -55,7 +55,7 @@ $temporadaActual = '2023';
       <ul>
         <li><img src="../imagenes/logos/BOFlogo.png" alt="" class="logopie"></li>
         <li>
-          <p>© 2023 BOF Enterprises LLC. BOF and the BOF shield design are registered trademarks of the National Football League. The team names, logos and uniform designs are registered trademarks of the teams indicated. All other BOF-related trademarks are trademarks of the National Football League. BOF footage © BOF Productions LLC.</p>
+          <p>© 2023 NSLA Enterprises LLC. NSLA and the NSLA shield design are registered trademarks of the National Football League. The team names, logos and uniform designs are registered trademarks of the teams indicated. All other NSLA-related trademarks are trademarks of the National Football League. NSLA footage © NSLA Productions LLC.</p>
         </li>
         <li class="terms">
           <a href="./paginas/privacidad.html">Política de Privacidad</a>

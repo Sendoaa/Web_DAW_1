@@ -1356,6 +1356,69 @@
         <equiposliga xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="datos.xsd">
             <equipo>
                 <nombreequipo>
+                    <nombre>Warriors</nombre>
+                </nombreequipo>
+                <escudo>../imagenes/otras/logosequipos/Warriors.png</escudo>
+                <entrenador>
+                    <nombre>Steve Kerr</nombre>
+                    <imagen>../imagenes/otras/kerr.png</imagen>
+                </entrenador>
+                <jugadores>
+                    <PG>
+                        <jugador>
+                            <nombre>Stephen Curry</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/201939.png</imagen>
+                        </jugador>
+                        <jugador>
+                            <nombre>Shaun Livingston</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/2733.png</imagen>
+                        </jugador>
+                    </PG>
+                    <SG>
+                        <jugador>
+                            <nombre>Klay Thompson</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/202691.png</imagen>
+                        </jugador>
+                        <jugador>
+                            <nombre>Jordan Poole</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1629673.png</imagen>
+                        </jugador>
+                    </SG>
+                    <SF>
+                        <jugador>
+                            <nombre>Andrew Wiggins</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/203952.png</imagen>
+                        </jugador>
+                        <jugador>
+                            <nombre>Andre Iguodala</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/2738.png</imagen>
+                        </jugador>
+                    </SF>
+                    <PF>
+                        <jugador>
+                            <nombre>Draymond Green</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/203110.png</imagen>
+                        </jugador>
+                        <jugador>
+                            <nombre>Eric Paschall</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1629672.png</imagen>
+                        </jugador>
+                    </PF>
+                    <C>
+                        <jugador>
+                            <nombre>James Wiseman</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1630192.png</imagen>
+                        </jugador>
+                        <jugador>
+                            <nombre>Kevon Looney</nombre>
+                            <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1626172.png</imagen>
+                        </jugador>
+                    </C>
+                </jugadores>
+                
+            </equipo>
+            <equipo>
+                <nombreequipo>
                     <nombre>Lakers</nombre>
                 </nombreequipo>
                 <escudo>../imagenes/otras/logosequipos/Lakers.png</escudo>
@@ -1605,69 +1668,7 @@
                 </jugadores>
                 
             </equipo>
-        <equipo>
-            <nombreequipo>
-                <nombre>Warriors</nombre>
-            </nombreequipo>
-            <escudo>../imagenes/otras/logosequipos/Warriors.png</escudo>
-            <entrenador>
-                <nombre>Steve Kerr</nombre>
-                <imagen>../imagenes/otras/kerr.png</imagen>
-            </entrenador>
-            <jugadores>
-                <PG>
-                    <jugador>
-                        <nombre>Stephen Curry</nombre>
-                        <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/201939.png</imagen>
-                    </jugador>
-                    <jugador>
-                        <nombre>Shaun Livingston</nombre>
-                        <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/2733.png</imagen>
-                    </jugador>
-                </PG>
-                <SG>
-                    <jugador>
-                        <nombre>Klay Thompson</nombre>
-                        <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/202691.png</imagen>
-                    </jugador>
-                    <jugador>
-                        <nombre>Jordan Poole</nombre>
-                        <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1629673.png</imagen>
-                    </jugador>
-                </SG>
-                <SF>
-                    <jugador>
-                        <nombre>Andrew Wiggins</nombre>
-                        <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/203952.png</imagen>
-                    </jugador>
-                    <jugador>
-                        <nombre>Andre Iguodala</nombre>
-                        <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/2738.png</imagen>
-                    </jugador>
-                </SF>
-                <PF>
-                    <jugador>
-                        <nombre>Draymond Green</nombre>
-                        <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/203110.png</imagen>
-                    </jugador>
-                    <jugador>
-                        <nombre>Eric Paschall</nombre>
-                        <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1629672.png</imagen>
-                    </jugador>
-                </PF>
-                <C>
-                    <jugador>
-                        <nombre>James Wiseman</nombre>
-                        <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1630192.png</imagen>
-                    </jugador>
-                    <jugador>
-                        <nombre>Kevon Looney</nombre>
-                        <imagen>https://cdn.nba.com/headshots/nba/latest/1040x760/1626172.png</imagen>
-                    </jugador>
-                </C>
-            </jugadores>
-            
-        </equipo>
+
             <equipo>
                 <nombreequipo>
                     <nombre>Clippers</nombre>
@@ -2714,7 +2715,7 @@
         </noticia>
         <noticia>
             <id>noticia_3</id>
-            <titulo>Informe de lesiones de la BOF de la semana 7 para la temporada 2023</titulo>
+            <titulo>Informe de lesiones de la NSLA de la semana 7 para la temporada 2023</titulo>
             <contenido/>
             <imagen src="../imagenes/otras/noticias/noticia3.png"/>
         </noticia>
@@ -2733,14 +2734,14 @@
         </noticia>
         <noticia>
             <id>noticia_6</id>
-            <titulo>El comisionado de la BOF, Roger Goodell, acuerda una extensión de contrato
+            <titulo>El comisionado de la NSLA, Roger Goodell, acuerda una extensión de contrato
                 hasta 2027</titulo>
             <contenido/>
             <imagen src="../imagenes/otras/noticias/noticia6.webp"/>
         </noticia>
         <noticia>
             <id>noticia_7</id>
-            <titulo>La BOF busca eliminar el tackle con caída de cadera y discute el 'empuje de
+            <titulo>La NSLA busca eliminar el tackle con caída de cadera y discute el 'empuje de
                 trasero'</titulo>
             <contenido/>
             <imagen src="../imagenes/otras/noticias/noticia7.webp"/>
